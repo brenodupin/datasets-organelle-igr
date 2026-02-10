@@ -1,0 +1,16 @@
+sandbox/
+logs/
+code/enrich_data/
+
+.ruff_cache/
+.mypy_cache/
+
+fungi_mit/
+green_algae_mit/
+metazoans_mit/
+plants_mit/
+protists_mit/
+
+green_algae_plt/
+plants_plt/
+protists_plt/

@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Gene polarity predicts intergenic region length in
+  organelle genomes.
+message: >-
+  If you use the resources contained under this DOI, please
+  cite it using these metadata.
+type: dataset
+authors:
+  - family-names: Sanita Lima
+    given-names: Matheus
+    orcid: 'https://orcid.org/0000-0002-4050-4022'
+  - family-names: Dupin
+    given-names: Breno
+    orcid: 'https://orcid.org/0009-0002-1296-7991'
+  - family-names: Smith
+    given-names: David
+    orcid: 'https://orcid.org/0000-0001-9560-5210'
+identifiers:
+  - type: url
+    value: 'https://github.com/brenodupin/datasets-organelle-igr'
+    description: >-
+      This is the collection of datasets and scripts used
+      for the organelle intergenic (igr) length analysis
+repository-code: 'https://github.com/brenodupin/datasets-organelle-igr'
+license: MIT
+version: 0.0.1
+date-released: '2026-02-10'
