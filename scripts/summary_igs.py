@@ -111,7 +111,7 @@ def igs_multiple(
             all_records.extend(future.result())
 
     df = pd.DataFrame(all_records)
-    df = df.sort_values(by=["AN", "ID"]).reset_index(drop=True)
+    df = df.sort_values(by=["AN"], kind="stable").reset_index(drop=True)
     df.to_csv(output_file, sep="\t", index=False)
 
     log.info("All processed.")
