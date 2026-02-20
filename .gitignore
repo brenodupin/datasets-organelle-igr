@@ -4,6 +4,7 @@ code/enrich_data/
 
 .ruff_cache/
 .mypy_cache/
+.vscode/
 
 fungi_mit/
 green_algae_mit/
