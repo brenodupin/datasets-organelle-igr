@@ -15,7 +15,6 @@ process_group() {
     local base_path="$project_dir/$group"
     local tsv_file="$base_path/$group.tsv"
     local igs_file="$base_path/summary_igs_intergenic.tsv"
-    local output_dir="$base_path/brms_result"
 
     
     if [ ! -f "$tsv_file" ]; then
@@ -29,7 +28,7 @@ process_group() {
     fi
     
     # Execute the brms analysis on the intergenic regions
-    python3 "$brms_path" --tsv "$tsv_file" --igs "$igs_file" --output "$output_dir" --overwrite
+    python3 "$brms_path" --verbose --tsv "$tsv_file" --igs "$igs_file" --overwrite ${bin3_flag:+--3bin}
     
     GROUP_END=$(date +%s)
     echo "$group group completed in $((GROUP_END - GROUP_START)) seconds"
@@ -40,24 +39,37 @@ echo "========================================="
 echo "Starting BRMS analysis"
 echo "========================================="
 
+# Parse --3bin flag and remaining args
+bin3_flag=""
+positional_args=()
+for arg in "$@"; do
+    if [ "$arg" = "--3bin" ]; then
+        bin3_flag="1"
+    else
+        positional_args+=("$arg")
+    fi
+done
+
+[ -n "$bin3_flag" ] && echo "3-bin mode enabled."
+
 # Default groups (all)
 default_groups=(
     "fungi_mit"
     "green_algae_mit"
     "protists_mit"
-    "metazoans_mit"
     "plants_mit"
     "green_algae_plt"
-    "plants_plt"
+    #"plants_plt"
     "protists_plt"
+    "metazoans_mit"
 )
 
 # Use provided arguments or default to all groups
-if [ $# -eq 0 ]; then
+if [ ${#positional_args[@]} -eq 0 ]; then
     groups=("${default_groups[@]}")
     echo "No groups specified. Processing all groups."
 else
-    groups=("$@")
+    groups=("${positional_args[@]}")
     echo "Processing specified groups: ${groups[*]}"
 fi
 

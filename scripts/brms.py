@@ -16,6 +16,20 @@ R_CMD = (
     "Rscript {script_path} {tree_path} {igs_summary} {out_name} {rds_name} {table_name}"
 )
 
+polarity_2bin = {
+    "++": "same",
+    "--": "same",
+    "+-": "opposite",
+    "-+": "opposite",
+}
+
+polarity_3bin = {
+    "++": "same",
+    "--": "same",
+    "+-": "convergent",
+    "-+": "divergent",
+}
+
 
 def get_first_descendants(
     ncbi_taxa: NCBITaxa,
@@ -74,6 +88,7 @@ def run_single(
     out_folder: Path,
     an_column: str,
     log: logging.Logger,
+    bin3: bool = False,
     update_taxa: bool = False,
 ) -> None:
     """Run the BRMS model fitting.
@@ -88,6 +103,11 @@ def run_single(
         update_taxa: If True, update the NCBI taxonomy database before processing.
 
     """
+    bin_suffix = "_3bin" if bin3 else "_2bin"
+    polarity_map = polarity_3bin if bin3 else polarity_2bin
+    filter_tsv_name = f"filtered{bin_suffix}.tsv"
+    brms_name = f"brms{bin_suffix}.R"
+
     tsv = pl.read_csv(tsv_in, separator="\t")
     required_columns = {"ncbi_taxid", "Species", "ncbi_name", "Genome_length"}
     if not required_columns.issubset(tsv.columns):
@@ -192,18 +212,16 @@ def run_single(
 
     igs = igs.with_columns(
         [
-            pl.col("Polarity")
-            .replace({"++": "same", "--": "same", "+-": "opposite", "-+": "opposite"})
-            .alias("polarity_bin"),
+            pl.col("Polarity").replace(polarity_map).alias("polarity_bin"),
             pl.col("Length").log10().alias("log10_length"),
         ]
     )
-    igs_path = out_folder / "filtered.tsv"
+    igs_path = out_folder / filter_tsv_name
     igs = igs.sort([an_column, "ID"], descending=[False, False])
     igs.sink_csv(igs_path, separator="\t")
 
     log_path = out_folder / "brms_fit.log"
-    r_script = (Path(__file__).parent / "create_brms.R").resolve()
+    r_script = (Path(__file__).parent / brms_name).resolve()
 
     cmd_str = R_CMD.format(
         script_path=r_script,
@@ -267,8 +285,9 @@ def main() -> None:
         "--output",
         type=Path,
         required=False,
-        default=Path.cwd() / "brms_output",
-        help="Path to output folder. Defaults to 'brms_output' in the current directory.",
+        default=None,
+        help="Path to output folder. Defaults to 'brms_2bin' (or 'brms_3bin') "
+        "in the same folder as the input TSV.",
     )
     parser.add_argument(
         "--an-column",
@@ -291,6 +310,16 @@ def main() -> None:
         help="Enable verbose logging output.",
     )
     parser.add_argument(
+        "--3bin",
+        action="store_true",
+        required=False,
+        default=False,
+        dest="bin3",
+        help="Use 3-bin polarity instead of 2-bin. By Default, we use 2-bin polarity "
+        "(same vs opposite), with ++ and -- as same, and +- and -+ as opposite. With "
+        "this flag, we use 3 bins, with ++ and -- as 'same+', +- as 'convergent', and -+ as 'divergent'. ",
+    )
+    parser.add_argument(
         "--overwrite",
         action="store_true",
         required=False,
@@ -304,7 +333,6 @@ def main() -> None:
     # check input files
     args.tsv = Path(args.tsv).resolve()
     args.igs = Path(args.igs).resolve()
-    args.output = Path(args.output).resolve()
 
     if not args.tsv.is_file():
         log.error(f"TSV input file {args.tsv} does not exist or is not a file.")
@@ -313,6 +341,13 @@ def main() -> None:
     if not args.igs.is_file():
         log.error(f"IGS input file {args.igs} does not exist or is not a file.")
         sys.exit(1)
+
+    if args.output is None:
+        args.output = args.tsv.parent / f"brms_{"3bin" if args.bin3 else "2bin"}"
+    else:
+        args.output = Path(args.output).resolve()
+
+    log.info(f"Output will be saved to {args.output}")
 
     if args.output.exists():
         if args.overwrite:
@@ -332,6 +367,7 @@ def main() -> None:
         out_folder=args.output,
         an_column=args.an_column,
         log=log,
+        bin3=args.bin3,
         update_taxa=args.update_taxa,
     )
 
