@@ -7,10 +7,9 @@ deploy2zenodo:
     - if: $CI_COMMIT_TAG
       when: manual
   variables:
-    DEPLOY2ZENODO_API_URL: "https://sandbox.zenodo.org/api"
-    DEPLOY2ZENODO_ACCESS_TOKEN: "$ZENODO_SANDBOX_TOKEN"
+    DEPLOY2ZENODO_API_URL: "https://zenodo.org/api"
     DEPLOY2ZENODO_JSON: "zenodo_meta.json"
-    DEPLOY2ZENODO_DEPOSITION_ID: "474042"
+    DEPLOY2ZENODO_DEPOSITION_ID: "18614283"
     DEPLOY2ZENODO_UPLOAD: "$CI_PROJECT_NAME-$CI_COMMIT_TAG.zip"
     DEPLOY2ZENODO_SKIP_PUBLISH: "true"
     GIT_LFS_SKIP_SMUDGE: "0"
@@ -22,10 +21,18 @@ deploy2zenodo:
     - |
       cffconvert -i CITATION.cff -f zenodo | \
         jq -c '{"metadata": .} | .metadata += {"upload_type": "dataset"}' | \
-        jq -c ".metadata.version = \"${CI_COMMIT_TAG#v}\" |
+        jq -c ".metadata.related_identifiers += [
+          {\"relation\": \"isSupplementTo\",
+           \"identifier\": \"$CI_PROJECT_URL\",
+           \"scheme\": \"url\",
+           \"resource_type\": \"dataset\"},
+          {\"relation\": \"isVersionOf\",
+           \"identifier\": \"10.5281/zenodo.18614283\",
+           \"scheme\": \"doi\"}] |
+          .metadata.version = \"${CI_COMMIT_TAG#v}\" |
           .metadata.publication_date = \"$publication_date\"" | \
         tee $DEPLOY2ZENODO_JSON | jq -C .
-    - zip -r "$DEPLOY2ZENODO_UPLOAD" . -x '.git/*' -x '.gitlab-ci.sandbox.yml'
+    - zip -r "$DEPLOY2ZENODO_UPLOAD" . -x '.git/*' -x '.gitlab-ci.yml'
   artifacts:
     paths:
       - $DEPLOY2ZENODO_JSON
