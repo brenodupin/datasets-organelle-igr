@@ -1,10 +1,13 @@
 Groups	AN	Species
 fungi_mit	KC832409.1	Botryotinia fuckeliana
+fungi_mit	MK049352.1	Capillidium heterosporum
+fungi_mit	NC_011133.1	Candida neerlandica 
 fungi_mit	NC_016684.1	Gigaspora margarita
 fungi_mit	NC_018792.1	Cryptococcus neoformans H99
 fungi_mit	NC_031346.1	Sugiyamaella lignohabitans
 fungi_mit	NC_032030.1	Sungouiella intermedia
 fungi_mit	NC_035155.1	Sclerotinia sclerotiorum 1980 UF-70
+fungi_mit	NC_040967.1	Conidiobolus heterosporus
 fungi_mit	NC_050381.1	Metschnikowia matae var. maris
 fungi_mit	NC_058230.1	Auricularia auricula-judae
 fungi_mit	NC_068513.1	Lentinus flexipes
@@ -19,13 +22,21 @@ fungi_mit	NW_025952838.1	Psilocybe cubensis
 fungi_mit	NW_026776140.1	Ascochyta rabiei
 fungi_mit	NW_026944021.1	Vanrija pseudolonga
 fungi_mit	NW_027041892.1	Mucor velutinosus
+green_algae_mit	NW_014013625.1	Monoraphidium neglectum
+green_algae_plt	AP025008.1	Coccomyxa sp.
+green_algae_plt	MN701985.1	Chaetophoropsis cf. attenuata contig 1
+green_algae_plt	NC_037007.1	Haematococcus lacustris
+green_algae_plt	NC_037007.1	Haematococcus lacustris
 metazoans_mit	AB008539.1	Lycodon semicarinatus
 metazoans_mit	AB029616.1	Heterololigo bleekeri
+metazoans_mit	AB080275.1	Varanus komodoensis contig 1
 metazoans_mit	AB080276.1	Varanus komodoensis contig 2
 metazoans_mit	AB091772.1	Eucalanus bungii partial genome
 metazoans_mit	AB091773.1	Neocalanus cristatus partial genome
+metazoans_mit	AB218961.1	Plica plica nearly complete genome
 metazoans_mit	AB239570.1	Mantella bernhardi partial genome
 metazoans_mit	AB239573.1	Mantidactylus cf. ulcerosus partial genome
+metazoans_mit	AB266749.1	Polychrus marmoratus 
 metazoans_mit	AB325874.1	Aglyptodactylus madagascariensis partial genome
 metazoans_mit	AB325875.1	Laliostoma labrosum partial genome
 metazoans_mit	AB325876.1	Blommersia blommersae partial genome
@@ -42,17 +53,33 @@ metazoans_mit	AB477462.1	Orestes mouhotii partial genome
 metazoans_mit	AB477469.1	Neohirasea japonica partial genome
 metazoans_mit	AB511292.1	Amolops larutensis partial genome*
 metazoans_mit	AB511295.1	Rana holsti partial genome*
+metazoans_mit	AB606970.1	Cyrtodactylus louisiadensis 
+metazoans_mit	AB612273.1	Sphaerodactylus elegans 
+metazoans_mit	AB612275.1	Teratoscincus microlepis 
+metazoans_mit	AB661661.1	Tropiocolotes tripolitanus 
+metazoans_mit	AB661664.1	Phelsuma guimbeaui 
+metazoans_mit	AB661666.1	Geckolepis petiti 
+metazoans_mit	AB679284.1	Nephrurus amyae
+metazoans_mit	AB738947.1	Crossobamon orientalis nearly complete genome
 metazoans_mit	AF348159.1	Cephalopachus bancanus
 metazoans_mit	AH014070.2	Lynx canadensis partial genome*
 metazoans_mit	AH014071.2	Puma concolor partial genome*
 metazoans_mit	AH015389.2	Primeuchroeus sp. partial genome
+metazoans_mit	AJ421454.1	Manis tetradactyla
+metazoans_mit	AJ554062.1	Monodon monoceros 
 metazoans_mit	AJ871087.1	Ascaphus truei partial genome
 metazoans_mit	AM236345.1	Typhlops mirus partial genome*
 metazoans_mit	AM236346.1	Ramphotyphlops australis partial genome*
 metazoans_mit	AM236347.1	Eunectes notaeus partial genome*
 metazoans_mit	AM236349.1	Pantherophis guttatus guttatus partial genome*
 metazoans_mit	AM286744.1	Eoxenos laboulbenei partial genome
+metazoans_mit	AP011547.1	Flaccisagitta enflata
+metazoans_mit	AP011825.1	Sasakia charonda kuriyamaensis
 metazoans_mit	AP014698.1	Mullerornis sp.
+metazoans_mit	AP018114.1	Cyrtodactylus peguensis 
+metazoans_mit	AP018115.1	Cyrtodactylus thirakhupti 
+metazoans_mit	AP018116.1	Cyrtodactylus auribalteatus 
+metazoans_mit	AP018117.1	Cyrtodactylus chanhomeae 
 metazoans_mit	AP025453.1	Cephonodes hylas
 metazoans_mit	AY016010.1	Apteryx mantelli partial genome
 metazoans_mit	AY016011.1	Casuarius bennetti partial genome
@@ -62,17 +89,20 @@ metazoans_mit	AY228757.1	Nemertoderma westbladi partial genome
 metazoans_mit	AY250707.1	Aotus trivirgatus partial genome
 metazoans_mit	AY325307.1	Acanthisitta chloris partial genome
 metazoans_mit	AY368231.1	Phoronis psammophila partial genome
+metazoans_mit	AY514042.1	Pollicipes mitella 
 metazoans_mit	AY648941.2	Vasdavidius concursus partial genome*
 metazoans_mit	AY676201.1	Chinemys reevesi
 metazoans_mit	AY728215.1	Hydromantes italicus partial genome
 metazoans_mit	AY728229.1	Nototriton abscondens partial genome
 metazoans_mit	AY787816.1	Perga condei partial genome
 metazoans_mit	AY874540.1	Cuora aurocapitata
+metazoans_mit	AY899241.1	Limnonectes fragilis
 metazoans_mit	AY947836.1	Pseudosquilla ciliata partial genome
 metazoans_mit	AY968672.1	Campanulotes bidentatus compar
 metazoans_mit	BK006339.1	Drosophila mojavensis
 metazoans_mit	BK006340.1	Drosophila virilis
 metazoans_mit	BK006341.1	Drosophila grimshawi
+metazoans_mit	BK010486.1	Sceloporus grammicus 
 metazoans_mit	BK014399.1	Phytosciara flavipes partial genome
 metazoans_mit	BK014400.1	Trichosia splendens partial genome
 metazoans_mit	BK059223.1	Echinogammarus berilloni partial genome
@@ -210,6 +240,7 @@ metazoans_mit	FJ236298.1	Pheucticus melanocephalus partial genome
 metazoans_mit	FJ236299.1	Thraupis episcopus partial genome
 metazoans_mit	FJ236300.1	Carpodacus mexicanus partial genome
 metazoans_mit	FJ236301.1	Carduelis tristis partial genome
+metazoans_mit	FJ432700.1	Paa spinosa 
 metazoans_mit	FJ456939.1	Aphelocheirus ellipsoideus partial genome
 metazoans_mit	FJ456940.1	Diplonychus rusticus partial genome
 metazoans_mit	FJ456941.1	Sigara septemlineata partial genome
@@ -244,6 +275,8 @@ metazoans_mit	GQ200595.1	Charina trivirgata partial genome
 metazoans_mit	GQ368656.1	Amphiuma means partial genome
 metazoans_mit	GQ368660.1	Pseudobranchus axanthus partial genome
 metazoans_mit	GQ368662.1	Cryptobranchus alleganiensis partial genome
+metazoans_mit	GQ387648.1	Mayetiola destructor 
+metazoans_mit	GQ387649.1	Rhopalomyia pomum 
 metazoans_mit	GQ387650.1	Asphondylia rosetta partial genome
 metazoans_mit	GQ387651.1	Bradysia amoena partial genome
 metazoans_mit	GU001955.1	Bacillus atticus partial genome
@@ -287,10 +320,13 @@ metazoans_mit	HG998571.1	Boloria selene
 metazoans_mit	HG998572.2	Atethmia centrago
 metazoans_mit	HM036351.1	Hynobius retardatus partial genome
 metazoans_mit	HM036357.1	Hynobius tokyoensis partial genome
+metazoans_mit	HM143892.1	Isonychia ignota 
 metazoans_mit	HM174256.1	Thylaeodus sp. partial genome
 metazoans_mit	HM174257.1	Vermetus erectus partial genome
 metazoans_mit	HM486073.1	Meloidae sp. partial genome
 metazoans_mit	HM544130.1	Ctenomys rionegrensis partial genome
+metazoans_mit	HQ157565.1	Caligus rogercresseyi
+metazoans_mit	HQ157566.1	Caligus clemensi
 metazoans_mit	HQ232800.1	Hydraena sp.
 metazoans_mit	HQ232802.2	Trechini sp.
 metazoans_mit	HQ232803.2	Phalacridae sp. 1
@@ -360,6 +396,7 @@ metazoans_mit	JN700939.1	Linuche unguiculata partial genome
 metazoans_mit	JN700940.1	Catostylus mosaicus partial genome
 metazoans_mit	JN700941.1	Chrysaora sp. partial genome
 metazoans_mit	JN700943.1	Millepora sp. partial genome
+metazoans_mit	JN700945.1	Laomedea flexuosa
 metazoans_mit	JN700947.1	Nemopsis bachei partial genome
 metazoans_mit	JN700948.1	Obelia longissima partial genome
 metazoans_mit	JN700950.1	Pennaria disticha partial genome
@@ -374,16 +411,20 @@ metazoans_mit	JQ038228.1	Neobenedenia melleni partial genome
 metazoans_mit	JQ038229.1	Neomazocraes dorosomatis partial genome
 metazoans_mit	JQ038230.1	Polylabroides guangdongensis partial genome
 metazoans_mit	JQ038231.1	Pseudorhabdosynochus yangjiangensis partial genome
+metazoans_mit	JQ417196.1	Helix aspersa
 metazoans_mit	JQ713768.1	Argusianus argus partial genome
 metazoans_mit	JQ739178.1	Ammianus toi partial genome
 metazoans_mit	JQ739179.1	Coridius chinensis partial genome
 metazoans_mit	JQ739181.1	Megymenum brevicorne partial genome
+metazoans_mit	JQ739182.1	Peloridium hammoniorum 
 metazoans_mit	JQ739183.1	Peloridora minuta partial genome
 metazoans_mit	JQ739184.1	Stephanitis mendica partial genome
 metazoans_mit	JQ743671.1	Eucorysses grandis partial genome
 metazoans_mit	JQ743675.1	Poecilocoris nepalensis partial genome
+metazoans_mit	JQ910984.1	Leptobelus sp.
 metazoans_mit	JQ910986.1	Longivalvus hyalospilus partial genome
 metazoans_mit	JQ910987.1	Oncotympana maculaticollis partial genome
+metazoans_mit	JQ910988.1	Perittopus sp.
 metazoans_mit	JQ910990.1	Dicranocephalus femoralis partial genome
 metazoans_mit	JX131613.1	Diadromus collaris partial genome
 metazoans_mit	JX290083.1	Takydromus sylvaticus partial genome
@@ -407,6 +448,8 @@ metazoans_mit	KC782352.1	Corallium imperiale
 metazoans_mit	KC782353.1	Corallium kishinouyei
 metazoans_mit	KC840676.1	Pterocomma pilosum partial genome
 metazoans_mit	KC887536.1	Sphedanolestes impressicollis partial genome
+metazoans_mit	KC898200.2	Allocentrotus fragilis
+metazoans_mit	KC952026.1	Cryptoperla sp.
 metazoans_mit	KC953095.1	Strix leptogrammica
 metazoans_mit	KF199147.1	Quasipaa verrucospinosa partial genome
 metazoans_mit	KF199148.1	Quasipaa shini partial genome
@@ -429,13 +472,17 @@ metazoans_mit	KF418765.1	Histeromerus sp. partial genome
 metazoans_mit	KF437625.2	Ursus deningeri partial genome
 metazoans_mit	KF544959.1	Polyphylla laticollis mandshurica partial genome
 metazoans_mit	KF562761.1	Anas chathamica partial genome
+metazoans_mit	KF590549.2	Sumalia daraxa
 metazoans_mit	KF661092.1	Canis sp. partial genome
 metazoans_mit	KF667527.1	Schizopera knabeni partial genome
 metazoans_mit	KF728379.1	Nemertopsis sp.
 metazoans_mit	KF756944.1	Apatania sp. partial genome
 metazoans_mit	KF785800.1	Paragorgia coralloides partial genome
+metazoans_mit	KF906485.1	Lethe dura 
 metazoans_mit	KF938943.1	Batillipes longispinosus partial genome
+metazoans_mit	KF938944.1	Pseudobiotus spinifer 
 metazoans_mit	KJ027513.1	Helotrephes semiglobosus semiglobosus partial genome
+metazoans_mit	KJ133605.1	Ornithodoros kalahariensis
 metazoans_mit	KJ158463.1	Mirza coquereli partial genome
 metazoans_mit	KJ397606.1	Lepus corsicanus partial genome
 metazoans_mit	KJ397607.1	Lepus arcticus partial genome
@@ -452,6 +499,8 @@ metazoans_mit	KJ412476.1	Xiphozele sp. partial genome
 metazoans_mit	KJ412477.1	Proterops sp. partial genome
 metazoans_mit	KJ434955.1	Erythrocebus patas partial genome
 metazoans_mit	KJ434960.1	Lophocebus aterrimus partial genome
+metazoans_mit	KJ547676.1	Pararge aegeria aegeria 
+metazoans_mit	KJ561352.1	Platevindex sp.
 metazoans_mit	KJ634155.1	Bathydorus laniger
 metazoans_mit	KJ634156.1	Docosaccus maculatus
 metazoans_mit	KJ636057.1	Hellula undalis partial genome
@@ -465,6 +514,7 @@ metazoans_mit	KJ778884.1	Doru luteipes
 metazoans_mit	KJ778885.1	Euschistus variolarius
 metazoans_mit	KJ778889.1	Hippodamia tredecimpunctata
 metazoans_mit	KJ778890.1	Orius insidiosus
+metazoans_mit	KJ782458.1	Pholcus sp.
 metazoans_mit	KJ792088.1	Leiopelma hamiltoni partial genome
 metazoans_mit	KJ914547.1	Rhynchortyx cinctus partial genome
 metazoans_mit	KJ938491.1	Teslasena femoralis partial genome
@@ -497,9 +547,11 @@ metazoans_mit	KM364990.1	Mobula munkiana partial genome*
 metazoans_mit	KM364992.1	Mobula rochebrunei partial genome*
 metazoans_mit	KM373200.1	Macoma balthica partial genome
 metazoans_mit	KM395814.1	Ostrinia penitalis partial genome
+metazoans_mit	KM486623.1	Pirata subpiraticus
 metazoans_mit	KM611476.1	Deroptyus accipitrinus partial genome
 metazoans_mit	KM611479.1	Pionites leucogaster partial genome
 metazoans_mit	KM611480.1	Tanygnathus lucionensis partial genome
+metazoans_mit	KM820884.1	Cyrtophora moluccensis
 metazoans_mit	KM881676.1	Hippidion sp. partial genome
 metazoans_mit	KM881678.1	Hippidion principale partial genome
 metazoans_mit	KM881679.1	Hippidion saldiasi partial genome
@@ -574,6 +626,7 @@ metazoans_mit	KP722589.1	Adelges laricis partial genome
 metazoans_mit	KP722590.1	Aiceona himalaica partial genome
 metazoans_mit	KP728257.1	Xenophrys omeimontis partial genome
 metazoans_mit	KP861632.1	Chrysomya pacifica partial genome
+metazoans_mit	KP889242.1	Bryodema miramae miramae 
 metazoans_mit	KP893332.1	Tyto longimembris partial genome
 metazoans_mit	KP899760.1	Sagitta setosa partial genome
 metazoans_mit	KP899784.1	Sagitta elegans partial genome
@@ -596,6 +649,8 @@ metazoans_mit	KR349313.1	Telmatobufo australis
 metazoans_mit	KR559270.1	Amolops tuberodepressus partial genome
 metazoans_mit	KR703581.1	Tenthredo tienmushana partial genome
 metazoans_mit	KR703582.1	Asiemphytus rufocephalus partial genome
+metazoans_mit	KR907239.1	Chiropterargas boueti
+metazoans_mit	KT001074.1	Camaena poyuensis
 metazoans_mit	KT008005.1	Echinostoma paraensei partial genome
 metazoans_mit	KT225292.1	Chrysops silvifacies partial genome
 metazoans_mit	KT225293.1	Dialysis sp. partial genome
@@ -642,6 +697,7 @@ metazoans_mit	KT425089.1	Myiodactylus osmyloides partial genome
 metazoans_mit	KT425091.1	Podallea sp. partial genome
 metazoans_mit	KT425092.1	Mucroberotha vesicaria partial genome
 metazoans_mit	KT425093.1	Xanthostigma gobicola partial genome
+metazoans_mit	KT626607.1	Arion rufus
 metazoans_mit	KT626611.1	Phalacrocorax brasilianus
 metazoans_mit	KT808466.1	Hycleus chodschenticus partial genome
 metazoans_mit	KT809320.1	Rathkea octopunctata partial genome
@@ -661,12 +717,22 @@ metazoans_mit	KT809334.1	Plotocnide borealis partial genome
 metazoans_mit	KT809336.1	Eudendrium capillare partial genome
 metazoans_mit	KT809337.1	Halitholus cirratus partial genome
 metazoans_mit	KT818830.1	Ferosagitta ferox
+metazoans_mit	KT827824.1	Tambocerus sp.
+metazoans_mit	KT874575.1	Cryptolaemus montrouzieri
 metazoans_mit	KU042041.1	Longpotamon xiushuiense partial genome
 metazoans_mit	KU094576.1	Meleagris ocellata partial genome
+metazoans_mit	KU200225.1	Eothenomys inez 
+metazoans_mit	KU507531.1	Pterosagitta draco 
 metazoans_mit	KU558990.1	Hirondellea gigas contig 1 partial genome
 metazoans_mit	KU558991.1	Hirondellea gigas contig 2 partial genome
+metazoans_mit	KU562919.1	Loxoblemmus equestris 
 metazoans_mit	KU585904.1	Eremias grammica partial genome
+metazoans_mit	KU641020.1	Glandirana emeljanovi
 metazoans_mit	KU710349.1	Mitrocomella polydiademata partial genome
+metazoans_mit	KU852748.1	Ebrechtella tricuspidata
+metazoans_mit	KU884483.1	Trabala vishnou guttata 
+metazoans_mit	KX017523.1	Plectus acuminatus 
+metazoans_mit	KX017524.1	Plectus aquatilis 
 metazoans_mit	KX033358.1	Papilio dardanus dardanus
 metazoans_mit	KX066374.1	Eurytoma sp. partial genome 1
 metazoans_mit	KX091846.1	Agnetina aequalis partial genome
@@ -675,6 +741,7 @@ metazoans_mit	KX091848.1	Aposthonia borneensis partial genome
 metazoans_mit	KX091849.1	Bittacus planus partial genome
 metazoans_mit	KX091853.1	Eudohrnia metallica partial genome
 metazoans_mit	KX091861.1	Paratimomenus flavocapitatus partial genome
+metazoans_mit	KX091862.1	Cryptophyllium tibetense 
 metazoans_mit	KX091864.1	Rhombodera latipronotum partial genome
 metazoans_mit	KX132084.1	Propylea sp. partial genome
 metazoans_mit	KX132085.1	Calvia championorum partial genome
@@ -886,8 +953,10 @@ metazoans_mit	KX943506.1	Phyllotreta cruciferae partial genome
 metazoans_mit	KX943507.1	Apteropeda orbiculata partial genome
 metazoans_mit	KX943508.1	Galeruca luctuosa partial genome
 metazoans_mit	KX943509.1	Cryptocephalus ramburii partial genome
+metazoans_mit	KY021067.1	Cerithidea sinensis
 metazoans_mit	KY039114.1	Platypleura kaempferi partial genome
 metazoans_mit	KY039116.1	Alobaldia tobae partial genome
+metazoans_mit	KY039118.1	Tricentrus sp.
 metazoans_mit	KY039122.1	Aphrophora alni partial genome
 metazoans_mit	KY039125.1	Delphacidae sp.
 metazoans_mit	KY039126.1	Derbidae sp.
@@ -926,6 +995,7 @@ metazoans_mit	KY352242.1	Pylocheles mortensenii partial genome
 metazoans_mit	KY355081.1	Brachycephalus brunneus
 metazoans_mit	KY364883.1	Hishimonoides recurvatis partial genome
 metazoans_mit	KY400104.1	Culex pallidothorax
+metazoans_mit	KY441640.1	Quasipaa robertingeri 
 metazoans_mit	KY457511.1	Ogadenus brumpti ssp.
 metazoans_mit	KY457514.1	Chiropterargas confusus
 metazoans_mit	KY457516.1	Amblyomma marmoreum
@@ -951,6 +1021,8 @@ metazoans_mit	KY796055.1	Chlorophorus simillimus partial genome
 metazoans_mit	KY798412.1	Formosatettix qinlingensis partial genome
 metazoans_mit	KY798413.1	Coptotettix longjiangensis partial genome
 metazoans_mit	KY798414.1	Thoradonta obtusilobata partial genome
+metazoans_mit	KY817243.1	Scaphoideus maai 
+metazoans_mit	KY817244.1	Scaphoideus nigrivalveus 
 metazoans_mit	KY864969.1	Conus pseudonivifer partial genome
 metazoans_mit	KY864970.1	Conus ateralbus partial genome
 metazoans_mit	KY864971.1	Conus miruchae partial genome
@@ -963,6 +1035,7 @@ metazoans_mit	KY926883.1	Apis mellifera intermissa
 metazoans_mit	KY926884.1	Apis mellifera mellifera
 metazoans_mit	KY952780.1	Ips grandicollis partial genome
 metazoans_mit	KY952782.1	Ips typographus partial genome
+metazoans_mit	KY971464.1	Argynnis sagana 
 metazoans_mit	KY994147.1	Passaloecus sp.
 metazoans_mit	KY994148.1	Psen sp.
 metazoans_mit	KY994149.1	Psenulus pallipes
@@ -985,9 +1058,14 @@ metazoans_mit	LC222529.1	Pagurus middendorffii
 metazoans_mit	LC222530.1	Pagurus brachiomastus
 metazoans_mit	LC222532.1	Pagurus japonicus
 metazoans_mit	LC222535.1	Pagurus sp.
+metazoans_mit	LC521855.1	Teleogryllus occipitalis
+metazoans_mit	LC536282.1	Glandirana rugosa
 metazoans_mit	LC536647.1	Macaca fuscata fuscata
+metazoans_mit	LC541740.1	Neope goschkevitschii
+metazoans_mit	LC541741.1	Lethe sicelis
 metazoans_mit	LC605627.1	Porites australiensis
 metazoans_mit	LC642727.1	Tokudaia osimensis
+metazoans_mit	LC648322.1	Pirenella pupiformis nearly complete genome
 metazoans_mit	LC722794.1	Ceratovacuna japonica
 metazoans_mit	LC765994.1	Psychidae sp.
 metazoans_mit	LN871175.1	Pseudoniphargus sorbasiensis partial genome
@@ -1062,6 +1140,7 @@ metazoans_mit	MF351885.1	Neocrepidodera transversa
 metazoans_mit	MF351886.1	Asphaera sp.
 metazoans_mit	MF351887.1	Chabria nr. angulicollis
 metazoans_mit	MF351888.1	Diphaltica sp.
+metazoans_mit	MF361127.1	Epimeria cornigera 
 metazoans_mit	MF410859.1	Culicidae sp. 2
 metazoans_mit	MF410878.1	Sciaridae sp.
 metazoans_mit	MF410898.1	Pterygota sp.
@@ -1078,6 +1157,7 @@ metazoans_mit	MF410991.1	Brachycera sp.
 metazoans_mit	MF410994.1	Drosophilidae sp.
 metazoans_mit	MF411004.1	Hybotidae sp.
 metazoans_mit	MF411052.1	Hemiptera sp.
+metazoans_mit	MF444860.1	Apatura laverna
 metazoans_mit	MF447873.1	Amphioctopus cf. ovulum
 metazoans_mit	MF447874.1	Amphioctopus rex
 metazoans_mit	MF457407.1	Aegla aff. longirostri partial genome
@@ -1115,6 +1195,7 @@ metazoans_mit	MF491604.1	Conus fernandesi partial genome
 metazoans_mit	MF491605.1	Conus denizi partial genome
 metazoans_mit	MF491606.1	Conus trochulus partial genome
 metazoans_mit	MF491607.1	Conus (Lautoconus) sp. partial genome
+metazoans_mit	MF497725.1	Lygaeus sp.
 metazoans_mit	MF568543.1	Orybina plangonalis partial genome
 metazoans_mit	MF594624.1	Sitona callosus partial genome
 metazoans_mit	MF667551.1	Holothuroidea sp.
@@ -1242,6 +1323,7 @@ metazoans_mit	MG001887.1	Calanus finmarchicus partial genome
 metazoans_mit	MG017450.1	Anthrenus verbasci partial genome
 metazoans_mit	MG021081.1	Aristobrotica sp. partial genome
 metazoans_mit	MG021085.1	Syphrea sp. partial genome
+metazoans_mit	MG190360.1	Matsumurasca onukii 
 metazoans_mit	MG193333.1	Brentidae sp.
 metazoans_mit	MG193519.1	Canthon aequinoctialis
 metazoans_mit	MG255139.1	Neotrogla sp. partial genome
@@ -1305,10 +1387,15 @@ metazoans_mit	MG737810.1	Tettigades dumfriesi partial genome
 metazoans_mit	MG737811.1	Tettigades major partial genome
 metazoans_mit	MG737813.1	Tettigades sarcinatrix partial genome
 metazoans_mit	MG737814.1	Tettigotoma maculata partial genome
+metazoans_mit	MG747611.1	Parasarpa zulema
+metazoans_mit	MG747612.1	Athyma lysanias
+metazoans_mit	MG747635.1	Limenitis fortuna
+metazoans_mit	MG747636.1	Limenitis jina
 metazoans_mit	MG753993.1	Parapenaeon diatropa
 metazoans_mit	MG753994.1	Orbione halipori
 metazoans_mit	MG792058.1	Acanthoparyphium sp.
 metazoans_mit	MG807478.1	Parapenaeon expansa
+metazoans_mit	MG813486.1	Evacanthus heimianus 
 metazoans_mit	MG813797.1	Encarsia formosa partial genome
 metazoans_mit	MG813798.1	Encarsia obtusiclava partial genome
 metazoans_mit	MG820271.1	Liposcelis brunnea chromosome 1
@@ -1318,6 +1405,7 @@ metazoans_mit	MG870227.1	Ectatomma ruidum
 metazoans_mit	MG870228.1	Ectatomma tuberculatum
 metazoans_mit	MG882147.1	Eublaberus distanti
 metazoans_mit	MG893580.1	Intoshia variabili
+metazoans_mit	MG904865.1	Quasipaa sp. n.
 metazoans_mit	MG917727.1	Rhopalura litoralis
 metazoans_mit	MG923482.1	Alloxysta sp. partial genome
 metazoans_mit	MG923483.1	Amblyjoppa sp. partial genome
@@ -1351,6 +1439,7 @@ metazoans_mit	MG923514.1	Synergus sp. partial genome
 metazoans_mit	MG923516.1	Torymus sp. partial genome
 metazoans_mit	MG923517.1	Xyela sp. partial genome
 metazoans_mit	MG970258.1	Macrogyrodactylus karibae partial genome
+metazoans_mit	MH001226.1	Falcolipeurus quadripustulatus 
 metazoans_mit	MH018243.1	Perdicella helena
 metazoans_mit	MH070027.1	Eupsophus vertebralis partial genome
 metazoans_mit	MH070028.1	Eupsophus emiliopugini partial genome
@@ -1380,6 +1469,8 @@ metazoans_mit	MH308406.1	Eubela sp. partial genome
 metazoans_mit	MH308408.1	Pinguigemmula sp. partial genome
 metazoans_mit	MH311777.1	Thalassodes proquadraria
 metazoans_mit	MH322000.1	Paragonimus kellicotti partial genome
+metazoans_mit	MH324930.1	Plectoderini sp.
+metazoans_mit	MH362759.1	Camaenella platyodon
 metazoans_mit	MH362760.1	Theba pisana
 metazoans_mit	MH374046.1	Lednia tumana partial genome
 metazoans_mit	MH382811.1	Ptychoramphus aleuticus
@@ -1460,6 +1551,7 @@ metazoans_mit	MK051027.1	Anterhynchium aff. flavomarginatum partial genome
 metazoans_mit	MK051028.1	Anterhynchium (Dirhynchium) sp. partial genome
 metazoans_mit	MK051029.1	Anterhynchium abdominale partial genome
 metazoans_mit	MK051030.1	Rhynchium quinquecinctum partial genome
+metazoans_mit	MK069977.1	Anomaloglossus sp. 'Acari'
 metazoans_mit	MK079940.1	Homaxinella balfourensis
 metazoans_mit	MK079941.1	Axinella damicornis
 metazoans_mit	MK079942.1	Cliona varians
@@ -1471,6 +1563,7 @@ metazoans_mit	MK079948.1	Phorbas areolatus
 metazoans_mit	MK079949.1	Phorbas tenacior
 metazoans_mit	MK079950.1	Poecillastra compressa
 metazoans_mit	MK079951.1	Stryphnus fortis
+metazoans_mit	MK087727.1	Pseudois schaeferi 
 metazoans_mit	MK111414.1	Klapopteryx armillata partial genome
 metazoans_mit	MK111420.1	Sphaeronemoura hainana partial genome
 metazoans_mit	MK123949.1	Phymatostetha semele partial genome
@@ -1478,7 +1571,9 @@ metazoans_mit	MK123950.1	Phymatostetha signifera partial genome
 metazoans_mit	MK123951.1	Phymatostetha stalii partial genome
 metazoans_mit	MK127916.1	Phymatostetha punctata partial genome
 metazoans_mit	MK127918.1	Phymatostetha sp. partial genome
+metazoans_mit	MK157198.1	Stomolophus sp.
 metazoans_mit	MK163619.1	Meganola sp.
+metazoans_mit	MK166027.1	Mus caroli 
 metazoans_mit	MK227249.1	Ostertagia trifurcata
 metazoans_mit	MK256747.1	Yponomeuta montanatus
 metazoans_mit	MK257773.1	Loxosceles rufescens
@@ -1496,6 +1591,7 @@ metazoans_mit	MK301247.1	Suhpalacsa sp. partial genome
 metazoans_mit	MK301248.1	Euroleon nostras partial genome
 metazoans_mit	MK333462.1	Trichuris skrjabini
 metazoans_mit	MK334307.1	Elaphe quatuorlineata partial genome
+metazoans_mit	MK335936.1	Cicadella viridis 
 metazoans_mit	MK343720.1	Ferosagitta robusta
 metazoans_mit	MK343721.1	Aidanosagitta regularis
 metazoans_mit	MK343722.1	Zonosagitta bedoti
@@ -1517,6 +1613,7 @@ metazoans_mit	MK434261.1	Canirallus oculeus partial genome
 metazoans_mit	MK434262.1	Aptornis otidiformis partial genome
 metazoans_mit	MK434263.1	Sarothrura rufa partial genome
 metazoans_mit	MK434264.1	Aptornis defossor partial genome
+metazoans_mit	MK450366.1	Paralaevicephalus gracilipenis 
 metazoans_mit	MK450463.1	Thalassaphorura encarpata partial genome
 metazoans_mit	MK453378.1	Aquila audax partial genome
 metazoans_mit	MK453379.1	Gymnorhina tibicen partial genome
@@ -1682,12 +1779,15 @@ metazoans_mit	MN053056.1	Coelophora saucia partial genome
 metazoans_mit	MN053057.1	Afissula sp. partial genome
 metazoans_mit	MN061840.1	Anadara gubernaculum
 metazoans_mit	MN066550.1	Aequorea coerulescens
+metazoans_mit	MN083174.1	Bolivaritettix sikkinensis 
 metazoans_mit	MN096323.1	Microperla geei partial genome
 metazoans_mit	MN098312.1	Antalis entalis
 metazoans_mit	MN104231.1	Gadilida sp.
 metazoans_mit	MN123622.1	Tamarixia radiata partial genome
 metazoans_mit	MN161585.1	Bradysia sp. partial genome
 metazoans_mit	MN178162.1	Vulgichneumon sp.
+metazoans_mit	MN227165.1	Carinata rufipenna 
+metazoans_mit	MN242789.1	Neope muirheadii 
 metazoans_mit	MN256532.1	Brachionus rubens chromosome II
 metazoans_mit	MN263919.1	Sphaeroma sp.
 metazoans_mit	MN267041.1	Mekongomantis quinquespinosa
@@ -1700,6 +1800,7 @@ metazoans_mit	MN326303.1	Mulinia lateralis
 metazoans_mit	MN326817.1	Anadara transversa
 metazoans_mit	MN326818.1	Arca navicularis
 metazoans_mit	MN331657.1	Argiope ocula partial genome
+metazoans_mit	MN334527.1	Cheiracanthium triviale
 metazoans_mit	MN335930.1	Amara aulica partial genome
 metazoans_mit	MN366003.1	Arca zebra
 metazoans_mit	MN366004.1	Arcopsis adamsi
@@ -1715,6 +1816,7 @@ metazoans_mit	MN366014.1	Tegillarca nodifera
 metazoans_mit	MN366015.1	Trisidos semitorta
 metazoans_mit	MN366016.1	Tegillarca sp.
 metazoans_mit	MN399962.1	Eurypanopeus depressus
+metazoans_mit	MN417333.1	Tetranychus evansi
 metazoans_mit	MN420467.1	Chloridolum lameeri
 metazoans_mit	MN420468.1	Batocera davidis
 metazoans_mit	MN420472.1	Rhytidodera bowringii
@@ -1736,6 +1838,7 @@ metazoans_mit	MN420490.1	Mesosa curculionoides
 metazoans_mit	MN420491.1	Parmena novaki
 metazoans_mit	MN420492.1	Anaesthetis testacea
 metazoans_mit	MN427889.1	Pseudoxenodon macrops
+metazoans_mit	MN427890.1	Hebius optatus 
 metazoans_mit	MN427891.1	Hebius johannis
 metazoans_mit	MN442321.1	Polyzonus fasciatus
 metazoans_mit	MN442322.1	Paraglenea fortunei 1
@@ -1778,7 +1881,10 @@ metazoans_mit	MN527358.1	Purpuricenus temminckii
 metazoans_mit	MN527959.1	Rhyzopertha dominica 2
 metazoans_mit	MN562486.1	Siobla xizangensis partial genome
 metazoans_mit	MN562586.1	Cavisoma magnum
+metazoans_mit	MN577633.1	Gessius sp. 'rufidorsus' 
 metazoans_mit	MN584901.1	Odontothrips loti
+metazoans_mit	MN599979.1	Nysius plebeius
+metazoans_mit	MN602036.1	Modiolus comptus
 metazoans_mit	MN602453.1	Parapenaeus fissuroides
 metazoans_mit	MN603033.1	Allorhogas crassifemur
 metazoans_mit	MN603034.1	Allorhogas granivorus
@@ -1869,6 +1975,7 @@ metazoans_mit	MN622253.1	Camisia spinifer
 metazoans_mit	MN622254.1	Haplozetidae sp. 'Xylobatidae'
 metazoans_mit	MN648461.1	Cherax nucifraga
 metazoans_mit	MN660050.1	Brachystomella parvula partial genome
+metazoans_mit	MN661136.1	Bolanusoides shaanxiensis 
 metazoans_mit	MN698265.1	Catocala electa partial genome
 metazoans_mit	MN745103.1	Chrysochares punctatus partial genome
 metazoans_mit	MN747044.1	Candidula unifasciata unifasciata partial genome
@@ -1877,8 +1984,10 @@ metazoans_mit	MN755862.1	Brachionus paranguensis II
 metazoans_mit	MN781133.1	Stratiolaelaps scimitus
 metazoans_mit	MN786871.1	Heterochaerus australis partial genome
 metazoans_mit	MN792800.1	Cyathostomum tetracanthum
+metazoans_mit	MN813763.1	Capreolus pygargus 
 metazoans_mit	MN816336.1	Myonycteris brachycephala partial genome
 metazoans_mit	MN829439.1	Hirundo rustica savignii
+metazoans_mit	MN830918.1	Laevapex fuscus
 metazoans_mit	MN842135.1	Catajapyx aquilonaris
 metazoans_mit	MN842137.1	Ephemera danica
 metazoans_mit	MN842138.1	Glossina morsitans
@@ -1887,7 +1996,11 @@ metazoans_mit	MN842140.1	Latrodectus hesperus
 metazoans_mit	MN842141.1	Lutzomyia longipalpis
 metazoans_mit	MN842143.1	Oncopeltus fasciatus
 metazoans_mit	MN842144.1	Onthophagus taurus
+metazoans_mit	MN845640.1	Hylomyscus aeta
 metazoans_mit	MN845676.1	Hylomyscus baeri partial genome
+metazoans_mit	MN845681.1	Hylomyscus denniae
+metazoans_mit	MN845685.1	Hylomyscus endorobae
+metazoans_mit	MN845739.1	Hylomyscus denniae vulcanorum
 metazoans_mit	MN849878.1	Geloina erosa
 metazoans_mit	MN849880.1	Corbicula similis
 metazoans_mit	MN853777.1	Trichiosoma vitellina partial genome
@@ -1895,6 +2008,8 @@ metazoans_mit	MN863803.1	Saissetia coffeae
 metazoans_mit	MN864052.1	Plaxiphora albida contig 1
 metazoans_mit	MN885881.1	Harpiocephalus harpia partial genome
 metazoans_mit	MN892396.1	Microplitis pallidipes
+metazoans_mit	MN910279.1	Eupteryx minuscula 
+metazoans_mit	MN922303.1	Chanohirata hamata 
 metazoans_mit	MN964116.1	Mus saxicola partial genome
 metazoans_mit	MN964118.1	Millardia meltada
 metazoans_mit	MN964121.1	Malacomys edwardsi partial genome
@@ -1906,6 +2021,7 @@ metazoans_mit	MT015514.1	Mazocraeoides gonialosae
 metazoans_mit	MT024990.1	Panopeus herbstii
 metazoans_mit	MT025192.1	Micadina brachyptera partial genome
 metazoans_mit	MT025193.1	Pharnaciini sp. partial genome
+metazoans_mit	MT043269.1	Charonia tritonis
 metazoans_mit	MT063155.1	Chlorophonia flavirostris
 metazoans_mit	MT063156.1	Euphonia saturata
 metazoans_mit	MT063157.1	Euphonia imitans
@@ -1956,6 +2072,7 @@ metazoans_mit	MT163274.1	Eumecostylus cleryi
 metazoans_mit	MT174468.2	Halocosa hatanensis
 metazoans_mit	MT183697.1	Calidris canutus partial genome
 metazoans_mit	MT215090.1	Hypoponera sauteri partial genome
+metazoans_mit	MT232759.1	Tetraclita squamosa squamosa 
 metazoans_mit	MT232845.1	Harpovoluta charcoti partial genome
 metazoans_mit	MT252850.1	Odontocolon albotibiale partial genome
 metazoans_mit	MT252851.1	Xorides funiuensis partial genome
@@ -1968,6 +2085,7 @@ metazoans_mit	MT318860.1	Chrysopathes cf. micracantha partial genome
 metazoans_mit	MT318861.1	Cladopathes cf.plumosa partial genome
 metazoans_mit	MT318862.1	Trissopathes grasshoffi partial genome
 metazoans_mit	MT323103.1	Batillaria cumingii
+metazoans_mit	MT332319.1	Melanetettix sp. n.
 metazoans_mit	MT345685.1	Echinorhynchus gymnocyprii
 metazoans_mit	MT345686.1	Acanthocephalus sp.
 metazoans_mit	MT356995.1	Diaphanosoma celebensis
@@ -2012,6 +2130,7 @@ metazoans_mit	MT556667.1	Triatoma nitida partial genome
 metazoans_mit	MT556669.1	Linshcosteus costalis partial genome
 metazoans_mit	MT558946.1	Habrobracon hebetor 1
 metazoans_mit	MT559281.1	Synallactes sp. partial genome
+metazoans_mit	MT559308.1	Microhyla beilunensis
 metazoans_mit	MT598643.1	Lemmiscus curtatus partial genome
 metazoans_mit	MT611525.1	Unaspis yanonensis
 metazoans_mit	MT635132.1	Camarochiloides weiweii partial genome
@@ -2120,6 +2239,8 @@ metazoans_mit	MT948192.1	Polistes sagittarius
 metazoans_mit	MT948193.1	Polistes snelleni
 metazoans_mit	MT982364.1	Desis martensi
 metazoans_mit	MW004651.1	Pachytriton inexpectatus
+metazoans_mit	MW018817.1	Petalocephala eurglobata 
+metazoans_mit	MW018818.1	Petalocephala gongshanensis 
 metazoans_mit	MW027641.1	Sciurus anomalus partial genome
 metazoans_mit	MW029462.1	Harmonia eucharis
 metazoans_mit	MW029464.1	Coccinella lama
@@ -2148,6 +2269,7 @@ metazoans_mit	MW143043.1	Hydroides pseudouncinata
 metazoans_mit	MW143044.1	Hydroides sanctaecrucis
 metazoans_mit	MW143045.1	Hydroides dirampha
 metazoans_mit	MW143046.1	Hydroides minax
+metazoans_mit	MW149047.1	Cloeon dipterum 
 metazoans_mit	MW167113.1	Odontofroggatia galili partial genome
 metazoans_mit	MW167114.1	Platyneura mayri partial genome
 metazoans_mit	MW167115.1	Micranisa ralianga partial genome
@@ -2177,9 +2299,11 @@ metazoans_mit	MW229063.1	Cryptophyllium westwoodii partial genome
 metazoans_mit	MW237769.1	Pandalus platyceros
 metazoans_mit	MW255941.1	Metallus mai partial genome
 metazoans_mit	MW258651.1	Canis lupus dingo
+metazoans_mit	MW272457.1	Uniformus sp. 
 metazoans_mit	MW279212.1	Psyttalia concolor partial genome
 metazoans_mit	MW279213.1	Psyttalia humilis partial genome
 metazoans_mit	MW279214.1	Psyttalia lounsburyi partial genome
+metazoans_mit	MW284826.1	Typhlocybinae gen. 1 sp.
 metazoans_mit	MW309841.1	Bathyacmaea lactea
 metazoans_mit	MW316633.1	Polydora websteri
 metazoans_mit	MW316635.1	Polydora brevipalpa
@@ -2187,9 +2311,13 @@ metazoans_mit	MW321507.1	Paralaudakia stoliczkana
 metazoans_mit	MW324676.1	Strongylogaster xanthocera partial genome
 metazoans_mit	MW334948.1	Tanaisia sp. partial genome
 metazoans_mit	MW357301.1	Pseudovates peruviana partial genome
+metazoans_mit	MW368917.1	Dibamus bourreti 
+metazoans_mit	MW369674.1	Trichonephila clavata
 metazoans_mit	MW394227.1	Orfelia sp.
+metazoans_mit	MW430026.1	Xenopeltis hainanensis
 metazoans_mit	MW438294.2	Sepsis monostigma partial genome
 metazoans_mit	MW442371.1	Bradysia hygida partial genome
+metazoans_mit	MW450873.1	Orestes guangxiensis 
 metazoans_mit	MW465311.1	Rhopalura ophiocomae
 metazoans_mit	MW465655.1	Oliarus polyphemus
 metazoans_mit	MW482963.1	Metopidius indicus partial genome
@@ -2260,6 +2388,7 @@ metazoans_mit	MW532075.1	Syritta leucopleura
 metazoans_mit	MW532076.1	Syritta longiseta
 metazoans_mit	MW532078.1	Syritta congoensis
 metazoans_mit	MW535257.1	Anopheles persiensis
+metazoans_mit	MW542170.1	Kolla paulula 
 metazoans_mit	MW544890.1	Macrophya dolichogaster partial genome
 metazoans_mit	MW554922.1	Sturnira parvidens
 metazoans_mit	MW556019.1	Wohlfahrtia cheni
@@ -2314,6 +2443,7 @@ metazoans_mit	MW642332.1	Protochauliodes sp. partial genome
 metazoans_mit	MW642333.1	Puri aleca partial genome
 metazoans_mit	MW642334.1	Taeniochauliodes attenuatus partial genome
 metazoans_mit	MW642335.1	Taeniochauliodes natalensis partial genome
+metazoans_mit	MW696813.1	Falcolipeurus suturalis 
 metazoans_mit	MW713530.1	Rupicapra rupicapra asiatica partial genome
 metazoans_mit	MW713531.1	Rupicapra rupicapra caucasica partial genome
 metazoans_mit	MW722939.1	Cellana grata
@@ -2338,11 +2468,25 @@ metazoans_mit	MW832858.1	Titanoecidae sp.
 metazoans_mit	MW846232.1	Parasaccocoelium mugili
 metazoans_mit	MW847210.1	Cubaris murina
 metazoans_mit	MW851291.1	Neoechinorhynchus qinghaiensis
+metazoans_mit	MW916101.1	Koreocerus koreanus 
+metazoans_mit	MW916537.1	Megalothorax incertus 
 metazoans_mit	MW924498.1	Phlaeoba angustidorsis partial genome
+metazoans_mit	MW927710.1	Arion ater ater
 metazoans_mit	MW934450.1	Homogryllacris parcibrevipenna partial genome
 metazoans_mit	MW936629.1	Ricanula fujianensis
+metazoans_mit	MZ014452.1	Elbelus tripunctatus 
+metazoans_mit	MZ014453.1	Empoasca serrata 
+metazoans_mit	MZ014454.1	Eupteryx adspersa 
+metazoans_mit	MZ014457.1	Shaddai sp.
 metazoans_mit	MZ027640.1	Cyllorhynchites cumulatus
 metazoans_mit	MZ048283.1	Patelloida conulus
+metazoans_mit	MZ058037.1	Cryptocercus matilei 
+metazoans_mit	MZ058038.1	Cryptocercus banshanmenensis 
+metazoans_mit	MZ058039.1	Cryptocercus wolongensis 
+metazoans_mit	MZ058042.1	Cryptocercus sp.
+metazoans_mit	MZ058044.1	Cryptocercus shangmengensis 
+metazoans_mit	MZ058046.1	Cryptocercus kagongensis 
+metazoans_mit	MZ058051.1	Cryptocercus convexus 
 metazoans_mit	MZ058052.1	Cryptocercus gexigouensis
 metazoans_mit	MZ058057.1	Cryptocercus punctulatus
 metazoans_mit	MZ058059.1	Cryptocercus clevelandi
@@ -2366,6 +2510,7 @@ metazoans_mit	MZ265343.1	Empronus sp.
 metazoans_mit	MZ265344.1	Hemibeleses sp.
 metazoans_mit	MZ274212.1	Xanthocaecilius sommermanae
 metazoans_mit	MZ317923.1	Pericoma sp. partial genome
+metazoans_mit	MZ326688.1	Ujna puerana 
 metazoans_mit	MZ343610.1	Haematoloechus sp.
 metazoans_mit	MZ352138.1	Bombus confusus
 metazoans_mit	MZ352139.1	Bombus cullumanus
@@ -2377,6 +2522,7 @@ metazoans_mit	MZ352144.1	Bombus polaris
 metazoans_mit	MZ352146.1	Bombus soroeensis
 metazoans_mit	MZ352147.1	Bombus superbus
 metazoans_mit	MZ352148.1	Bombus turneri
+metazoans_mit	MZ353681.1	Papilio nephelus chaonulus 
 metazoans_mit	MZ357085.1	Bolbosoma capitatum
 metazoans_mit	MZ425439.1	Luciaphorus auriculariae
 metazoans_mit	MZ425440.1	Mahunkania secunda
@@ -2386,6 +2532,12 @@ metazoans_mit	MZ425443.1	Analgoidea sp.
 metazoans_mit	MZ425444.1	Caloglyphus sp.
 metazoans_mit	MZ425445.1	Oligonychus shinkajii
 metazoans_mit	MZ425446.1	Petrobia harti
+metazoans_mit	MZ427921.1	Tarbinskiellus portentosus 
+metazoans_mit	MZ433366.2	Aconurella prolixa 
+metazoans_mit	MZ457327.1	Agnesiella kamala 
+metazoans_mit	MZ457328.1	Agnesiella roxana 
+metazoans_mit	MZ457331.1	Eurhadina acapitata 
+metazoans_mit	MZ457332.1	Eurhadina dongwolensis 
 metazoans_mit	MZ464014.1	Clerus sp. partial genome
 metazoans_mit	MZ464017.1	Callimerus inbasalis partial genome
 metazoans_mit	MZ465548.1	Isoscelipteron pectinatum partial genome
@@ -2393,6 +2545,7 @@ metazoans_mit	MZ475052.1	Callimerus nigroapicalis partial genome
 metazoans_mit	MZ475053.1	Clerus klapperichi partial genome
 metazoans_mit	MZ490580.1	Omadius sp. partial genome
 metazoans_mit	MZ490581.1	Tillus nitidus partial genome
+metazoans_mit	MZ501806.1	Limenitis homeyeri 
 metazoans_mit	MZ540208.1	Ctena divergens
 metazoans_mit	MZ557447.1	Chama dunkeri
 metazoans_mit	MZ562614.1	Rhagonycha przewalskii partial genome
@@ -2409,11 +2562,13 @@ metazoans_mit	MZ562678.1	Bibio rufiventris
 metazoans_mit	MZ562679.1	Protaxymyia sp.
 metazoans_mit	MZ562680.1	Plecia sp.
 metazoans_mit	MZ571411.1	Pygoscelis papua partial genome
+metazoans_mit	MZ662113.1	Tarebia granifera
 metazoans_mit	MZ673659.1	Bispira melanostigma
 metazoans_mit	MZ675556.1	Spheciospongia vesparium
 metazoans_mit	MZ688407.1	Chama limbula
 metazoans_mit	MZ701705.1	Barnea manilensis
 metazoans_mit	MZ701706.1	Chama asperella
+metazoans_mit	MZ748292.1	Iolania perkinsi
 metazoans_mit	MZ751053.1	Rhopalosiphum padi
 metazoans_mit	MZ826154.1	Nipponacmea concinna
 metazoans_mit	MZ857197.1	Dendrobaena octaedra
@@ -2424,24 +2579,252 @@ metazoans_mit	MZ888505.1	Tamgrinia tibetana
 metazoans_mit	MZ895123.1	Nanorana kangxianensis
 metazoans_mit	MZ901174.1	Nipponacmea radula
 metazoans_mit	MZ921947.1	Mesochaetopterus japonicus
+metazoans_mit	MZ935684.1	Cysteochila lineata
+metazoans_mit	MZ935686.1	Neoplerochila sp.
 metazoans_mit	MZ958236.1	Pseudoacanthocephalus bufonis
 metazoans_mit	MZ958824.1	Apanteles altus
+metazoans_mit	MZ983367.1	Eurhadina fusca 
+metazoans_mit	NC_000834.1	Branchiostoma floridae 
+metazoans_mit	NC_001131.1	Lampetra fluviatilis 
+metazoans_mit	NC_001912.1	Branchiostoma lanceolatum 
+metazoans_mit	NC_002010.1	Ixodes hexagonus
+metazoans_mit	NC_002176.1	Pupa strigosa
+metazoans_mit	NC_002629.1	Lithobius forficatus
+metazoans_mit	NC_003161.1	Harpadon microchir
+metazoans_mit	NC_003162.1	Saurida undosquamis
+metazoans_mit	NC_003173.1	Zenopsis nebulosus
+metazoans_mit	NC_003175.1	Elassoma evergladei
+metazoans_mit	NC_003190.1	Zeus faber
+metazoans_mit	NC_003191.1	Antigonia capros
+metazoans_mit	NC_003194.1	Dactyloptena peterseni
+metazoans_mit	NC_003196.1	Pagrus major
+metazoans_mit	NC_004357.1	Ornithodoros moubata
+metazoans_mit	NC_004375.1	Cataetyx rubrirostris
+metazoans_mit	NC_004396.1	Parazen pacificus
+metazoans_mit	NC_004398.1	Allocyttus niger
+metazoans_mit	NC_004399.1	Neocyttus rhomboidalis
+metazoans_mit	NC_004402.1	Dactyloptena tiltoni
+metazoans_mit	NC_004413.1	Arcos sp. KU 149
+metazoans_mit	NC_004454.2	Varroa destructor
+metazoans_mit	NC_004701.1	Eigenmannia sp. CBM-ZF-10620
+metazoans_mit	NC_005146.1	Pagrus auriga
+metazoans_mit	NC_005291.1	Carios capensis
+metazoans_mit	NC_005820.1	Ornithodoros porcinus
+metazoans_mit	NC_005924.1	Heptathela hangzhouensis
+metazoans_mit	NC_005925.1	Ornithoctonus huwena
+metazoans_mit	NC_005939.1	Aleurodicus dugesii 
+metazoans_mit	NC_005942.1	Habronattus oregonensis
 metazoans_mit	NC_006386.1	Spadella cephaloptera
+metazoans_mit	NC_006405.1	Kaloula pulchra 
+metazoans_mit	NC_006406.1	Microhyla heymonsi 
+metazoans_mit	NC_006465.1	Epigonichthys maldivensis 
 metazoans_mit	NC_006664.1	Luidia quinaria
 metazoans_mit	NC_006665.1	Asterias amurensis
 metazoans_mit	NC_006666.1	Astropecten polyacanthus
+metazoans_mit	NC_006899.1	Homalodisca vitripennis 
+metazoans_mit	NC_007699.1	Testudo kleinmanni 
+metazoans_mit	NC_008063.1	Nephila clavata
+metazoans_mit	NC_008125.1	Lophiomus setigerus
+metazoans_mit	NC_008128.1	Anomalops katoptron
+metazoans_mit	NC_008327.1	Solea senegalensis
+metazoans_mit	NC_008616.1	Parargyrops edita
+metazoans_mit	NC_008649.1	Gnathopogon elongatus
+metazoans_mit	NC_008655.1	Barbonymus gonionotus
+metazoans_mit	NC_008656.1	Labeo batesii
+metazoans_mit	NC_008742.1	Capitulum mitella 
+metazoans_mit	NC_008772.1	Gekko vittatus 
+metazoans_mit	NC_008774.1	Coleonyx variegatus 
+metazoans_mit	NC_008775.1	Lepidophyma flavimaculatum 
+metazoans_mit	NC_009422.1	Microhyla ornata 
+metazoans_mit	NC_009502.1	Pagellus bogaraveo
+metazoans_mit	NC_009857.1	Parapristipoma trilineatum
+metazoans_mit	NC_009858.1	Monodactylus argenteus
+metazoans_mit	NC_009862.1	Trixiphichthys weberi
+metazoans_mit	NC_009873.1	Chaetodontoplus septentrionalis
+metazoans_mit	NC_010220.1	Biomphalaria tenagophila
+metazoans_mit	NC_010233.1	Microhyla okinavensis 
+metazoans_mit	NC_010526.1	Tetranychus urticae
+metazoans_mit	NC_010650.1	Mus terricolor 
+metazoans_mit	NC_010968.1	Oplegnathus fasciatus
+metazoans_mit	NC_011114.1	Gastrimargus marmoratus 
+metazoans_mit	NC_011388.1	Elassoma zonatum
+metazoans_mit	NC_011390.1	Gloydius blomhoffi brevicaudus 
+metazoans_mit	NC_011576.1	Achalinus meiguensis 
+metazoans_mit	NC_011719.1	Trichiurus japonicus
+metazoans_mit	NC_011764.1	Eremias brenchleyi 
+metazoans_mit	NC_012046.1	Barbourisia rufa
+metazoans_mit	NC_012435.1	Pyramidella dolabrata
+metazoans_mit	NC_012975.1	Oryzias minutillus
+metazoans_mit	NC_013270.1	Quasipaa spinosa 
+metazoans_mit	NC_013474.2	Stylochyrus rarior
+metazoans_mit	NC_013479.1	Causus defilippi 
+metazoans_mit	NC_013604.1	Acraea issoria 
+metazoans_mit	NC_013814.1	Sagitta enflata 
+metazoans_mit	NC_013867.1	Himantolophus albinares
+metazoans_mit	NC_013868.1	Himantolophus groenlandicus
+metazoans_mit	NC_013883.1	Chaunax pictus
+metazoans_mit	NC_013885.1	Gigantactis vanhoeffeni
+metazoans_mit	NC_013886.1	Coelophrys brevicaudata
+metazoans_mit	NC_014224.1	Sasakia charonda 
+metazoans_mit	NC_014343.1	Anilius scytale 
+metazoans_mit	NC_014585.1	Eualetes tulipa
+metazoans_mit	NC_014590.1	Musculista senhousia
+metazoans_mit	NC_014673.1	Micadina phluctainoides 
+metazoans_mit	NC_014678.1	Phobaeticus serratipes 
+metazoans_mit	NC_014680.1	Heteropteryx dilatata 
+metazoans_mit	NC_014688.1	Megacrania alpheus adan 
+metazoans_mit	NC_014694.1	Entoria okinawaensis 
+metazoans_mit	NC_015247.1	Odocoileus virginianus
+metazoans_mit	NC_015480.1	Calinaga davidis 
+metazoans_mit	NC_015890.1	Oroperipatus sp.
+metazoans_mit	NC_015982.1	Sinentomon erythranum 
+metazoans_mit	NC_016119.1	Nanorana pleskei 
+metazoans_mit	NC_016419.1	Fabriciana nerippe 
+metazoans_mit	NC_016467.1	Cubaia aphrodite
+metazoans_mit	NC_016663.1	Sundasalanx sp. Chao Phraya
+metazoans_mit	NC_016672.1	Sillago sihama
+metazoans_mit	NC_017599.1	Apodemus chevrieri
+metazoans_mit	NC_017744.1	Athyma sulpitia 
+metazoans_mit	NC_017872.1	Cylindrus obtusus
+metazoans_mit	NC_017874.1	Nectonemertes cf. mirabilis
+metazoans_mit	NC_017877.1	Zygeupolia rubens
+metazoans_mit	NC_018050.1	Gekko swinhonis 
+metazoans_mit	NC_018115.1	Aotus azarai azarai
+metazoans_mit	NC_018116.1	Aotus nancymaae
+metazoans_mit	NC_018132.1	Cryptocercus relictus 
+metazoans_mit	NC_018553.1	Acanthopagrus schlegelii
+metazoans_mit	NC_019584.1	Apodemus draco 
+metazoans_mit	NC_019585.1	Apodemus latronum 
 metazoans_mit	NC_019663.1	Nuttalliella namaqua
+metazoans_mit	NC_020001.1	Sooglossus thomasseti 
+metazoans_mit	NC_020038.1	Phyllodactylus unctus 
+metazoans_mit	NC_020039.1	Cnemaspis limi 
+metazoans_mit	NC_020044.1	Kaloula borealis 
+metazoans_mit	NC_020049.1	Platygyra carnosa
 metazoans_mit	NC_020322.1	Phyxioschema suthepium
 metazoans_mit	NC_020323.1	Liphistius erawan
 metazoans_mit	NC_020324.1	Pholcus phalangioides
+metazoans_mit	NC_020652.1	Polypterus delhezi
 metazoans_mit	NC_021113.1	Clathrina clathrus chromosome 5
 metazoans_mit	NC_021114.1	Clathrina clathrus chromosome 4
 metazoans_mit	NC_021115.1	Clathrina clathrus chromosome 3
+metazoans_mit	NC_021403.1	Cermatobius longicornis
+metazoans_mit	NC_021479.1	Python bivittatus 
+metazoans_mit	NC_021937.1	Quasipaa boulengeri 
+metazoans_mit	NC_021967.1	Cacajao calvus
+metazoans_mit	NC_022488.1	Kali indica
 metazoans_mit	NC_022675.1	Lepidocampa weberi
+metazoans_mit	NC_022677.1	Nesidiocoris tenuis 
+metazoans_mit	NC_022707.1	Trachinotus ovatus
+metazoans_mit	NC_022711.1	Plagiognathops microlepis
+metazoans_mit	NC_022852.1	Pseudobrama simoni
+metazoans_mit	NC_022922.1	Corythucha ciliata 
+metazoans_mit	NC_023219.1	Leptobelus gazella 
+metazoans_mit	NC_023374.1	Eubasilissa regina 
+metazoans_mit	NC_023973.1	Pseudaesopia japonica
+metazoans_mit	NC_023980.1	Saurida microlepis
+metazoans_mit	NC_024026.1	Trachinotus blochii
+metazoans_mit	NC_024177.1	Mesocentrotus franciscanus
+metazoans_mit	NC_024189.1	Dactyloptena orientalis
+metazoans_mit	NC_024236.1	Sparus aurata
+metazoans_mit	NC_024281.1	Argiope bruennichi
+metazoans_mit	NC_024287.1	Telamonia vlijmi
+metazoans_mit	NC_024393.1	Athyma selenophora
+metazoans_mit	NC_024394.1	Athyma kasa
+metazoans_mit	NC_024395.1	Athyma cama
+metazoans_mit	NC_024397.1	Athyma perius
+metazoans_mit	NC_024398.1	Pandita sinope
+metazoans_mit	NC_024399.1	Lexias dirtea
+metazoans_mit	NC_024404.1	Abrota ganga
+metazoans_mit	NC_024405.1	Parasarpa dudu
+metazoans_mit	NC_024408.1	Polyura arja
+metazoans_mit	NC_024410.1	Athyma asura
+metazoans_mit	NC_024411.1	Neope pulaha
+metazoans_mit	NC_024413.1	Bhagadatta austenia
+metazoans_mit	NC_024415.1	Argynnis childreni
+metazoans_mit	NC_024418.1	Athyma opalina
+metazoans_mit	NC_024547.1	Microhyla pulchra 
+metazoans_mit	NC_024601.1	Achatina fulica
+metazoans_mit	NC_024676.1	Tetranychus kanzawai
+metazoans_mit	NC_024677.1	Tetranychus ludeni
+metazoans_mit	NC_024678.1	Tetranychus malaysiensis
+metazoans_mit	NC_024680.1	Tetranychus pueraricola
+metazoans_mit	NC_024729.1	Metzia longinasus
+metazoans_mit	NC_024743.1	Elaphe bimaculata 
+metazoans_mit	NC_024836.1	Saurida umeyoshii
+metazoans_mit	NC_024843.1	Quasipaa yei
+metazoans_mit	NC_024874.1	Tetranychus truncatus
+metazoans_mit	NC_024877.1	Plexippus paykulli
+metazoans_mit	NC_024878.1	Selenops bursarius
+metazoans_mit	NC_025223.1	Pardosa laura
+metazoans_mit	NC_025224.1	Oxyopes sertatus
+metazoans_mit	NC_025239.1	Lernaea cyprinacea 
+metazoans_mit	NC_025268.1	Mus caroli
+metazoans_mit	NC_025269.1	Mus cervicolor
+metazoans_mit	NC_025270.1	Mus cookii
+metazoans_mit	NC_025287.1	Mus fragilicauda
+metazoans_mit	NC_025301.1	Rhabdosargus sarba
+metazoans_mit	NC_025337.1	Sillago asiatica
 metazoans_mit	NC_025503.1	Liposcelis entomophila minichromosome I
+metazoans_mit	NC_025511.1	Camaena cicatricosa
+metazoans_mit	NC_025551.1	Hamadryas epinome
+metazoans_mit	NC_025634.1	Araneus ventricosus
+metazoans_mit	NC_025644.1	Carangoides equula
+metazoans_mit	NC_025666.1	Gloydius saxatilis 
+metazoans_mit	NC_025669.1	Oreochromis niloticus x Oreochromis aureus
+metazoans_mit	NC_025770.1	Procypris mera
+metazoans_mit	NC_025775.1	Tetragnatha maxillosa
+metazoans_mit	NC_025935.1	Sillago aeolus
+metazoans_mit	NC_025940.1	Saurida wanieso
+metazoans_mit	NC_026043.1	Gastrocopta cristata
+metazoans_mit	NC_026070.1	Cethosia biblis 
+metazoans_mit	NC_026105.1	Goniurosaurus luii
+metazoans_mit	NC_026290.1	Neoscona theisi
+metazoans_mit	NC_026308.1	Urosaurus nigricaudus
+metazoans_mit	NC_026537.1	Oncorhynchus mykiss x Salmo salar
+metazoans_mit	NC_026543.1	Cyprinus carpio 'Furong' x Carassius auratus red var.
+metazoans_mit	NC_026710.1	Phallocryptus tserensodnomi 
+metazoans_mit	NC_026789.1	Nanorana parkeri 
+metazoans_mit	NC_026836.1	Epigonichthys cultellus 
 metazoans_mit	NC_026863.1	Argyroneta aquatica
+metazoans_mit	NC_026893.1	Pelophylax cypriensis
+metazoans_mit	NC_026894.1	Pelophylax epeiroticus
+metazoans_mit	NC_026895.1	Pelophylax kurtmuelleri
+metazoans_mit	NC_026896.1	Pelophylax shqipericus
+metazoans_mit	NC_027191.1	Gekko chinensis 
+metazoans_mit	NC_027234.1	Enchelynassa canina
+metazoans_mit	NC_027261.1	Uta stansburiana
 metazoans_mit	NC_027523.1	Kudoa septempunctata
+metazoans_mit	NC_027524.1	Kudoa hexapunctata
+metazoans_mit	NC_027682.1	Cyclosa argenteoalba
+metazoans_mit	NC_027956.1	Canis lupaster
+metazoans_mit	NC_028004.1	Obscurella hidalgoi
+metazoans_mit	NC_028035.1	Gekko japonicus 
+metazoans_mit	NC_028068.1	Tetragnatha nitens
+metazoans_mit	NC_028077.1	Cyrtarachne nagasakiensis
+metazoans_mit	NC_028078.1	Hypsosinga pygmaea
+metazoans_mit	NC_028165.1	Banjos banjos
+metazoans_mit	NC_028326.1	Paroedura picta 
+metazoans_mit	NC_028407.1	Cypridopsis vidua 
+metazoans_mit	NC_028619.1	Teleogryllus oceanicus 
+metazoans_mit	NC_029149.1	Hampala macrolepidota
+metazoans_mit	NC_029154.1	Tetraclita serrata 
+metazoans_mit	NC_029169.1	Chelonibia testudinaria 
+metazoans_mit	NC_029170.1	Tetraclitella divisa 
+metazoans_mit	NC_029196.1	Pelophylax cf. bedriagae
+metazoans_mit	NC_029197.1	Pelophylax cf. bedriagae MPFC1082
+metazoans_mit	NC_029198.1	Pelophylax cf. terentievi GM87-239
+metazoans_mit	NC_029199.1	Pelophylax cf. terentievi
+metazoans_mit	NC_029200.1	Pelophylax bedriagae
+metazoans_mit	NC_029201.1	Pelophylax cf. bedriagae GM178
+metazoans_mit	NC_029203.1	Idioscopus nitidulus 
+metazoans_mit	NC_029209.1	Phyllocoptes taishanensis
 metazoans_mit	NC_029216.1	Thymallus mertensii
+metazoans_mit	NC_029409.1	Kaloula rugifera 
+metazoans_mit	NC_029424.1	Gloydius shedaoensis
+metazoans_mit	NC_029479.1	Evynnis tumifrons
+metazoans_mit	NC_029489.1	Scolopsis vosmeri
+metazoans_mit	NC_029494.1	Trimeresurus sichuanensis 
 metazoans_mit	NC_029496.1	Acraea jodutta
 metazoans_mit	NC_029497.1	Acraea egina
 metazoans_mit	NC_029498.1	Acraea acerata
@@ -2460,30 +2843,290 @@ metazoans_mit	NC_029511.1	Acraea alcinoe
 metazoans_mit	NC_029512.1	Acraea parrhasia
 metazoans_mit	NC_029513.1	Acraea vestalis
 metazoans_mit	NC_029514.1	Acraea kalinzu
+metazoans_mit	NC_029714.1	Plotosus lineatus
+metazoans_mit	NC_029755.1	Neoscona nautica
+metazoans_mit	NC_029756.1	Neoscona adianta
 metazoans_mit	NC_029887.1	Oligolophus tienmushanensis
+metazoans_mit	NC_030049.1	Microhyla butleri
+metazoans_mit	NC_030191.1	Cryptocercus kyebangensis 
+metazoans_mit	NC_030211.1	Rugosa emeljanovi
+metazoans_mit	NC_030259.1	Datnioides undecimradiatus
+metazoans_mit	NC_030278.1	Datnioides microlepis
 metazoans_mit	NC_030317.1	Schyzocotyle nayarensis
 metazoans_mit	NC_030354.1	Conus capitaneus
+metazoans_mit	NC_030762.1	Velarifictorus hemelytrus 
+metazoans_mit	NC_030779.1	Scincella huanrenensis 
+metazoans_mit	NC_031364.1	Panaorus albomaculatus 
+metazoans_mit	NC_031407.1	Ramazzottius varieornatus
+metazoans_mit	NC_031611.1	Puntius eugrammus
+metazoans_mit	NC_032084.1	Achalinus spinalis
+metazoans_mit	NC_032085.1	Achalinus rufescens
+metazoans_mit	NC_032283.1	Orchesella cincta
+metazoans_mit	NC_032402.1	Araneus angulatus
+metazoans_mit	NC_033521.1	Stolephorus commersonnii
+metazoans_mit	NC_033539.1	Entylia carinata 
+metazoans_mit	NC_033860.1	Hoplias intermedius
+metazoans_mit	NC_033900.1	Nothoaspis amazoniensis
+metazoans_mit	NC_034232.1	Limenitis doerriesi
+metazoans_mit	NC_034233.1	Limenitis sydyi
+metazoans_mit	NC_034234.1	Limenitis moltrechti
+metazoans_mit	NC_034235.1	Limenitis amphyssa
+metazoans_mit	NC_034330.1	Mustela itatsi
 metazoans_mit	NC_034355.1	Papilio dardanus
 metazoans_mit	NC_034356.1	Papilio rex
+metazoans_mit	NC_034656.1	Anaulaciulus koreanus
+metazoans_mit	NC_034754.1	Limenitis helmanni
+metazoans_mit	NC_034995.1	Helicana wuana 
+metazoans_mit	NC_035151.1	Cyrtopodion scabrum 
+metazoans_mit	NC_035152.1	Ptyodactylus guttatus 
+metazoans_mit	NC_035304.1	Gekko hokouensis 
+metazoans_mit	NC_035422.1	Modiolus philippinarum
+metazoans_mit	NC_035429.1	Meghimatium bilineatum
+metazoans_mit	NC_035490.1	Elysia timida
+metazoans_mit	NC_035622.1	Schismatogobius marmoratus
+metazoans_mit	NC_035685.1	Japanagallia spinosa 
+metazoans_mit	NC_035717.1	Schismatogobius ampluvinculus
+metazoans_mit	NC_035728.1	Cerastoderma edule
+metazoans_mit	NC_035994.1	Schizothorax curvilabiatus
+metazoans_mit	NC_036004.1	Anabolia bimaculata
+metazoans_mit	NC_036131.1	Yanocephalus yanonis 
+metazoans_mit	NC_036232.1	Osteobrama belangeri
+metazoans_mit	NC_036334.1	Moduza procris
+metazoans_mit	NC_036480.1	Trocnadella arisana
+metazoans_mit	NC_036956.1	Vipera berus 
+metazoans_mit	NC_037006.1	Damora sagana 
+metazoans_mit	NC_037183.1	Schizothorax molesworthi
 metazoans_mit	NC_037195.1	Hydrotaea ignava
 metazoans_mit	NC_037200.1	Dermestes maculatus
+metazoans_mit	NC_037210.1	Empoasca onukii 
+metazoans_mit	NC_037398.1	Tetraclita rufotincta 
+metazoans_mit	NC_037493.1	Haemaphysalis longicornis
+metazoans_mit	NC_037496.1	Cryptocercus meridianus 
+metazoans_mit	NC_037505.1	Pagellus acarne
+metazoans_mit	NC_037520.1	Syngnathus schlegeli
 metazoans_mit	NC_037525.1	Ornithodoros savignyi
+metazoans_mit	NC_037731.1	Dentex gibbosus
+metazoans_mit	NC_037732.1	Pagellus erythrinus
+metazoans_mit	NC_037755.1	Dentex dentex
+metazoans_mit	NC_037834.1	Dictyla platyoma 
+metazoans_mit	NC_037835.1	Metasalis populi 
+metazoans_mit	NC_037836.1	Tingis cardui 
+metazoans_mit	NC_037837.1	Trachypeplus jacobsoni 
+metazoans_mit	NC_037876.1	Falcidens acutargatus
+metazoans_mit	NC_037914.1	Cardiodactylus muiri
+metazoans_mit	NC_038130.1	Microhyla mixtura 
+metazoans_mit	NC_038179.1	Gaetice depressus 
+metazoans_mit	NC_039094.1	Nanorana ventripunctata 
+metazoans_mit	NC_039176.1	Microhyla taraiensis 
+metazoans_mit	NC_039411.1	Kaloula verrucosa 
+metazoans_mit	NC_039642.1	Idioscopus clypealis 
+metazoans_mit	NC_039688.1	Ornithodoros sonrai
+metazoans_mit	NC_039696.1	Adelpha iphiclus
+metazoans_mit	NC_039697.1	Athyma kanwa
+metazoans_mit	NC_039698.1	Parasarpa zayla
+metazoans_mit	NC_039699.1	Athyma jina
+metazoans_mit	NC_039714.1	Phryganea cinerea
+metazoans_mit	NC_039830.1	Ornithodoros tholozani
+metazoans_mit	NC_039831.1	Ornithodoros parkeri
+metazoans_mit	NC_039832.1	Ornithodoros hermsi
+metazoans_mit	NC_039833.1	Athyma gutama
 metazoans_mit	NC_039847.1	Octopus cyanea
+metazoans_mit	NC_039857.1	Ornithodoros coriaceus
+metazoans_mit	NC_039858.1	Adelpha ethelda
+metazoans_mit	NC_039859.1	Sumalia zulema
+metazoans_mit	NC_039860.1	Moduza lysanias
+metazoans_mit	NC_039862.1	Limenitis weidemeyerii
+metazoans_mit	NC_039863.1	Limenitis glorifica
+metazoans_mit	NC_039865.1	Limenitis reducta
+metazoans_mit	NC_039866.1	Limenitis camilla
+metazoans_mit	NC_039868.1	Limenitis archippus
+metazoans_mit	NC_039869.1	Limenitis arthemis
+metazoans_mit	NC_039870.1	Athyma pravara
+metazoans_mit	NC_039871.1	Limenitis ciocolatina
+metazoans_mit	NC_039873.1	Athyma recurva
+metazoans_mit	NC_039874.1	Litinga mimica
+metazoans_mit	NC_039876.1	Athyma disjuncta
+metazoans_mit	NC_039877.1	Litinga cottini
+metazoans_mit	NC_039878.1	Limenitis populi
+metazoans_mit	NC_039879.1	Athyma nefte
+metazoans_mit	NC_039880.1	Athyma fortuna
+metazoans_mit	NC_039881.1	Limenitis cleophas
+metazoans_mit	NC_039884.1	Limenitis lorquini
+metazoans_mit	NC_039885.1	Adelpha bredowii
+metazoans_mit	NC_039886.1	Athyma libnites
+metazoans_mit	NC_039986.1	Lasiommata deidamia 
+metazoans_mit	NC_040859.1	Mesabolivar sp.
+metazoans_mit	NC_040861.1	Mesabolivar sp. ITV1036I3
+metazoans_mit	NC_040957.1	Acanthopagrus schlegelii x Pagrus major
+metazoans_mit	NC_041068.1	Elaphe dione
+metazoans_mit	NC_041120.1	Cheliceroides longipalpis
+metazoans_mit	NC_041124.1	Sphenomorphus incognitus 
+metazoans_mit	NC_041202.1	Cryptopone sauteri 
+metazoans_mit	NC_041247.1	Helix pomatia
+metazoans_mit	NC_041250.1	Microtus agrestis 
+metazoans_mit	NC_042163.1	Isonychia kiangsinensis 
+metazoans_mit	NC_042168.1	Trichiurus haumela
+metazoans_mit	NC_042684.1	Stolephorus waitei
+metazoans_mit	NC_042729.1	Stolephorus insularis
+metazoans_mit	NC_042809.1	Leptoglossus membranaceus 
+metazoans_mit	NC_042829.1	Epeus alboguttatus
+metazoans_mit	NC_042882.1	Gephyrocharax atracaudatus
+metazoans_mit	NC_042902.1	Loxosceles similis
+metazoans_mit	NC_043772.1	Mecistocephalus marmoratus
+metazoans_mit	NC_044081.1	Harpactocrates apennicola
+metazoans_mit	NC_044097.1	Dentex angolensis
+metazoans_mit	NC_044099.1	Parachtes romandiolae
+metazoans_mit	NC_044101.1	Neoscona scylla
+metazoans_mit	NC_044125.1	Anolis punctatus 
+metazoans_mit	NC_044130.1	Modiolus nipponicus
+metazoans_mit	NC_044653.1	Neoscona multiplicans
+metazoans_mit	NC_044695.1	Argiope perforata
+metazoans_mit	NC_044696.1	Cyclosa japonica
+metazoans_mit	NC_044705.1	Hypsauchenia hardwickii 
+metazoans_mit	NC_044707.1	Leptocentrus albolineatus 
+metazoans_mit	NC_044708.1	Tricentrus brunneus 
+metazoans_mit	NC_044710.1	Limnephilus hyalinus
+metazoans_mit	NC_044784.1	Ryssota otaheitana
 metazoans_mit	NC_044849.1	Dermestes tessellatocollis
 metazoans_mit	NC_044850.1	Dermestes frischii
 metazoans_mit	NC_044851.1	Dermestes coarctatus
+metazoans_mit	NC_044898.1	Cociella crocodilus
+metazoans_mit	NC_044966.1	Macrovipera schweizeri 
+metazoans_mit	NC_044967.1	Xerotyphlops vermicularis 
+metazoans_mit	NC_045110.1	Microhyla fissipes 
 metazoans_mit	NC_045231.1	Reticulitermes tibialis
+metazoans_mit	NC_045238.1	Abrus expansivus 
 metazoans_mit	NC_045240.1	Reticulitermes lucifugus
+metazoans_mit	NC_045270.1	Paramacrosteles nigromaculatus 
+metazoans_mit	NC_046031.1	Neoplerochila paliatseasi 
+metazoans_mit	NC_046037.1	Limassolla lingchuanensis 
+metazoans_mit	NC_046044.1	Arion vulgaris
+metazoans_mit	NC_046048.1	Idiocerus salicis 
+metazoans_mit	NC_046067.1	Krisna concava 
+metazoans_mit	NC_046068.1	Krisna rufimarginata 
+metazoans_mit	NC_046470.1	Mellicta ambigua
+metazoans_mit	NC_046535.1	Bryodema nigroptera 
+metazoans_mit	NC_046543.1	Bryodema dolichoptera 
+metazoans_mit	NC_046553.1	Bryodemacris uvarovi 
+metazoans_mit	NC_046554.1	Bryodemella tuberculata diluta 
+metazoans_mit	NC_046701.1	Tituria pyramidata 
+metazoans_mit	NC_046736.1	Oxyopes hupingensis
+metazoans_mit	NC_046940.1	Girella melanichthys
+metazoans_mit	NC_047196.1	Ovis ammon ammon 
+metazoans_mit	NC_047404.1	Sarcophaga brevicornis 
+metazoans_mit	NC_047427.1	Eospalax rufescens
+metazoans_mit	NC_047464.1	Paraahimia luodianensis 
+metazoans_mit	NC_048491.1	Trichopria drosophilae 
+metazoans_mit	NC_048516.1	Empoascanara sipra 
+metazoans_mit	NC_049087.1	Cofana yasumatsui 
+metazoans_mit	NC_049151.1	Dentex hypselosomus
+metazoans_mit	NC_050164.1	Sphyraena pinguis
 metazoans_mit	NC_050255.1	Amblyomma ovale
+metazoans_mit	NC_050894.1	Pareas boulengeri 
+metazoans_mit	NC_050905.1	Lethe baileyi 
+metazoans_mit	NC_050906.1	Lethe baucis 
+metazoans_mit	NC_050907.1	Lethe hayashii 
+metazoans_mit	NC_050908.1	Lethe helle 
+metazoans_mit	NC_050909.1	Lethe marginalis 
+metazoans_mit	NC_050910.1	Lethe nigrifascia 
+metazoans_mit	NC_050911.1	Lethe oculatissima 
+metazoans_mit	NC_050913.1	Lethe syrcis 
+metazoans_mit	NC_050914.1	Lethe titania 
+metazoans_mit	NC_050915.1	Lethe uemurai 
+metazoans_mit	NC_050916.1	Lethe verma 
+metazoans_mit	NC_051514.1	Stenocephalemys albipes
+metazoans_mit	NC_051515.1	Stenocephalemys ruppi
+metazoans_mit	NC_051516.1	Stenocephalemys sokolovi
+metazoans_mit	NC_051517.1	Stenocephalemys griseicauda
+metazoans_mit	NC_051518.1	Stenocephalemys albocaudata
+metazoans_mit	NC_051519.1	Stenocephalemys zimai
+metazoans_mit	NC_051983.1	Nematobrycon palmeri
+metazoans_mit	NC_051985.1	Reticuluma hamata 
+metazoans_mit	NC_052836.1	Gekko subpalmatus 
+metazoans_mit	NC_053646.1	Allonychiurus kimi 
+metazoans_mit	NC_053648.1	Oxyopes licenti
+metazoans_mit	NC_053655.1	Teratoscincus roborowskii 
 metazoans_mit	NC_053738.1	Cyriopagopus hainanus
+metazoans_mit	NC_053796.1	Grammomys surdaster
+metazoans_mit	NC_053797.1	Grammomys dolichurus
+metazoans_mit	NC_053798.1	Grammomys selousi
+metazoans_mit	NC_053802.1	Arvicanthis rufinus
+metazoans_mit	NC_053803.1	Mylomys dybowskii
+metazoans_mit	NC_053804.1	Lamottemys okuensis
+metazoans_mit	NC_053805.1	Desmomys harringtoni
+metazoans_mit	NC_053806.1	Hybomys univittatus
+metazoans_mit	NC_053807.1	Stochomys longicaudatus
+metazoans_mit	NC_053808.1	Dephomys defua
+metazoans_mit	NC_053809.1	Hybomys planifrons
+metazoans_mit	NC_053810.1	Hybomys trivirgatus
+metazoans_mit	NC_053811.1	Otomys typus
+metazoans_mit	NC_053812.1	Dasymys incomtus
+metazoans_mit	NC_053813.1	Thamnomys kempi
+metazoans_mit	NC_053814.1	Thallomys paedulcus
+metazoans_mit	NC_053815.1	Golunda ellioti
+metazoans_mit	NC_053816.1	Micaelamys namaquensis
+metazoans_mit	NC_053817.1	Montemys delectorum
+metazoans_mit	NC_054173.1	Sinergasilus undulatus 
+metazoans_mit	NC_054206.1	Scincella reevesii 
+metazoans_mit	NC_056269.1	Quasipaa exilispinosa
+metazoans_mit	NC_056293.1	Tropidothorax cruciger 
+metazoans_mit	NC_056303.1	Thymallus ligericus
+metazoans_mit	NC_056403.1	Ophichthys cuchia
+metazoans_mit	NC_056777.1	Argas boueti
+metazoans_mit	NC_056779.1	Campanulotes compar 
+metazoans_mit	NC_056780.1	Acanthopagrus latus
+metazoans_mit	NC_056911.1	Tetraclita kuroshioensis 
+metazoans_mit	NC_056920.1	Hylica paradoxa 
+metazoans_mit	NC_056922.1	Kalasha nativa 
+metazoans_mit	NC_056928.1	Pseudagkistrodon rudis
+metazoans_mit	NC_056961.1	Sinotaia quadrata
+metazoans_mit	NC_057195.1	Gryllodes sigillatus 
+metazoans_mit	NC_057201.1	Phanuelus gladstone
+metazoans_mit	NC_057232.1	Ctenochaetus tominiensis
+metazoans_mit	NC_057522.1	Stictocephala bisonia 
+metazoans_mit	NC_057561.1	Diplodus sargus
+metazoans_mit	NC_058002.1	Pareas formosensis
+metazoans_mit	NC_058007.1	Stenopsyche tienmushanensis 
+metazoans_mit	NC_058244.1	Ixodes vespertilionis
+metazoans_mit	NC_058255.1	Eurycantha calcarata 
+metazoans_mit	NC_058312.1	Haemaphysalis montgomeryi
+metazoans_mit	NC_058597.1	Oxyloma wujiaquensis
 metazoans_mit	NC_058608.1	Dodona maculosa
+metazoans_mit	NC_058921.1	Phoneutria boliviensis
+metazoans_mit	NC_059064.1	Cryptocercus sanchaensis 
+metazoans_mit	NC_059066.1	Cryptocercus changbaiensis 
+metazoans_mit	NC_059069.1	Cryptocercus laojunensis 
+metazoans_mit	NC_059801.1	Aythya nyroca 
+metazoans_mit	NC_059873.1	Atypus karschi
+metazoans_mit	NC_060307.1	Bubalus quarlesi
+metazoans_mit	NC_060328.1	Phintella cavaleriei
 metazoans_mit	NC_060409.1	Rhipicephalus linnaei
+metazoans_mit	NC_060432.1	Polyura narcaeus
+metazoans_mit	NC_060553.1	Intoshia linei 
+metazoans_mit	NC_060591.1	Echis carinatus 
+metazoans_mit	NC_060592.1	Echis coloratus 
+metazoans_mit	NC_060630.1	Anisarchus medius
+metazoans_mit	NC_060739.1	Neptis raddei 
+metazoans_mit	NC_060740.1	Athyma zeroca 
+metazoans_mit	NC_060743.1	Anchon lineatum 
+metazoans_mit	NC_060744.1	Anchon yunnanense 
+metazoans_mit	NC_060745.1	Gargara genistae 
+metazoans_mit	NC_060746.1	Tricentrus longivalvulatus 
+metazoans_mit	NC_060770.1	Scaphoideus maculatus 
+metazoans_mit	NC_060771.1	Parascaphoidella transversa 
+metazoans_mit	NC_060773.1	Mimotettix multispinosus 
+metazoans_mit	NC_060980.1	Changbaninus pleiospicules 
+metazoans_mit	NC_060988.1	Micrarionta opuntia
+metazoans_mit	NC_061220.1	Halticus minutus 
+metazoans_mit	NC_061225.1	Ixodes acutitarsus
+metazoans_mit	NC_061226.1	Ixodes granulatus
 metazoans_mit	NC_061381.1	Atopochilus savorgnani
 metazoans_mit	NC_061382.1	Mochokiella paynei
 metazoans_mit	NC_061383.1	Synodontis petricola
 metazoans_mit	NC_061384.1	Synodontis caudovittatus
 metazoans_mit	NC_061385.1	Synodontis soloni
 metazoans_mit	NC_061386.1	Bagrus docmak
+metazoans_mit	NC_061408.1	Plator insolens
 metazoans_mit	NC_061616.1	Rhipicephalus camicasi
 metazoans_mit	NC_061628.1	Actenodia billbergi
 metazoans_mit	NC_061629.1	Apalus guerini
@@ -2497,11 +3140,44 @@ metazoans_mit	NC_061636.1	Leptopalpus rostratus
 metazoans_mit	NC_061637.1	Megetra punctata
 metazoans_mit	NC_061638.1	Mylabris quadripunctata
 metazoans_mit	NC_061639.1	Oenas fusicornis
+metazoans_mit	NC_061683.1	Hampala salweenensis
 metazoans_mit	NC_061920.1	Atopodontus adriaensi
 metazoans_mit	NC_061921.1	Synodontis punu
 metazoans_mit	NC_061922.1	Chiloglanis macropterus
 metazoans_mit	NC_061923.1	Synodontis khartoumensis
 metazoans_mit	NC_061924.1	Schilbe grenfelli
+metazoans_mit	NC_062007.1	Cornularia pabloi
+metazoans_mit	NC_062015.1	Isidoides armata
+metazoans_mit	NC_062021.1	Ovabunda macrospiculata
+metazoans_mit	NC_062060.1	Ixodes simplex
+metazoans_mit	NC_062061.1	Ixodes ovatus
+metazoans_mit	NC_062062.1	Ixodes nuttallianus
+metazoans_mit	NC_062063.1	Haemaphysalis sulcata
+metazoans_mit	NC_062157.1	Ixodes kuntzi
+metazoans_mit	NC_062158.1	Haemaphysalis doenitzi
+metazoans_mit	NC_062162.1	Haemaphysalis cornigera
+metazoans_mit	NC_062163.1	Haemaphysalis mageshimaensis
+metazoans_mit	NC_062606.1	Cassianeura bimaculata 
+metazoans_mit	NC_062625.1	Ixodes australiensis
+metazoans_mit	NC_062668.1	Brachypelma albiceps
+metazoans_mit	NC_062677.1	Calamaria septentrionalis
+metazoans_mit	NC_062842.1	Atkinsoniella yunnanana 
+metazoans_mit	NC_062843.1	Atkinsoniella aurantiaca 
+metazoans_mit	NC_062844.1	Atkinsoniella curvata 
+metazoans_mit	NC_062845.1	Atkinsoniella flavipenna 
+metazoans_mit	NC_062846.1	Atkinsoniella longiuscula 
+metazoans_mit	NC_062847.1	Atkinsoniella thalia 
+metazoans_mit	NC_062848.1	Atkinsoniella thaloidea 
+metazoans_mit	NC_062849.1	Atkinsoniella tiani 
+metazoans_mit	NC_062850.1	Atkinsoniella uniguttata 
+metazoans_mit	NC_062851.1	Atkinsoniella warpa 
+metazoans_mit	NC_062852.1	Atkinsoniella wui 
+metazoans_mit	NC_062853.1	Atkinsoniella xanthoabdomena 
+metazoans_mit	NC_063114.1	Chilabothrus argentum
+metazoans_mit	NC_063460.1	Lopinga achine
+metazoans_mit	NC_063500.1	Saurida nebulosa
+metazoans_mit	NC_063530.1	Sillago panhwari
+metazoans_mit	NC_063589.1	Echis omanensis 
 metazoans_mit	NC_063597.1	Pinnotheres pholadis
 metazoans_mit	NC_063598.1	Arcotheres purpureus
 metazoans_mit	NC_063599.1	Pinnotheres excussus
@@ -2509,13 +3185,247 @@ metazoans_mit	NC_063600.1	Amusiotheres obtusidentatus
 metazoans_mit	NC_063601.1	Xenophthalmus pinnotheroides
 metazoans_mit	NC_063602.1	Plagusia squamosa
 metazoans_mit	NC_063605.1	Pinnaxodes major
+metazoans_mit	NC_063676.1	Cepola schlegelii
+metazoans_mit	NC_063689.1	Inegocia japonica
+metazoans_mit	NC_063705.1	Zeus faber
+metazoans_mit	NC_063771.1	Cellana orientalis
+metazoans_mit	NC_063774.1	Syngnathus californiensis
+metazoans_mit	NC_063775.1	Syngnathus euchrous
+metazoans_mit	NC_063776.1	Syngnathus auliscus
+metazoans_mit	NC_063777.1	Syngnathus leptorhynchus
+metazoans_mit	NC_063778.1	Syngnathus exilis
+metazoans_mit	NC_064110.1	Pardosa pusiola
+metazoans_mit	NC_064339.1	Diplodus cervinus
+metazoans_mit	NC_064399.1	Araniella displicata
+metazoans_mit	NC_064981.1	Argynnis anadyomene 
+metazoans_mit	NC_065030.1	Mycalesis francisca 
+metazoans_mit	NC_065070.1	Limenitis sulpitia 
+metazoans_mit	NC_065071.1	Hylomyscus aeta
+metazoans_mit	NC_065073.1	Hylomyscus endorobae
+metazoans_mit	NC_065082.1	Praomys hartwigi
+metazoans_mit	NC_065134.1	Abrus daozhenensis 
+metazoans_mit	NC_065135.1	Abrus yunshanensis 
+metazoans_mit	NC_065340.1	Acanthurus triostegus
+metazoans_mit	NC_065490.1	Cosmocampus elucens
+metazoans_mit	NC_065497.1	Syngnathus floridae
+metazoans_mit	NC_065498.1	Syngnathus pelagicus
+metazoans_mit	NC_065499.1	Syngnathus scovelli
+metazoans_mit	NC_065819.1	Ischnodemus noctulus 
+metazoans_mit	NC_065820.1	Macropes harringtonae 
+metazoans_mit	NC_065821.1	Macropes dentipes 
+metazoans_mit	NC_065822.1	Macropes robustus 
+metazoans_mit	NC_066160.1	Nesophrosyne sp. 281 GMB-2012
+metazoans_mit	NC_066164.1	Nesophrosyne sp. 29 GMB-2012
+metazoans_mit	NC_066165.1	Nesophrosyne sp. 126 GMB-2012
+metazoans_mit	NC_066171.1	Nesophrosyne sp. 15 GMB-2012
+metazoans_mit	NC_066173.1	Nesophrosyne maritima 
+metazoans_mit	NC_066174.1	Nesophrosyne sp. 246 GMB-2012
+metazoans_mit	NC_066234.1	Emydocephalus ijimae
+metazoans_mit	NC_066441.1	Oecleopsis sinicus 
+metazoans_mit	NC_066453.1	Hemidactylus almakhwah
+metazoans_mit	NC_066454.1	Hemidactylus farasani
+metazoans_mit	NC_066455.1	Hemidactylus mandebensis
+metazoans_mit	NC_066456.1	Hemidactylus ulii 
+metazoans_mit	NC_066478.1	Rivularia ovum
+metazoans_mit	NC_066479.1	Rivularia globosa
+metazoans_mit	NC_066506.1	Argyrops bleekeri
+metazoans_mit	NC_066909.1	Oliotius oligolepis
+metazoans_mit	NC_066987.1	Oeneis buddha 
+metazoans_mit	NC_066988.1	Paroeneis palaearcticus 
+metazoans_mit	NC_067049.1	Amara ovata
 metazoans_mit	NC_067077.1	Cavernularia habereri
+metazoans_mit	NC_067602.1	Neohirasea stephanus 
+metazoans_mit	NC_067620.1	Teratoscincus przewalskii 
+metazoans_mit	NC_067861.1	Ixodes columnae
+metazoans_mit	NC_067905.1	Ixodes angustus
+metazoans_mit	NC_067906.1	Alectorobius atacamensis
+metazoans_mit	NC_067909.1	Ornithodoros erraticus
+metazoans_mit	NC_067910.1	Alectorobius fonsecai
+metazoans_mit	NC_067911.1	Ornithodoros furcosus
+metazoans_mit	NC_067912.1	Alectorobius guaporensis
+metazoans_mit	NC_067914.1	Alectorobius microlophi
+metazoans_mit	NC_067915.1	Alectorobius mimon
+metazoans_mit	NC_067918.1	Alectorobius peruvianus
+metazoans_mit	NC_067919.1	Alectorobius puertoricensis
+metazoans_mit	NC_067920.1	Alectorobius rietcorreai
+metazoans_mit	NC_067921.1	Alectorobius rioplatensis
+metazoans_mit	NC_067922.1	Alectorobius rudis
+metazoans_mit	NC_067923.1	Ornithodoros tabajara
+metazoans_mit	NC_067925.1	Ornithodoros asperus
+metazoans_mit	NC_068236.1	Pelodiscus sinensis 
+metazoans_mit	NC_068539.1	Stephanitis chinensis 
+metazoans_mit	NC_068667.1	Aulocera merlina
+metazoans_mit	NC_068905.1	Mandarinia regalis
+metazoans_mit	NC_069160.1	Uzeldikra longiprocessa 
+metazoans_mit	NC_069161.1	Agnesiella rita 
+metazoans_mit	NC_069163.1	Aguriahana triangularis 
+metazoans_mit	NC_069166.1	Typhlocyba choui 
+metazoans_mit	NC_069167.1	Vatana ogromna 
+metazoans_mit	NC_069172.1	Agnesiella aldera 
+metazoans_mit	NC_069174.1	Eurhadina exclamationis 
+metazoans_mit	NC_069175.1	Farynala dextra 
+metazoans_mit	NC_069178.1	Opamata lipcowa 
+metazoans_mit	NC_069199.1	Aphidius colemani 
+metazoans_mit	NC_069226.1	Sinocyclocheilus anatirostris
+metazoans_mit	NC_069235.1	Lepidostoma longipilosum
+metazoans_mit	NC_069238.1	Plectrocnemia tsukuiensis
+metazoans_mit	NC_069239.1	Abaria herringbona 
+metazoans_mit	NC_069250.1	Chimarra paramonorum 
+metazoans_mit	NC_069252.1	Dolophilodes bellatulus 
+metazoans_mit	NC_069254.1	Eubasilissa sinensis 
+metazoans_mit	NC_069258.1	Gumaga orientalis 
+metazoans_mit	NC_069263.1	Hydroptila angulata 
+metazoans_mit	NC_069266.1	Lepidostoma inops 
+metazoans_mit	NC_069276.1	Paduniella communis 
+metazoans_mit	NC_069278.1	Pseudoneureclipsis achim 
+metazoans_mit	NC_069279.1	Pseudoneureclipsis sibuyana 
+metazoans_mit	NC_069280.1	Pseudopotamorites peniculus 
+metazoans_mit	NC_069281.1	Pseudostenophylax fumosus 
+metazoans_mit	NC_069282.1	Psychomyia kalais 
+metazoans_mit	NC_069287.1	Stenopsyche navasi 
+metazoans_mit	NC_069291.1	Wormaldia unispina
+metazoans_mit	NC_069862.1	Kapsa arca 
+metazoans_mit	NC_069999.1	Paratkina nigrifasciana 
+metazoans_mit	NC_070000.1	Nanatka castenea 
+metazoans_mit	NC_070001.1	Erragonalia choui 
+metazoans_mit	NC_070004.1	Nabicerus dentimus 
+metazoans_mit	NC_070060.1	Athyma orientalis 
+metazoans_mit	NC_070073.1	Kali macrodon
+metazoans_mit	NC_070074.1	Kali macrura
+metazoans_mit	NC_070075.1	Kali normani
+metazoans_mit	NC_070110.1	Vagrans egista 
+metazoans_mit	NC_070111.1	Melitaea bellona 
+metazoans_mit	NC_070116.1	Argestina pomena 
+metazoans_mit	NC_070167.1	Lethe distans 
+metazoans_mit	NC_070282.1	Cheiracanthium insigne
+metazoans_mit	NC_070289.1	Tremoctopus violaceus
+metazoans_mit	NC_071375.1	Tricentrus gammamaculatus 
+metazoans_mit	NC_071765.1	Haemaphysalis bispinosa
+metazoans_mit	NC_071856.1	Parasa lepida 
+metazoans_mit	NC_072058.1	Monacha cartusiana
+metazoans_mit	NC_072141.1	Sosibia ovata 
+metazoans_mit	NC_072149.1	Stephanitis nashi 
+metazoans_mit	NC_072173.1	Elassoma alabamae
+metazoans_mit	NC_072296.1	Macrhybopsis tetranema
+metazoans_mit	NC_072936.1	Pagrus pagrus
 metazoans_mit	NC_072952.1	Rhipicephalus rutilus
+metazoans_mit	NC_072988.1	Macropsis irenae
+metazoans_mit	NC_072989.1	Macropsis huangbana
+metazoans_mit	NC_072990.1	Macropsis hainanensis
+metazoans_mit	NC_072991.1	Macropsis perpetua
+metazoans_mit	NC_072992.1	Macropsis ocellata
+metazoans_mit	NC_072994.1	Pedionis sagittata
+metazoans_mit	NC_072995.1	Pediopsoides anchorides
+metazoans_mit	NC_072996.1	Idioscopus ventrispinus
+metazoans_mit	NC_072998.1	Chinaocerus tubulatus
+metazoans_mit	NC_073096.1	Anagonalia emeiensis
+metazoans_mit	NC_073508.1	Aconurella diplachnis 
+metazoans_mit	NC_073509.1	Aconurella montana 
+metazoans_mit	NC_073510.1	Aconurella sibirica 
+metazoans_mit	NC_073511.1	Leofa pulchella 
+metazoans_mit	NC_073513.1	Zahniserius cylindricus 
+metazoans_mit	NC_073525.1	Wormaldia spinosa
+metazoans_mit	NC_073544.1	Pollicipes pollicipes 
+metazoans_mit	NC_077475.1	Sinocentrus brevicornis 
 metazoans_mit	NC_077600.1	Onukindia connexa
 metazoans_mit	NC_077601.1	Carinata dushanensis
 metazoans_mit	NC_077602.1	Apphia rufipenna
 metazoans_mit	NC_077603.1	Apphia sp.
 metazoans_mit	NC_077604.1	Cunedda sp.
+metazoans_mit	NC_077640.1	Coleonyx mitratus 
+metazoans_mit	NC_079621.1	Krisna expansiva 
+metazoans_mit	NC_079622.1	Krisna furcata 
+metazoans_mit	NC_079623.1	Krisna nigromarginata 
+metazoans_mit	NC_079624.1	Krisna quadrimaculosus 
+metazoans_mit	NC_079670.1	Neope ramosa 
+metazoans_mit	NC_079673.1	Argestina inconstans 
+metazoans_mit	NC_079676.1	Athyma daraxa 
+metazoans_mit	NC_079947.1	Calinaga buddha 
+metazoans_mit	NC_080318.1	Batracomorphus allionii 
+metazoans_mit	NC_080322.1	Batracomorphus extentus 
+metazoans_mit	NC_080324.1	Batracomorphus lineatus 
+metazoans_mit	NC_080326.1	Batracomorphus nigromarginattus 
+metazoans_mit	NC_080327.1	Batracomorphus notatus 
+metazoans_mit	NC_080489.1	Sungaya inexpectata
+metazoans_mit	NC_080534.1	Goniurosaurus varius
+metazoans_mit	NC_080957.1	Halistemma rubrum
+metazoans_mit	NC_081034.1	Neosilurus hyrtlii
+metazoans_mit	NC_081038.1	Tandanus tandanus
+metazoans_mit	NC_082145.1	Nesidiocoris poppiusi
+metazoans_mit	NC_082149.1	Stigmaeopsis nanjingensis
+metazoans_mit	NC_082220.1	Charonia tritonis
+metazoans_mit	NC_082230.1	Porochilus rendahli
+metazoans_mit	NC_082565.1	Zenopsis conchifer
+metazoans_mit	NC_082569.1	Antigonia combatia
+metazoans_mit	NC_082571.1	Acanthurus tractus
+metazoans_mit	NC_082911.1	Psilochorema bidens
+metazoans_mit	NC_082939.1	Syngnathus temminckii
+metazoans_mit	NC_082985.1	Gigantura indica
+metazoans_mit	NC_082990.1	Diplodus holbrookii
+metazoans_mit	NC_082991.1	Calamus penna
+metazoans_mit	NC_083000.1	Ogcocephalus parvus
+metazoans_mit	NC_083001.1	Zalieutes elater
+metazoans_mit	NC_083007.1	Xenolepidichthys dalgleishi
+metazoans_mit	NC_083013.1	Hollardia hollardi
+metazoans_mit	NC_083032.1	Saurida brasiliensis
+metazoans_mit	NC_083036.1	Symphurus plagiusa
+metazoans_mit	NC_083068.1	Stemonosudis rothschildi
+metazoans_mit	NC_083118.1	Centrotypus laticornis
+metazoans_mit	NC_083158.1	Synchiropus atrilabiatus
+metazoans_mit	NC_083163.1	Caulolatilus cyanops
+metazoans_mit	NC_083268.1	Epicrates crassus
+metazoans_mit	NC_083392.1	Telingana formosanus
+metazoans_mit	NC_083611.1	Leptobelus boreosinensis
+metazoans_mit	NC_083664.1	Nondenticentrus paramelanicus
+metazoans_mit	NC_083900.1	Antialcidas trifoliaceus
+metazoans_mit	NC_083901.1	Hemicentrus obliquus
+metazoans_mit	NC_083902.1	Leptocentrus longispinus
+metazoans_mit	NC_083903.1	Pantaleon erectonodatus
+metazoans_mit	NC_083904.1	Tribulocentrus zhenbaensis
+metazoans_mit	NC_083962.1	Syngnathus watermeyeri
+metazoans_mit	NC_084104.1	Tenuidactylus dadunensis
+metazoans_mit	NC_084230.1	Polysteganus undulosus
+metazoans_mit	NC_084294.1	Seriana bacilla
+metazoans_mit	NC_084370.1	Branchiostegus auratus
+metazoans_mit	NC_084447.1	Sophonia microstaina
+metazoans_mit	NC_085232.1	Ergasilus anchoratus
+metazoans_mit	NC_085275.1	Haemaphysalis taiwana
+metazoans_mit	NC_085346.1	Uroobovella oviformis
+metazoans_mit	NC_085484.1	Ixodes crenulatus
+metazoans_mit	NC_085494.1	Grammomys macmillani
+metazoans_mit	NC_085677.1	Stephanitis pyrioides
+metazoans_mit	NC_085827.1	Aphrodes bicincta
+metazoans_mit	NC_085828.1	Planaphrodes nigricans
+metazoans_mit	NC_085830.1	Planaphrodes sahlbergii
+metazoans_mit	NC_085831.1	Stroggylocephalus agrestis
+metazoans_mit	NC_086533.1	Kuohzygia albolinea
+metazoans_mit	NC_086535.1	Limassolla fasciata
+metazoans_mit	NC_086536.1	Limassolla galewskii
+metazoans_mit	NC_086538.1	Sannella crucifera
+metazoans_mit	NC_086591.1	Anteliomys olitor
+metazoans_mit	NC_086633.1	Anaceratagallia venosa
+metazoans_mit	NC_086634.1	Dryodurgades tortilis
+metazoans_mit	NC_086635.1	Igerna tenuicaula
+metazoans_mit	NC_086636.1	Igerna wilsoni
+metazoans_mit	NC_086637.1	Japanagallia neohamata
+metazoans_mit	NC_086638.1	Japanagallia trifurcata
+metazoans_mit	NC_086639.1	Multinervis guangxiensis
+metazoans_mit	NC_086654.1	Melampus sincaporensis
+metazoans_mit	NC_086763.1	Monolepta bicavipennis
+metazoans_mit	NC_086764.1	Monolepta cavipennis
+metazoans_mit	NC_086766.1	Monolepta pallidula
+metazoans_mit	NC_086791.1	Carausius morosus
+metazoans_mit	NC_086964.1	Gnathophyllum americanum
+metazoans_mit	NC_087622.1	Oncorhynchus chrysogaster
+metazoans_mit	NC_087839.1	Neohirasea hongkongensis
+metazoans_mit	NC_087880.1	Haemaphysalis novaeguineae
+metazoans_mit	NC_087981.1	Acanthurus bahianus
+metazoans_mit	NC_087988.1	Chaetodipterus faber
+metazoans_mit	NC_088427.1	Pagrus auratus
+metazoans_mit	NC_088428.1	Centrotypus assamensis
+metazoans_mit	NC_088517.1	Maniola hyperantus
+metazoans_mit	NC_088572.1	Pachyscia longicauda
+metazoans_mit	NC_088774.1	Heptathela kimurai
 metazoans_mit	OK078614.1	Dugesia constrictiva
 metazoans_mit	OK173837.1	Dikerogammarus villosus
 metazoans_mit	OK173839.1	Dikerogammarus haemobaphes
@@ -2525,6 +3435,7 @@ metazoans_mit	OK181853.1	Rhacophorus rhodopus
 metazoans_mit	OK245257.1	Isocladus armatus partial genome
 metazoans_mit	OK272541.1	Tuberfemurus viridulus
 metazoans_mit	OK480618.1	Thanatophilus sinuatus
+metazoans_mit	OK504623.1	Acheta domesticus 
 metazoans_mit	OK545741.1	Anastatus fulloi partial genome
 metazoans_mit	OK563253.1	Cacatua haematuropygia partial genome
 metazoans_mit	OK638152.1	Mylabris mongolica
@@ -2538,6 +3449,8 @@ metazoans_mit	OL740028.1	Aphrosylus celtiber
 metazoans_mit	OL740029.1	Dolichopus linearis
 metazoans_mit	OL740030.1	Scellus sinensis
 metazoans_mit	OL740031.1	Stolidosoma sp.
+metazoans_mit	OL741737.1	Alectorobius capensis
+metazoans_mit	OM048922.1	Seriana sp. 'barna' 
 metazoans_mit	OM237313.1	Budorcas taxicolor bedfordi
 metazoans_mit	OM371324.1	Paucumara falcata
 metazoans_mit	OM525852.1	Paradiplozoon homoion
@@ -2814,19 +3727,28 @@ metazoans_mit	OP616798.1	Eutrichota similis
 metazoans_mit	OP616799.1	Pegomya flaviprecoxa
 metazoans_mit	OP616800.1	Pegomya sp.
 metazoans_mit	OP616801.1	Anthomyia confusanea
+metazoans_mit	OP723481.1	Megathrips lativentris 
 metazoans_mit	OP857516.1	Raillietiella orientalis
 metazoans_mit	OP910112.1	Thrips parvispinus
+metazoans_mit	OP985635.1	Lissachatina fulica
 metazoans_mit	OQ133456.1	Acmaea mitra
 metazoans_mit	OQ184758.1	Lontra longicaudis
 metazoans_mit	OQ225244.1	Melipona fasciculata
 metazoans_mit	OQ298836.1	Staphida castaniceps partial genome
 metazoans_mit	OQ331104.1	Madracis myriaster
+metazoans_mit	OQ331240.1	Idioscopus sp. 'myrica'
+metazoans_mit	OQ429315.1	Parabathippus shelfordi
 metazoans_mit	OQ472265.1	Mirina confucius
 metazoans_mit	OQ521666.1	Eurhynchothrips messuicola
+metazoans_mit	OQ621798.1	Subulatus sp. 
+metazoans_mit	OQ621799.1	Apphia nigricarina 
+metazoans_mit	OQ621800.1	Apphia nigricauda 
 metazoans_mit	OQ674767.1	Dinera similis
 metazoans_mit	OQ674768.1	Estheria wangi
 metazoans_mit	OQ674769.1	Prosena siberita
 metazoans_mit	OQ674770.1	Leptothelaira longipennis
+metazoans_mit	OQ682524.1	Carausius sp. 
+metazoans_mit	OQ694802.1	Pelophylax cerigensis
 metazoans_mit	OQ729892.1	Apharyngtus punicus
 metazoans_mit	OQ729894.1	Laonice sp.
 metazoans_mit	OQ729895.1	Mesonerilla intermedia
@@ -2857,8 +3779,11 @@ metazoans_mit	OQ729920.1	Pisionidens tchesunovi
 metazoans_mit	OQ729921.1	Protodorvillea kefersteini
 metazoans_mit	OQ729922.1	Protodrilus rubropharyngeus
 metazoans_mit	OQ729923.1	Sabellaria alveolata
+metazoans_mit	OQ736941.1	Malaccina discoidalis 
+metazoans_mit	OQ851501.1	Charaxes kahruba 
 metazoans_mit	OQ918628.1	Tetragonula carbonaria
 metazoans_mit	OQ918629.1	Tetragonula hockingsi
+metazoans_mit	OQ957197.1	Halistemma rubrum
 metazoans_mit	OQ957204.1	Abylopsis tetragona
 metazoans_mit	OQ993068.1	Amrasca biguttula biguttula
 metazoans_mit	OR018834.1	Frankliniella gardeniae
@@ -3484,11 +4409,6 @@ metazoans_mit	OY540823.1	Sialis fuliginosa
 metazoans_mit	OY540855.1	Mythimna pallens
 metazoans_mit	OY560209.1	Perizoma affinitatum
 metazoans_mit	X84350.2	Penaeus notialis partial genome
-green_algae_mit	NW_014013625.1	Monoraphidium neglectum
-green_algae_plt	AP025008.1	Coccomyxa sp.
-green_algae_plt	MN701985.1	Chaetophoropsis cf. attenuata contig 1
-green_algae_plt	NC_037007.1	Haematococcus lacustris
-green_algae_plt	NC_037007.1	Haematococcus lacustris
 plants_mit	AB073400.1	Brassica napus mitochondrial linear plasmid DNA
 plants_mit	AF522195.2	Cucumis sativus minicircle pC3
 plants_mit	BK059202.1	Cuscuta australis contig6
@@ -3829,6 +4749,7 @@ plants_mit	OM461351.1	Populus deltoides chromosome M01
 plants_mit	OM461352.1	Populus deltoides chromosome M02
 plants_mit	OM461353.1	Populus deltoides chromosome M03
 plants_mit	OM952136.1	Fagonia cretica
+plants_mit	ON890400.1	Cistanche deserticola chromosome 1 
 plants_mit	OP465217.1	Paphiopedilum micranthum chromosome 18
 plants_mit	OP973803.1	Lilium tsingtauense chromosome 21
 plants_mit	OP973807.1	Lilium tsingtauense chromosome 25
@@ -4151,11 +5072,14 @@ plants_plt	OQ052994.1	Helianthus giganteus
 plants_plt	OQ053275.1	Helianthus niveus subsp. tephrodes
 plants_plt	OQ658673.1	Porella gracillima
 protists_mit	AB599931.1	Plasmodium vinckei vinckei
+protists_mit	AP025530.1	Galdieria partita
 protists_mit	BDQF01000743.1	Plasmodium gonderi
 protists_mit	CM007352.1	Plasmodium brasilianum
 protists_mit	CP102587.1	Theileria orientalis
 protists_mit	CP115540.1	Plasmodium yoelii yoelii
 protists_mit	FJ895307.2	Plasmodium gaboni
+protists_mit	GQ903130.1	Euplotes minuta
+protists_mit	GQ903131.1	Moneuplotes crassus
 protists_mit	HM032052.1	Plasmodium inui
 protists_mit	HQ702482.1	Eimeria necatrix
 protists_mit	JN383843.1	Oxytricha trifallax
@@ -4164,6 +5088,8 @@ protists_mit	KU057169.1	Moramonas marocensis clone Mm_10.1
 protists_mit	KU057171.1	Moramonas marocensis clone Mm_3
 protists_mit	KU057172.1	Moramonas marocensis clone Mm_4
 protists_mit	KU057178.1	Moramonas marocensis clone Mm_10.2
+protists_mit	KU501221.1	Vischeria sp.
+protists_mit	KU501222.1	Monodopsis sp.
 protists_mit	KX094950.1	Eimeria tenella
 protists_mit	KX094963.1	Eimeria mitis
 protists_mit	KX494929.1	Urostyla grandis
@@ -4194,9 +5120,26 @@ protists_mit	MK518339.1	Plasmodium sp. ex Bubalus bubalis
 protists_mit	MK570510.1	Leishmania panamensis
 protists_mit	MN078134.1	Apicomplexa sp. corallicolid ex Leiopathes glaberrima
 protists_mit	MT554701.1	Trypanosoma cruzi
+protists_mit	MT665959.1	Euplotes vannus
 protists_mit	MW491387.1	Plasmodium tropiduri tropiduri
 protists_mit	MW491389.1	Plasmodium ouropretensis
+protists_mit	MZ748319.1	Galdieria sp.
+protists_mit	NC_002573.1	Naegleria gruberi
 protists_mit	NC_012426.1	Plasmodium relictum
+protists_mit	NC_022254.1	Nannochloropsis granulata
+protists_mit	NC_022255.1	Nannochloropsis salina
+protists_mit	NC_022256.1	Nannochloropsis limnetica
+protists_mit	NC_022257.1	Nannochloropsis oculata
+protists_mit	NC_022258.1	Nannochloropsis oceanica
+protists_mit	NC_023077.1	Gelidium vagum
+protists_mit	NC_023454.1	Sporolithon durum
+protists_mit	NC_024666.1	Galdieria sulphuraria
+protists_mit	NC_029643.1	Trachydiscus minutus
+protists_mit	NC_035158.1	Thorea hispida
+protists_mit	NC_041506.1	Vischeria stellata
+protists_mit	NC_053318.1	Galdieria phlegrea
+protists_mit	NC_065668.1	Vischeria punctata
+protists_mit	NC_085553.1	Griffithsia okiensis
 protists_mit	NW_009243181.1	Fonticula alba
 protists_mit	NW_009243182.1	Fonticula alba
 protists_mit	NW_009243183.1	Fonticula alba
@@ -4236,11 +5179,12 @@ protists_plt	MW675681.1	Erythrocladia irregularis contig 1626
 protists_plt	MW675682.1	Erythrocladia irregularis contig 1021
 protists_plt	MW675683.1	Erythrocladia irregularis contig 112
 protists_plt	MW675684.1	Porphyrostromium boryanum contig 182
+protists_plt	NC_007758.1	Theileria parva strain Muguga
 protists_plt	NC_026522.1	Choreocolax polysiphoniae
 protists_plt	NC_026523.1	Vertebrata lanosa
 protists_plt	NC_035267.1	Symphyocladia dendroidea
-protists_plt	NC_039737.1	Paulinella micropora isolate NZ27 plastid
 protists_plt	NC_039737.1	Paulinella micropora
+protists_plt	NC_039737.1	Paulinella micropora isolate NZ27 plastid
 protists_plt	NC_061749.1	Haslea ostrearia plasmid pHOZA1
 protists_plt	NC_067219.1	Babesia bovis
 protists_plt	NC_072659.1	Phymatolithon calcareum
