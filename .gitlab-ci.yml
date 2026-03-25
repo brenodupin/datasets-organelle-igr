@@ -7,7 +7,7 @@ deploy2zenodo:
     - if: $CI_COMMIT_TAG
       when: manual
   variables:
-    DEPLOY2ZENODO_API_URL: "https://sandbox.zenodo.org"
+    DEPLOY2ZENODO_API_URL: "https://sandbox.zenodo.org/api"
     DEPLOY2ZENODO_ACCESS_TOKEN: "$ZENODO_SANDBOX_TOKEN"
     DEPLOY2ZENODO_JSON: "zenodo_meta.json"
     DEPLOY2ZENODO_DEPOSITION_ID: "create NEW record"
