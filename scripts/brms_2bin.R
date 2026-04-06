@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-required_packages <- c("brms", "ape")
+required_packages <- c("brms", "ape", "posterior")
 missing_packages <- required_packages[
   !sapply(required_packages, requireNamespace, quietly = TRUE)
 ]
@@ -10,26 +10,23 @@ if (length(missing_packages) > 0) {
     "Error: Missing required R packages: ",
     paste(missing_packages, collapse = ", ")
   )
-  message(
-    "Install with: install.packages(c('",
-    paste(missing_packages, collapse = "', '"),
-    "'))"
-  )
+  message("Install with:")
+  message("  install.packages(c('brms', 'ape', 'posterior'))")
   quit(status = 1)
 }
 
-library(brms)
-library(ape)
-library(posterior)
+for (pkg in required_packages) {
+  library(pkg, character.only = TRUE)
+}
 
 set.seed(42) # Same seed for reproducibility
 
 args <- commandArgs(trailingOnly = TRUE)
 
 if (length(args) != 5) {
-  message("Error: Exactly 4 arguments required")
+  message("Error: Exactly 5 arguments required")
   message(
-    "Usage: Rscript create_brm.R <tree.nwk> <igs_summary.tsv> <summary.txt> <moldel.rds> <results_row.tsv>" # nolint
+    "Usage: Rscript create_brm.R <tree.nwk> <igs_summary.tsv> <summary.txt> <model.rds> <results_row.tsv>" # nolint
   )
   quit(status = 1)
 }
@@ -39,6 +36,7 @@ igs_path <- args[2]
 summary_name <- args[3]
 out_name <- args[4]
 results_name <- args[5]
+factor_levels <- c("same", "opposite")
 
 if (!file.exists(tree_path)) {
   stop("File not found: ", tree_path)
@@ -52,13 +50,34 @@ message("Loading igs data from: ", igs_path)
 
 tree <- read.tree(tree_path)
 tree <- multi2di(tree)
-A <- vcv(tree, corr = FALSE) # nolint
 
 igr <- read.csv(igs_path, sep = "\t")
 igr$taxon_tree <- factor(igr$taxon_tree)
-igr$polarity_bin <- factor(igr$polarity_bin, levels = c("same", "opposite"))
+igr$polarity_bin <- factor(igr$polarity_bin, levels = factor_levels)
 
-n_cores <- parallel::detectCores(logical = FALSE)
+# subsample
+max_rows <- 500000
+if (nrow(igr) > max_rows) {
+  total_n <- nrow(igr)
+  message(sprintf("Subsampling %d -> %d rows", total_n, max_rows))
+  igr <- do.call(
+    rbind,
+    lapply(
+      split(igr, igr$polarity_bin),
+      function(grp) {
+        n <- max(1, round(max_rows * nrow(grp) / total_n))
+        grp[sample(nrow(grp), min(n, nrow(grp))), ]
+      }
+    )
+  )
+  igr$taxon_tree <- droplevels(igr$taxon_tree)
+}
+
+tree <- keep.tip(tree, levels(igr$taxon_tree))
+tree <- multi2di(tree)
+A <- vcv(tree, corr = FALSE) # nolint
+
+n_cores <- min(4, max(1, parallel::detectCores(logical = FALSE) - 1))
 message("Running brm with ", n_cores, " cores")
 
 fit <- brm(
@@ -67,7 +86,8 @@ fit <- brm(
   data2 = list(A = A),
   family = gaussian(),
   cores = n_cores,
-  chains = 4
+  chains = 4,
+  save_pars = save_pars(group = FALSE),
 )
 
 message("Saving brm model to: ", out_name)
@@ -90,11 +110,8 @@ sprintf("Delta PGLMM = %.3f (%.3f - %.3f)", b, lo, hi)
 sprintf("Fold  PGLMM = %.3f (%.3f - %.3f)", 10^b, 10^lo, 10^hi)
 sink()
 
-# ---------- Results-row ----------
-# Population-level predicted means per polarity (re_formula = NA), then back-transform to bp # nolint
-nd <- data.frame(
-  polarity_bin = factor(c("same", "opposite"), levels = c("same", "opposite"))
-)
+# ---------- Results ----------
+nd <- data.frame(polarity_bin = factor(factor_levels), levels = factor_levels)
 mu <- fitted(fit, newdata = nd, re_formula = NA, summary = TRUE)[, c(
   "Estimate",
   "Q2.5",
@@ -113,7 +130,7 @@ igr$length_bp <- 10^igr$log10_length
 med_same <- median(igr$length_bp[igr$polarity_bin == "same"], na.rm = TRUE)
 med_opp <- median(igr$length_bp[igr$polarity_bin == "opposite"], na.rm = TRUE)
 
-# Fixed effect (now should be polarity_binopposite, because baseline = same)
+# Fixed effect
 fx <- fixef(fit)
 if (!("polarity_binopposite" %in% rownames(fx))) {
   stop(
@@ -130,13 +147,15 @@ fold_est <- 10^beta_est
 fold_lo <- 10^beta_lo
 fold_hi <- 10^beta_hi
 
-# Posterior probability that opposite > same (i.e., beta > 0)
 dr <- as_draws_df(fit)
 p_beta_gt0 <- mean(dr$b_polarity_binopposite > 0)
 
-# Pull phylogenetic SD and residual sigma (optional, but useful as context)
 sd_phylo <- as.numeric(VarCorr(fit)$taxon_tree$sd[1])
 sigma_res <- as.numeric(VarCorr(fit)$residual__$sd[1])
+
+get_mu <- function(pol) {
+  mu_bp[mu_bp$polarity_bin == pol, ]
+}
 
 res <- data.frame(
   N_regions = nrow(igr),
@@ -146,13 +165,13 @@ res <- data.frame(
   median_opposite_bp = med_opp,
   delta_median_bp = med_opp - med_same,
 
-  mean_same_bp = mu_bp$mean_bp[mu_bp$polarity_bin == "same"],
-  lo_same_bp = mu_bp$lo_bp[mu_bp$polarity_bin == "same"],
-  hi_same_bp = mu_bp$hi_bp[mu_bp$polarity_bin == "same"],
+  mean_same_bp = get_mu("same")$mean_bp,
+  lo_same_bp = get_mu("same")$lo_bp,
+  hi_same_bp = get_mu("same")$hi_bp,
 
-  mean_opposite_bp = mu_bp$mean_bp[mu_bp$polarity_bin == "opposite"],
-  lo_opposite_bp = mu_bp$lo_bp[mu_bp$polarity_bin == "opposite"],
-  hi_opposite_bp = mu_bp$hi_bp[mu_bp$polarity_bin == "opposite"],
+  mean_opposite_bp = get_mu("opposite")$mean_bp,
+  lo_opposite_bp = get_mu("opposite")$lo_bp,
+  hi_opposite_bp = get_mu("opposite")$hi_bp,
 
   beta_log10_opposite_vs_same = beta_est,
   beta_lo = beta_lo,

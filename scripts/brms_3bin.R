@@ -26,7 +26,7 @@ args <- commandArgs(trailingOnly = TRUE)
 if (length(args) != 5) {
   message("Error: Exactly 5 arguments required")
   message(
-    "Usage: Rscript create_brm.R <tree.nwk> <igs_summary.tsv> <summary.txt> <moldel.rds> <results_row.tsv>" # nolint
+    "Usage: Rscript create_brm.R <tree.nwk> <igs_summary.tsv> <summary.txt> <model.rds> <results_row.tsv>" # nolint
   )
   quit(status = 1)
 }
@@ -58,14 +58,18 @@ igr$polarity_bin <- factor(igr$polarity_bin, levels = factor_levels)
 # subsample
 max_rows <- 500000
 if (nrow(igr) > max_rows) {
-  message(sprintf("Subsampling %d -> %d rows", nrow(igr), max_rows))
-  igr <- do.call(rbind, lapply(
-    split(igr, igr$polarity_bin),
-    function(grp) {
-      n <- max(1, round(max_rows * nrow(grp) / nrow(igr)))
-      grp[sample(nrow(grp), min(n, nrow(grp))), ]
-    }
-  ))
+  total_n <- nrow(igr)
+  message(sprintf("Subsampling %d -> %d rows", total_n, max_rows))
+  igr <- do.call(
+    rbind,
+    lapply(
+      split(igr, igr$polarity_bin),
+      function(grp) {
+        n <- max(1, round(max_rows * nrow(grp) / total_n))
+        grp[sample(nrow(grp), min(n, nrow(grp))), ]
+      }
+    )
+  )
   igr$taxon_tree <- droplevels(igr$taxon_tree)
 }
 
@@ -73,7 +77,7 @@ tree <- keep.tip(tree, levels(igr$taxon_tree))
 tree <- multi2di(tree)
 A <- vcv(tree, corr = FALSE) # nolint
 
-n_cores <- parallel::detectCores(logical = FALSE)
+n_cores <- min(4, max(1, parallel::detectCores(logical = FALSE) - 1))
 message("Running brm with ", n_cores, " cores")
 
 fit <- brm(
@@ -83,7 +87,7 @@ fit <- brm(
   family = gaussian(),
   cores = n_cores,
   chains = 4,
-  save_pars = save_pars(group = FALSE),
+  save_pars = save_pars(group = FALSE)
 )
 
 message("Saving brm model to: ", out_name)
@@ -121,7 +125,7 @@ for (coef in coefs) {
 }
 sink()
 
-# ---------- Fitted means (population-level, back-transformed) ----------
+# ---------- Results ----------
 nd <- data.frame(polarity_bin = factor(factor_levels), levels = factor_levels)
 mu <- fitted(fit, newdata = nd, re_formula = NA, summary = TRUE)[, c(
   "Estimate",
@@ -136,7 +140,7 @@ mu_bp <- data.frame(
   hi_bp = 10^mu[, "Q97.5"]
 )
 
-# ---------- Raw medians ----------
+# Raw medians from observed data (bp scale)
 igr$length_bp <- 10^igr$log10_length
 med_same <- median(igr$length_bp[igr$polarity_bin == "same"], na.rm = TRUE)
 med_conv <- median(
@@ -145,7 +149,7 @@ med_conv <- median(
 )
 med_div <- median(igr$length_bp[igr$polarity_bin == "divergent"], na.rm = TRUE)
 
-# ---------- Fixed effects ----------
+# Fixed effect
 fx <- fixef(fit)
 for (coef in c("polarity_binconvergent", "polarity_bindivergent")) {
   if (!(coef %in% rownames(fx))) {
@@ -165,16 +169,13 @@ beta_div_est <- fx["polarity_bindivergent", "Estimate"]
 beta_div_lo <- fx["polarity_bindivergent", "Q2.5"]
 beta_div_hi <- fx["polarity_bindivergent", "Q97.5"]
 
-# ---------- Posterior probabilities ----------
 dr <- as_draws_df(fit)
 p_conv_gt0 <- mean(dr$b_polarity_binconvergent > 0)
 p_div_gt0 <- mean(dr$b_polarity_bindivergent > 0)
 
-# ---------- Phylogenetic / residual SD ----------
 sd_phylo <- as.numeric(VarCorr(fit)$taxon_tree$sd[1])
 sigma_res <- as.numeric(VarCorr(fit)$residual__$sd[1])
 
-# ---------- Results row ----------
 get_mu <- function(pol) {
   mu_bp[mu_bp$polarity_bin == pol, ]
 }
