@@ -28,7 +28,7 @@ process_group() {
     fi
     
     # Execute the brms analysis on the intergenic regions
-    python3 "$brms_path" --verbose --tsv "$tsv_file" --igs "$igs_file" --overwrite ${bin3_flag:+--3bin}
+    python3 "$brms_path" --verbose --tsv "$tsv_file" --igs "$igs_file" --overwrite ${bin2_flag:+--2bin}
     
     GROUP_END=$(date +%s)
     echo "$group group completed in $((GROUP_END - GROUP_START)) seconds"
@@ -39,18 +39,18 @@ echo "========================================="
 echo "Starting BRMS analysis"
 echo "========================================="
 
-# Parse --3bin flag and remaining args
-bin3_flag=""
+# Parse --2bin flag and remaining args
+bin2_flag=""
 positional_args=()
 for arg in "$@"; do
-    if [ "$arg" = "--3bin" ]; then
-        bin3_flag="1"
+    if [ "$arg" = "--2bin" ]; then
+        bin2_flag="1"
     else
         positional_args+=("$arg")
     fi
 done
 
-[ -n "$bin3_flag" ] && echo "3-bin mode enabled."
+[ -n "$bin2_flag" ] && echo "2-bin mode enabled."
 
 # Default groups (all)
 default_groups=(

@@ -88,7 +88,7 @@ def run_single(
     out_folder: Path,
     an_column: str,
     log: logging.Logger,
-    bin3: bool = False,
+    bin2: bool = False,
     update_taxa: bool = False,
 ) -> None:
     """Run the BRMS model fitting.
@@ -103,8 +103,8 @@ def run_single(
         update_taxa: If True, update the NCBI taxonomy database before processing.
 
     """
-    bin_suffix = "_3bin" if bin3 else "_2bin"
-    polarity_map = polarity_3bin if bin3 else polarity_2bin
+    bin_suffix = "_2bin" if bin2 else "_3bin"
+    polarity_map = polarity_2bin if bin2 else polarity_3bin
     filter_tsv_name = f"filtered{bin_suffix}.tsv"
     brms_name = f"brms{bin_suffix}.R"
 
@@ -286,7 +286,7 @@ def main() -> None:
         type=Path,
         required=False,
         default=None,
-        help="Path to output folder. Defaults to 'brms_2bin' (or 'brms_3bin') "
+        help="Path to output folder. Defaults to 'brms_3bin' (or 'brms_2bin') "
         "in the same folder as the input TSV.",
     )
     parser.add_argument(
@@ -310,14 +310,14 @@ def main() -> None:
         help="Enable verbose logging output.",
     )
     parser.add_argument(
-        "--3bin",
+        "--2bin",
         action="store_true",
         required=False,
         default=False,
-        dest="bin3",
-        help="Use 3-bin polarity instead of 2-bin. By Default, we use 2-bin polarity "
-        "(same vs opposite), with ++ and -- as same, and +- and -+ as opposite. With "
-        "this flag, we use 3 bins, with ++ and -- as 'same+', +- as 'convergent', and -+ as 'divergent'. ",
+        dest="bin2",
+        help="Use 2-bin polarity instead of 3-bin. By Default, we use 3-bin polarity, "
+        "with ++ and -- as 'same+', +- as 'convergent', and -+ as 'divergent'. With "
+        "this flag, we use 2-bin polarity, with ++ and -- as same, and +- and -+ as opposite.",
     )
     parser.add_argument(
         "--overwrite",
@@ -343,7 +343,7 @@ def main() -> None:
         sys.exit(1)
 
     if args.output is None:
-        args.output = args.tsv.parent / f"brms_{"3bin" if args.bin3 else "2bin"}"
+        args.output = args.tsv.parent / f"brms_{"2bin" if args.bin2 else "3bin"}"
     else:
         args.output = Path(args.output).resolve()
 
@@ -367,7 +367,7 @@ def main() -> None:
         out_folder=args.output,
         an_column=args.an_column,
         log=log,
-        bin3=args.bin3,
+        bin2=args.bin2,
         update_taxa=args.update_taxa,
     )
 
