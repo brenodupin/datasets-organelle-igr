@@ -5,68 +5,77 @@
 import argparse
 import concurrent.futures as cf
 import os
-import re
 from pathlib import Path
-from typing import Any, Hashable
-
-import pandas as pd
 import tigre
 
-_RE_strand = re.compile(r"\|([+-])\|")
-_RE_ID = re.compile(r"ID=([^;]+)")
+os.environ["POLARS_MAX_THREADS"] = "1"
+import polars as pl
+
+_RS_strand = r"\|([+-])\|"
 
 MAX_CPU = os.cpu_count() or 1
+
+output_cols = [
+    "ID",
+    "AN",
+    "UP",
+    "DOWN",
+    "Pair",
+    "Polarity",
+    "Length",
+    "Merged",
+    "source_up",
+    "source_dw",
+]
 
 
 def summary_igs(
     an: str,
     gff_path: Path,
-) -> list[dict[Hashable, Any]]:
+) -> pl.DataFrame:
     """Compile Summary of IGS outputs."""
-    df = pd.read_csv(
+    df = tigre.load_gff3(
         gff_path,
-        sep="\t",
-        names=tigre.GFF3_COLUMNS,
-        usecols=["type", "start", "end", "attributes"],
-        comment="#",
+        usecols=("type", "start", "end", "attributes"),
+        return_polars=True,
     )
-    df["ID"] = df["attributes"].str.extract(_RE_ID, expand=False)  # type: ignore[call-overload]
-    df["Length"] = df["end"] - df["start"] + 1
-    df["AN"] = an
-    df["Merged"] = (df["type"] != "intergenic_region").astype(int)
 
-    df["UP"] = df["attributes"].str.extract(tigre.clean._RE_name_up, expand=False)  # type: ignore[call-overload]
-    df["UP"] = df["UP"].fillna("RS")
-    df["DOWN"] = df["attributes"].str.extract(tigre.clean._RE_name_dw, expand=False)  # type: ignore[call-overload]
-    df["DOWN"] = df["DOWN"].fillna("RE")
+    df = df.with_columns(
+        pl.col("attributes").str.extract(tigre.gff3_utils._RS_ID, 1).alias("ID"),
+        (pl.col("end") - pl.col("start") + 1).alias("Length"),
+        pl.lit(an).alias("AN"),
+        (pl.col("type") != "intergenic_region").cast(pl.Int8).alias("Merged"),
+        pl.col("attributes")
+        .str.extract(tigre.clean._RS_name_up, 1)
+        .alias("UP")
+        .fill_null("RS"),
+        pl.col("attributes")
+        .str.extract(tigre.clean._RS_name_dw, 1)
+        .alias("DOWN")
+        .fill_null("RE"),
+        pl.col("attributes")
+        .str.extract(tigre.clean._RS_source_up, 1)
+        .alias("source_up"),
+        pl.col("attributes")
+        .str.extract(tigre.clean._RS_source_dw, 1)
+        .alias("source_dw"),
+    )
 
-    df["source_up"] = df["attributes"].str.extract(tigre.clean._RE_source_up, expand=False)  # type: ignore[call-overload]
-    df["source_dw"] = df["attributes"].str.extract(tigre.clean._RE_source_dw, expand=False)  # type: ignore[call-overload]
+    df = df.with_columns(
+        (pl.col("UP") + "-" + pl.col("DOWN")).alias("Pair"),
+        pl.col("source_up")
+        .str.extract(_RS_strand, 1)
+        .fill_null("+")
+        .alias("up-strand"),
+        pl.col("source_dw")
+        .str.extract(_RS_strand, 1)
+        .fill_null("+")
+        .alias("dw-strand"),
+    )
 
-    df["Pair"] = df["UP"] + "-" + df["DOWN"]
-
-    df["up-strand"] = df["source_up"].str.extract(_RE_strand, expand=False).fillna("+")  # type: ignore[call-overload]
-    df["dw-strand"] = df["source_dw"].str.extract(_RE_strand, expand=False).fillna("+")  # type: ignore[call-overload]
-
-    df["Polarity"] = df["up-strand"] + df["dw-strand"]
-
-    # order columns by: AN UP DOWN Pair Polarity Length M source_up source_dw
-    df = df[
-        [
-            "ID",
-            "AN",
-            "UP",
-            "DOWN",
-            "Pair",
-            "Polarity",
-            "Length",
-            "Merged",
-            "source_up",
-            "source_dw",
-        ]
-    ]
-
-    return df.to_dict(orient="records")
+    df = df.with_columns((pl.col("up-strand") + pl.col("dw-strand")).alias("Polarity"))
+    df = df.select(output_cols)
+    return df
 
 
 def igs_multiple(
@@ -79,7 +88,8 @@ def igs_multiple(
     an_column: str = "AN",
 ) -> None:
     """Compile Summaries of tool outputs."""
-    tsv = pd.read_csv(tsv_path, sep="\t")
+    tigre.gff3_utils._ensure_spawn(log)
+    tsv = pl.read_csv(tsv_path, separator="\t")
 
     gff_in_builder = tigre.PathBuilder(gff_in_ext).use_folder_builder(
         tsv_path.parent, gff_in_suffix
@@ -106,13 +116,13 @@ def igs_multiple(
 
         log.info("Tasks submitted, waiting for completion...")
         # just wait all tasks complete first
-        all_records = []
+        all_frames = []
         for future in cf.as_completed(tasks):
-            all_records.extend(future.result())
+            all_frames.append(future.result())
 
-    df = pd.DataFrame(all_records)
-    df = df.sort_values(by=["AN"], kind="stable").reset_index(drop=True)
-    df.to_csv(output_file, sep="\t", index=False)
+    df = pl.concat(all_frames)
+    df = df.sort(["AN"], maintain_order=True)
+    df.write_csv(output_file, separator="\t")
 
     log.info("All processed.")
 
