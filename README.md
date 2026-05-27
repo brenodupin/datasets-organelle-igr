@@ -12,6 +12,7 @@ Data and analysis scripts accompanying the manuscript on organelle intergenic re
 │   ├── figure1.ipynb               # Jupyter notebook with analysis needed for Figure 1
 │   ├── figure2.ipynb               # Jupyter notebook with analysis needed for Figure 2
 │   ├── figure3.ipynb               # Jupyter notebook with analysis needed for Figure 3
+│   ├── table1.ipynb                # Jupyter notebook with analysis needed for Table 1
 │   ├── QC_ANS_removed.tsv          # List of ANs removed after quality control
 │   └── supplemental_material.ipynb # Jupyter notebook with analysis needed for Supplemental Material
 │
@@ -35,19 +36,22 @@ Data and analysis scripts accompanying the manuscript on organelle intergenic re
 ## Requirements
 
 The pipeline has three stages, each with its own dependencies. Install whatever applies to the steps you intend to run.
+Python ([3.12 or higher](https://www.python.org/downloads)) is required for all stages, with [R](https://www.r-project.org/) (4.5.2) only needed for the Bayesian analysis stage.
 
 **1. IGR extraction** (`prepare_igr.sh`):
 
+Python packages:
 ```bash
-pip install "tigre[all]" pandas
+pip install "tigre[all]"
 ```
 
 **2. Bayesian analysis** (`run_brms.sh`):
 
+Python packages:
 ```bash
 pip install polars ete4
 ```
-
+R packages:
 ```r
 install.packages(c("brms", "ape", "posterior"))
 ```
@@ -55,7 +59,7 @@ install.packages(c("brms", "ape", "posterior"))
 **3. Figures and supplemental notebooks** (`code/*.ipynb`):
 
 ```bash
-pip install polars matplotlib jupyter
+pip install polars matplotlib scipy seaborn
 ```
 
 ## Reproducing the Analysis
@@ -146,6 +150,6 @@ By default, the analysis runs with the 3-bin model . To run with the 2-bin model
 
 ### Figures Generation
 
-The `code/` directory contains Jupyter notebooks for generating Figures 1, 2 and 3, as well as the Table 1.
+The `code/` directory contains Jupyter notebooks for generating Figures 1, 2 and 3, as well as the Table 1 and the Supplemental Material.
 
-Those analysis scripts and notebooks are designed to be run with all the data groups available, but you can modify them to focus on specific groups if desired, by changing the data loading steps to filter for the groups of interest.
+Those analysis scripts and notebooks are designed to be run with at least the `all_groups_lean.tar.zst` decompressed and it's run on all groups, but you can modify them to focus on specific groups if desired, by changing the `groups` variable. Some tweaking may be needed.
