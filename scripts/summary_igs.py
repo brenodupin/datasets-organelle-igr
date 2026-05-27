@@ -142,7 +142,7 @@ def main() -> None:
         type=Path,
         required=False,
         default=Path.cwd() / "summary_igs_intergenic.tsv",
-        help="Path to output TSV file. Default is igs_summary.tsv",
+        help="Path to output TSV file. Default is summary_igs_intergenic.tsv",
     )
     parser.add_argument(
         "--workers",
@@ -157,21 +157,21 @@ def main() -> None:
         type=str,
         required=False,
         default=".gff3",
-        help="Extension for GFF input files. Default is .gff3",
+        help="Extension for GFF input files. Default is '.gff3'",
     )
     parser.add_argument(
         "--gff-in-suffix",
         type=str,
         required=False,
         default="_intergenic",
-        help="Suffix for GFF input files. Default is _intergenic",
+        help="Suffix for GFF input files. Default is '_intergenic'",
     )
     parser.add_argument(
         "--an-column",
         type=str,
         required=False,
         default="AN",
-        help="Column name for AN in the TSV file.",
+        help="Column name for AN in the TSV file. Default is 'AN'",
     )
     parser.add_argument(
         "--overwrite",
@@ -191,7 +191,7 @@ def main() -> None:
     # create simple logger, no file, just console
     log = tigre.create_logger(
         print_to_console=True,
-        console_level="INFO",
+        console_level="DEBUG",
         save_to_file=False,
     )
 
