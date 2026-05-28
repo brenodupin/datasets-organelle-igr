@@ -3,7 +3,7 @@
 set -e
 project_dir="$(dirname "$(dirname "$(realpath "${BASH_SOURCE[0]}")")")"
 brms_path="$project_dir/scripts/brms.py"
-echo "Project directory: $project_dir"
+
 
 process_group() {
     local group="$1"
@@ -28,29 +28,45 @@ process_group() {
     fi
     
     # Execute the brms analysis on the intergenic regions
-    python3 "$brms_path" --verbose --tsv "$tsv_file" --igs "$igs_file" --overwrite ${bin2_flag:+--2bin}
+    python3 "$brms_path" --tsv "$tsv_file" --igs "$igs_file" "${passthrough_flags[@]}"
     
     GROUP_END=$(date +%s)
     echo "$group group completed in $((GROUP_END - GROUP_START)) seconds"
     echo
 }
 
+# Parse command-line arguments
+passthrough_flags=()
+positional_args=()
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --2bin|--verbose|--new-tree|--update-taxa|--overwrite)
+            passthrough_flags+=("$1")
+            ;;
+        --output|--an-column)
+            passthrough_flags+=("$1" "$2")
+            shift
+            ;;
+        --help)
+            echo "This script is a wrapper to automate multiple runs of the BRMS analysis for different groups."
+            echo "Printing $brms_path help message, do note that --tsv and --igs are fixed by this wrapper and should not be provided by the user."
+            python3 "$brms_path" --help
+            exit 0
+            ;;
+        *)
+            positional_args+=("$1")
+            ;;
+    esac
+    shift
+done
+
 echo "========================================="
 echo "Starting BRMS analysis"
 echo "========================================="
+echo "Project directory: $project_dir"
 
-# Parse --2bin flag and remaining args
-bin2_flag=""
-positional_args=()
-for arg in "$@"; do
-    if [ "$arg" = "--2bin" ]; then
-        bin2_flag="1"
-    else
-        positional_args+=("$arg")
-    fi
-done
-
-[ -n "$bin2_flag" ] && echo "2-bin mode enabled."
+[ ${#passthrough_flags[@]} -gt 0 ] && echo "Passthrough flags: ${passthrough_flags[*]}"
 
 # Default groups (all)
 default_groups=(
@@ -59,7 +75,7 @@ default_groups=(
     "protists_mit"
     "plants_mit"
     "green_algae_plt"
-    #"plants_plt"
+    "plants_plt"
     "protists_plt"
     "metazoans_mit"
 )
