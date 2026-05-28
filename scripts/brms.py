@@ -228,7 +228,7 @@ def run_single(
             )
             sys.exit(1)
 
-        print(f"Validating existing tree at {tree_path} against TSV taxa...")
+        log.info(f"Validating existing tree at {tree_path} against TSV taxa...")
         tree = Tree(str(tree_path), parser=1)
         taxa_in_tsv = set(tsv["taxon_tree"].cast(pl.String))
         missing_in_tree, _ = validade_tree(tree, taxa_in_tsv, log)
