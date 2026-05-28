@@ -79,19 +79,10 @@ To decompress all groups:
 for file in *_compressed.tar.zst; do tar -xf "$file"; done
 ```
 
-For older versions of `tar` (<1.31), use:
-```bash
-# Decompress all_groups_lean.tar.zst
-zstd -dc all_groups_lean.tar.zst | tar -xf -
-
-# Decompress all groups with zstd support
-for file in *_compressed.tar.zst; do zstd -dc "$file" | tar -xf -; done
-```
-
 **2. Extract intergenic regions**
 
 ```bash
-./scripts/prepare_igr.sh 2>&1 | tee prepare_igr.log
+./scripts/prepare_igr.sh --verbose --overwrite 2>&1 | tee prepare_igr.log
 ```
 
 This extracts intergenic regions using tigre and generates summary statistics.
@@ -99,7 +90,7 @@ This extracts intergenic regions using tigre and generates summary statistics.
 **3. Run Bayesian analysis**
 
 ```bash
-./scripts/run_brms.sh 2>&1 | tee run_brms.log
+./scripts/run_brms.sh --verbose --overwrite 2>&1 | tee run_brms.log
 ```
 
 This performs the brms statistical analysis on the extracted intergenic regions.
@@ -113,7 +104,7 @@ The `all_groups_lean.tar.zst` archive contains pre-computed summary files, allow
 tar -xf all_groups_lean.tar.zst
 
 # Run Bayesian analysis only
-./scripts/run_brms.sh 2>&1 | tee run_brms.log
+./scripts/run_brms.sh --verbose --overwrite 2>&1 | tee run_brms.log
 ```
 
 #### Nohup Usage
@@ -121,7 +112,7 @@ tar -xf all_groups_lean.tar.zst
 The brms analysis can take several hours. We do recommend running it with `nohup` to avoid interruptions:
 
 ```bash
-nohup ./scripts/run_brms.sh > run_brms_nohup.log 2>&1 &
+nohup ./scripts/run_brms.sh --verbose --overwrite > run_brms_nohup.log 2>&1 &
 ```
 
 ### Processing Specific Groups
@@ -145,8 +136,14 @@ Both scripts accept group names as arguments. If no arguments are provided, all 
 By default, the analysis runs with the 3-bin model . To run with the 2-bin model instead, add the `--2bin` flag to the `run_brms.sh` script:
 
 ```bash
-./scripts/run_brms.sh --2bin 2>&1 | tee run_brms_2bin.log
+./scripts/run_brms.sh --2bin --verbose --overwrite 2>&1 | tee run_brms_2bin.log
 ```
+### NCBI Topology Tree
+
+The `brms` pipeline uses the NCBI Topology Tree provided at `<group>/brms_*bin/tree.nwk`. The script can generate new trees if needed with the `--new-tree` flag in `run_brms.sh`. However, due the everchanging nature of NCBI Taxonomy, the new tree may need some tweaking around the taxon ids. If an AN needs a new taxon id, change it in the `<group>.tsv` file, column `ncbi_taxid`. The script will then use the new taxon id to generate the tree.
+
+Contact us if you need help with this step!
+
 
 ### Figures Generation
 
