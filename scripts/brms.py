@@ -82,51 +82,17 @@ def validade_tree(
     return missing_in_tree, extra_in_tree
 
 
-def run_single(
-    tsv_in: Path,
-    igs_in: Path,
-    out_folder: Path,
-    an_column: str,
+def create_ultrametric_tree(
+    tsv: pl.DataFrame,
+    tree_path: Path,
+    update_taxa: bool,
     log: logging.Logger,
-    bin2: bool = False,
-    update_taxa: bool = False,
-) -> None:
-    """Run the BRMS model fitting.
-
-    Args:
-        tsv_in: Path to TSV file with required columns.
-        igs_in: Path to IGS summary TSV file.
-        out_folder: Output folder path.
-        an_column: Name of the accession number column in IGS file.
-        log: Logger instance.
-        remove_not_in_tree: If True, remove entries not in the tree instead of failing.
-        update_taxa: If True, update the NCBI taxonomy database before processing.
-
-    """
-    bin_suffix = "_2bin" if bin2 else "_3bin"
-    polarity_map = polarity_2bin if bin2 else polarity_3bin
-    filter_tsv_name = f"filtered{bin_suffix}.tsv"
-    brms_name = f"brms{bin_suffix}.R"
-
-    tsv = pl.read_csv(tsv_in, separator="\t")
-    required_columns = {"ncbi_taxid", "Species", "ncbi_name", "Genome_length"}
-    if not required_columns.issubset(tsv.columns):
-        log.error(
-            f"TSV file {tsv_in} is missing required columns. "
-            "Make sure to run iga populate before this."
-        )
-        sys.exit(1)
-    if "GI" in tsv.columns:
-        tsv = tsv.drop("GI")
+) -> pl.DataFrame:
 
     ncbi = NCBITaxa()
     if update_taxa:
         log.info("Updating NCBI taxonomy database...")
         ncbi.update_taxonomy_database()
-
-    out_folder = Path(out_folder).resolve()
-    out_folder.mkdir(parents=True, exist_ok=True)
-    tree_path = out_folder / "tree.nwk"
 
     log.info("Creating ultrametric tree for BRMS...")
     tree = ncbi.get_topology(tsv["ncbi_taxid"])
@@ -205,6 +171,76 @@ def run_single(
             )
 
     tree.write(outfile=tree_path, parser=1)
+    return tsv
+
+
+def run_single(
+    tsv_in: Path,
+    igs_in: Path,
+    out_folder: Path,
+    an_column: str,
+    log: logging.Logger,
+    bin2: bool = False,
+    update_taxa: bool = False,
+    new_tree: bool = False,
+) -> None:
+    """Run the BRMS model fitting.
+
+    Args:
+        tsv_in: Path to TSV file with required columns.
+        igs_in: Path to IGS summary TSV file.
+        out_folder: Output folder path.
+        an_column: Name of the accession number column in IGS file.
+        log: Logger instance.
+        remove_not_in_tree: If True, remove entries not in the tree instead of failing.
+        update_taxa: If True, update the NCBI taxonomy database before processing.
+
+    """
+    bin_suffix = "_2bin" if bin2 else "_3bin"
+    polarity_map = polarity_2bin if bin2 else polarity_3bin
+    filter_tsv_name = f"filtered{bin_suffix}.tsv"
+    brms_name = f"brms{bin_suffix}.R"
+
+    tsv = pl.read_csv(tsv_in, separator="\t")
+    required_columns = {"ncbi_taxid", "Species", "ncbi_name", "Genome_length"}
+    if not required_columns.issubset(tsv.columns):
+        log.error(f"TSV file {tsv_in} is missing required columns. ")
+        sys.exit(1)
+    if "GI" in tsv.columns:
+        tsv = tsv.drop("GI")
+
+    tree_path = out_folder / "tree.nwk"
+
+    if new_tree:
+        tsv = create_ultrametric_tree(tsv, tree_path, update_taxa, log)
+
+    else:
+        if "taxon_tree" not in tsv.columns:
+            log.error(
+                f"TSV file {tsv_in} must contain 'taxon_tree' column if not creating a new tree. "
+                "Either run with --new-tree or add the column with the correct taxids."
+            )
+            sys.exit(1)
+
+        if not tree_path.is_file():
+            log.error(
+                f"Tree file {tree_path} does not exist. Either run with --new-tree or check the correct path."
+            )
+            sys.exit(1)
+
+        print(f"Validating existing tree at {tree_path} against TSV taxa...")
+        tree = Tree(str(tree_path), parser=1)
+        taxa_in_tsv = set(tsv["taxon_tree"].cast(pl.String))
+        missing_in_tree, _ = validade_tree(tree, taxa_in_tsv, log)
+        if missing_in_tree:
+            log.error(
+                f"Existing tree at {tree_path} is missing taxa required by TSV: {', '.join(missing_in_tree)}. "
+                "Either run with --new-tree or fix the tree to include those taxa."
+            )
+            sys.exit(1)
+
+    out_folder = Path(out_folder).resolve()
+    out_folder.mkdir(parents=True, exist_ok=True)
 
     log.info("Preparing IGS data for BRMS fitting...")
     igs = pl.scan_csv(igs_in, separator="\t")
@@ -302,6 +338,14 @@ def main() -> None:
         action="store_true",
         required=False,
         help="Force update the NCBI taxonomy database before processing.",
+    )
+    parser.add_argument(
+        "--new-tree",
+        action="store_true",
+        required=False,
+        help="Create a new ultrametric tree from the NCBI taxonomy database "
+        "instead of using an existing one expected at <output>/tree.nwk. This "
+        "will also update the NCBI taxonomy database if --update-taxa is set.",
     )
     parser.add_argument(
         "--verbose",
