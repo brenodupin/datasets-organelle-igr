@@ -23,7 +23,7 @@ process_group() {
     local base_path="$project_dir/$group"
     local gdict_file="$base_path/${group}.gdict"
     local tsv_file="$base_path/$group.tsv"
-    local igs_file="$base_path/summary_igs_intergenic.tsv"
+    local igs_file="$base_path/${group}_summary_igr.tsv"
     
     # Check if directory exists
     if [ ! -d "$base_path" ]; then
