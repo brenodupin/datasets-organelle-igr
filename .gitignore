@@ -7,15 +7,37 @@ code/enrich_data/
 .vscode/
 .DS_Store
 
-fungi_mit/
-green_algae_mit/
-metazoans_mit/
-plants_mit/
-protists_mit/
+fungi_mit/*
+!fungi_mit/fungi_mit.tsv
+!fungi_mit/tree.nwk
 
-green_algae_plt/
-plants_plt/
-protists_plt/
+green_algae_mit/*
+!green_algae_mit/green_algae_mit.tsv
+!green_algae_mit/tree.nwk
+
+metazoans_mit/*
+!metazoans_mit/metazoans_mit.tsv
+!metazoans_mit/tree.nwk
+
+plants_mit/*
+!plants_mit/plants_mit.tsv
+!plants_mit/tree.nwk
+
+protists_mit/*
+!protists_mit/protists_mit.tsv
+!protists_mit/tree.nwk
+
+green_algae_plt/*
+!green_algae_plt/green_algae_plt.tsv
+!green_algae_plt/tree.nwk
+
+plants_plt/*
+!plants_plt/plants_plt.tsv
+!plants_plt/tree.nwk
+
+protists_plt/*
+!protists_plt/protists_plt.tsv
+!protists_plt/tree.nwk
 
 code/figure1.png
 code/figure1.tiff
@@ -31,7 +53,3 @@ code/supplemental_figure2.png
 code/supplemental_figure3.png
 code/supplemental_figure4.png
 code/supplemental_figures.ipynb
-
-code/table1.tsv
-
-code/supplemental_table1.tsv
