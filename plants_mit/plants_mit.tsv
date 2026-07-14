@@ -1,0 +1,948 @@
+AN	GI	Species	Genome_length	ncbi_name	ncbi_taxid
+BK016277.1	2171421298	Cuscuta campestris 	275898	Cuscuta campestris	132261
+BK059197.1	2240494300	Cuscuta australis contig1 	125641	Cuscuta australis	267555
+BK059198.1	2240494315	Cuscuta australis contig2 	38064	Cuscuta australis	267555
+BK059199.1	2240494321	Cuscuta australis contig3 	32099	Cuscuta australis	267555
+BK059200.1	2240494326	Cuscuta australis contig4 	30108	Cuscuta australis	267555
+BK059201.1	2240494331	Cuscuta australis contig5 	26467	Cuscuta australis	267555
+BK059236.1	2206415704	Convolvulus arvensis 	312437	Convolvulus arvensis	4123
+BK059237.1	2206415744	Cuscuta epilinum 	401461	Cuscuta epilinum	186060
+BK059238.1	2206415783	Cuscuta europaea 	406647	Cuscuta europaea	41803
+BK059240.1	2206415663	Ipomoea trifida chromosome 1 	139596	Ipomoea trifida	35884
+BK059241.1	2206415684	Ipomoea trifida chromosome 2 	116394	Ipomoea trifida	35884
+BK059242.1	2206415860	Ipomoea triloba chromosome 1 	160302	Ipomoea triloba	35885
+BK059243.1	2206415892	Ipomoea triloba chromosome 2 	44920	Ipomoea triloba	35885
+BK059244.1	2206415898	Ipomoea triloba chromosome 3 	29927	Ipomoea triloba	35885
+BK059358.1	2445457009	Phoenix roebelenii 	482735	Phoenix roebelenii	446125
+EU365401.1	164422210	Bambusa oldhamii 	509941	Bambusa oldhamii	58923
+JF338144.1	327176861	Selaginella moellendorffii mitochondrion part 2	143606	Selaginella moellendorffii	88036
+JF729202.1	339773281	Arabidopsis thaliana ecotype Landsberg erecta 	345418	Arabidopsis thaliana	3702
+JF750578.1	346228138	Silene conica chromosome 19 	110652	Silene conica	39875
+JX999996.1	472833546	Lolium perenne 	678580	Lolium perenne	4522
+KC189947.1	442803095	Vicia faba 	588000	Vicia faba	3906
+KF442616.1	553836868	Eruca vesicaria subsp. sativa 	247696	Eruca vesicaria subsp. sativa	29727
+KF754801.1	557954272	Amborella trichopoda chromosome III 	187116	Amborella trichopoda	13333
+KF754803.1	557954279	Amborella trichopoda chromosome I 	3179272	Amborella trichopoda	13333
+KJ461445.1	620598306	Brassica juncea var. tumida 	219919	Brassica juncea var. tumida	323352
+KJ820683.1	655168414	Brassica oleracea var. botrytis 	219962	Brassica oleracea var. botrytis	3715
+KM207678.1	756762080	Nicotiana tabacum/Hyoscyamus niger cybrid clone contig1 	270466	Nicotiana tabacum/Hyoscyamus niger cybrid	1520274
+KM207682.1	756762135	Nicotiana tabacum/Hyoscyamus niger cybrid clone contig5 	30887	Nicotiana tabacum/Hyoscyamus niger cybrid	1520274
+KM873610.1	745748929	Orthotrichum rogeri 	104634	Orthotrichum rogeri	1592803
+KR534606.1	939462352	Malus hupehensis var. mengshanensis 	422555	Malus hupehensis var. mengshanensis	550789
+KR817582.1	910266076	Aneura pinguis	165005	Aneura pinguis	39026
+KT022222.1	829581281	Viscum scurruloideum chromosome 1	42186	Viscum scurruloideum	1664545
+KT022223.1	829581299	Viscum scurruloideum chromosome 2	23687	Viscum scurruloideum	1664545
+KT326816.1	929524724	Chionoloma tenuirostre 	105001	Chionoloma tenuirostre	301336
+KT988071.2	1020913963	Schrenkiella parvula 	255773	Schrenkiella parvula	98039
+KU140427.1	991820460	Aneura pinguis	164047	Aneura pinguis	39026
+KU831325.1	1080112412	Brassica oleracea var. capitata 	219975	Brassica oleracea var. capitata	3716
+KU992323.1	1142819667	Lophophytum mirabile subsp. bolivianum chromosome LmContig2 	30072	Lophophytum mirabile subsp. bolivianum	1813629
+KU992329.1	1142819677	Lophophytum mirabile subsp. bolivianum chromosome LmContig8 	16418	Lophophytum mirabile subsp. bolivianum	1813629
+KX270756.1	1043393954	Cynomorium coccineum chromosome Ccoc839 	25654	Cynomorium coccineum	51503
+KX270771.1	1043393982	Cynomorium coccineum chromosome Ccoc3090 	19525	Cynomorium coccineum	51503
+KX270773.1	1043393985	Cynomorium coccineum chromosome Ccoc3422 	22477	Cynomorium coccineum	51503
+KX270781.1	1043394004	Cynomorium coccineum chromosome Ccoc5829 	17735	Cynomorium coccineum	51503
+KX270788.1	1043394019	Cynomorium coccineum chromosome Ccoc8479 	29529	Cynomorium coccineum	51503
+KX578030.1	1070067351	Orthotrichum gymnostomum 	104638	Nyholmiella gymnostoma	478072
+KX578033.1	1070067474	Plenogemma phyllantha 	104671	Plenogemma phyllantha	67002
+KX702279.1	1090893494	Orthotrichum obtusifolium 	104603	Nyholmiella obtusifolia	61564
+KY702722.1	1220104925	Aneura pinguis	165857	Aneura pinguis	39026
+KY702723.1	1220104966	Aneura pinguis	167033	Aneura pinguis	39026
+MF070086.1	1357241114	Gastrodia elata chromosome ge3 	85046	Gastrodia elata	91201
+MF070087.1	1357241119	Gastrodia elata chromosome ge4 	74858	Gastrodia elata	91201
+MF070090.1	1357241127	Gastrodia elata chromosome ge7 	410335	Gastrodia elata	91201
+MF070100.1	1357241157	Gastrodia elata chromosome ge17 	120640	Gastrodia elata	91201
+MF070101.1	1357241161	Gastrodia elata chromosome ge18 	34580	Gastrodia elata	91201
+MF401632.1	1241187917	Calypogeia fissa subsp. fissa 	162175	Calypogeia fissa subsp. fissa	1263429
+MF611849.1	1468711699	Cynanchum wilfordii chromosome 3 	111332	Cynanchum wilfordii	228709
+MF611850.1	1465956587	Fallopia multiflora chromosome 1	200352	Fallopia multiflora	76025
+MF611851.1	1465956611	Fallopia multiflora chromosome 2 	112098	Fallopia multiflora	76025
+MG372115.1	1297073213	Chionanthus rupicola	667135	Chionanthus rupicola	2057972
+MG372116.1	1297073893	Olea europaea subsp. Cuspidata	710338	Olea europaea subsp. cuspidata	129566
+MG372119.1	1297084160	Olea europaea subsp. Europaea	769995	Olea europaea subsp. europaea	158383
+MG372120.1	1297086751	Olea europaea subsp. Guanchica	694631	Olea europaea subsp. guanchica	158384
+MG372121.1	1297087367	Olea europaea subsp. Laperrinei	710688	Olea europaea subsp. laperrinei	129567
+MG429050.1	1321659731	Oryza coarctata 	491065	Oryza coarctata	77588
+MG947208.1	1538979891	Cucumis melo var. momordica chromosome 2 	149556	Cucumis melo var. momordica	2034244
+MH591794.1	2272020596	Gastrodia angusta chromosome GS1 	134652	Gastrodia angusta	2939659
+MH591805.1	2272020624	Gastrodia angusta chromosome GS2 	120881	Gastrodia angusta	2939659
+MH591825.1	2272020657	Gastrodia angusta chromosome GS5 	82286	Gastrodia angusta	2939659
+MH591826.1	2272020659	Gastrodia angusta chromosome GS6 	61810	Gastrodia angusta	2939659
+MH591830.1	2272020671	Gastrodia kachinensis chromosome GN1 	71519	Gastrodia kachinensis	2939661
+MH591852.1	2272020719	Gastrodia kachinensis chromosome GN4 	28854	Gastrodia kachinensis	2939661
+MH591858.1	2272020735	Gastrodia dyeriana chromosome GD1 	93520	Gastrodia dyeriana	2939660
+MH591863.1	2272020748	Gastrodia dyeriana chromosome GD14 	16864	Gastrodia dyeriana	2939660
+MH591869.1	2272020759	Gastrodia dyeriana chromosome GD2 	76009	Gastrodia dyeriana	2939660
+MH591872.1	2272020771	Gastrodia dyeriana chromosome GD3 	57379	Gastrodia dyeriana	2939660
+MH591876.1	2272020786	Gastrodia dyeriana chromosome GD7 	28089	Gastrodia dyeriana	2939660
+MH591879.1	2272020794	Dendrobium amplum 	113978	Dendrobium amplum	234050
+MH591884.1	2272020817	Dendrobium amplum 	10853	Dendrobium amplum	234050
+MH591886.1	2272020821	Dendrobium amplum 	7286	Dendrobium amplum	234050
+MH591889.1	2272020830	Dendrobium amplum 	48795	Dendrobium amplum	234050
+MH591890.1	2272020835	Dendrobium amplum 	37518	Dendrobium amplum	234050
+MH591891.1	2272020839	Dendrobium amplum 	32133	Dendrobium amplum	234050
+MH591892.1	2272020843	Dendrobium amplum 	30772	Dendrobium amplum	234050
+MH591894.1	2272020849	Dendrobium amplum 	25222	Dendrobium amplum	234050
+MH591895.1	2272020851	Dendrobium amplum 	25199	Dendrobium amplum	234050
+MH757117.1	1524089452	Haberlea rhodopensis 	484138	Haberlea rhodopensis	121481
+MH931259.1	1869442307	Cynanchum wilfordii chromosome 3 	111332	Cynanchum wilfordii	228709
+MK131350.1	1760232176	Pogonatum inflexum 	113866	Pogonatum inflexum	185755
+MK175054.1	1761031170	Cynodon dactylon x Cynodon transvaalensis 	366612	Cynodon dactylon x Cynodon transvaalensis	1920021
+MK318535.1	1779936977	Riccardia planiflora 	149371	Riccardia planiflora	2500170
+MK333231.1	1790939029	Xanthoceras sorbifolium 	575633	Xanthoceras sorbifolium	99658
+MK426679.1	1796208061	Castanospermum australe	542079	Castanospermum australe	24962
+MK431824.1	2160498003	Nitraria tangutorum 	355820	Nitraria tangutorum	357929
+MK431825.1	2160498034	Tribulus terrestris 	415781	Tribulus terrestris	210369
+MK431826.1	1783582703	Peganum harmala 	447055	Peganum harmala	43879
+MK431827.1	2160498067	Zygophyllum fabago 	831513	Zygophyllum fabago	66652
+MK697707.1	1803030987	Picea sitchensis chromosome 12 	27173	Picea sitchensis	3332
+MK728874.1	2159137299	Pogostemon heyneanus 	380655	Pogostemon heyneanus	58709
+MK990822.1	1681062850	Monotropa hypopitys chromosome 1	704088	Monotropa hypopitys	176248
+MK990823.1	1681062891	Monotropa hypopitys chromosome 2 	106028	Monotropa hypopitys	176248
+MN017226.1	1755135569	Cercis canadensis 	348530	Cercis canadensis	49801
+MN061667.1	1790940246	Hemiptelea davidii 	460941	Hemiptelea davidii	63068
+MN127974.1	1776323015	Hordeum vulgare subsp. spontaneum 	525605	Hordeum vulgare subsp. spontaneum	77009
+MN166292.1	2192681729	Alternanthera philoxeroides 	283258	Alternanthera philoxeroides	381410
+MN196478.1	1771301930	Capsicum annuum var. glabriusculum 	497487	Capsicum annuum var. glabriusculum	165789
+MN199236.1	1826687845	Quercus variabilis	412886	Quercus variabilis	103481
+MN400566.1	2450609345	Azolla filiculoides chromosome 1 	46341	Azolla filiculoides	84609
+MN400567.1	2450609346	Azolla filiculoides chromosome 2 	30053	Azolla filiculoides	84609
+MN400569.1	2450609348	Azolla filiculoides chromosome 4 	16651	Azolla filiculoides	84609
+MN400570.1	2450609349	Azolla filiculoides chromosome 5 	13652	Azolla filiculoides	84609
+MN400573.1	2450609352	Azolla filiculoides chromosome 8 	6499	Azolla filiculoides	84609
+MN400574.1	2450609353	Azolla filiculoides chromosome 9 	2384	Azolla filiculoides	84609
+MN400575.1	2450609404	Cuscuta australis chromosome 1 	55651	Cuscuta australis	267555
+MN400576.1	2450609410	Cuscuta australis chromosome 2 	37211	Cuscuta australis	267555
+MN400577.1	2450609416	Cuscuta australis chromosome 3 	34919	Cuscuta australis	267555
+MN400578.1	2450609423	Cuscuta australis chromosome 4 	33963	Cuscuta australis	267555
+MN400579.1	2450609427	Cuscuta australis chromosome 5 	29826	Cuscuta australis	267555
+MN400580.1	2450609431	Cuscuta australis chromosome 6 	14891	Cuscuta australis	267555
+MN400581.1	2450609436	Cuscuta australis chromosome 7 	12648	Cuscuta australis	267555
+MN400584.1	2450609444	Cuscuta australis chromosome 10 	7836	Cuscuta australis	267555
+MN400588.1	2450609513	Cuscuta campestris chromosome 1 	110917	Cuscuta campestris	132261
+MN400589.1	2450609530	Cuscuta campestris chromosome 2 	54285	Cuscuta campestris	132261
+MN400590.1	2450609540	Cuscuta campestris chromosome 3 	50641	Cuscuta campestris	132261
+MN400591.1	2450609547	Cuscuta campestris chromosome 4 	32804	Cuscuta campestris	132261
+MN400593.1	2450609552	Cuscuta campestris chromosome 6 	9168	Cuscuta campestris	132261
+MN400594.1	2450609605	Pteridium revolutum chromosome 1 	46403	Pteridium revolutum	104585
+MN400595.1	2450609606	Pteridium revolutum chromosome 2 	26954	Pteridium revolutum	104585
+MN400596.1	2450609607	Pteridium revolutum chromosome 3 	14118	Pteridium revolutum	104585
+MN400598.1	2450609609	Pteridium revolutum chromosome 5 	9744	Pteridium revolutum	104585
+MN400603.1	2450609614	Pteridium revolutum chromosome 10 	5679	Pteridium revolutum	104585
+MN432175.1	2198385057	Bougainvillea glabra chromosome 3 	64310	Bougainvillea glabra	3541
+MN432177.1	2198385065	Bougainvillea glabra chromosome 1 	160721	Bougainvillea glabra	3541
+MN432178.1	2198385083	Bougainvillea glabra chromosome 2 	97632	Bougainvillea glabra	3541
+MN481990.1	1775179419	Rhaphiolepis bibas 	434980	Eriobotrya japonica	32224
+MN593023.1	1840514224	Taxus cuspidata 	468924	Taxus cuspidata	99806
+MN661146.1	1798158189	Paraprenanthes diversifolia 	360751	Paraprenanthes diversifolia	1400673
+MN683736.1	1789854417	Sesuvium portulacastrum 	392221	Sesuvium portulacastrum	221166
+MN723864.1	1784810973	Ligustrum quihoui 	848451	Ligustrum quihoui	528268
+MN746809.2	1832299170	Capsella bursa-pastoris 	287799	Capsella bursa-pastoris	3719
+MN927134.1	1810665766	Riccia fluitans	185640	Riccia fluitans	41844
+MN964891.1	1859640860	Malus domestica cultivar Yantai fuji 	396947	Malus domestica	3750
+MN972463.1	1858303995	 Bartramia pomiformis 	106155	Bartramia pomiformis	52976
+MT043351.1	1863495008	Medinilla magnifica 	377864	Medinilla magnifica	1799599
+MT075725.1	1847741414	Ajuga ciliata chromosome 1	287405	Ajuga ciliata	199542
+MT075726.1	1847741438	Ajuga ciliata chromosome 2 	78009	Ajuga ciliata	199542
+MT076267.1	1848770638	Ombrophytum subterraneum chromosome 1 	27184	Ombrophytum subterraneum	50155
+MT076271.1	1848770655	Ombrophytum subterraneum chromosome 5 	18978	Ombrophytum subterraneum	50155
+MT076277.1	1848770671	Ombrophytum subterraneum chromosome 11 	16126	Ombrophytum subterraneum	50155
+MT122958.1	1883211185	Solanum wrightii chromosome 1	294451	Solanum wrightii	374009
+MT122959.1	1883211218	Solanum wrightii chromosome 2 	191785	Solanum wrightii	374009
+MT122970.1	1883211572	Solanum macrocarpon chromosome 1	481443	Solanum macrocarpon	115666
+MT122971.1	1883211619	Solanum macrocarpon chromosome 2 	186172	Solanum macrocarpon	115666
+MT122984.1	1883211930	Solanum melongena chromosome 1	363632	Solanum melongena	4111
+MT122985.1	1883211971	Solanum melongena chromosome 2 	134461	Solanum melongena	4111
+MT310681.1	1840513927	Pseudocrossidium replicatum 	105495	Pseudocrossidium replicatum	885028
+MT320890.1	1919471751	Neolamarckia cadamba chromosome 1 	109836	Neolamarckia cadamba	153762
+MT364442.1	1919471761	Neolamarckia cadamba chromosome 2	305144	Neolamarckia cadamba	153762
+MT471097.1	1945590669	Coix lacryma-jobi var. ma-yuen	660150	Coix lacryma-jobi var. ma-yuen	714458
+MT471098.1	1945590943	Coix lacryma-jobi var. puellarum	673349	Coix lacryma-jobi var. puellarum	2728034
+MT471099.1	1945591142	Coix lacryma-jobi var. maxima	639298	Coix lacryma-jobi var. maxima	2728036
+MT471321.1	1863494952	Sporobolus alterniflorus	566328	Sporobolus alterniflorus	29706
+MT568500.1	1914010783	Hepatica maxima 	1122546	Hepatica maxima	387291
+MT610102.1	1899342683	Torminalis glaberrima 	386758	Torminalis glaberrima	2914000
+MT725722.1	2007828516	Pisum sativum subsp. Sativum	363872	Lathyrus oleraceus subsp. oleraceus	208194
+MT797187.1	1910322228	Larix sibirica chromosome 1 	4008762	Larix sibirica	62751
+MT797188.1	1910322246	Larix sibirica chromosome 2 	3031766	Larix sibirica	62751
+MT797189.1	1910322254	Larix sibirica chromosome 3 	2293716	Larix sibirica	62751
+MT797190.1	1910322267	Larix sibirica chromosome 4 	1382651	Larix sibirica	62751
+MT797193.1	1910322275	Larix sibirica chromosome 7 	142269	Larix sibirica	62751
+MT821854.1	1898549323	Saccharum hybrid cultivar x Tripidium arundinaceum chromosome 2 	144713	Saccharum hybrid cultivar x Tripidium arundinaceum	2768469
+MT834960.1	1915409094	Myuroclada maximowiczii	104216	Myuroclada maximowiczii	98946
+MT975322.1	2001167574	Prunus avium	444582	Prunus avium	42229
+MW029460.1	2231659094	Panax ginseng	464705	Panax ginseng	4054
+MW057419.2	2085647582	Malus kansuensis 	385436	Malus kansuensis	106558
+MW122952.1	1935002153	Solanum stenotomum subsp. goniocalyx chromosome 1 	49155	Solanum stenotomum subsp. goniocalyx	1050191
+MW122953.1	1935002163	Solanum stenotomum subsp. goniocalyx chromosome 2 	113419	Solanum stenotomum subsp. goniocalyx	1050191
+MW122955.1	1935002223	Solanum ahanhuiri chromosome 1 	49272	Solanum ahanhuiri	875672
+MW122956.1	1935002233	Solanum ahanhuiri chromosome 2 	113417	Solanum ahanhuiri	875672
+MW122958.1	1935002299	Solanum phureja chromosome 1 	49155	Solanum phureja	172790
+MW122959.1	1935002309	Solanum phureja chromosome 2 	113419	Solanum phureja	172790
+MW122961.1	1935002369	Solanum stenotomum subsp. stenotomum chromosome 1 	49155	Solanum stenotomum subsp. stenotomum	2650462
+MW122962.1	1935002379	Solanum stenotomum subsp. stenotomum chromosome 2 	113419	Solanum stenotomum subsp. stenotomum	2650462
+MW122970.1	1935002580	Solanum tuberosum subsp. Andigenum chromosome 1 	49302	Solanum tuberosum subsp. andigenum	80418
+MW122971.1	1935002590	Solanum tuberosum subsp. Andigenum chromosome 2 	113450	Solanum tuberosum subsp. andigenum	80418
+MW122973.1	1935002656	Solanum x juzepczukii chromosome 1 	49236	Solanum x juzepczukii	136614
+MW122974.1	1935002666	Solanum x juzepczukii chromosome 2 	113545	Solanum x juzepczukii	136614
+MW122976.1	1935002731	Solanum chaucha chromosome 1 	49302	Solanum chaucha	682313
+MW122977.1	1935002741	Solanum chaucha chromosome 2 	113453	Solanum chaucha	682313
+MW122979.1	1935002807	Solanum x curtilobum chromosome 1 	49155	Solanum x curtilobum	875673
+MW122980.1	1935002817	Solanum x curtilobum chromosome 2 	112635	Solanum x curtilobum	875673
+MW394515.1	2017823025	Pisum abyssinicum chromosome 1	268009	[Pisum sativum] subsp. abyssinicum	198035
+MW394516.1	2017823049	Pisum abyssinicum chromosome 2 	78861	[Pisum sativum] subsp. abyssinicum	198035
+MW411187.1	2154014492	Chlorophytum comosum 	950316	Chlorophytum comosum	34182
+MW413894.1	2130419157	Humulus lupulus 	390962	Humulus lupulus	3486
+MW432178.1	2033634857	Markhamia cauda-felina 	837447	Markhamia cauda-felina	2871431
+MW432179.1	2033634898	Dolichandrone spathacea chromosome DS1	610698	Dolichandrone spathacea	241844
+MW432180.1	2033634935	Dolichandrone spathacea chromosome DS2 	59125	Dolichandrone spathacea	241844
+MW441235.1	2031443836	Dalbergia odorifera 	435224	Dalbergia odorifera	499988
+MW448460.1	2057210683	Arachis hypogaea 	592341	Arachis hypogaea	3818
+MW448461.1	2057210716	Lupinus albus 	405579	Lupinus albus	3870
+MW448462.1	2057210750	Indigofera tinctoria 	546392	Indigofera tinctoria	198914
+MW448463.1	2057210783	Apios americana 	434145	Apios americana	185702
+MW448464.1	2057210816	Vigna unguiculata 	383314	Vigna unguiculata	3917
+MW448465.1	2057210850	Robinia pseudoacacia 	396058	Robinia pseudoacacia	35938
+MW448466.1	2057210884	Glycyrrhiza glabra 	440064	Glycyrrhiza glabra	49827
+MW477238.1	2007831195	Coriandrum sativum chromosome 2	224590	Coriandrum sativum	4047
+MW497575.1	2238504718	Herpetospermum pedunculosum 	224863	Herpetospermum pedunculosum	386182
+MW537827.1	2211723232	Fragaria nipponica 	295660	Fragaria nipponica	101012
+MW537828.1	2211723264	Fragaria chiloensis 	285346	Fragaria chiloensis	101007
+MW537829.1	2211723295	Fragaria corymbosa 	283017	Fragaria corymbosa	538576
+MW537836.1	2211723511	Fragaria daltoniana 	283008	Fragaria daltoniana	101010
+MW553042.1	2017480095	Scutellaria tsinyunensis 	354073	Scutellaria tsinyunensis	1862659
+MW566571.1	2072687540	Macadamia ternifolia 	682818	Macadamia ternifolia	4330
+MW566572.1	2072687636	Macadamia tetraphylla 	682795	Macadamia tetraphylla	512563
+MW594282.1	2104696254	Solanum okadae chromosome 1 	49277	Solanum okadae	73575
+MW594283.1	2104696266	Solanum okadae chromosome 2 	54636	Solanum okadae	73575
+MW594284.1	2104696273	Solanum okadae chromosome 3 	334889	Solanum okadae	73575
+MW664926.1	2070135984	Fallopia aubertii 	350156	Fallopia aubertii	457183
+MW717908.1	2052614885	Zelkova schneideriana	192338	Zelkova schneideriana	172643
+MW719051.1	2071593183	Hoya lithophytica 	718734	Hoya lithophytica	2817244
+MW732172.1	2032037249	Dryopteris crassirhizoma 	313346	Dryopteris crassirhizoma	97234
+MW838194.1	2177161015	Bidens alba var. radiata 	213288	Bidens alba var. radiata	293806
+MW900252.1	2047403471	Brassica oleracea var. gongylodes 	219964	Brassica oleracea var. gongylodes	109379
+MW971440.1	2072936294	Tetragonia tetragonoides 	347227	Tetragonia tetragonoides	45318
+MW971562.1	2191864029	Medicago polymorpha	287639	Medicago polymorpha	47084
+MZ151883.2	2468010065	Argania spinosa 	707441	Sideroxylon spinosum	2945705
+MZ159954.1	2064310123	Lactuca sativa var. capitata	363324	Lactuca sativa var. capitata	1049369
+MZ159960.1	2064310386	Lactuca virosa	373019	Lactuca virosa	75947
+MZ231125.1	2259349172	Prunus conradinae 	434334	Prunus conradinae	456515
+MZ240723.1	2183118830	Ipomoea biflora	278121	Ipomoea biflora	2613358
+MZ240724.1	2183118869	Argyreia velutina	255815	Argyreia velutina	2847854
+MZ240727.1	2183118995	Dinetus racemosus	273499	Dinetus racemosus	941697
+MZ240728.1	2183119080	Erycibe obtusifolia	294395	Erycibe obtusifolia	1603722
+MZ240730.1	2183119170	Ipomoea aquatica	296682	Ipomoea aquatica	89636
+MZ240731.1	2183119224	Merremia hederacea	272653	Merremia hederacea	1580173
+MZ240732.1	2183119273	Ipomoea quamoclit	293939	Ipomoea quamoclit	89660
+MZ240733.1	2183119314	Dichondra micrantha chromosome 1 	151252	Dichondra micrantha	1053343
+MZ240734.1	2183119330	Dichondra micrantha chromosome 2 	108648	Dichondra micrantha	1053343
+MZ240735.1	2183119344	Dichondra micrantha chromosome 3 	97771	Dichondra micrantha	1053343
+MZ240736.1	2183119358	Ipomoea pes-caprae chromosome 1 	106281	Ipomoea pes-caprae	89656
+MZ240737.1	2183119379	Ipomoea pes-caprae chromosome 2 	88485	Ipomoea pes-caprae	89656
+MZ240738.1	2183119391	Ipomoea pes-caprae chromosome 3 	61417	Ipomoea pes-caprae	89656
+MZ269392.1	2169227371	Rhopalocnemis phalloides chromosome 1 	7861	Rhopalocnemis phalloides	1128106
+MZ269393.1	2169227372	Rhopalocnemis phalloides chromosome 2 	7726	Rhopalocnemis phalloides	1128106
+MZ269395.1	2169227374	Rhopalocnemis phalloides chromosome 4 	6821	Rhopalocnemis phalloides	1128106
+MZ269402.1	2169227381	Rhopalocnemis phalloides chromosome 11 	6018	Rhopalocnemis phalloides	1128106
+MZ269410.1	2169227389	Rhopalocnemis phalloides chromosome 19 	5686	Rhopalocnemis phalloides	1128106
+MZ269411.1	2169227390	Rhopalocnemis phalloides chromosome 20 	5373	Rhopalocnemis phalloides	1128106
+MZ285073.1	2073948027	Damnacanthus indicus var. indicus	419435	Damnacanthus indicus var. indicus	2862862
+MZ285076.1	2073948126	Damnacanthus indicus var. microphyllus	417816	Damnacanthus indicus var. microphyllus	2862861
+MZ318049.1	2184422462	Acer truncatum 	791052	Acer truncatum	47965
+MZ328723.1	2072936098	Apium leptophyllum 	260164	Apium leptophyllum	2860399
+MZ504724.1	2168681404	Lonicera japonica 	884352	Lonicera japonica	105884
+MZ636518.1	2112327892	Acer miaotaiense 	819227	Acer miaotaiense	948960
+MZ636519.1	2112327977	Quercus acutissima 	448694	Quercus acutissima	58330
+MZ675536.1	2094551568	Populus alba var. pyramidalis 	849603	Populus alba var. pyramidalis	327892
+MZ707540.1	2091690646	Populus adenopoda chromosome 1 	339333	Populus adenopoda	1536645
+MZ707541.1	2091690662	Populus adenopoda chromosome 2 	197113	Populus adenopoda	1536645
+MZ707542.1	2091690669	Populus adenopoda chromosome 4	154816	Populus adenopoda	1536645
+MZ707543.1	2091690675	Populus adenopoda chromosome 3 	177846	Populus adenopoda	1536645
+MZ707544.1	2091690685	Populus tomentosa chromosome 4 	153004	Populus tomentosa	118781
+MZ707545.1	2091690691	Populus tomentosa chromosome 2 	194215	Populus tomentosa	118781
+MZ707546.1	2091690698	Populus tomentosa chromosome 3 	175177	Populus tomentosa	118781
+MZ707547.1	2091690708	Populus tomentosa chromosome 1 	330873	Populus tomentosa	118781
+MZ726801.1	2120245664	Hemerocallis citrina chromosome 1 	45607	Hemerocallis citrina	1249515
+MZ726802.1	2120245670	Hemerocallis citrina chromosome 2 	239991	Hemerocallis citrina	1249515
+MZ726803.1	2120245696	Hemerocallis citrina chromosome 3 	182864	Hemerocallis citrina	1249515
+MZ736639.1	2096848888	Capsicum chinense chromosome 2 	244778	Capsicum chinense	80379
+MZ747306.1	2120244490	Stylosanthes hamata 	503967	Stylosanthes hamata	37660
+MZ747307.1	2120244525	Stylosanthes viscosa 	353136	Stylosanthes viscosa	79081
+MZ747308.1	2120244558	Stylosanthes scabra 	492899	Stylosanthes scabra	79078
+MZ747314.1	2120244762	Stylosanthes guianensis 	468896	Stylosanthes guianensis	62615
+MZ751076.1	2188569878	Mangifera persiciforma 	750989	Mangifera persiciforma	384650
+MZ751077.1	2188569916	Mangifera sylvatica 	714426	Mangifera sylvatica	171944
+MZ823411.1	2292904186	Capsicum pubescens chromosome 1 	60995	Capsicum pubescens	113210
+MZ823412.1	2292904192	Capsicum pubescens chromosome 2 	87340	Capsicum pubescens	113210
+MZ823413.1	2292904198	Capsicum pubescens chromosome 3 	212675	Capsicum pubescens	113210
+MZ823414.1	2292904219	Capsicum pubescens chromosome 4 	93265	Capsicum pubescens	113210
+MZ826160.1	2104692441	Panax quinquefolius chromosome 1	270043	Panax quinquefolius	44588
+MZ826161.1	2104692459	Panax quinquefolius chromosome 2 	191685	Panax quinquefolius	44588
+MZ826162.1	2104692474	Panax quinquefolius chromosome 3 	84939	Panax quinquefolius	44588
+MZ826163.1	2104692485	Panax quinquefolius chromosome 4 	54238	Panax quinquefolius	44588
+MZ826271.1	2270350900	Populus trichocarpa chromosome 1 	338051	Populus trichocarpa	3694
+MZ826272.1	2270350914	Populus trichocarpa chromosome 2 	280924	Populus trichocarpa	3694
+MZ826273.1	2270350930	Populus trichocarpa chromosome 3 	184698	Populus trichocarpa	3694
+MZ900993.1	2112328799	Juglans mandshurica chromosome 1	161386	Juglans mandshurica	91218
+MZ900994.1	2112328806	Juglans mandshurica chromosome 2	558032	Juglans mandshurica	91218
+MZ905370.1	2156866477	Populus simonii chromosome 1 	312510	Populus simonii	295327
+MZ905371.1	2156866491	Populus simonii chromosome 2 	282934	Populus simonii	295327
+MZ905372.1	2156866506	Populus simonii chromosome 3 	186034	Populus simonii	295327
+MZ919331.1	2120245712	Brasenia schreberi chromosome 1 	628257	Brasenia schreberi	4424
+MZ919332.1	2120245734	Brasenia schreberi chromosome 2 	305975	Brasenia schreberi	4424
+MZ919333.1	2120245741	Brasenia schreberi chromosome 3 	169216	Brasenia schreberi	4424
+MZ919334.1	2120245749	Brasenia schreberi chromosome 4 	159827	Brasenia schreberi	4424
+MZ934755.1	2206817152	Oenothera villaricae	408744	Oenothera villaricae	3941
+MZ934756.1	2206817247	Oenothera biennis	424132	Oenothera biennis	3942
+MZ934757.1	2206817334	Oenothera elata subsp. Hookeri	449216	Oenothera elata subsp. hookeri	85636
+MZ959063.1	2168679639	Actinidia eriantha 	768883	Actinidia eriantha	165200
+NC_002511.2	108469695	Beta vulgaris subsp. vulgaris 	368801	Beta vulgaris subsp. vulgaris	3555
+NC_006581.1	57013877	Nicotiana tabacum 	430597	Nicotiana tabacum	4097
+NC_007886.1	89280701	Oryza sativa Indica Group 	491515	Oryza sativa Indica Group	39946
+NC_007945.1	91208838	Physcomitrella patens 	105340	Physcomitrium patens	3218
+NC_007982.1	94502557	Zea mays subsp. mays 	569630	Zea mays subsp. mays	381124
+NC_008285.1	112253843	Brassica napus 	221853	Brassica napus	3708
+NC_008331.1	114151557	Zea perennis 	570354	Zea perennis	4580
+NC_008332.1	114151623	Zea mays subsp. parviglumis 	680603	Zea mays subsp. parviglumis	76912
+NC_008333.1	114151590	Zea luxurians 	539368	Zea luxurians	15945
+NC_008360.1	115278525	Sorghum bicolor 	468628	Sorghum bicolor	4558
+NC_010303.1	166895601	Cycas taitungensis 	414903	Cycas taitungensis	54799
+NC_011033.1	194033210	Oryza sativa Japonica Group 	490520	Oryza sativa Japonica Group	39947
+NC_012116.1	224020948	Carica papaya 	476890	Carica papaya	3649
+NC_012651.1	229328233	Megaceros aenigmaticus 	184908	Nothoceros aenigmaticus	13813
+NC_014043.1	295311632	Citrullus lanatus 	379236	Citrullus lanatus	3654
+NC_014050.1	295311672	Cucurbita pepo 	982833	Cucurbita pepo	3663
+NC_015099.1	323435021	Beta vulgaris subsp. maritima 	364950	Beta vulgaris subsp. maritima	350892
+NC_015141.1	323649872	Ricinus communis 	502773	Ricinus communis	3988
+NC_015994.1	346683116	Beta macrocarpa 	385220	Beta macrocarpa	343494
+NC_016120.1	353526463	Brassica carinata 	232241	Brassica carinata	52824
+NC_016121.1	353526533	Anomodon rugelii 	104239	Anomodon rugelii	84230
+NC_016122.1	353526580	Treubia lacunosa 	151983	Treubia lacunosa	93845
+NC_016125.1	353526650	Brassica rapa subsp. campestris 	219747	Brassica rapa subsp. oleifera	145471
+NC_016740.1	372450205	Phoenix dactylifera 	715001	Phoenix dactylifera	42345
+NC_016741.1	377806968	Boea hygrometrica 	510519	Dorcoceras hygrometricum	472368
+NC_016742.1	372450249	Millettia pinnata 	425718	Pongamia pinnata	56065
+NC_016743.2	387866040	Lotus japonicus 	380861	Lotus japonicus	34305
+NC_017755.1	385099735	Huperzia squarrosa 	413530	Phlegmariurus squarrosus	73615
+NC_017840.1	387164694	Spirodela polyrhiza 	228493	Spirodela polyrhiza	29656
+NC_018041.1	391348915	Mimulus guttatus 	525671	Erythranthe guttata	4155
+NC_018554.1	404481676	Malus x domestica 	396947	Malus domestica	3750
+NC_020455.1	476507670	Glycine max 	402558	Glycine max	3847
+NC_021152.1	484759929	Liriodendron tulipifera 	553721	Liriodendron tulipifera	3415
+NC_021399.1	511782593	Butomus umbellatus 	450826	Butomus umbellatus	50236
+NC_021931.1	529249678	Anomodon attenuatus 	104252	Pseudanomodon attenuatus	2779804
+NC_023103.1	568245145	Ajuga reptans 	352069	Ajuga reptans	38596
+NC_023338.1	576303560	Vaccinium macrocarpon 	459678	Vaccinium macrocarpon	13750
+NC_024290.1	651514883	Tetraphis pellucida 	107730	Tetraphis pellucida	37420
+NC_024293.1	651729735	Rhazya stricta 	548608	Rhazya stricta	396313
+NC_024429.1	661813519	Batis maritima 	403930	Batis maritima	4436
+NC_024514.1	669017085	Ptychomnion cygnisetum 	104480	Ptychomnion cygnisetum	245469
+NC_024515.1	669017125	Climacium americanum 	105048	Climacium americanum	94443
+NC_024516.1	669017166	Hypnum imponens 	103830	Callicladium imponens	49762
+NC_024517.1	669017207	Ulota hutchinsiae 	104608	Ulota hutchinsiae	279761
+NC_024518.1	669017248	Buxbaumia aphylla 	100725	Buxbaumia aphylla	70128
+NC_024519.1	669017288	Bartramia pomiformis 	106198	Bartramia pomiformis	52976
+NC_024520.1	669017329	Atrichum angustatum 	115146	Atrichum angustatum	37310
+NC_024521.1	669017370	Sphagnum palustre 	141276	Sphagnum palustre	13805
+NC_024522.1	669017411	Orthotrichum stellatum 	104131	Orthotrichum stellatum	522327
+NC_024523.1	669017452	Funaria hygrometrica 	109586	Funaria hygrometrica	29583
+NC_025931.1	734703113	Codriophorus laevigatus	106809	Dilutineuron laevigatum	1079087
+NC_026121.1	746948573	Orthotrichum speciosum 	104747	Lewinskya speciosa	70136
+NC_026515.1	814071725	Hyoscyamus niger 	501401	Hyoscyamus niger	4079
+NC_026540.1	788229053	Racomitrium ericoides 	106727	Niphotrichum ericoides	657341
+NC_026784.1	806636851	Codriophorus aciculare	106818	Codriophorus aciculare	296905
+NC_026890.1	813424996	Racomitrium elongatum 	106746	Niphotrichum elongatum	71396
+NC_026891.1	813425098	Codriophorus varius 	106358	Frisvollia varia	1286318
+NC_026901.1	813426483	Aneura pinguis 	165603	Aneura pinguis	39026
+NC_026974.1	817526368	Bucklandiella orthotrichacea 	107215	Bucklandiella orthotrichacea	1079090
+NC_026975.1	817526510	Racomitrium emersum 	107186	Racomitrium emersum	1079084
+NC_027000.1	817530539	Geranium maderense	737091	Geranium maderense	28964
+NC_027407.1	849123258	Gossypium harknessii 	666081	Gossypium harknessii	34285
+NC_027515.1	885000942	Syntrichia filaris 	106343	Syntrichia filaris	1678074
+NC_027974.1	937423892	Sanionia uncinata 	104497	Sanionia uncinata	140003
+NC_027976.1	937408974	Ginkgo biloba 	346544	Ginkgo biloba	3311
+NC_028040.1	937547625	Oxystegus tenuirostris 	105001	Chionoloma tenuirostre	301336
+NC_028096.1	939575802	Populus tremula	783442	Populus tremula	113636
+NC_028191.1	944543036	Tetraplodon fuegianus 	104741	Tetraplodon fuegianus	260168
+NC_028254.1	947838264	Gossypium barbadense 	677434	Gossypium barbadense	3634
+NC_028329.1	948299255	Populus tremula x Populus alba 	783513	Populus tremula x Populus alba	80863
+NC_029039.1	971821784	Viscum album	565432	Viscum album	3972
+NC_029130.1	985761555	Welwitschia mirabilis 	978846	Welwitschia mirabilis	3377
+NC_029182.1	992329667	Brassica nigra 	232407	Brassica nigra	3710
+NC_029317.1	1002167010	Salix suchowensis 	644437	Salix suchowensis	1278906
+NC_029355.1	1002161459	Orthotrichum macrocephalum 	104624	Orthotrichum macrocephalum	279753
+NC_029356.1	1002161500	Orthotrichum diaphanum 	104744	Orthotrichum diaphanum	522324
+NC_029452.1	1002165137	Racomitrium lanuginosum 	106795	Racomitrium lanuginosum	140628
+NC_029693.1	1011056159	Salix purpurea 	598970	Salix purpurea	77065
+NC_029805.1	1016470551	Nicotiana sylvestris	430597	Nicotiana sylvestris	4096
+NC_029816.1	1016471130	Oryza minuta	515022	Oryza minuta	63629
+NC_029998.1	1024325351	Gossypium raimondii 	676078	Gossypium raimondii	29730
+NC_030100.1	1028369727	Allium cepa 	316363	Allium cepa	4679
+NC_030753.1	1052487892	Nelumbo nucifera 	524797	Nelumbo nucifera	4432
+NC_030900.1	1068357845	Ophioglossum californicum 	372339	Ophioglossum californicum	1267209
+NC_031212.1	1070113796	Brachythecium rivulare 	104460	Brachythecium rivulare	90277
+NC_031323.1	1072314228	Hesperelaea palmeri	658522	Hesperelaea palmeri	126429
+NC_031359.1	1079485733	Corchorus capsularis 	1999602	Corchorus capsularis	210143
+NC_031360.1	1079485771	Corchorus olitorius 	1829341	Corchorus olitorius	93759
+NC_031389.1	1079486902	Orthotrichum bicolor 	104736	Orthotrichum bicolor	1903710
+NC_031390.1	1079486943	Orthotrichum callistomum 	104785	Orthotrichum callistomum	1903711
+NC_031391.1	1079486984	Nyholmiella gymnostoma 	104638	Nyholmiella gymnostoma	478072
+NC_031392.1	1079487025	Stoneobryum bunyaense 	104352	Stoneobryum bunyaense	1903712
+NC_031393.1	1079487066	Ulota crispa 	104636	Ulota crispa	140636
+NC_031696.1	1099220834	Cocos nucifera 	678653	Cocos nucifera	13894
+NC_031767.1	1101669385	Nyholmiella obtusifolia 	104603	Nyholmiella obtusifolia	61564
+NC_031806.1	1102547721	Castilleja paramensis 	495499	Castilleja paramensis	1857654
+NC_031846.1	1102548779	Zygodon viridissimus 	103098	Zygodon viridissimus	146584
+NC_031896.1	1102547431	Sinapis arvensis 	240024	Mutarda arvensis	2982281
+NC_034354.1	1182635699	Diplostephium hartwegii	277718	Diplostephium hartwegii	1716017
+NC_034907.1	1199893933	Stoneobryum mirum 	104345	Stoneobryum mirum	262980
+NC_035073.1	1207372397	Gossypium arboreum 	687482	Gossypium arboreum	29729
+NC_035074.1	1314948901	Gossypium thurberi 	644395	Gossypium thurberi	34273
+NC_035075.1	1207372437	Gossypium davidsonii 	644311	Gossypium davidsonii	34287
+NC_035076.1	1207372474	Gossypium trilobum 	644460	Gossypium trilobum	34281
+NC_035317.1	1215846169	Stratiotes aloides  	349058	Stratiotes aloides	55494
+NC_035345.1	1215847952	Zostera marina	191481	Zostera marina	29655
+NC_035549.1	1236517134	Hibiscus cannabinus 	569915	Hibiscus cannabinus	229543
+NC_035616.1	1236518757	Lagerstroemia indica 	333948	Lagerstroemia indica	141186
+NC_035618.1	1236518794	Spinacia oleracea 	329613	Spinacia oleracea	3562
+NC_035958.1	1252313291	Platycodon grandiflorus 	1249593	Platycodon grandiflorus	94286
+NC_035963.1	1252313644	Solanum lycopersicum	446257	Solanum lycopersicum	4081
+NC_035964.1	1252313684	Solanum pennellii	423596	Solanum pennellii	28526
+NC_035977.1	1252314681	Calypogeia integristipula 	163057	Calypogeia integristipula	70143
+NC_035978.1	1252314724	Calypogeia arguta 	159061	Asperifolia arguta	41852
+NC_035979.1	1252314767	Calypogeia suecica 	161960	Calypogeia suecica	373805
+NC_035980.1	1252314810	Calypogeia neogaea 	162175	Calypogeia fissa subsp. neogaea	1263430
+NC_036467.1	1314948859	Nicotiana attenuata 	394341	Nicotiana attenuata	49451
+NC_036945.1	1347725881	Mielichhoferia elongata 	100342	Mielichhoferia elongata	67235
+NC_037041.1	1347731748	Tritomaria quinquedentata 	142510	Trilophozia quinquedentata	248352
+NC_037070.1	1359834862	Arabis alpina 	323159	Arabis alpina	50452
+NC_037463.1	1381390543	Citrus sinensis 	640906	Citrus sinensis	2711
+NC_037468.1	1381390732	Nymphaea colorata 	617195	Nymphaea colorata	210225
+NC_037476.1	1381391280	Anthoceros angustus 	242410	Anthoceros angustus	48387
+NC_037949.1	1418584812	Codonopsis lanceolata 	403704	Codonopsis lanceolata	103999
+NC_038052.1	1436049376	Bombax ceiba 	594390	Bombax ceiba	45325
+NC_038053.1	1436049411	Senna tora 	566589	Senna tora	362788
+NC_038221.1	1442330107	Senna occidentalis 	447106	Senna occidentalis	126820
+NC_039531.1	1509835773	Nepenthes ventricosa x Nepenthes alata	520764	Nepenthes ventricosa x Nepenthes alata	1744888
+NC_039738.1	1511244784	Leucaena trichandra 	722009	Leucaena trichandra	190760
+NC_039746.1	1511245057	Pinus Taeda 	1191054	Pinus taeda	3352
+NC_039751.1	1511245375	Leiosporoceros dussii 	212153	Leiosporoceros dussii	263836
+NC_039757.1	1511245806	Chrysanthemum boreale 	211002	Chrysanthemum boreale	344871
+NC_039775.1	1511246628	Polytrichum commune 	114831	Polytrichum commune	3213
+NC_040010.1	1526695003	Eucalyptus grandis 	478813	Eucalyptus grandis	71139
+NC_040132.1	1535790253	Gymnomitrion concinnatum 	162572	Gymnomitrion concinnatum	209793
+NC_040989.1	1583107056	Eleusine indica 	520691	Eleusine indica	29674
+NC_040998.1	1583107467	Acacia ligulata 	698138	Acacia ligulata	138025
+NC_041093.1	1593549647	Chenopodium quinoa 	315003	Chenopodium quinoa	63459
+NC_041177.1	1593553949	Morus notabilis 	362069	Morus notabilis	981085
+NC_041494.1	1610622908	Cynanchum auriculatum chromosome 2 	426495	Cynanchum auriculatum	157409
+NC_042143.1	1642517225	Boechera stricta 	271601	Boechera stricta	72658
+NC_042378.1	1678639900	Lactuca serriola 	363328	Lactuca serriola	75943
+NC_042406.1	1678641559	Lactuca saligna	368269	Lactuca saligna	75948
+NC_042758.1	1693291155	Schisandra sphenanthera 	1101768	Schisandra sphenanthera	13674
+NC_042873.1	1693298795	Dumortiera hirsuta 	178019	Dumortiera hirsuta	56917
+NC_042883.1	1693299190	Capsella rubella 	287405	Capsella rubella	81985
+NC_043887.1	1707501143	Fossombronia foveolata 	175222	Fossombronia foveolata	56918
+NC_043888.1	1707501186	Metzgeria furcata 	171891	Metzgeria furcata	37399
+NC_043889.1	1707501229	Haplomitrium hookeri 	174448	Haplomitrium hookeri	37406
+NC_043897.1	1707501838	Sophora flavescens 	494369	Sophora flavescens	49840
+NC_043906.1	1707502220	Riccia fluitans 	185621	Riccia fluitans	41844
+NC_043907.1	1707502263	Ptilidium ciliare 	179562	Ptilidium ciliare	139839
+NC_043908.1	1707502306	Porella platyphylla 	179081	Porella platyphylla	139833
+NC_043909.1	1707502349	Solenostoma sphaerocarpum 	156050	Solenostoma sphaerocarpum	463580
+NC_044153.1	1714605623	Physochlaina orientalis 	684857	Physochlaina orientalis	451527
+NC_045035.1	1770689379	Spondias mombin 	674158	Spondias mombin	80338
+NC_045036.1	1770689414	Spondias tuberosa 	779106	Spondias tuberosa	991123
+NC_045038.1	1770689450	Tamarindus indica 	607282	Tamarindus indica	58860
+NC_045039.1	1770689488	Libidibia coriaria 	601574	Libidibia coriaria	321550
+NC_045040.1	1770689528	Haematoxylum brasiletto 	631094	Haematoxylum brasiletto	191923
+NC_045078.1	1770691604	Ilex pubescens 	517520	Ilex pubescens	185543
+NC_045135.1	1772633214	Phaseolus vulgaris 	395516	Phaseolus vulgaris	3885
+NC_045136.1	1772633246	Manihot esculenta 	682840	Manihot esculenta	3983
+NC_045228.1	1778128704	Eriobotrya japonica 	434980	Eriobotrya japonica	32224
+NC_046014.1	1819289106	Epirixanthes elongata	365168	Epirixanthes elongata	1562316
+NC_046466.1	1824668366	Ammopiptanthus nanus 	339352	Ammopiptanthus nanus	111851
+NC_046754.1	1829766859	Salix paraflabellaris 	637893	Salix paraflabellaris	2714767
+NC_046759.1	1829767084	Andreaea wangiana 	117857	Andreaea wangiana	2714766
+NC_046778.1	1829768101	Pohlia nutans	99864	Pohlia nutans	140635
+NC_047462.1	1834979412	Bartramia patens 	106827	Bartramia patens	2684902
+NC_048499.1	1847692394	Trifolium pratense 	301823	Trifolium pratense	57577
+NC_048500.1	1847692427	Trifolium meduseum 	348724	Trifolium meduseum	361940
+NC_048501.1	1847692465	Trifolium grandiflorum 	347723	Trifolium grandiflorum	97024
+NC_048502.1	1847692505	Trifolium aureum 	294911	Trifolium aureum	361561
+NC_048974.1	1863125153	Mirabilis himalaica 	346363	Mirabilis himalaica	482968
+NC_049003.1	1863126863	Anthoceros punctatus 	228048	Anthoceros punctatus	3234
+NC_049004.1	1863126906	Anthoceros agrestis	228021	Anthoceros agrestis	41834
+NC_049064.1	1863130878	Rotheca serrata 	482114	Rotheca serrata	1158923
+NC_049134.1	1863134901	Magnolia biondii 	967100	Magnolia biondii	86725
+NC_050067.1	1883998489	Luffa acutangula 	460333	Luffa acutangula	56866
+NC_050308.1	1904805828	Chorisodontium aciphyllum 	105766	Chorisodontium aciphyllum	910423
+NC_050334.1	1904806331	Solanum melongena	482343	Solanum melongena	4111
+NC_050335.1	1904806381	Solanum aethiopicum	566695	Solanum aethiopicum	205524
+NC_050850.1	1919577033	Sapindus mukorossi 	602121	Sapindus mukorossi	57655
+NC_050960.1	1919574329	Fagus sylvatica	504715	Fagus sylvatica	28930
+NC_051989.1	1942105860	Helianthus grosseserratus 	273543	Helianthus grosseserratus	73291
+NC_051990.1	1942105899	Helianthus strumosus 	281056	Helianthus strumosus	382522
+NC_052708.1	1980523932	Salix cardiophylla 	735173	Salix cardiophylla	688335
+NC_052709.1	1980523961	Salix polaris 	562920	Salix polaris	395315
+NC_052751.1	1980526277	Scapania ampliata 	143664	Scapania ampliata	1133302
+NC_053368.1	1999117903	Anemone maxima 	1122546	Hepatica maxima	387291
+NC_053538.1	2017992314	Wiesnerella denudata 	186911	Wiesnerella denudata	179049
+NC_053625.1	2017998407	Malania oleifera 	527575	Malania oleifera	397392
+NC_053642.1	2017999106	Asparagus officinalis	492062	Asparagus officinalis	4686
+NC_053763.1	2018121645	Rhododendron simsii 	802707	Rhododendron simsii	118357
+NC_053886.1	2018128462	Climacium dendroides	104860	Climacium dendroides	70131
+NC_053919.1	2018130667	Glycyrrhiza uralensis 	463869	Glycyrrhiza uralensis	74613
+NC_053920.1	2018130708	Aconitum kusnezoffii 	440720	Aconitum kusnezoffii	239685
+NC_053921.1	2018130746	Euonymus alatus 	1045106	Euonymus alatus	4307
+NC_053927.1	2018130991	Ageratum conyzoides 	219198	Ageratum conyzoides	68299
+NC_054214.1	2026153157	Douinia plicata 	144205	Douinia plicata	209816
+NC_054215.1	2026153206	Diplophyllum taxifolium 	144129	Diplophyllum taxifolium	248355
+NC_054332.1	2026158806	Pyrus betulifolia 	469928	Pyrus betulifolia	436086
+NC_054351.1	2026160396	Myurella julacea	104979	Myurella julacea	186697
+NC_054354.1	2026160613	Aquilaria sinensis 	341829	Aquilaria sinensis	210372
+NC_056281.1	2055412619	Bougainvillea spectabilis 	343746	Bougainvillea spectabilis	146096
+NC_056358.1	2055416501	Aegiceras corniculatum 	425282	Aegiceras corniculatum	59970
+NC_056359.1	2055416540	Bruguiera sexangula 	303026	Bruguiera sexangula	98584
+NC_056360.1	2055416578	Bruguiera x rhynchopetala 	286503	Bruguiera x rhynchopetala	157701
+NC_056367.1	2055416940	Chrysopogon zizanioides 	551622	Chrysopogon zizanioides	167337
+NC_056836.1	2088235843	Tolypanthus maclurei 	256961	Tolypanthus maclurei	1026954
+NC_056991.1	2088243646	Mirabilis jalapa 	267334	Mirabilis jalapa	3538
+NC_057142.1	2088249745	Citrus unshiu 	521559	Citrus unshiu	55188
+NC_057143.1	2088249781	Citrus maxima 	538434	Citrus maxima	37334
+NC_057524.1	2091528366	Fragaria orientalis 	275143	Fragaria orientalis	101013
+NC_057604.1	2091532641	Agrostemma githago 	262903	Agrostemma githago	39848
+NC_057654.1	2091535528	Scyphiphora hydrophyllacea 	354155	Scyphiphora hydrophyllacea	86994
+NC_058235.1	2120469546	Gleditsia sinensis 	594121	Gleditsia sinensis	66096
+NC_058313.1	2120477988	Apium graveolens	371275	Apium graveolens	4045
+NC_058584.1	2127860646	Helianthus occidentalis 	281175	Helianthus occidentalis	73303
+NC_058585.1	2127860697	Helianthus tuberosus 	281287	Helianthus tuberosus	4233
+NC_058643.1	2127863673	Arctium tomentosum 	312609	Arctium tomentosum	4218
+NC_058644.1	2127863804	Arctium lappa 	312598	Arctium lappa	4217
+NC_058697.1	2127869462	Cyperus esculentus 	1002696	Cyperus esculentus	1053340
+NC_058733.1	2127872716	Salix brachista 	608983	Salix brachista	2182728
+NC_058734.1	2127872750	Salix dunnii 	711422	Salix dunnii	1413687
+NC_058846.1	2127882266	Saposhnikovia divaricata 	293897	Saposhnikovia divaricata	203717
+NC_058888.1	2127885623	Macadamia integrifolia 	682814	Macadamia integrifolia	60698
+NC_059791.1	2172613693	Pisum abyssinicum 	354692	[Pisum sativum] subsp. abyssinicum	198035
+NC_059792.1	2172613725	Pisum fulvum	379922	Lathyrus fulvus	51020
+NC_059793.1	2172613757	Saussurea costus 	320439	Dolomiaea costus	324593
+NC_059794.1	2172613789	Coriandrum sativum chromosome 1	82926	Coriandrum sativum	4047
+NC_059804.1	2172614294	Ormosia boluoensis 	248619	Ormosia boluoensis	2729512
+NC_060346.1	2192912420	Osmanthus fragrans 	563202	Osmanthus fragrans	93977
+NC_060361.1	2192913303	Nymphaea hybrid	335042	Nymphaea hybrid cultivar	637490
+NC_060419.1	2192917158	Suaeda glauca 	474330	Suaeda glauca	397272
+NC_060491.1	2192921299	Prunus salicina x Prunus armeniaca	484858	Prunus salicina x Prunus armeniaca	551137
+NC_060546.1	2192924371	Planicladium nitidulum 	104716	Planicladium nitidulum	212397
+NC_060635.1	2192928468	Bidens bipinnata 	198476	Bidens bipinnata	1527831
+NC_060803.1	2192937296	Calystegia soldanella	279265	Calystegia soldanella	136204
+NC_060804.1	2192937337	Cuscuta japonica	813731	Cuscuta japonica	81913
+NC_060990.1	2199199801	Mangifera longipes 	728635	Mangifera longipes	2762383
+NC_060995.1	2199200032	Aulacomnium turgidum 	103937	Aulacomnium turgidum	67248
+NC_062587.1	2228962659	Fragaria nubicola 	299474	Fragaria nubicola	60188
+NC_062589.1	2228962759	Fragaria nilgerrensis 	315211	Fragaria nilgerrensis	64941
+NC_062590.1	2228962814	Fragaria moschata 	277672	Fragaria moschata	64940
+NC_062591.1	2228962858	Fragaria iinumae 	328819	Fragaria iinumae	64939
+NC_062592.1	2228962896	Fragaria viridis 	289289	Fragaria viridis	64942
+NC_062670.1	2228968764	Bidens parviflora 	195825	Bidens parviflora	1527830
+NC_062671.1	2228968878	Bidens tripartita 	216786	Bidens tripartita	51276
+NC_062672.1	2228968951	Bidens biternata 	198476	Bidens biternata	468846
+NC_062673.1	2228969037	Bidens pilosa 	183061	Bidens pilosa	42337
+NC_062832.1	2231643345	Fragaria tibetica 	283001	Fragaria tibetica	538578
+NC_062833.1	2231643376	Fragaria iturupensis 	351183	Fragaria iturupensis	538579
+NC_062834.1	2231643407	Fragaria gracilis 	283031	Fragaria gracilis	101011
+NC_063145.1	2235263375	Hernandia nymphaeifolia 	535805	Hernandia nymphaeifolia	121082
+NC_063515.1	2248499440	Stylosanthes capitata 	456448	Stylosanthes capitata	79070
+NC_063516.1	2248499473	Stylosanthes pilosa 	433649	Stylosanthes pilosa	79077
+NC_063517.1	2248499509	Stylosanthes macrocephala 	350377	Stylosanthes macrocephala	79075
+NC_063518.1	2248499539	Stylosanthes seabrana 	523870	Stylosanthes seabrana	85320
+NC_063925.1	2248518775	Nowellia curvifolia	148199	Nowellia curvifolia	280839
+NC_064134.1	2252657435	Artemisia giraldii 	194298	Artemisia giraldii	669123
+NC_064333.1	2258688133	Triosteum pinnatifidum 	803609	Triosteum pinnatifidum	134526
+NC_064688.1	2273784543	Salix wilsonii 	711456	Salix wilsonii	1413702
+NC_065018.1	2281534377	Lithocarpus litseifolius 	573177	Lithocarpus litseifolius	425828
+NC_065024.1	2281534620	Astragalus complanatus 	416511	Phyllolobium chinense	47064
+NC_065025.1	2281534653	Scutellaria barbata 	372525	Scutellaria barbata	396367
+NC_065026.1	2281534688	Scutellaria franchetiana 	354302	Scutellaria franchetiana	2023964
+NC_065039.1	2281535401	Diospyros oleifera 	493958	Diospyros oleifera	227308
+NC_065061.1	2281536856	Toona sinensis 	638482	Toona sinensis	443222
+NC_065066.1	2281537185	Prunus schneideriana 	434334	Prunus schneideriana	497077
+NC_065218.1	2281547316	Pyrus x bretschneideri 	458897	Pyrus x bretschneideri	225117
+NC_065219.1	2281547355	Fragaria x ananassa 	285543	Fragaria x ananassa	3747
+NC_065220.1	2281547391	Photinia serratifolia 	473561	Photinia serratifolia	140999
+NC_065221.1	2281547435	Geum urbanum 	335549	Geum urbanum	57919
+NC_065222.1	2281547467	Fragaria mandshurica 	313022	Fragaria mandshurica	538574
+NC_065223.1	2281547498	Fragaria pentaphylla 	290970	Fragaria pentaphylla	101014
+NC_065226.1	2281547621	Malus sylvestris 	396940	Malus sylvestris	3752
+NC_065227.1	2281547665	Pyrus ussuriensis x Pyrus communis	441853	Pyrus ussuriensis x Pyrus communis	2448454
+NC_065228.1	2281547710	Prunus armeniaca 	510346	Prunus armeniaca	36596
+NC_065230.1	2281547798	Prunus kanzakura 	422215	Prunus kanzakura	1813533
+NC_065231.1	2281547841	Prunus mira 	429732	Prunus mira	151332
+NC_065233.1	2281547928	Prunus salicina 	508005	Prunus salicina	88123
+NC_065234.1	2281547979	Prunus sibirica 	510187	Prunus sibirica	151440
+NC_065235.1	2281548022	Prunus yedoensis 	456900	Prunus yedoensis	3759
+NC_065237.1	2281548105	Rosa rugosa 	302947	Rosa rugosa	74645
+NC_065260.1	2281549628	Ophioglossum vulgatum 	369673	Ophioglossum vulgatum	49227
+NC_065806.1	2289435168	Vitex trifolia 	274779	Vitex trifolia	204215
+NC_066407.1	2307920017	Saussurea inversa 	335372	Saussurea inversa	2739505
+NC_066410.1	2307920222	Helianthus neglectus 	300933	Helianthus neglectus	73300
+NC_066894.1	2314981225	Theobroma cacao	543794	Theobroma cacao	3641
+NC_066895.1	2314981268	Theobroma grandiflorum	501598	Theobroma grandiflorum	108881
+NC_067574.1	2328347878	Panax quinquefolius 	573154	Panax quinquefolius	44588
+NC_067638.1	2328351819	Pereskia aculeata 	515187	Pereskia aculeata	3597
+NC_067879.1	2328366577	Taraxacum mongolicum 	304467	Taraxacum mongolicum	90037
+NC_067943.1	2328367987	Rhododendron x pulchrum 	816410	Rhododendron x pulchrum	419384
+NC_068098.1	2328378910	Paphiopedilum micranthum chromosome 1 	32281	Paphiopedilum micranthum	53103
+NC_068215.1	2328386729	Rhynchospora breviuscula 	2222920	Rhynchospora breviuscula	2022672
+NC_068216.1	2328386760	Rhynchospora pubera 	2064773	Rhynchospora pubera	906938
+NC_068217.1	2328386790	Rhynchospora tenuis 	1678054	Rhynchospora tenuis	198213
+NC_068626.1	2386956383	Carex breviculmis 	1414795	Carex breviculmis	291501
+NC_068714.1	2386960691	Ipomoea batatas 	257880	Ipomoea batatas	4120
+NC_068745.1	2386961922	Ziziphus mauritiana 	324124	Ziziphus mauritiana	157914
+NC_068760.1	2386962901	Salix koriyanagi 	647460	Salix koriyanagi	2511006
+NC_068761.1	2386962935	Salix integra 	606136	Salix integra	75711
+NC_068803.1	2386597568	Zostera japonica 	221614	Zostera japonica	187286
+NC_068804.1	2386597598	Phyllospadix iwatensis 	178929	Phyllospadix iwatensis	214525
+NC_068856.1	2386969111	Andreaea regularis 	118833	Andreaea regularis	2994948
+NC_068896.1	2386597625	Pisum sativum subsp. Elatius	363799	Lathyrus oleraceus subsp. biflorus	47742
+NC_069222.1	2424878869	Kandelia obovata 	312146	Kandelia obovata	413952
+NC_069572.1	2429800769	Sedum plumbizincicola	212159	Sedum plumbizincicola	1532924
+NC_069573.1	2429800801	Platostoma chinense 	494599	Platostoma chinense	587666
+NC_069586.1	2429801369	Salix triandra 	735196	Salix triandra	77069
+NC_069587.1	2429801403	Luzula sylvatica 	633356	Luzula sylvatica	59018
+NC_069588.1	2429801439	Juncus effusus 	519026	Juncus effusus	13579
+NC_069589.1	2429801476	Jasminum sambac 	508930	Jasminum sambac	660624
+NC_069590.1	2429801516	Cichorium intybus 	306009	Cichorium intybus	13427
+NC_069591.1	2429801548	Taxus chinensis 	469769	Taxus chinensis	29808
+NC_069806.1	2431497069	Psychotria serpens 	916319	Psychotria serpens	77896
+NC_070189.1	2431520274	Paeonia lactiflora 	181688	Paeonia lactiflora	35924
+NC_070303.1	2431526891	Rhodiola crenulata 	194106	Rhodiola crenulata	242839
+NC_071216.1	2440029899	Abies koreana 	1174803	Abies koreana	97170
+NC_071219.1	2440032341	Pulsatilla dahurica 	824625	Pulsatilla dahurica	748719
+NC_071229.1	2440032925	Punica granatum 	404807	Punica granatum	22663
+NC_071383.1	2449534694	Melastoma candidum 	391595	Melastoma candidum	119954
+NC_071384.1	2449534742	Melastoma sanguineum 	395542	Melastoma sanguineum	122218
+NC_071385.1	2449534788	Melastoma dodecandrum 	412026	Melastoma dodecandrum	130512
+NC_071911.1	2452631822	Oxytropis splendens 	361579	Oxytropis splendens	90235
+NC_071912.1	2452631855	Oxytropis arctobia 	343007	Oxytropis arctobia	747378
+NC_071968.1	2452634239	Rhodomyrtus tomentosa	400547	Rhodomyrtus tomentosa	98583
+NC_071971.1	2452634360	Huperzia crispata 	412594	Huperzia crispata	380486
+NC_071974.1	2452634497	Calypogeia neesiana	163324	Calypogeia neesiana	588642
+NC_072122.1	2459368706	Rhodiola tangutica 	257378	Rhodiola tangutica	1442784
+NC_072135.1	2459369467	Trigonella foenum-graecum 	345604	Trigonella foenum-graecum	78534
+NC_072295.1	2459376297	Actinidia latifolia 	825163	Actinidia latifolia	165711
+NC_072536.1	2468674263	Paropyrum anemonoides 	206722	Paropyrum anemonoides	432641
+NC_072550.1	2468675059	Cuminum cyminum 	246721	Cuminum cyminum	52462
+NC_072666.1	2468687289	Microstegium vimineum	478010	Microstegium vimineum	91518
+NC_072709.1	2468689797	Elymus magellanicus 	583450	Elymus magellanicus	2892461
+NC_072730.1	2468691551	Artemisia argyi 	229534	Artemisia argyi	259893
+NC_072932.1	2473930629	Pedicularis kansuensis 	273598	Pedicularis kansuensis	321409
+NC_072933.1	2473930667	Echinosophora koreensis 	519841	Echinosophora koreensis	228658
+NC_072955.1	2473931948	Pedicularis chinensis 	225612	Pedicularis chinensis	399715
+NC_072961.1	2473932205	Avena longiglumis 	548445	Avena longiglumis	4500
+NC_072973.1	2473932781	Helianthus argophyllus 	300843	Helianthus argophyllus	73275
+NC_072975.1	2473932891	Plantago ovata	405416	Plantago ovata	185002
+NC_073008.1	2473934039	Zantedeschia aethiopica 	675575	Zantedeschia aethiopica	69721
+NC_073150.1	2476391986	Rhododendron decorum 	901529	Rhododendron decorum	344754
+NC_073151.1	2476392022	Chrysanthemum x morifolium 	210932	Chrysanthemum x morifolium	41568
+OK037503.1	2118736905	Saccharum officinarum chromosome 1 	144729	Saccharum officinarum	4547
+OK077159.1	2310810869	Kadsura japonica chromosome 1 	973503	Kadsura japonica	105750
+OK077160.1	2310810901	Kadsura japonica chromosome 2 	897204	Kadsura japonica	105750
+OK077161.1	2310810931	Kadsura japonica chromosome 3 	848837	Kadsura japonica	105750
+OK077162.1	2310810958	Kadsura japonica chromosome 4 	261590	Kadsura japonica	105750
+OK077163.1	2310810964	Kadsura japonica chromosome 5 	211474	Kadsura japonica	105750
+OK077164.1	2310810970	Kadsura japonica chromosome 6 	72712	Kadsura japonica	105750
+OK077165.1	2310810972	Kadsura japonica chromosome 7 	68176	Kadsura japonica	105750
+OK120846.1	2128381035	Thinopyrum obtusiflorum 	390725	Thinopyrum obtusiflorum	4589
+OK166971.1	2180638198	Bupleurum chinense	435023	Bupleurum chinense	52451
+OK274069.1	2202739255	Genlisea tuberosa	729765	Genlisea tuberosa	1504635
+OK326879.1	2163713923	Cucumis hystrix chromosome 1	1113461	Cucumis hystrix	396994
+OK326880.1	2163713956	Cucumis hystrix chromosome 2 	110683	Cucumis hystrix	396994
+OK326881.1	2163713962	Cucumis hystrix chromosome 3 	92288	Cucumis hystrix	396994
+OK514181.1	2168681551	Aragoa abietina 	365087	Aragoa abietina	193561
+OK514182.1	2168681586	Aragoa cleefii 	365824	Aragoa cleefii	193564
+OK585063.1	2130412652	Ferula sinkiangensis 	416958	Ferula sinkiangensis	1271632
+OK638188.1	2172359057	Tylosema esculentum chromosome LS1 	253259	Tylosema esculentum	189976
+OK638189.1	2172359085	Tylosema esculentum chromosome LS2 	146313	Tylosema esculentum	189976
+OL347690.1	2186271218	 Allium fistulosum	382053	Allium fistulosum	35875
+OL348387.1	2223189195	Abelmoschus esculentus chromosome 1 	355223	Abelmoschus esculentus	455045
+OL348388.1	2223189220	Abelmoschus esculentus chromosome 2 	174444	Abelmoschus esculentus	455045
+OL350846.1	2222661854	Cucurbita maxima 	640814	Cucurbita maxima	3661
+OL351256.1	2253751702	Brassica oleracea var. italica 	219964	Brassica oleracea var. italica	36774
+OL450370.1	2222651313	Chaenomeles speciosa chromosome 1 	307720	Chaenomeles speciosa	106546
+OL450371.1	2222651335	Chaenomeles speciosa chromosome 2 	128744	Chaenomeles speciosa	106546
+OL467322.1	2169227549	Alkekengi officinarum var. franchetii 	602268	Alkekengi officinarum var. franchetii	221454
+OL703044.1	2248385955	Platycladus orientalis chromosome 1 	2466658	Platycladus orientalis	58046
+OL789880.1	2314668545	Coffea arabica chromosome 1 	867678	Coffea arabica	13443
+OL789881.1	2314668568	Coffea arabica chromosome 2 	153529	Coffea arabica	13443
+OL804177.1	2173806640	Crocus sativus 	525348	Crocus sativus	82528
+OL857277.1	2198162216	Schisandra chinensis chromosome 1 	398323	Schisandra chinensis	50507
+OL857278.1	2198162226	Schisandra chinensis chromosome 2 	372190	Schisandra chinensis	50507
+OL857279.1	2198162234	Schisandra chinensis chromosome 3 	228253	Schisandra chinensis	50507
+OL857281.1	2198162244	Schisandra chinensis chromosome 5 	194487	Schisandra chinensis	50507
+OL857282.1	2198162247	Schisandra chinensis chromosome 6 	126075	Schisandra chinensis	50507
+OL857284.1	2198162255	Schisandra chinensis chromosome 8 	83338	Schisandra chinensis	50507
+OL857285.1	2198162261	Schisandra chinensis chromosome 9 	21808	Schisandra chinensis	50507
+OL979137.1	2317666067	Pulsatilla chinensis var. kissii 	684203	Pulsatilla chinensis var. kissii	2029856
+OL989850.1	2237264323	Camellia sinensis var. assamica	1081966	Camellia sinensis var. assamica	261999
+OM066870.1	2305950822	Amorphophallus albus chromosome 2 	48380	Amorphophallus albus	152299
+OM066871.1	2305950826	Amorphophallus albus chromosome 3 	40131	Amorphophallus albus	152299
+OM219025.1	2316014540	Christisonia kwangtungensis chromosome 1 	87933	Christisonia kwangtungensis	2499984
+OM219026.1	2316014545	Christisonia kwangtungensis chromosome 2 	303254	Christisonia kwangtungensis	2499984
+OM219027.1	2316014562	Christisonia kwangtungensis chromosome 3 	241909	Christisonia kwangtungensis	2499984
+OM320814.1	2321990234	Gentiana crassicaulis 	368808	Gentiana crassicaulis	308434
+OM328072.1	2321990278	Gentiana straminea 	410086	Gentiana straminea	50768
+OM397952.2	2293355509	Rehmannia glutinosa 	547032	Rehmannia glutinosa	99300
+OM759996.1	2227918237	Garcinia mangostana	371235	Garcinia mangostana	58228
+OM867547.1	2240766805	Haplopteris ensiformis  chromosome 3 	28267	Haplopteris ensiformis	38644
+OM867548.1	2240766808	Haplopteris ensiformis  chromosome 4 	105705	Haplopteris ensiformis	38644
+OM867549.1	2240766816	Haplopteris ensiformis  chromosome 5 	217669	Haplopteris ensiformis	38644
+OM867550.1	2240766832	Haplopteris ensiformis  chromosome 6 	253731	Haplopteris ensiformis	38644
+OM867551.1	2240766854	Haplopteris ensiformis  chromosome 7 	229203	Haplopteris ensiformis	38644
+OM867552.1	2240766874	Haplopteris ensiformis  chromosome 8 	207059	Haplopteris ensiformis	38644
+OM867553.1	2240766891	Haplopteris ensiformis  chromosome 9 	184007	Haplopteris ensiformis	38644
+ON012190.1	2326933526	Salix udensis chromosome M01	497901	Salix udensis	889485
+ON012191.1	2326933550	Salix udensis chromosome M02	157408	Salix udensis	889485
+ON012193.1	2326933762	Salix viminalis chromosome M01	505367	Salix viminalis	40686
+ON012194.1	2326933791	Salix viminalis chromosome M02	128976	Salix viminalis	40686
+ON012204.1	2326934148	Salix suchowensis chromosome M01	556115	Salix suchowensis	1278906
+ON012205.1	2326934178	Salix suchowensis chromosome M02	83496	Salix suchowensis	1278906
+ON024068.1	2288443383	Saurauia tristyla chromosome 1 	390720	Saurauia tristyla	374845
+ON024069.1	2288443415	Saurauia tristyla chromosome 2 	91824	Saurauia tristyla	374845
+ON024070.1	2288443453	Actinidia chinensis var. chinensis cultivar 4x chromosome 2 	200154	Actinidia chinensis var. chinensis	1590841
+ON024071.1	2288443456	Actinidia chinensis var. chinensis cultivar 4x chromosome 1 	706867	Actinidia chinensis var. chinensis	1590841
+ON064072.1	2230769168	Salix arbutifolia 	719377	Salix arbutifolia	75699
+ON398338.1	2396575366	Quercus acutissima chromosome 1 	224233	Quercus acutissima	58330
+ON398339.1	2396575383	Quercus acutissima chromosome 2 	188259	Quercus acutissima	58330
+ON398340.1	2396575399	Quercus acutissima chromosome 3 	36490	Quercus acutissima	58330
+ON478160.1	2264350319	Malus domestica cultivar Gala 	396946	Malus domestica	3750
+ON478170.1	2264350685	Potentilla anserina 	294682	Argentina anserina	57926
+ON478177.1	2264350922	Sorbus aucuparia subsp. pohuashanensis 	396857	Sorbus aucuparia subsp. pohuashanensis	691238
+ON507989.1	2295471663	Erigeron annuus chromosome 1 	118852	Erigeron annuus	91248
+ON507990.1	2295471684	Erigeron annuus chromosome 2 	108879	Erigeron annuus	91248
+ON603305.1	2295471701	Thuja sutchuenensis chromosome 1 	1390680	Thuja sutchuenensis	307274
+ON603306.1	2295471718	Thuja sutchuenensis chromosome 2 	519836	Thuja sutchuenensis	307274
+ON603307.1	2295471727	Thuja sutchuenensis chromosome 3 	293570	Thuja sutchuenensis	307274
+ON603308.1	2295471732	Thuja sutchuenensis chromosome 4 	251475	Thuja sutchuenensis	307274
+ON631245.1	2412392120	Mentha spicata chromosome 1 	158164	Mentha spicata	29719
+ON631246.1	2412392137	Mentha spicata chromosome 2 	87431	Mentha spicata	29719
+ON782577.1	2414558276	Camellia sinensis var. pubilimba 	894250	Camellia sinensis var. pubilimba	1523626
+ON890398.1	2373969859	Cistanche deserticola chromosome 3 	340447	Cistanche deserticola	161395
+ON890399.1	2373969872	Cistanche deserticola chromosome 4 	228088	Cistanche deserticola	161395
+ON890401.1	2373969908	Cistanche deserticola chromosome 2 	1081476	Cistanche deserticola	161395
+ON951335.1	2416418864	Rehmannia glutinosa chromosome 1 	497303	Rehmannia glutinosa	99300
+ON951336.1	2416418897	Rehmannia glutinosa chromosome 2 	48220	Rehmannia glutinosa	99300
+ON960097.1	2416418933	Lycium chinense chromosome 1 	213600	Lycium chinense	112883
+ON960098.1	2416418952	Lycium chinense chromosome 2 	198765	Lycium chinense	112883
+OP177683.1	2389631841	Amaranthus tricolor chromosome 1 	232356	Amaranthus tricolor	29722
+OP177684.1	2389631863	Amaranthus tricolor chromosome 2 	95768	Amaranthus tricolor	29722
+OP177685.1	2389631871	Amaranthus tricolor chromosome 3 	54308	Amaranthus tricolor	29722
+OP251015.1	2438308166	Vernicia fordii chromosome 1 	717344	Vernicia fordii	73154
+OP251016.1	2438308184	Vernicia fordii chromosome 2 	170198	Vernicia fordii	73154
+OP251018.1	2438308193	Vernicia fordii chromosome 4 	48756	Vernicia fordii	73154
+OP251020.1	2438308201	Vernicia fordii chromosome 6 	30441	Vernicia fordii	73154
+OP312068.1	2422979480	Rhodiola wallichiana chromosome 1 	118787	Rhodiola wallichiana	203018
+OP312069.1	2422979495	Rhodiola wallichiana chromosome 2 	82073	Rhodiola wallichiana	203018
+OP312070.1	2422979509	Rhodiola sacra chromosome 1 	128593	Rhodiola sacra	203000
+OP312071.1	2422979522	Rhodiola sacra chromosome 2 	80447	Rhodiola sacra	203000
+OP324798.1	2439185561	Fargesia qinlingensis chromosome 1 	208716	Fargesia qinlingensis	862990
+OP324799.1	2439185580	Fargesia qinlingensis chromosome 2 	160262	Fargesia qinlingensis	862990
+OP324800.1	2439185598	Fargesia qinlingensis chromosome 3 	73390	Fargesia qinlingensis	862990
+OP429117.1	2441075512	Myricaria elegans chromosome 1 	221573	Myricaria elegans	194560
+OP429118.1	2441075530	Myricaria elegans chromosome 2 	194781	Myricaria elegans	194560
+OP465200.1	2319117301	Paphiopedilum micranthum chromosome 1 	32281	Paphiopedilum micranthum	53103
+OP465201.1	2319117310	Paphiopedilum micranthum chromosome 2 	28701	Paphiopedilum micranthum	53103
+OP465203.1	2319117318	Paphiopedilum micranthum chromosome 4 	22131	Paphiopedilum micranthum	53103
+OP465205.1	2319117326	Paphiopedilum micranthum chromosome 6 	20166	Paphiopedilum micranthum	53103
+OP465206.1	2319117331	Paphiopedilum micranthum chromosome 7 	19839	Paphiopedilum micranthum	53103
+OP465207.1	2319117339	Paphiopedilum micranthum chromosome 8 	19478	Paphiopedilum micranthum	53103
+OP465209.1	2319117347	Paphiopedilum micranthum chromosome 10 	18957	Paphiopedilum micranthum	53103
+OP465211.1	2319117357	Paphiopedilum micranthum chromosome 12 	18871	Paphiopedilum micranthum	53103
+OP526745.1	2441117178	Calypogeia suecica	160433	Calypogeia suecica	373805
+OP526746.1	2441117221	Calypogeia suecica	161975	Calypogeia suecica	373805
+OP526747.1	2441117264	Calypogeia suecica	161975	Calypogeia suecica	373805
+OP526748.1	2441117307	Calypogeia suecica	160440	Calypogeia suecica	373805
+OP526749.1	2441117350	Calypogeia sphagnicola f. sphagnicola	160890	Calypogeia sphagnicola f. sphagnicola	1262444
+OP649455.1	2449439100	Aristolochia fimbriata chromosome 2 	89369	Aristolochia fimbriata	158543
+OP649456.1	2449439112	Aristolochia fimbriata chromosome 3 	78874	Aristolochia fimbriata	158543
+OP729396.1	2416146727	Brassica rapa var. purpuraria 	219779	Brassica rapa var. purpuraria	386281
+OP795447.1	2445345841	Tylosema esculentum chromosome 1 	113687	Tylosema esculentum	189976
+OP795448.1	2445345848	Tylosema esculentum chromosome 2 	97120	Tylosema esculentum	189976
+OP795449.1	2445345854	Tylosema esculentum chromosome 3 	169406	Tylosema esculentum	189976
+OP800433.1	2425690268	Pueraria montana var. lobata chromosome 1 	248245	Pueraria montana var. lobata	3893
+OP800434.1	2425690285	Pueraria montana var. lobata chromosome 2 	216589	Pueraria montana var. lobata	3893
+OP805353.1	2445527778	Gelsemium elegans chromosome 1 	261758	Gelsemium elegans	427660
+OP805354.1	2445527800	Gelsemium elegans chromosome 2 	144251	Gelsemium elegans	427660
+OP895669.1	2449206104	Castanea mollissima chromosome 1	363232	Castanea mollissima	60419
+OP895670.1	2449206139	Castanea mollissima chromosome 2 	24806	Castanea mollissima	60419
+OP957066.1	2465302188	Capsicum pubescens 	454165	Capsicum pubescens	113210
+OP973786.1	2468004391	Lilium tsingtauense chromosome 4 	55751	Lilium tsingtauense	82331
+OP973790.1	2468004402	Lilium tsingtauense chromosome 8 	45262	Lilium tsingtauense	82331
+OP973791.1	2468004406	Lilium tsingtauense chromosome 9 	41300	Lilium tsingtauense	82331
+OP973793.1	2468004409	Lilium tsingtauense chromosome 11 	39226	Lilium tsingtauense	82331
+OP974165.1	2450339909	Viburnum chinshanense chromosome 1	355354	Viburnum chinshanense	2291176
+OP974166.1	2450339931	Viburnum chinshanense chromosome 2 	288617	Viburnum chinshanense	2291176
+OP980541.1	2451073523	Poa pratensis 	149079	Poa pratensis	4545
+OQ001564.1	2451864846	Salvia officinalis chromosome 1	268341	Salvia officinalis	38868
+OQ101613.1	2425690306	Eucommia ulmoides chromosome 1 	345526	Eucommia ulmoides	4392
+OQ101614.1	2425690338	Eucommia ulmoides chromosome 2 	134112	Eucommia ulmoides	4392
+OQ259535.1	2445527443	Actinidia valvata chromosome 1 	781709	Actinidia valvata	165719
+OQ259536.1	2445527483	Actinidia valvata chromosome 2 	301558	Actinidia valvata	165719
+OQ445558.1	2463918975	Dracaena sp.	516870	Dracaena sp. C6AG20210925	3036238
+OQ534870.1	2470414239	Forsythia suspensa 	535692	Forsythia suspensa	126418
+OQ539549.1	2456438220	Saururus chinensis chromosome 2 	105361	Saururus chinensis	54806
+OQ559502.1	2474798926	Prunus tenella 	452158	Prunus tenella	140661
+OQ603497.1	2476878390	Jatropha curcas	561839	Jatropha curcas	180498
+OQ603604.1	2482668344	Momordica charantia 	331440	Momordica charantia	3673
+OX459128.1	2476169771	Oldenlandia corymbosa var. corymbosa	258274	Oldenlandia corymbosa var. corymbosa	529605
+NC_013444.1	262186694	Pleurozia purpurea	168526	Pleurozia purpurea	280637
+NC_013765.1	284794729	Phaeoceros laevis	209482	Phaeoceros laevis	37308
+NC_013816.1	289065026	Oryza rufipogon	559045	Oryza rufipogon	4529
+NC_021092.1	501594995	Vigna angularis	404466	Vigna angularis	3914
+NC_031158.1	1075059435	Ipomoea nil	265768	Ipomoea nil	35883
+NC_031164.1	1070108944	Saccharum officinarum	300784	Saccharum officinarum	4547
+NC_034982.1	1206246996	Utricularia reniformis	857234	Utricularia reniformis	192314
+NC_035157.1	1211677951	Populus davidiana	779361	Populus davidiana	266767
+NC_035962.1	1252313584	Bupleurum falcatum	463792	Bupleurum falcatum	46367
+NC_039660.1	1511253925	Ammopiptanthus mongolicus	475396	Ammopiptanthus mongolicus	126911
+NC_044768.1	1747451546	Prunus avium	389709	Prunus avium	42229
+NC_059858.1	2172617432	Acer yangbiense	803281	Acer yangbiense	1000413
+NC_059859.1	2172617433	Tetracentron sinense	856059	Tetracentron sinense	13715
+NC_066984.1	2314983767	Psychotria viridis	615370	Psychotria viridis	189196
+NC_069194.1	2424877093	Aeginetia indica	420362	Aeginetia indica	290220
+NC_071968.2	2692970003	Rhodomyrtus tomentosa	400482	Rhodomyrtus tomentosa	98583
+NC_072104.1	2459367863	Helicanthes elasticus	165273	Helicanthes elasticus	2486982
+NC_077587.1	2589363891	Poa pratensis	447463	Poa pratensis	4545
+NC_077626.1	2589365201	Ficus carica	480902	Ficus carica	3494
+NC_077627.1	2589365231	Rosa hybrid cultivar	270143	Rosa hybrid cultivar	128735
+NC_077647.1	2589366219	Apostasia shenzhenica	672872	Apostasia shenzhenica	1088818
+NC_079700.1	2519764050	Syzygium samarangense	530242	Syzygium samarangense	260143
+NC_079842.1	2519776042	Calophyllum soulattri	378262	Calophyllum soulattri	257776
+NC_079917.1	2519777678	Sphagnum subsecundum	141684	Sphagnum subsecundum	231106
+NC_080333.1	2524649180	Hevea benthamiana	1325814	Hevea benthamiana	336955
+NC_080334.1	2524649238	Hevea pauciflora	1325814	Hevea pauciflora	1318717
+NC_080355.1	2524650663	Aneura maxima	167464	Aneura maxima	414042
+NC_080360.1	2524650847	Apopellia endiviifolia	109400	Apopellia endiviifolia	304445
+NC_080361.1	2524650889	Moerckia flotoviana	179864	Moerckia flotoviana	71401
+NC_080362.1	2524650932	Pallavicinia lyellii	164245	Pallavicinia lyellii	56939
+NC_080363.1	2524650974	Pellia epiphylla	161790	Pellia epiphylla	40340
+NC_080364.1	2524651016	Pellia neesiana	158691	Pellia neesiana	70144
+NC_080521.1	2530892529	Pandanus odorifer	330962	Pandanus odorifer	1165086
+NC_080973.1	2554488637	Nepenthes khasiana	900031	Nepenthes khasiana	122310
+NC_080974.1	2554488687	Mammillaria huitzilopochtli	2052004	Mammillaria huitzilopochtli	278535
+NC_080981.1	2554488816	Lycopodium japonicum	454458	Lycopodium japonicum	672196
+NC_081468.1	2569529600	Selenicereus monacanthus	2290019	Selenicereus monacanthus	1195128
+NC_081485.1	2569530801	Cuscuta epithymum	407988	Cuscuta epithymum	186058
+NC_081498.1	2569531918	Santalum album	351043	Santalum album	35974
+NC_081509.1	2569532749	Ilex metabaptista	529560	Ilex metabaptista	2996044
+NC_081511.1	2569532875	Suriana maritima	458738	Suriana maritima	32256
+NC_081910.1	2577853616	Pinellia ternata	876608	Pinellia ternata	199225
+NC_081933.1	2577855700	Prunella vulgaris	297777	Prunella vulgaris	39358
+NC_081934.1	2577855749	Corydalis pauciovulata	675483	Corydalis pauciovulata	2902610
+NC_082039.1	2577863883	Rheum palmatum	302993	Rheum palmatum	137221
+NC_082064.1	2577866024	Hedyosmum orientale	471696	Hedyosmum orientale	226581
+NC_082065.1	2577866077	Cinnamomum chekiangense	750457	Cinnamomum chekiangense	1008900
+NC_082108.1	2577869246	Rhodiola juparensis	202019	Rhodiola juparensis	1871911
+NC_082119.1	2577869669	Geoffroea decorticans	383969	Geoffroea decorticans	107362
+NC_082157.1	2577872418	Scapania undulata	140940	Scapania undulata	215256
+NC_082163.1	2577872669	Syringa fauriei	586503	Syringa fauriei	3004220
+NC_082180.1	2577873348	Reynoutria japonica	302229	Reynoutria japonica	488216
+NC_082206.1	2577874650	Dystaenia takeshimana	282211	Dystaenia takeshimana	57122
+NC_082207.1	2577874698	Dystaenia ibukiensis	281432	Dystaenia ibukiensis	76001
+NC_082234.1	2577876363	Magnolia figo	773377	Magnolia figo	13612
+NC_082235.1	2577876420	Ilex macrocarpa	539461	Ilex macrocarpa	185530
+NC_082286.1	2577880679	Achillea wilsoniana	239572	Achillea wilsoniana	282772
+NC_082287.1	2577880724	Ainsliaea angustata	376287	Ainsliaea angustata	3070662
+NC_082288.1	2577880767	Phaeostigma salicifolium	219620	Phaeostigma salicifolium	457748
+NC_082289.1	2577880808	Aster batangensis	266735	Aster batangensis	1196467
+NC_082290.1	2577880851	Blumea megacephala	336359	Blumea megacephala	441185
+NC_082291.1	2577880889	Carpesium leptophyllum	348083	Carpesium leptophyllum	2558926
+NC_082292.1	2577880927	Dichrocephala benthamii	256912	Dichrocephala benthamii	648858
+NC_082293.1	2577880962	Duhaldea cappa	320003	Duhaldea cappa	313931
+NC_082294.1	2577880997	Eupatorium chinense	286160	Eupatorium chinense	102772
+NC_082295.1	2577881033	Leucomeris decora	402728	Leucomeris decora	927783
+NC_082296.1	2577881078	Nouelia insignis	403806	Nouelia insignis	130285
+NC_082297.1	2577881123	Parasenecio latipes	338456	Parasenecio latipes	186963
+NC_082298.1	2577881158	Senecio graciliflorus	327921	Senecio graciliflorus	1205703
+NC_082299.1	2577881205	Synotis nagensium	333694	Synotis nagensium	189254
+NC_082306.1	2577881370	Ribes nigrum	450227	Ribes nigrum	78511
+NC_082307.1	2577881417	Lavandula angustifolia	355345	Lavandula angustifolia	39329
+NC_082434.1	2579686404	Agrostis stolonifera	560800	Agrostis stolonifera	63632
+NC_082435.1	2579686441	Caragana spinosa	378373	Caragana spinosa	626692
+NC_082539.1	2579698868	Eucommia ulmoides	298961	Eucommia ulmoides	4392
+NC_082592.1	2581901942	Dendrobium flexicaule	55806	Dendrobium flexicaule	154292
+NC_082859.1	2587928737	Diospyros kaki	421308	Diospyros kaki	35925
+NC_082937.1	2587931006	Primula sikkimensis	93473	Primula sikkimensis	110763
+NC_082972.1	2587932038	Tripterygium wilfordii	720306	Tripterygium wilfordii	458696
+NC_083134.1	2591480769	Actinidia macrosperma	752501	Actinidia macrosperma	165712
+NC_083147.1	2591481735	Chamaemelum nobile	235178	Chamaemelum nobile	99037
+NC_083899.1	2627887026	Rhodobryum laxelimbatum	103071	Rhodobryum laxelimbatum	576390
+NC_083965.1	2627891815	Stephania japonica	555117	Stephania japonica	461633
+NC_083979.1	2627892119	Solanum muricatum	433466	Solanum muricatum	205567
+NC_084106.1	2627900632	Cymbidium lancifolium	33027	Cymbidium lancifolium	112612
+NC_084125.1	2627901854	Calypogeia muelleriana	162913	Calypogeia muelleriana	56915
+NC_084126.1	2627901897	Calypogeia azurea	162033	Calypogeia azurea	985892
+NC_084127.1	2627901940	Calypogeia azorica	161851	Calypogeia azorica	2709849
+NC_084129.1	2627901997	Paeonia suffruticosa	203077	Paeonia suffruticosa	45171
+NC_084267.1	2627911889	Chloranthus spicatus	1108460	Chloranthus spicatus	13006
+NC_084321.1	2627913786	Ilex rotunda	567552	Ilex rotunda	53211
+NC_084324.1	2627913855	Aconitum carmichaelii	425319	Aconitum carmichaelii	85363
+NC_084327.1	2627913990	Hevea camargoana	1402206	Hevea camargoana	2733477
+NC_084328.1	2627914049	Hevea spruceana	935732	Hevea spruceana	1318718
+NC_084341.1	2627914913	Aglaia odorata	534321	Aglaia odorata	210347
+NC_084342.1	2627914949	Pontederia crassipes	399263	Pontederia crassipes	44947
+NC_085212.1	2666675991	Magnolia liliiflora	865191	Magnolia liliiflora	3403
+NC_085240.1	2666677758	Eucalyptus camaldulensis	463134	Eucalyptus camaldulensis	34316
+NC_085495.1	2666690062	Hancornia speciosa	741811	Hancornia speciosa	403091
+NC_085616.1	2666697002	Meniocus linifolius	196604	Meniocus linifolius	457770
+NC_085699.1	2666703119	Lepidium sativum	287054	Lepidium sativum	33125
+NC_085700.1	2666703155	Crucihimalaya lasiocarpa	288122	Crucihimalaya lasiocarpa	97993
+NC_085821.1	2666713182	Descurainia sophia	265457	Descurainia sophia	89411
+NC_086551.1	2692940655	Picria felterrae	418189	Picria felterrae	255872
+NC_086557.1	2692941060	Phylloglossum drummondii	363297	Phylloglossum drummondii	70003
+NC_086589.1	2692943165	Dracaena cochinchinensis	525326	Dracaena cochinchinensis	593754
+NC_086594.1	2692943324	Paspalum vaginatum	504515	Paspalum vaginatum	158149
+NC_086632.1	2692944388	Cinnamomum camphora	900894	Cinnamomum camphora	13429
+NC_086644.1	2692944586	Myricaria laxiflora	389949	Myricaria laxiflora	223224
+NC_086673.1	2692946466	Mesembryanthemum crystallinum	1005707	Mesembryanthemum crystallinum	3544
+NC_086674.1	2692946486	Zizania latifolia	390962	Zizania latifolia	58934
+NC_086675.1	2692946515	Tetraena mongolica	637925	Tetraena mongolica	66646
+NC_086676.1	2692946543	Actinidia eriantha	772631	Actinidia eriantha	165200
+NC_086687.1	2692947316	Microcos paniculata	380906	Microcos paniculata	197124
+NC_086688.1	2692947361	Citrus reticulata	517914	Citrus reticulata	85571
+NC_086689.1	2692947377	Rehmannia glutinosa	545329	Rehmannia glutinosa	99300
+NC_086691.1	2692947432	Trapa incisa	381774	Trapa incisa	236973
+NC_086721.1	2692949561	Nicotiana longiflora	348585	Nicotiana longiflora	118702
+NC_086732.1	2692950104	Bidens hawaiensis	197167	Bidens hawaiensis	980011
+NC_086733.1	2692950138	Chenopodium acuminatum	358737	Chenopodium acuminatum	240043
+NC_086749.1	2692951407	Camellia chekiangoleosa	922518	Camellia chekiangoleosa	450940
+NC_086751.1	2692951528	Rehmannia chingii	783161	Rehmannia chingii	332336
+NC_086761.1	2692952204	Camellia granthamiana	922816	Camellia granthamiana	182298
+NC_086781.1	2692953013	Actinidia rufa	1022459	Actinidia rufa	165716
+NC_086809.1	2692954059	Leucaena leucocephala	785831	Leucaena leucocephala	3866
+NC_086845.1	2692955512	Humulus lupulus	400022	Humulus lupulus	3486
+NC_086846.1	2692955551	Delonix regia	840789	Delonix regia	72433
+NC_086916.1	2692959976	Chenopodium formosanum	313142	Chenopodium formosanum	1640932
+NC_086917.1	2692960007	Chenopodium suecicum	286826	Chenopodium suecicum	434248
+NC_086918.1	2692960038	Crotalaria pallida	533955	Crotalaria pallida	3830
+NC_086919.1	2692960072	Psophocarpus tetragonolobus	438707	Psophocarpus tetragonolobus	3891
+NC_086920.1	2692960109	Trachelospermum jasminoides	605605	Trachelospermum jasminoides	69389
+NC_086921.1	2692960141	Hippophae gyantsensis	586319	Hippophae gyantsensis	193515
+NC_086955.1	2692962428	Limonia acidissima	545150	Limonia acidissima	159053
+NC_087060.1	2692969881	Daucus carota subsp. sativus	250368	Daucus carota subsp. sativus	79200
+NC_087774.1	2715314946	Eremochloa ophiuroides	564431	Eremochloa ophiuroides	866555
+NC_087799.1	2715316287	Nopalea cochenillifera	1156235	Nopalea cochenillifera	338184
+NC_087815.1	2715317311	Primulina hunanensis	575242	Primulina hunanensis	1846138
+NC_087835.1	2715318028	Aechmea fasciata	1166331	Aechmea fasciata	326768
+NC_087862.1	2715319795	Carex pseudochinensis	997628	Carex pseudochinensis	2753391
+NC_088073.1	2715336363	Cyathodium cavernarum	175523	Cyathodium cavernarum	351593
+NC_088094.1	2715337753	Salix psammophila	715555	Salix psammophila	1508161
+NC_088484.1	2724828791	Saccharum narenga	513095	Saccharum narenga	154764
+NC_088489.1	2724829029	Lepidium apetalum	287626	Lepidium apetalum	153459
+NC_088520.1	2724830063	Actinidia arguta	792319	Actinidia arguta	64478
+NC_088526.1	2724830316	Aeschynomene indica	388249	Aeschynomene indica	48135
+NC_088584.1	2724832831	Caryodaphnopsis henryi	1168029	Caryodaphnopsis henryi	1780282
+NC_088727.1	2732052276	Ruppia sinensis	256174	Ruppia sinensis	2690835
+NC_088756.1	2732054077	Oenanthe linearis	367287	Oenanthe linearis	496678
+NC_088759.1	2732054213	Ranunculus cassubicifolius	1183731	Ranunculus cassubicifolius	286882
