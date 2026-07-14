@@ -1,0 +1,9 @@
+Taxonomic group and organelle type	Total Genomes	Total IGRs	Unique Taxa	Unique Taxa in Tree	Same polarity IGRs	Convergent polarity IGRs	Divergent polarity IGRs
+Fungi (mitochondria)	421	16856	404	402	14957	949	950
+Metazoans (mitochondria)	17094	260207	16735	16622	160745	33003	66459
+Green algae (mitochondria)	95	4739	94	94	4063	338	338
+Green algae (plastid)	270	26467	263	263	21526	2456	2485
+Plants (mitochondria)	1037	51499	787	780	35165	8167	8167
+Plants (plastid)	17525	2195373	16873	16544	1518290	336875	340208
+Protists (mitochondria)	667	31558	650	646	27921	1666	1971
+Protists (plastid)	703	121390	680	679	87503	16407	17480
