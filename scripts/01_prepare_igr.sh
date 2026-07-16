@@ -1,52 +1,55 @@
 #!/usr/bin/env bash
-
-set -e
+set -eu
 project_dir="$(dirname "$(dirname "$(realpath "${BASH_SOURCE[0]}")")")"
-igs_path="$project_dir/scripts/summary_igs.py"
-echo "Project directory: $project_dir"
+
+###############################################################
+# IF YOUR DATA DIRECTORY MOVES, EDIT THIS LINE.
+# Every group path is built from it.
+base=${project_dir}
+# Default points to the dataset-organelle-igr directory.
+###############################################################
+
+igs_path=${project_dir}/scripts/summary_igs.py
+
+tnow() {
+    date '+%Y-%m-%d %H:%M:%S'
+}
 
 # check if tigre command is available
-if ! command -v tigre &> /dev/null
-then
+if ! command -v tigre &> /dev/null; then
     echo "tigre command could not be found. Please install tigre and ensure it is in your PATH."
     echo 'Installation using pip: pip install "tigre[all]"'
     exit 1
 fi
 
 process_group() {
-    local group="$1"
-    echo "## --$group"
-    
-    GROUP_START=$(date +%s)
-    
-    # Build paths
-    local base_path="$project_dir/$group"
-    local gdict_file="$base_path/${group}.gdict"
-    local tsv_file="$base_path/$group.tsv"
-    local igs_file="$base_path/${group}_summary_igr.tsv"
-    
-    # Check if directory exists
+    local GROUP="$1"
+
+    local base_path="${base}/${GROUP}"
+    local gdict_file="${base_path}/${GROUP}.gdict"
+    local tsv_file="${base_path}/${GROUP}.tsv"
+    local igs_file="${base_path}/${GROUP}_summary_igr.tsv"
+
     if [ ! -d "$base_path" ]; then
-        echo "Warning: Directory $base_path does not exist. Skipping $group."
+        echo "[$(tnow)] Warning: directory $base_path does not exist. Skipping $GROUP."
         return
     fi
-    
-    # Tigre commands to extract the intergenic regions
-    tigre clean multiple -v --log "$base_path/clean_brms.log" --gdict "$gdict_file" --tsv "$tsv_file" --overwrite
-    tigre extract multiple -v --log "$base_path/extract_brms.log" --tsv "$tsv_file" --overwrite
-    tigre getfasta multiple -v --log "$base_path/getfasta_brms.log" --tsv "$tsv_file" --overwrite
 
-    # Summarize intergenic regions
+    local start elapsed
+    start=$(date +%s)
+
+    echo "[$(tnow)] Starting IGR extraction for $GROUP..."
+
+    tigre clean multiple -v --log "${base_path}/clean_brms.log" --gdict "$gdict_file" --tsv "$tsv_file" --overwrite
+    tigre extract multiple -v --log "${base_path}/extract_brms.log" --tsv "$tsv_file" --overwrite
+    tigre getfasta multiple -v --log "${base_path}/getfasta_brms.log" --tsv "$tsv_file" --overwrite
+
     python3 "$igs_path" --tsv "$tsv_file" --output "$igs_file" --overwrite
-    
-    GROUP_END=$(date +%s)
-    echo "$group group completed in $((GROUP_END - GROUP_START)) seconds"
+
+    elapsed=$(( $(date +%s) - start ))
+    echo "[$(tnow)] Finished IGR extraction for $GROUP in $(( elapsed / 60 )) min $(( elapsed % 60 )) sec"
     echo
 }
-
-echo "========================================="
-echo "Starting IGR extraction"
-echo "========================================="
 
 # Default groups (all)
 default_groups=(
@@ -63,25 +66,20 @@ default_groups=(
 # Use provided arguments or default to all groups
 if [ $# -eq 0 ]; then
     groups=("${default_groups[@]}")
-    echo "No groups specified. Processing all groups."
+    echo "[$(tnow)] No groups specified. Processing all groups."
 else
     groups=("$@")
-    echo "Processing specified groups: ${groups[*]}"
+    echo "[$(tnow)] Processing specified groups: ${groups[*]}"
 fi
 
-all_start=$(date +%s)
+start_time=$(date +%s)
+echo "[$(tnow)] Starting IGR extraction for all groups..."
+echo
 
 for group in "${groups[@]}"; do
     process_group "$group"
 done
 
-all_end=$(date +%s)
-total_time=$((all_end - all_start))
-hours=$((total_time / 3600))
-minutes=$(((total_time % 3600) / 60))
-seconds=$((total_time % 60))
-echo "Total processing time: ${hours} hr, ${minutes} min, ${seconds} sec"
-
-echo "========================================="
-echo "IGR extraction completed"
-echo "========================================="
+elapsed=$(( $(date +%s) - start_time ))
+echo "[$(tnow)] Finished all IGR extraction in $(( elapsed / 3600 )) hr $(( (elapsed % 3600) / 60 )) min $(( elapsed % 60 )) sec"
+echo "Done!"
