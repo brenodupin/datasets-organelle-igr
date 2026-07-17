@@ -280,7 +280,7 @@ p_conv_gt0 <- mean(dr$b_polarity_3binconv > 0)
 p_div_gt0 <- mean(dr$b_polarity_3bindiv > 0)
 
 sd_phylo <- unname(brms::VarCorr(m_pol)$ncbi_taxid$sd["Intercept", "Estimate"])
-sigma_res <- unname(brms::VarCorr(m_pol)$residual__$sd["Intercept", "Estimate"])
+sigma_res <- unname(brms::VarCorr(m_pol)$residual__$sd[1, "Estimate"])
 
 get_mu <- function(pol) {
   mu_bp[mu_bp$polarity_3bin == pol, ]
