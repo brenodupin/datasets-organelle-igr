@@ -1,9 +1,0 @@
-Taxonomic group and organelle type	Total Genomes	Total IGRs	Total Taxa	brms Genomes	brms IGRs	brms Taxa	% med(opposite) > med(same)	Genomes with >= 40 IGRs	% Top Enriched (count)	% Bottom Depleted (count)	Same polarity IGRs	Convergent polarity IGRs	Divergent polarity IGRs	Same median (bp)	Same IQR (bp)	Convergent median (bp)	Convergent IQR (bp)	Divergent median (bp)	Divergent IQR (bp)
-Fungi (mitochondria)	418	16755	401	418	16755	401	83.3	253	71.1% (180)	92.9% (235)	14866	944	945	230.0	63-647	790.5	187-2321	534.0	193-1411
-Metazoans (mitochondria)	16882	257027	16559	8370	129174	8370	68.3	16	87.5% (14)	81.2% (13)	80876	16457	31841	4.0	2-13	8.0	2-21	5.0	2-67
-Plants (mitochondria)	947	46884	724	947	46884	724	94.3	684	71.8% (491)	98.5% (674)	32057	7413	7414	1228.0	369-5259	6100.0	2074-12640	5084.5	2034-11821
-Plants (plastid)	17034	2133690	16411	3937	490856	3937	99.9	16982	98.7% (16767)	99.6% (16918)	340085	75043	75728	200.0	105-382	245.0	141-578	501.0	307-973
-Protists (mitochondria)	655	31085	639	655	31085	639	80.8	546	84.4% (461)	84.6% (462)	27506	1640	1939	20.0	8-61	65.0	15-417	34.0	19-145
-Protists (plastid)	701	121078	679	701	121078	679	98.9	695	96.0% (667)	87.9% (611)	87274	16368	17436	65.0	31-126	71.0	34-131	200.0	134-304
-Green algae (mitochondria)	95	4739	94	95	4739	94	75.8	77	61.0% (47)	74.0% (57)	4063	338	338	168.0	51-453	284.5	76-935	269.0	57-671
-Green algae (plastid)	270	26467	263	270	26467	263	88.5	264	88.3% (233)	62.9% (166)	21526	2456	2485	265.0	71-713	280.0	76-867	386.0	151-1083
