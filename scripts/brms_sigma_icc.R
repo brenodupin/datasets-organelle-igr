@@ -32,7 +32,7 @@ log_duration <- function(label, expr) {
 }
 
 script_start <- Sys.time()
-log_time("Script started (sigma + H^2 companion)")
+log_time("Script started (sigma + ICC companion)")
 
 seed <- 42
 set.seed(seed)
@@ -175,26 +175,26 @@ m_len <- readRDS(cache_flank)
 m_type <- readRDS(cache_type)
 m_both <- readRDS(cache_both)
 
-h2_of <- function(fit) {
+icc_of <- function(fit) {
   dr <- posterior::as_draws_df(fit)
   vp <- dr$sd_ncbi_taxid__Intercept^2
   ve <- dr$sigma^2
-  h2 <- vp / (vp + ve)
+  icc <- vp / (vp + ve)
   c(
-    median = median(h2),
-    lo = as.numeric(quantile(h2, 0.025)),
-    hi = as.numeric(quantile(h2, 0.975))
+    median = median(icc),
+    lo = as.numeric(quantile(icc, 0.025)),
+    hi = as.numeric(quantile(icc, 0.975))
   )
 }
 
-h2_print <- function(fit, label) {
-  h <- h2_of(fit)
+icc_print <- function(fit, label) {
+  icc <- icc_of(fit)
   cat(sprintf(
-    "  [%-6s] H^2 = %.4f (%.4f, %.4f)\n",
+    "  [%-6s] ICC tax = %.4f (%.4f, %.4f)\n",
     label,
-    h["median"],
-    h["lo"],
-    h["hi"]
+    icc["median"],
+    icc["lo"],
+    icc["hi"]
   ))
 }
 
@@ -227,11 +227,12 @@ write_summary <- function(path) {
     add = TRUE
   )
 
-  cat("--- Proportion of residual variance among taxa (H^2) ---\n")
-  cat("H^2 = var_phylo / (var_phylo + var_resid), from posterior draws\n")
-  h2_print(m_len, "len")
-  h2_print(m_type, "type")
-  h2_print(m_both, "both")
+  cat("--- Proportion of residual variance among taxa ---\n")
+  cat("--- (Intraclass correlation coefficient) ---\n")
+  cat("ICC = var_phylo / (var_phylo + var_resid), from posterior draws\n")
+  icc_print(m_len, "len")
+  icc_print(m_type, "type")
+  icc_print(m_both, "both")
 
   cat("\n--- Distributional model: sigma ~ polarity_3bin ---\n")
   sigma_print(m_sigma)
@@ -255,23 +256,23 @@ sr_div <- sigma_ratio("polarity_3bindiv")
 p_sigma_conv_gt0 <- mean(dr_sigma$b_sigma_polarity_3binconv > 0)
 p_sigma_div_gt0 <- mean(dr_sigma$b_sigma_polarity_3bindiv > 0)
 
-h2_len <- h2_of(m_len)
-h2_type <- h2_of(m_type)
-h2_both <- h2_of(m_both)
+icc_len <- icc_of(m_len)
+icc_type <- icc_of(m_type)
+icc_both <- icc_of(m_both)
 
 res <- data.frame(
   N_regions = nrow(igr),
   N_taxa = nlevels(igr$ncbi_taxid),
 
-  H2_len_median = h2_len["median"],
-  H2_len_lo = h2_len["lo"],
-  H2_len_hi = h2_len["hi"],
-  H2_type_median = h2_type["median"],
-  H2_type_lo = h2_type["lo"],
-  H2_type_hi = h2_type["hi"],
-  H2_both_median = h2_both["median"],
-  H2_both_lo = h2_both["lo"],
-  H2_both_hi = h2_both["hi"],
+  icc_len_median = icc_len["median"],
+  icc_len_lo = icc_len["lo"],
+  icc_len_hi = icc_len["hi"],
+  icc_type_median = icc_type["median"],
+  icc_type_lo = icc_type["lo"],
+  icc_type_hi = icc_type["hi"],
+  icc_both_median = icc_both["median"],
+  icc_both_lo = icc_both["lo"],
+  icc_both_hi = icc_both["hi"],
 
   sigma_ratio_conv = sr_conv["ratio"],
   sigma_ratio_conv_lo = sr_conv["lo"],
