@@ -220,6 +220,7 @@ kfold_worker <- function(
   warmup = warmup_n
 ) {
   suppressPackageStartupMessages(library(brms))
+  options(future.globals.maxSize = 32 * 1024^3)
   if (exists("mem.maxVSize")) {
     try(mem.maxVSize(vsize = Inf), silent = TRUE)
   }
