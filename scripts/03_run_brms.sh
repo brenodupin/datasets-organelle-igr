@@ -12,6 +12,7 @@ base=${project_dir}
 R_pol=${project_dir}/scripts/brms_polarity.R
 R_type_length=${project_dir}/scripts/brms_type_length.R
 R_sigma_h2=${project_dir}/scripts/brms_sigma_h2.R
+R_contrast=${project_dir}/brms_contrast.R 
 
 brms_folder_polarity="brms_polarity"
 brms_folder_type_length="brms_type_length"
@@ -80,6 +81,7 @@ for group in "${groups[@]}"; do
     run_brms "Polarity"    "$group" "$brms_folder_polarity"    "$R_pol"         "polarity"
     run_brms "Type_Length" "$group" "$brms_folder_type_length" "$R_type_length" "type_length"
     run_brms "Sigma_H2"    "$group" "$brms_folder_type_length" "$R_sigma_h2"    "sigma_h2"
+    run_brms "Contrast"    "$group" "$brms_folder_type_length" "$R_contrast"    "contrast"
     echo
 done
 
