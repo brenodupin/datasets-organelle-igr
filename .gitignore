@@ -1,6 +1,7 @@
 sandbox/
 logs/
 code/enrich_data/
+all_groups_brms_results.txt
 
 .ruff_cache/
 .mypy_cache/
