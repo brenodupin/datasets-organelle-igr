@@ -12,7 +12,7 @@ base=${project_dir}
 R_pol=${project_dir}/scripts/brms_polarity.R
 R_type_length=${project_dir}/scripts/brms_type_length.R
 R_sigma_icc=${project_dir}/scripts/brms_sigma_icc.R
-R_contrast=${project_dir}/brms_contrast.R 
+R_contrast=${project_dir}/scripts/brms_contrast.R 
 
 brms_folder_polarity="brms_polarity"
 brms_folder_type_length="brms_type_length"
