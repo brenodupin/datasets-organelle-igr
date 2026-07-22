@@ -12,7 +12,9 @@ if (length(missing_packages) > 0) {
   )
 }
 for (pkg in required_packages) {
-  library(pkg, character.only = TRUE, quietly = TRUE)
+  suppressPackageStartupMessages(
+    library(pkg, character.only = TRUE)
+  )
 }
 
 log_time <- function(msg) {
