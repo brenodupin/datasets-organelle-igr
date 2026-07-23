@@ -13,6 +13,7 @@ R_pol=${project_dir}/scripts/brms_polarity.R
 R_type_length=${project_dir}/scripts/brms_type_length.R
 R_sigma_icc=${project_dir}/scripts/brms_sigma_icc.R
 R_contrast=${project_dir}/scripts/brms_contrast.R 
+R_divergence=${project_dir}/scripts/brms_divergence.R
 
 brms_folder_polarity="brms_polarity"
 brms_folder_type_length="brms_type_length"
@@ -51,6 +52,27 @@ run_brms() {
     sleep 2
 }
 
+run_divergence() {
+    local GROUP="$1"
+    local POLARITY_FOLDER="$2"
+    local TYPE_LENGTH_FOLDER="$3"
+    local R_PATH="$4"
+    local RESULTS_APPEND="$5"
+
+    local polarity_dir="${base}/${GROUP}/${POLARITY_FOLDER}"
+    local type_length_dir="${base}/${GROUP}/${TYPE_LENGTH_FOLDER}"
+    local polarity_tsv="${polarity_dir}/brms_${RESULTS_APPEND}_row.tsv"
+    local type_length_tsv="${type_length_dir}/brms_${RESULTS_APPEND}_row.tsv"
+
+    echo "[$(tnow)] Starting Divergence for $GROUP..."
+    if Rscript "$R_PATH" "$polarity_dir" "$polarity_tsv" "$type_length_dir" "$type_length_tsv" ; then
+        echo "[$(tnow)] Finished Divergence for $GROUP."
+    else
+        echo "[$(tnow)] FAILED Divergence for $GROUP."
+        failures+=("$GROUP/Divergence")
+    fi
+}
+
 # Default groups (all)
 default_groups=(
     "fungi_mit"
@@ -82,6 +104,7 @@ for group in "${groups[@]}"; do
     run_brms "Type_Length" "$group" "$brms_folder_type_length" "$R_type_length" "type_length"
     run_brms "Sigma_ICC"   "$group" "$brms_folder_type_length" "$R_sigma_icc"   "sigma_icc"
     run_brms "Contrast"    "$group" "$brms_folder_type_length" "$R_contrast"    "contrast"
+    run_divergence "$group" "$brms_folder_polarity" "$brms_folder_type_length" "$R_divergence" "divergence"
     echo
 done
 
