@@ -12,6 +12,13 @@ base=${project_dir}
 brms_folder_polarity="brms_polarity"
 brms_folder_type_length="brms_type_length"
 
+sections=(
+    "${brms_folder_polarity}:polarity"
+    "${brms_folder_type_length}:type_length"
+    "${brms_folder_type_length}:sigma_icc"
+    "${brms_folder_type_length}:contrast"
+)
+
 output_path="${base}/all_groups_brms_results.txt"
 
 tnow() {
@@ -34,21 +41,18 @@ print_section() {
 
 extract_text() {
     local GROUP="$1"
-    local BRMS_POLARITY="$2"
-    local BRMS_TYPE_LENGTH="$3"
-
-    local pol_txt="${base}/${GROUP}/${BRMS_POLARITY}/brms_result.txt"
-    local type_length_txt="${base}/${GROUP}/${BRMS_TYPE_LENGTH}/brms_result.txt"
-    local sigma_icc_txt="${base}/${GROUP}/${BRMS_TYPE_LENGTH}/brms_sigma_icc_result.txt"
-    local contrast_txt="${base}/${GROUP}/${BRMS_TYPE_LENGTH}/brms_contrast_result.txt"
 
     echo "####### ${GROUP} #######"
     echo
 
-    print_section "${BRMS_POLARITY}/brms_result.txt" "$pol_txt"
-    print_section "${BRMS_TYPE_LENGTH}/brms_result.txt" "$type_length_txt"
-    print_section "${BRMS_TYPE_LENGTH}/brms_sigma_icc_result.txt" "$sigma_icc_txt"
-    print_section "${BRMS_TYPE_LENGTH}/brms_contrast_result.txt" "$contrast_txt"
+    local section folder append rel_path
+    for section in "${sections[@]}"; do
+        folder="${section%%:*}"
+        append="${section##*:}"
+        rel_path="${folder}/brms_${append}.txt"
+
+        print_section "$rel_path" "${base}/${GROUP}/${rel_path}"
+    done
 }
 
 # Default groups (all)
@@ -82,7 +86,7 @@ for GROUP in "${groups[@]}"; do
     else
         printf "\n\n" >> "$output_path"
     fi
-    extract_text "$GROUP" "$brms_folder_polarity" "$brms_folder_type_length" >> "$output_path"
+    extract_text "$GROUP" >> "$output_path"
 done
 
 echo "[$(tnow)] Combined results written to: $output_path"
