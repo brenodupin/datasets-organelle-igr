@@ -155,6 +155,8 @@ Three kinds of archive are provided, pick whichever matches what you want to do:
 - **`all_groups_lean.tar.zst`**: the same essentials for every group at once: `<group>.tsv`, `<group>.gdict`, `<group>_summary_igr.tsv`, `tree.nwk`, and everything in the two brms folders apart from the fitted models, plus the combined `all_tree.nwk`. **Use it to inspect the results**, or to rerun the analysis straight from step 4 (`03_run_brms.sh`). This is the minimum you need to run the figure and table generation notebooks in `code/`.
 - **`all_groups_models.tar.zst`**: the fitted brms models (`.rds`) only, which none of the other archives contain. **Use it to inspect the models.**
 
+`all_groups_models.tar.zst` is only available in [Zenodo](https://doi.org/10.5281/zenodo.18614283).
+
 ### Processing Specific Groups
 
 Both scripts accept group names as arguments. If no arguments are provided, all groups are processed.
