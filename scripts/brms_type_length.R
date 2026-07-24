@@ -478,14 +478,6 @@ type_contrasts_print <- function(m) {
   print(round(10^e, 3))
 }
 
-###############################################################
-# Bayesian R^2, also isolated.
-#
-# bayes_R2(ndraws = 2000) on 150k rows builds a 2000 x 150000 matrix
-# (2.4 GB) AND a residual matrix of the same size — ~5 GB per call,
-# six calls, in a parent that is still holding A, igr and three fits.
-###############################################################
-
 n_r2_draws <- 2000L
 
 r2_worker <- function(cache_file, ndraws, seed, vsize_mb) {
