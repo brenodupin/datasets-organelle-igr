@@ -12,7 +12,7 @@ Data and analysis scripts accompanying the manuscript on organelle intergenic re
 │   ├── figure1.ipynb
 │   ├── figure2.ipynb
 │   ├── figure3.ipynb
-│   ├── QC_ANS_removed.tsv              # List of ANs removed after quality control
+│   ├── QC_ANS_removed.tsv             # List of ANs removed after quality control
 │   ├── supplementary_figure1.ipynb
 │   ├── supplementary_table1.ipynb
 │   ├── supplementary_table2.ipynb
@@ -33,11 +33,11 @@ Data and analysis scripts accompanying the manuscript on organelle intergenic re
 │   ├── summary_igs.py                 # Python script to summarize intergenic region data (called by 01_prepare_igr.sh)
 │   └── taxonomy_tree.ipynb            # Notebook documenting how the NCBI topology trees were built (tree.nwk / all_tree.nwk)
 │
-├── all_tree.nwk                      # Phylogenetic tree spanning all taxonomic groups combined
+├── all_tree.nwk                       # Phylogenetic tree spanning all taxonomic groups combined
 │
-├── <group>_compressed.tar.zst        # Full per-group archive (8 total), everything except logs and fitted models
-├── all_groups_lean.tar.zst           # All groups, essentials only: no gff3, no fasta, no fitted models
-└── all_groups_models.tar.zst         # Fitted brms models (.rds) for all groups
+├── <group>_compressed.tar.zst         # Full per-group archive (8 total), everything except logs and fitted models
+├── all_groups_lean.tar.zst            # All groups, essentials only: no gff3, no fasta, no fitted models
+└── all_groups_models.tar.zst          # Fitted brms models (.rds) for all groups
 ```
 
 ## Data Groups
@@ -54,7 +54,7 @@ Python ([3.12+](https://www.python.org/downloads)) is required for all stages, w
 
 Python packages:
 ```bash
-pip install "tigre[all]"
+pip install "tigre[all]" polars
 ```
 
 **2. Bayesian analysis** (`02_prepare_brms.ipynb` + `03_run_brms.sh`):
@@ -79,7 +79,7 @@ This notebook queries NCBI, so it expects `ENTREZ_EMAIL` and `ENTREZ_API_KEY` in
 **4. Figures and supplementary notebooks** (`code/*.ipynb`):
 
 ```bash
-pip install polars matplotlib scipy seaborn
+pip install polars numpy matplotlib scipy
 ```
 
 ## Reproducing the Analysis
@@ -133,7 +133,7 @@ For each group, this runs five stages in order:
 | Contrast | `brms_contrast.R` | `brms_type_length/` | `brms_contrast.txt`, `brms_contrast_row.tsv` |
 | Divergence | `brms_divergence.R` | both folders | `brms_divergence_row.tsv` in each folder |
 
-The Polarity and Type_Length stages fit the models and cache each fit as `brms_model_cache_*.rds` next to the results. Sigma_ICC and Contrast do not refit anything: they read those cached fits, so the corresponding stage must have run first. Sigma_ICC reports the sigma ratios and the taxon-level intraclass correlation coefficient (ICC), and Contrast reports the divergent-minus-convergent posterior contrast. Divergence is a diagnostics pass over every cached fit, reporting divergent transitions, treedepth hits, Rhat and ESS.
+The Polarity and Type_Length stages fit the models and cache each fit as `brms_model_cache_*.rds` next to the results. Sigma_ICC reloads the Type_Length fits to compute the sigma ratios and the taxon-level intraclass correlation coefficient (ICC), and fits one additional distributional model (`sigma ~ polarity_3bin`), cached as `brms_model_cache_sigma.rds`; Type_Length must therefore have run first. Contrast does not fit anything: it reads the Type_Length fits together with that sigma fit to compute the divergent-minus-convergent posterior contrast, so both Type_Length and Sigma_ICC must have run before it. Divergence is a diagnostics pass over every cached fit, reporting divergent transitions, treedepth hits, Rhat and ESS.
 
 If any stage fails, the script keeps going and prints a summary of failed runs at the end, exiting with a non-zero status.
 
