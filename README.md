@@ -8,32 +8,32 @@ Data and analysis scripts accompanying the manuscript on organelle intergenic re
 
 ```
 .
-├── code/                             # Jupyter notebooks for figure and table generation
-│   ├── figure1.ipynb                  # Analysis needed for Figure 1
-│   ├── figure2.ipynb                  # Analysis needed for Figure 2
-│   ├── figure3.ipynb                  # Analysis needed for Figure 3
-│   ├── QC_ANS_removed.tsv             # List of ANs removed after quality control
-│   ├── supplementary_figure1.ipynb    # Analysis needed for Supplementary Figure 1
-│   ├── supplementary_table1.ipynb     # Analysis needed for Supplementary Table 1
-│   ├── supplementary_table2.ipynb     # Analysis needed for Supplementary Table 2
-│   ├── supplementary_table3.ipynb     # Analysis needed for Supplementary Table 3
-│   ├── supplementary_table4.ipynb     # Analysis needed for Supplementary Table 4
-│   └── supplementary_table5.ipynb     # Analysis needed for Supplementary Table 5
+├── code/                              # Jupyter notebooks for figure and table generation
+│   ├── figure1.ipynb
+│   ├── figure2.ipynb
+│   ├── figure3.ipynb
+│   ├── QC_ANS_removed.tsv              # List of ANs removed after quality control
+│   ├── supplementary_figure1.ipynb
+│   ├── supplementary_table1.ipynb
+│   ├── supplementary_table2.ipynb
+│   ├── supplementary_table3.ipynb
+│   ├── supplementary_table4.ipynb
+│   └── supplementary_table5.ipynb
 │
-├── scripts/                          # Processing scripts
+├── scripts/                           # Processing scripts
 │   ├── 01_prepare_igr.sh              # Bash script to extract intergenic regions (calls summary_igs.py)
-│   ├── summary_igs.py                 # Python script to summarize intergenic region data (called by 01_prepare_igr.sh)
 │   ├── 02_prepare_brms.ipynb          # Notebook that prepares brms input (filtered_3bin.tsv + tree.nwk) per group
 │   ├── 03_run_brms.sh                 # Bash script to run the Bayesian (brms) analyses
-│   ├── brms_polarity.R                # R code for the Polarity model
-│   ├── brms_type_length.R             # R code for the Type/Length models (with k-fold comparison)
-│   ├── brms_sigma_icc.R               # R code for the sigma + ICC companion analysis
 │   ├── brms_contrast.R                # R code for the divergent vs convergent posterior contrast
 │   ├── brms_divergence.R              # R code for MCMC diagnostics (divergences, treedepth, Rhat, ESS)
+│   ├── brms_polarity.R                # R code for the Polarity model
+│   ├── brms_sigma_icc.R               # R code for the sigma + ICC companion analysis
+│   ├── brms_type_length.R             # R code for the Type/Length models (with k-fold comparison)
 │   ├── compile_all_txts.sh            # Bash script to gather all per-group brms result txts into one file (optional, after 03)
+│   ├── summary_igs.py                 # Python script to summarize intergenic region data (called by 01_prepare_igr.sh)
 │   └── taxonomy_tree.ipynb            # Notebook documenting how the NCBI topology trees were built (tree.nwk / all_tree.nwk)
 │
-├── all_tree.nwk                      # Phylogenetic tree spanning all taxonomic groups combined (extra data, not used by any script)
+├── all_tree.nwk                      # Phylogenetic tree spanning all taxonomic groups combined
 │
 ├── <group>_compressed.tar.zst        # Full per-group archive (8 total), everything except logs and fitted models
 ├── all_groups_lean.tar.zst           # All groups, essentials only: no gff3, no fasta, no fitted models
@@ -117,6 +117,12 @@ Run `scripts/02_prepare_brms.ipynb`, setting `brms_run_name` to `brms_polarity` 
 ./scripts/03_run_brms.sh 2>&1 | tee run_brms.log
 ```
 
+Runtimes vary a lot between groups, from several hours to a few days for the larger ones (`plants_plt` and `metazoans_mit`). We do recommend running it with `nohup` to avoid interruptions:
+
+```bash
+nohup ./scripts/03_run_brms.sh > run_brms_nohup.log 2>&1 &
+```
+
 For each group, this runs five stages in order:
 
 | Stage | Script | Reads from | Outputs |
@@ -143,31 +149,11 @@ It writes `all_groups_brms_results.txt` at the project root, with one section pe
 
 ### Data Archives
 
-Three kinds of archive are provided:
+Three kinds of archive are provided, pick whichever matches what you want to do:
 
-- **`<group>_compressed.tar.zst`** (one per taxonomic group): the complete group folder: gff3 and fasta files, `<group>.tsv`, `<group>.gdict`, `<group>_summary_igr.tsv`, `tree.nwk`, and the contents of `brms_polarity/` and `brms_type_length/`. Log files and fitted models (`.rds`) are excluded.
-- **`all_groups_lean.tar.zst`**: the same essentials for every group at once: `<group>.tsv`, `<group>.gdict`, `<group>_summary_igr.tsv`, `tree.nwk`, and everything in the two brms folders apart from the fitted models, plus the combined `all_tree.nwk`. It omits the gff3 and fasta files, which is what makes it smaller.
-- **`all_groups_models.tar.zst`**: the fitted brms models (`.rds`) only. None of the other archives contain them, so grab this one as well if you want to reuse the fits rather than refitting.
-
-Because `<group>_summary_igr.tsv` ships in both the lean and the per-group archives, you can skip steps 1-2 above and start from step 3 (`02_prepare_brms.ipynb`):
-
-```bash
-# Decompress the lean archive
-tar -xf all_groups_lean.tar.zst
-
-# Prepare brms input (run 02_prepare_brms.ipynb twice, see step 3 above), then run the analysis
-./scripts/03_run_brms.sh 2>&1 | tee run_brms.log
-```
-
-Adding `all_groups_models.tar.zst` on top lets you skip the fitting in step 4 as well, since the Sigma_ICC and Contrast stages read the cached fits rather than refitting them.
-
-#### Nohup Usage
-
-The brms analysis can take several hour to days. We do recommend running it with `nohup` to avoid interruptions:
-
-```bash
-nohup ./scripts/03_run_brms.sh > run_brms_nohup.log 2>&1 &
-```
+- **`<group>_compressed.tar.zst`** (one per taxonomic group): the complete group folder: gff3 and fasta files, `<group>.tsv`, `<group>.gdict`, `<group>_summary_igr.tsv`, `tree.nwk`, and the contents of `brms_polarity/` and `brms_type_length/`. Log files and fitted models (`.rds`) are excluded. **Use these to replicate the analysis in full**, from step 1.
+- **`all_groups_lean.tar.zst`**: the same essentials for every group at once: `<group>.tsv`, `<group>.gdict`, `<group>_summary_igr.tsv`, `tree.nwk`, and everything in the two brms folders apart from the fitted models, plus the combined `all_tree.nwk`. **Use it to inspect the results**, or to rerun the analysis straight from step 4 (`03_run_brms.sh`). This is the minimum you need to run the figure and table generation notebooks in `code/`.
+- **`all_groups_models.tar.zst`**: the fitted brms models (`.rds`) only, which none of the other archives contain. **Use it to inspect the models.**
 
 ### Processing Specific Groups
 
