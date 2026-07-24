@@ -428,9 +428,9 @@ compare_kfold <- function(fits) {
 }
 
 loo_tab <- compare_kfold(list(
-  flank = m_len,
-  flanking_types = m_type,
-  both = m_both
+  m_len = m_len,
+  m_type = m_type,
+  m_both = m_both
 ))
 
 # Centralised kfold accessor — avoids repeating the string in every build_row
