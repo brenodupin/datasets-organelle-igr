@@ -1,7 +1,9 @@
 #!/usr/bin/env Rscript
 
 options(warn = 1)
-required_packages <- c("brms", "ape", "posterior", "loo", "callr")
+required_packages <- c(
+  "brms", "ape", "posterior", "loo", "callr", "matrixStats"
+)
 missing_packages <- required_packages[
   !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
 ]
@@ -95,6 +97,24 @@ if (nrow(igr) > max_rows) {
   )
   igr$ncbi_taxid <- droplevels(igr$ncbi_taxid)
   igr$flanking_types <- droplevels(igr$flanking_types)
+}
+
+# Guard the k-fold row alignment: every model must keep all 150k rows,
+# otherwise the three elpd values are not computed on the same data.
+model_vars <- c(
+  "log10_igr_len", "polarity_3bin", "ncbi_taxid",
+  flank_col, "flanking_types"
+)
+n_incomplete <- sum(!complete.cases(igr[, model_vars]))
+if (n_incomplete > 0) {
+  stop(sprintf(
+    paste0(
+      "%d rows have NAs in a model variable. brms would drop these from ",
+      "some models but not others, making the k-fold comparison invalid. ",
+      "Filter them upstream."
+    ),
+    n_incomplete
+  ))
 }
 
 # Center the chosen length summary on its post-downsampling mean
@@ -211,87 +231,163 @@ m_both <- log_duration(
   )
 )
 
-# We need to run kfold isolated, due to memory issues that
-# 3 runs in a single R session can cause.
-kfold_worker <- function(
-  cache_file,
-  K,
-  seed,
-  chains = 1,
-  iter = iter_n,
-  warmup = warmup_n
-) {
-  suppressPackageStartupMessages(library(brms))
-  options(future.globals.maxSize = 32 * 1024^3)
-  if (exists("mem.maxVSize")) {
-    try(mem.maxVSize(vsize = Inf), silent = TRUE)
-  }
+kf_iter <- iter_n
+kf_warmup <- warmup_n
+kf_chunk <- 2000L
+kf_vsize_mb <- 24 * 1024 # NOTE: units are Mb, so this is 24 GB
 
-  fit <- readRDS(cache_file)
-  taxon <- fit$data$ncbi_taxid
+make_folds <- function(taxon, K, seed) {
   set.seed(seed)
   folds <- integer(length(taxon))
   for (idx in split(seq_along(taxon), taxon)) {
     folds[idx] <- (sample.int(length(idx)) %% K) + 1L
   }
-
-  fit <- add_criterion(
-    fit,
-    "kfold",
-    folds = folds,
-    seed = seed,
-    chains = chains,
-    iter = iter,
-    warmup = warmup
-  )
-  fit$criteria$kfold
+  folds
 }
 
-run_kfold_isolated <- function(
+folds_all <- make_folds(igr$ncbi_taxid, k_folds, seed)
+message(
+  "Fold sizes: ",
+  paste(as.integer(table(folds_all)), collapse = " / ")
+)
+
+n_singleton <- sum(table(igr$ncbi_taxid) < k_folds)
+if (n_singleton > 0) {
+  message(sprintf(
+    "  %d taxa have < %d regions and will be absent from some training sets",
+    n_singleton,
+    k_folds
+  ))
+}
+
+# Runs in a fresh R process; references only its own arguments.
+fold_worker <- function(
   cache_file,
-  K = k_folds,
-  seed = 42,
-  chains = 1,
-  iter = iter_n,
-  warmup = warmup_n
+  folds,
+  fold_id,
+  seed,
+  iter,
+  warmup,
+  chunk,
+  vsize_mb
 ) {
+  suppressPackageStartupMessages(library(brms))
+  options(future.globals.maxSize = 32 * 1024^3)
+  if (exists("mem.maxVSize")) {
+    try(mem.maxVSize(vsize = vsize_mb), silent = TRUE)
+  }
+
+  fit <- readRDS(cache_file)
+  d <- fit$data
+
+  if (nrow(d) != length(folds)) {
+    stop(sprintf(
+      paste0(
+        "Row mismatch for %s: fit$data has %d rows, fold vector has %d. ",
+        "Rows were dropped when this model was fitted, so its elpd is not ",
+        "comparable with the other models."
+      ),
+      basename(cache_file),
+      nrow(d),
+      length(folds)
+    ))
+  }
+
+  test_i <- which(folds == fold_id)
+
+  fit_k <- update(
+    fit,
+    newdata = d[-test_i, , drop = FALSE],
+    chains = 1,
+    cores = 1,
+    iter = iter,
+    warmup = warmup,
+    seed = seed + fold_id,
+    refresh = 0
+  )
+  rm(fit)
+  gc()
+
+  n_draws <- brms::ndraws(fit_k)
+  test <- d[test_i, , drop = FALSE]
+  elpd_i <- numeric(nrow(test))
+
+  for (s in seq(1L, nrow(test), by = chunk)) {
+    e <- min(s + chunk - 1L, nrow(test))
+    ll <- brms::log_lik(
+      fit_k,
+      newdata = test[s:e, , drop = FALSE],
+      allow_new_levels = TRUE,
+      sample_new_levels = "gaussian"
+    )
+    elpd_i[s:e] <- matrixStats::colLogSumExps(ll) - log(n_draws)
+    rm(ll)
+    gc(FALSE)
+  }
+
+  list(index = test_i, elpd = elpd_i)
+}
+
+run_kfold_isolated <- function(cache_file, folds, K = k_folds, seed = 42) {
   if (!file.exists(cache_file)) {
     stop("Cache not found: ", cache_file)
   }
-  callr::r(
-    kfold_worker,
-    args = list(
-      cache_file = cache_file,
-      K = K,
-      seed = seed,
-      chains = chains,
-      iter = iter,
-      warmup = warmup
-    ),
-    show = TRUE
+
+  elpd_i <- numeric(length(folds))
+  for (k in seq_len(K)) {
+    part <- log_duration(
+      sprintf("fold %d/%d of %s", k, K, basename(cache_file)),
+      callr::r(
+        fold_worker,
+        args = list(
+          cache_file = cache_file,
+          folds = folds,
+          fold_id = k,
+          seed = seed,
+          iter = kf_iter,
+          warmup = kf_warmup,
+          chunk = kf_chunk,
+          vsize_mb = kf_vsize_mb
+        ),
+        show = TRUE
+      )
+    )
+    elpd_i[part$index] <- part$elpd
+  }
+
+  n <- length(elpd_i)
+  se <- sqrt(n * stats::var(elpd_i))
+  est <- rbind(
+    elpd_kfold = c(Estimate = sum(elpd_i), SE = se),
+    kfoldic = c(Estimate = -2 * sum(elpd_i), SE = 2 * se)
+  )
+
+  structure(
+    list(estimates = est, pointwise = cbind(elpd_kfold = elpd_i)),
+    class = c("kfold", "loo")
   )
 }
 
-# Free the models from the main process
+# Free the models from the main process before spawning workers
 rm(m_len, m_type, m_both)
 gc()
 
 log_time(paste0(
   "Computing K-fold (K=",
   k_folds,
-  "): one isolated process per model"
+  "): one isolated process per fold"
 ))
 kf_len <- log_duration(
   "kfold (flank)",
-  run_kfold_isolated(cache_flank, K = k_folds, seed = seed)
+  run_kfold_isolated(cache_flank, folds_all, K = k_folds, seed = seed)
 )
 kf_type <- log_duration(
   "kfold (flanking_types)",
-  run_kfold_isolated(cache_type, K = k_folds, seed = seed)
+  run_kfold_isolated(cache_type, folds_all, K = k_folds, seed = seed)
 )
 kf_both <- log_duration(
   "kfold (both)",
-  run_kfold_isolated(cache_both, K = k_folds, seed = seed)
+  run_kfold_isolated(cache_both, folds_all, K = k_folds, seed = seed)
 )
 
 # Reload the models for the results table + summary, attaching the CV criteria.
@@ -304,7 +400,38 @@ m_type$criteria$kfold <- kf_type
 m_both <- readRDS(cache_both)
 m_both$criteria$kfold <- kf_both
 
-loo_tab <- loo_compare(m_len, m_type, m_both, criterion = "kfold")
+# Same arithmetic as loo::loo_compare, written out so it does not depend
+# on the internal layout of a kfold object we constructed ourselves.
+compare_kfold <- function(fits) {
+  pw <- lapply(fits, function(f) f$criteria$kfold$pointwise[, "elpd_kfold"])
+  n <- length(pw[[1]])
+  if (any(vapply(pw, length, integer(1)) != n)) {
+    stop("Models were evaluated on different numbers of observations.")
+  }
+
+  elpd <- vapply(pw, sum, numeric(1))
+  se <- vapply(pw, function(x) sqrt(n * stats::var(x)), numeric(1))
+  ord <- order(elpd, decreasing = TRUE)
+  best <- pw[[ord[1]]]
+
+  out <- cbind(
+    elpd_diff = vapply(pw, function(x) sum(x - best), numeric(1)),
+    se_diff = vapply(
+      pw,
+      function(x) sqrt(n * stats::var(x - best)),
+      numeric(1)
+    ),
+    elpd_kfold = elpd,
+    se_kfold = se
+  )
+  round(out[ord, , drop = FALSE], 1)
+}
+
+loo_tab <- compare_kfold(list(
+  flank = m_len,
+  flanking_types = m_type,
+  both = m_both
+))
 
 # Centralised kfold accessor — avoids repeating the string in every build_row
 get_elpd <- function(fit) {
@@ -351,24 +478,64 @@ type_contrasts_print <- function(m) {
   print(round(10^e, 3))
 }
 
+###############################################################
+# Bayesian R^2, also isolated.
+#
+# bayes_R2(ndraws = 2000) on 150k rows builds a 2000 x 150000 matrix
+# (2.4 GB) AND a residual matrix of the same size — ~5 GB per call,
+# six calls, in a parent that is still holding A, igr and three fits.
+###############################################################
+
 n_r2_draws <- 2000L
-calculate_r2 <- function(fit) {
+
+r2_worker <- function(cache_file, ndraws, seed, vsize_mb) {
+  suppressPackageStartupMessages(library(brms))
+  if (exists("mem.maxVSize")) {
+    try(mem.maxVSize(vsize = vsize_mb), silent = TRUE)
+  }
+
+  fit <- readRDS(cache_file)
+
   set.seed(seed)
-  d_marg <- log_duration(
-    "marginal R^2",
-    brms::bayes_R2(fit, re_formula = NA, ndraws = n_r2_draws, summary = FALSE)
-  )
+  d_marg <- as.numeric(brms::bayes_R2(
+    fit,
+    re_formula = NA,
+    ndraws = ndraws,
+    summary = FALSE
+  )[, 1])
+  gc()
+
   set.seed(seed)
-  d_cond <- log_duration(
-    "conditional R^2",
-    brms::bayes_R2(fit, re_formula = NULL, ndraws = n_r2_draws, summary = FALSE)
+  d_cond <- as.numeric(brms::bayes_R2(
+    fit,
+    re_formula = NULL,
+    ndraws = ndraws,
+    summary = FALSE
+  )[, 1])
+
+  list(marg = d_marg, cond = d_cond)
+}
+
+calculate_r2 <- function(cache_file) {
+  draws <- log_duration(
+    sprintf("Bayesian R^2 (%s)", basename(cache_file)),
+    callr::r(
+      r2_worker,
+      args = list(
+        cache_file = cache_file,
+        ndraws = n_r2_draws,
+        seed = seed,
+        vsize_mb = kf_vsize_mb
+      ),
+      show = TRUE
+    )
   )
 
-  d_marg <- as.numeric(d_marg[, 1])
-  d_cond <- as.numeric(d_cond[, 1])
+  d_marg <- draws$marg
+  d_cond <- draws$cond
   d_diff <- d_cond - d_marg
 
-  q <- function(x, p) unname(quantile(x, p))
+  q <- function(x, p) unname(stats::quantile(x, p))
 
   list(
     r2_marginal = mean(d_marg),
@@ -405,12 +572,9 @@ r2_print <- function(r2) {
 }
 
 log_time("Computing Bayesian R^2 for all three models")
-r2_len <- calculate_r2(m_len)
-gc()
-r2_type <- calculate_r2(m_type)
-gc()
-r2_both <- calculate_r2(m_both)
-gc()
+r2_len <- calculate_r2(cache_flank)
+r2_type <- calculate_r2(cache_type)
+r2_both <- calculate_r2(cache_both)
 
 log_time(paste("Saving summary to:", results_txt))
 write_summary <- function(path) {
@@ -437,6 +601,12 @@ write_summary <- function(path) {
   cat(sprintf(
     "\n--- K-fold (K=%d) comparison (top = best by elpd) ---\n",
     k_folds
+  ))
+  cat(sprintf(
+    "  CV refits: %d chain, %d iter (%d warmup); folds stratified by taxon\n",
+    1,
+    kf_iter,
+    kf_warmup
   ))
   print(loo_tab)
   cat("\n--- Polarity contrasts (all three models) ---\n")
@@ -495,7 +665,12 @@ build_row_len <- function(fit, flank_summary_name, mu_flank_val) {
   beta_div <- fx["polarity_3bindiv", ]
   beta_flank <- fx["flank", ]
 
-  dr <- posterior::as_draws_df(fit)
+  # Pull only the three columns we need: the full draws_df would carry
+  # all 3937 r_1_1 columns (~126 MB per model).
+  dr <- posterior::as_draws_df(
+    fit,
+    variable = c("b_polarity_3binconv", "b_polarity_3bindiv", "b_flank")
+  )
   p_conv_gt0 <- mean(dr$b_polarity_3binconv > 0)
   p_div_gt0 <- mean(dr$b_polarity_3bindiv > 0)
   p_flank_gt0 <- mean(dr$b_flank > 0)
@@ -577,7 +752,10 @@ build_row_type <- function(fit) {
   beta_conv <- fx["polarity_3binconv", ]
   beta_div <- fx["polarity_3bindiv", ]
 
-  dr <- posterior::as_draws_df(fit)
+  dr <- posterior::as_draws_df(
+    fit,
+    variable = c("b_polarity_3binconv", "b_polarity_3bindiv")
+  )
   p_conv_gt0 <- mean(dr$b_polarity_3binconv > 0)
   p_div_gt0 <- mean(dr$b_polarity_3bindiv > 0)
 
@@ -663,7 +841,10 @@ build_row_both <- function(fit, flank_summary_name, mu_flank_val) {
   beta_div <- fx["polarity_3bindiv", ]
   beta_flank <- fx["flank", ]
 
-  dr <- posterior::as_draws_df(fit)
+  dr <- posterior::as_draws_df(
+    fit,
+    variable = c("b_polarity_3binconv", "b_polarity_3bindiv", "b_flank")
+  )
   p_conv_gt0 <- mean(dr$b_polarity_3binconv > 0)
   p_div_gt0 <- mean(dr$b_polarity_3bindiv > 0)
   p_flank_gt0 <- mean(dr$b_flank > 0)
