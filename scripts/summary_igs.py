@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Compile Summaries of intergenic runs."""
-
-import argparse
-import concurrent.futures as cf
 import os
-from pathlib import Path
-import tigre
 
 os.environ["POLARS_MAX_THREADS"] = "1"
 import polars as pl
+
+import argparse
+import concurrent.futures as cf
+import traceback
+
+from pathlib import Path
+import tigre
 
 _RS_strand = r"\|([+-])\|"
 
@@ -32,13 +34,15 @@ output_cols = [
 def summary_igs(
     an: str,
     gff_path: Path,
-) -> pl.DataFrame:
+) -> pl.DataFrame | None:
     """Compile Summary of IGS outputs."""
     df = tigre.load_gff3(
         gff_path,
         usecols=("type", "start", "end", "attributes"),
         return_polars=True,
     )
+    if df.is_empty():
+        return None
 
     df = df.with_columns(
         pl.col("attributes").str.extract(tigre.gff3_utils._RS_ID, 1).alias("ID"),
@@ -104,25 +108,52 @@ def igs_multiple(
     )
 
     log.info(f"Starting processing {tsv.shape[0]} ANs with {workers} workers...")
+    all_frames: list[pl.DataFrame] = []
+    skipped: list[str] = []
+    failed: list[str] = []
+
     with cf.ProcessPoolExecutor(max_workers=workers) as executor:
-        tasks = [
+        futures = {
             executor.submit(
                 summary_igs,
                 an,
                 gff_in_builder.build(an),
-            )
+            ): an
             for an in tsv[an_column]
-        ]
-
+        }
         log.info("Tasks submitted, waiting for completion...")
-        # just wait all tasks complete first
-        all_frames = []
-        for future in cf.as_completed(tasks):
-            all_frames.append(future.result())
 
-    df = pl.concat(all_frames)
-    df = df.sort(["AN"], maintain_order=True)
-    df.write_csv(output_file, separator="\t")
+        for future in cf.as_completed(futures):
+            an = futures[future]
+
+            try:
+                frame = future.result()
+
+            except Exception:
+                failed.append(an)
+                log.error(f"{an} failed: {traceback.format_exc()}")
+                continue
+
+            if frame is None:
+                skipped.append(an)
+                log.warning(f"{an}: no features in GFF, skipping")
+                continue
+
+            all_frames.append(frame)
+
+    if skipped:
+        log.warning(f"{len(skipped)} ANs had empty GFFs")
+
+    if failed:
+        log.error(f"{len(failed)} ANs failed: {', '.join(failed)}")
+
+    if not all_frames:
+        log.error("No frames produced, nothing to write.")
+
+    else:
+        df = pl.concat(all_frames)
+        df = df.sort(["AN"], maintain_order=True)
+        df.write_csv(output_file, separator="\t")
 
     log.info("All processed.")
 
