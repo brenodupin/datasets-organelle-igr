@@ -1,7 +1,6 @@
 AN	GI	Species	Genome_length	ncbi_name	ncbi_taxid	ncbi_taxid_genus	ncbi_genus
 AB624357.1	425702983	Babesia rodhaini	6929	Babesia rodhaini	5870	5864	Babesia
 AB685182.1	381214299	Babesia gibsoni	5867	Babesia gibsoni	33632	5864	Babesia
-AJ277126.1	15147717	Pilayella littoralis	58507	Pylaiella littoralis	2885	2882	Pylaiella
 AP018919.1	1448321391	Goniomonas avonlea	41136	Goniomonas avonlea	1255295	31324	Goniomonas
 AP019310.1	1601521829	Marophrys sp.	113062	Marophrys sp. SRT127	2488311	2488300	Marophrys
 BK012089.1	2235892869	Phytophthora cinnamomi var. cinnamomi	39225	Phytophthora cinnamomi var. cinnamomi	622258	4783	Phytophthora
@@ -9,7 +8,6 @@ BK012094.1	2235893069	Phytophthora parasitica	37749	Phytophthora nicotianae CJ01
 FJ168565.1	220682066	Hepatocystis sp. ex Pteropus hypomelanus	6259	Hepatocystis sp. ex Pteropus hypomelanus	587286	77566	Hepatocystis
 HQ908424.1	321401323	Pavlova lutheri	34086	Diacronema lutheri	2081491	70451	Diacronema
 JQ071938.1	371572231	Gracilariopsis lemaneiformis	25883	Gracilariopsis lemaneiformis	2782	2781	Gracilariopsis
-JQ736808.1	384034927	Porphyra haitanensis	37023	Pyropia haitanensis	1262161	1094566	Pyropia
 KC573038.1	449327007	Capsaspora owczarzaki	196908	Capsaspora owczarzaki	192875	192874	Capsaspora
 KF419217.1	546355158	Eimeria magna	6249	Eimeria magna	471282	5800	Eimeria
 KF515974.1	562816683	Pyropia perforata	40042	Pyropia perforata	182771	1094566	Pyropia
@@ -37,8 +35,6 @@ KU356193.1	1002821328	Pyropia endiviifolia	34603	Pyropia endiviifolia	1699272	10
 KX090647.1	1058278675	Nycteria gabonensis	5999	Nycteria gabonensis	1891980	1410042	Nycteria
 KX090648.1	1058278679	Nycteria heischi	5989	Nycteria heischi	1891981	1410042	Nycteria
 KX427229.1	1086927854	Gelidium crinale f. luxurians	24910	Pterocladiella luxurians	2909240	70837	Pterocladiella
-KX427234.1	1086927975	Pterocladiella media	24915	Pterocladiella media	1911541	70837	Pterocladiella
-KX427236.1	1086928023	Pterocladiella musciformis	24927	Pterocladiella musciformis	2699131	70837	Pterocladiella
 KX529838.1	1134378670	Laurentiella strenua	66721	Laurentiella strenua	114681	114680	Laurentiella
 KY775056.1	1246290662	Protostelium mycophagum	48607	Protostelium mycophagum	472931	472930	Protostelium
 LC369600.1	1464100262	Ophirina amphinema	59094	Ophirina amphinema	2108040	2598729	Ophirina
@@ -50,14 +46,12 @@ LC715210.1	2402694139	Microheliella maris	61620	Microheliella maris	1079982	1148
 LC761956.1	2527268375	Pyropia sp.	33268	Pyropia sp. Myanmar_A	3034857	1094566	Pyropia
 LT578416.1	1113818506	Hyphochytrium catenoides	48127	Hyphochytrium catenoides	42384	42383	Hyphochytrium
 MF401962.1	1226527300	Agarophyton chilense	26897	Agarophyton chilense	2510777	2510776	Agarophyton
-MF488959.1	1267528953	Lympha mucosa	25191	Lympha mucosa	2045360	2283536	Lympha
 MF508648.1	1327757042	Vannella croatica	28933	Vannella croatica	1778588	95228	Vannella
 MF997419.1	1372147530	Entomoneis sp.	36078	Entomoneis sp.	186043	186042	Entomoneis
 MF997423.1	1372147678	Surirella sp.	42867	Surirella sp.	1526603	216753	Surirella
 MF997424.1	1372147719	Halamphora calidilacuna	103605	Halamphora calidilacuna	2133758	1242273	Halamphora
 MG202006.1	1280963088	Colponema vietnamica	25333	Colponema vietnamica	1492817	1421213	Colponema
 MG592728.1	1386810545	Gracilaria tenuistipitata var. liui	25879	Gracilaria tenuistipitata var. liui	285951	2774	Gracilaria
-MG787094.1	1353857561	Montagnia macrospora	24875	Montagnia macrospora	2662032	2662031	Montagnia
 MG787097.1	1353857632	Paralemanea sp.	29785	Paralemanea sp.	2048601	31375	Paralemanea
 MG922856.1	1377537870	Fucus spiralis	36396	Fucus spiralis	87149	3011	Fucus
 MG940857.1	1682366079	Ishige okamurae	35485	Ishige okamurae	233772	233770	Ishige
@@ -125,7 +119,6 @@ MZ156064.1	2049955433	Protohalopteris sp.	41306	Protohalopteris sp.	2843287	2843
 MZ156065.1	2049955473	Analipus japonicus	38173	Analipus japonicus	31333	31332	Analipus
 MZ156066.1	2049955512	Lessoniopsis littoralis	38444	Lessoniopsis littoralis	169788	169787	Lessoniopsis
 MZ156067.1	2049955551	Thalassiophyllum clathrus	37643	Thalassiophyllum clathrus	112506	112505	Thalassiophyllum
-MZ336096.1	2090996029	Crassiphycus usneoides	25531	Gracilaria usneoides	172951	2774	Gracilaria
 MZ488960.1	2096017707	Alaria sp.	38857	Alaria sp. PI001	2860297	2888	Alaria
 MZ520767.1	2125739626	Schizostauron trachyderma	41957	Schizostauron trachyderma	2770866	1880599	Schizostauron
 NC_000862.1	11466252	Tetrahymena pyriformis	47296	Tetrahymena pyriformis	5908	5890	Tetrahymena

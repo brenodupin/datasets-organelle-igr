@@ -4,17 +4,12 @@ AP024468.1	2004920984	Aspergillus pseudoviridinutans	29700	Aspergillus pseudovir
 AP028211.1	2523907195	Cutaneotrichosporon cavernicola	40463	Cutaneotrichosporon cavernicola	279322	1838142	Cutaneotrichosporon
 AP028246.1	2523938238	Cutaneotrichosporon sp.	42028	Cutaneotrichosporon sp. HIS471	3040995	1838142	Cutaneotrichosporon
 AP028247.1	2523938254	Cutaneotrichosporon spelunceum	42135	Cutaneotrichosporon spelunceum	1672016	1838142	Cutaneotrichosporon
-AY376688.1	34538652	Crinipellis perniciosa	109103	Moniliophthora perniciosa	153609	221102	Moniliophthora
 HF558455.1	508078582	Rhodotorula taiwanensis	40392	Rhodotorula taiwanensis RS1	1246992	5533	Rhodotorula
 HF558646.1	459351451	Malassezia sympodialis	38622	Malassezia sympodialis ATCC 42132	1230383	55193	Malassezia
-HQ616673.1	314911718	Pichia angusta	41719	Ogataea polymorpha	460523	461281	Ogataea
-JQ236859.1	373446432	Dipodascus magnusii 	42757	Magnusiomyces magnusii	43963	1095182	Magnusiomyces
 JQ346808.1	380714936	Aspergillus fumigatus	31765	Aspergillus fumigatus	746128	5052	Aspergillus
 JX271275.1	400177401	Agaricus bisporus var. bisporus	135005	Agaricus bisporus var. bisporus H97	936046	5340	Agaricus
 KF591215.1	584594530	Rhizophagus sp. chromosome 1	29078	Rhizophagus sp. DAOM 213198	1417302	1129544	Rhizophagus
 KR809877.1	909719411	Mucor circinelloides f. lusitanicus	31831	Mucor lusitanicus	29924	4830	Mucor
-KU920681.1	1103536012	Nakaseomyces nivariensis	28524	Nakaseomyces nivariensis	418086	374468	Nakaseomyces
-KU920682.1	1103536470	Nakaseomyces bracarensis	46138	Nakaseomyces bracarensis	273131	374468	Nakaseomyces
 KX657746.1	1073524319	Saccharomyces kudriavzevii	80588	Saccharomyces kudriavzevii	114524	4930	Saccharomyces
 KX657747.1	1073524334	Saccharomyces mikatae	85211	Saccharomyces mikatae	114525	4930	Saccharomyces
 KY245891.1	1150563338	Thelephora ganbajun	52857	Thelephora ganbajun	370292	56489	Thelephora
@@ -30,12 +25,10 @@ LC707859.1	2230814205	Phanerochaete sordida	129567	Phanerochaete sordida	48140	5
 MG017444.1	1337016644	Pleurotus citrinopileatus	60694	Pleurotus citrinopileatus	98342	5320	Pleurotus
 MG017445.1	1337016670	Pleurotus platypus	73807	Pleurotus platypus	2015914	5320	Pleurotus
 MH015348.1	1538979264	Arthonia susa	50798	Arthonia susa	2488734	39679	Arthonia
-MH319479.1	1409969601	Lactifluus piperatus	60843	Lactifluus piperatus	71966	596919	Lactifluus
 MH374028.1	1497454532	Zymoseptoria tritici	43947	Zymoseptoria tritici	1047171	1047167	Zymoseptoria
 MH725795.1	1486320281	Termitomyces sp.	239317	Termitomyces sp.	1916073	71927	Termitomyces
 MH794152.1	1681062990	Rhizopogon salebrosus	66704	Rhizopogon salebrosus	176626	5375	Rhizopogon
 MH794153.1	1681063025	Rhizopogon vinicolor	77109	Rhizopogon vinicolor	80600	5375	Rhizopogon
-MK292699.1	1652151604	Spizellomyces sp.	126474	Spizellomyces sp. 'palustris'	117820	4815	Spizellomyces
 MK456488.1	2034419674	Magnusiomyces ingens	37726	Magnusiomyces ingens	44077	1095182	Magnusiomyces
 MK571437.1	1590100010	Phlebopus portentosus	43299	Phlebopus portentosus	80661	150793	Phlebopus
 MK714018.1	2159137276	Pseudozyma sp.	48917	Pseudozyma sp.	1902915	63298	Pseudozyma
@@ -45,8 +38,6 @@ MN657180.1	1905450536	Cladosporium sp.	37197	Cladosporium sp.	1707700	5498	Clado
 MN661341.1	1841183609	Cladosporium cladosporioides	36768	Cladosporium cladosporioides	29917	5498	Cladosporium
 MN722635.1	1854237688	Sparassis crispa	139253	Sparassis crispa	139825	40466	Sparassis
 MT047458.1	2074130058	Apophysomyces elegans	28026	Apophysomyces elegans	90269	90268	Apophysomyces
-MT364879.1	1956751943	Cyclocybe aegerita	121484	Cyclocybe aegerita	1973307	1593263	Cyclocybe
-MT421954.1	1904688195	Metschnikowia torresii	48347	Metschnikowia torresii	45599	27320	Metschnikowia
 MT433120.1	1883434529	Metschnikowia kamakouana	54921	Metschnikowia kamakouana	301367	27320	Metschnikowia
 MT556837.1	1887145576	Meira sp.	23353	Meira sp. (in: basidiomycete fungi)	1707708	215251	Meira
 MT649302.1	1976519882	Clavulina sp.	31816	Clavulina sp.	1745192	68756	Clavulina

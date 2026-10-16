@@ -1,5 +1,4 @@
 AN	GI	Species	Genome_length	ncbi_name	ncbi_taxid	ncbi_taxid_genus	ncbi_genus
-AJ294725.1	12329875	Astasia longa	73345	Euglena longa	3037	3038	Euglena
 AP018129.2	1824615466	Grateloupia asiatica	187517	Grateloupia asiatica	151735	31454	Grateloupia
 AP025529.1	2310847502	Galdieria partita	167641	Galdieria partita	83374	83373	Galdieria
 JN039300.1	339433850	Karlodinium veneficum	142981	Karlodinium veneficum	407301	157684	Karlodinium
@@ -19,11 +18,9 @@ KP714733.1	816375071	Bangia fuscopurpurea	196913	Bangia fuscopurpurea	101920	313
 KR921747.1	955665390	Phacus orbicularis	65992	Phacus orbicularis	158829	96783	Phacus
 KT188823.1	999812328	Sargassum vachellianum	124582	Sargassum vachellianum	1155129	3015	Sargassum
 KT223519.1	985482797	Euglena mutabilis	86975	Euglena mutabilis	38275	3038	Euglena
-KT266789.1	999812006	Pyropia pulchra	194175	Pyropia pulchra	60925	1094566	Pyropia
 KT716756.1	944544293	Pyropia endiviifolia	195784	Pyropia endiviifolia	1699272	1094566	Pyropia
 KX284710.1	1062594610	Riquetophycus sp.	180384	Riquetophycus sp.	1897556	508196	Riquetophycus
 KX284728.3	2152166944	Rhodochaete parvula	221671	Rhodochaete parvula	110510	110509	Rhodochaete
-KX601051.1	1127352649	Crassa firma	187001	Gracilaria firma	2510791	2774	Gracilaria
 KX839260.1	1081699300	Monodopsis sp.	124999	Monodopsis sp. MarTras21	1745953	1745946	Monodopsis
 KY499654.1	1268890791	Gomphoneis minuta var. cassieae	119630	Gomphoneis minuta var. cassieae	1142141	1115525	Gomphoneis
 KY706202.1	1229242616	Eutreptiella pomquetensis	130561	Eutreptiella pomquetensis	215699	73024	Eutreptiella
@@ -44,17 +41,12 @@ LC648965.1	2176619773	Cryptomonas sp.	129092	Cryptomonas sp. NIES-3952	2867508	3
 LC761954.1	2527267979	Pyropia sp.	193090	Pyropia sp. Myanmar_B	3034858	1094566	Pyropia
 LT622871.1	1079693376	Nemalion sp.	182930	Nemalion sp. H.1444	1907586	35199	Nemalion
 MF101414.1	1201282355	Polysiphonia sp.	172973	Polysiphonia sp.	1967842	2804	Polysiphonia
-MF101425.1	1201284659	Leptosiphonia brodiei	169795	Leptosiphonia brodiei	2608611	1261570	Leptosiphonia
 MF101451.1	1201290080	Chondria sp.	175716	Chondria sp. (in: red algae)	1982705	31392	Chondria
 MF101453.1	1201290493	Palisada sp.	176826	Palisada sp.	1955416	470589	Palisada
-MF101454.1	1201290703	Kapraunia schneideri	163271	Kapraunia schneideri	717899	2813675	Kapraunia
 MF167424.1	1227050477	Glaucocystis sp.	130276	Glaucocystis sp. BBH	2023628	38258	Glaucocystis
-MF591718.1	1500163705	Hapterophycus canaliculatus	133508	Hapterophycus canaliculatus	2567908	2567907	Hapterophycus
 MG755791.1	1399236951	Proboscia sp. 	138249	Proboscia sp.	1923967	216776	Proboscia
 MG755795.1	1399237508	Licmophora sp.	121184	Licmophora sp.	2115823	210597	Licmophora
 MG755797.1	1399237780	Eunotogramma sp. 	172317	Eunotogramma sp.	2219035	515460	Eunotogramma
-MG755801.1	1399238327	Pseudictyota dubia	120381	Pseudictyota dubia	2749911	2749910	Pseudictyota
-MG755804.1	1399238735	Discostella pseudostelligera 	129261	Discostella pseudostelligera	259834	382381	Discostella
 MG922855.1	1377537730	Fucus spiralis	125066	Fucus spiralis	87149	3011	Fucus
 MH113811.1	1538979133	Nitzschia palea	119449	Nitzschia palea	303400	2857	Nitzschia
 MH281627.1	1510250682	Lithothamnion sp.	183822	Lithothamnion sp.	1940749	48598	Lithothamnion
@@ -127,7 +119,6 @@ MZ156040.1	2049953956	Ecklonia radicosa	130860	Ecklonia radicosa	169786	105406	E
 MZ156041.1	2049954099	Desmarestia aculeata	129228	Desmarestia aculeata	62298	31339	Desmarestia
 MZ156043.1	2049954385	Arthrothamnus bifidus	130498	Arthrothamnus bifidus	169778	169777	Arthrothamnus
 MZ336051.1	2090990392	Agarophyton chilense	185684	Agarophyton chilense	2510777	2510776	Agarophyton
-MZ336072.1	2090994680	Crassiphycus usneoides	183376	Gracilaria usneoides	172951	2774	Gracilaria
 MZ336073.1	2090994886	Gracilariopsis chorda	182537	Gracilariopsis chorda	448386	2781	Gracilariopsis
 MZ352931.1	2065943869	Chaetoceros gracilis	116421	Chaetoceros neogracilis	240364	49237	Chaetoceros
 MZ365053.1	2073948861	Climaconeis sp.	140389	Climaconeis sp.	2846830	1003035	Climaconeis

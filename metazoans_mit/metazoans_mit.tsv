@@ -5,7 +5,6 @@ NC_058609.1	2129650019	Callerebia polyphemus 	15156	Callerebia polyphemus	442007
 AB026193.1	7416017	Ciconia boyciana	17622	Ciconia boyciana	52775	8927	Ciconia
 AB026818.1	7416033	Ciconia ciconia	17347	Ciconia ciconia	8928	8927	Ciconia
 AB028238.1	1952965013	Valvata hokkaidoensis	15738	Valvata hokkaidoensis	96458	54981	Valvata
-AB043889.1	14278901	Pelophylax nigromaculatus	17804	Pelophylax nigromaculatus	8409	121164	Pelophylax
 AB080237.1	121309333	Takydromus tachydromoides 	18245	Takydromus tachydromoides	118850	80461	Takydromus
 AB126005.1	50511286	Orthetrum triangulare melania nearly complete genome	14033	Orthetrum melania	257707	126255	Orthetrum
 AB127977.1	47604867	Buergeria buergeri	19959	Buergeria buergeri	191197	39611	Buergeria
@@ -21,13 +20,11 @@ AB262447.2	293651479	Pseudotrapelus sinaitus 	16560	Pseudotrapelus sinaitus	1182
 AB266452.1	296840983	Acanthosaura armata 	16544	Acanthosaura armata	285987	52215	Acanthosaura
 AB266739.1	239735216	Leiocephalus personatus 	16681	Leiocephalus personatus	211984	38931	Leiocephalus
 AB266748.1	239735230	Chalarodon madagascariensis 	16851	Chalarodon madagascariensis	44147	44146	Chalarodon
-AB286049.1	194247742	Propithecus verreauxi coquereli	17104	Propithecus coquereli	379532	30600	Propithecus
 AB291075.1	152962733	Meles meles anakuma nearly complete genome	16492	Meles anakuma	191034	9661	Meles
 AB291076.1	152962747	Martes melampus nearly complete genome	16498	Martes melampus	36721	9658	Martes
 AB291077.1	152962761	Enhydra lutris	16431	Enhydra lutris	34882	34881	Enhydra
 AB297804.1	130381970	Procyon lotor	16623	Procyon lotor	9654	9653	Procyon
 AB300501.1	182441066	Ascoschoengastia sp.	16067	Ascoschoengastia sp. TATW-1	436354	436353	Ascoschoengastia
-AB303949.1	164454411	Hyla japonica	19519	Dryophytes japonicus	109175	1926313	Dryophytes
 AB371085.1	238809257	Daubentonia madagascariensis	16648	Daubentonia madagascariensis	31869	13038	Daubentonia
 AB474915.1	296531224	Calumma parsonii 	17497	Calumma parsonii	179907	143467	Calumma
 AB474918.1	296531266	Rieppeleon kerstenii nearly complete genome	17982	Rieppeleon kerstenii	338557	338554	Rieppeleon
@@ -36,7 +33,6 @@ AB537553.1	731168233	Leiolepis reevesii rubritaeniata 	16052	Leiolepis rubritaen
 AB537554.1	731168247	Leiolepis belliana belliana 	16109	Leiolepis belliana belliana	181672	52195	Leiolepis
 AB537555.1	731168261	Leiolepis boehmei 	16106	Leiolepis boehmei	666331	52195	Leiolepis
 AB595189.1	328750553	Paracorallium japonicum	18913	Corallium japonicum	536042	44186	Corallium
-AB595190.1	328750568	Pleurocorallium konojoi	18969	Pleurocorallium konojoi	2518304	2518302	Pleurocorallium
 AB610503.1	397174532	Hemitheconyx taylori nearly complete genome	16363	Hemitheconyx taylori	449390	96740	Hemitheconyx
 AB612270.1	1952944269	Pachydactylus punctatus 	17475	Pachydactylus punctatus	185352	130738	Pachydactylus
 AB612272.1	1952944297	Paroedura masobe nearly complete genome	18197	Paroedura masobe	347812	143629	Paroedura
@@ -44,7 +40,6 @@ AB612274.1	2221827886	Ptenopus garrulus nearly complete genome	17319	Ptenopus ga
 AB618487.1	359804100	Dugesia japonica	17799	Dugesia japonica	6161	6160	Dugesia
 AB639034.1	379698155	Aposthonia japonica nearly complete genome	18305	Aposthonia japonica	911381	476287	Aposthonia
 AB661662.1	1952944329	Gehyra marginata 	16588	Gehyra marginata	1074251	95113	Gehyra
-AB675080.1	384228899	Uroteuthis edulis (Loligo edulis forma kensaki)	17360	Uroteuthis edulis	55720	55719	Uroteuthis
 AB675081.1	384228913	Uroteuthis edulis (Loligo edulis forma budo)	17351	Uroteuthis edulis	55720	55719	Uroteuthis
 AB700135.1	557356725	Pleurocorallium elatius	18970	Pleurocorallium elatius	2518303	2518302	Pleurocorallium
 AB729113.1	464096850	Scapharca broughtonii	46985	Anadara broughtonii	148819	6554	Anadara
@@ -62,17 +57,13 @@ AB738958.1	1952944431	Elaphe quadrivirgata	17169	Elaphe quadrivirgata	86195	8579
 AB863014.1	817254232	Ursus thibetanus japonicus	16748	Ursus thibetanus japonicus	378754	9639	Ursus
 AB970731.1	1206250406	Peltocephalus dumerilianus	16601	Peltocephalus dumerilianus	329145	44523	Peltocephalus
 AB980996.1	974000770	Varanus salvator komaini	17715	Varanus salvator komaini	735375	8556	Varanus
-AF106038.1	4406269	Raja radiata 	16783	Amblyraja radiata	386614	117853	Amblyraja
 AF270939.1	12328587	Heterodoxus macropus 	14670	Heterodoxus macropus	145266	145265	Heterodoxus
 AF335993.2	24762254	Thrips imaginis 	15407	Thrips imaginis	159957	45057	Thrips
 AF466146.2	1669398611	Melipona bicolor 	15001	Melipona bicolor	60889	28651	Melipona
-AJ001562.1	3127895	Myoxus glis	16602	Glis glis	41261	41260	Glis
 AJ222767.1	5679797	Cavia porcellus	16801	Cavia porcellus	10141	10140	Cavia
-AJ277029.2	29788163	Physeter macrocephalus	16428	Physeter macrocephalus	9755	9753	Physeter
 AJ309865.1	13940417	Macaca sylvanus	16586	Macaca sylvanus	9546	9539	Macaca
 AJ309866.1	13940255	Cebus albifrons	16554	Cebus albifrons	9514	9513	Cebus
 AJ310140.1	16026852	Chimaera monstrosa	18580	Chimaera monstrosa	7871	7870	Chimaera
-AJ416891.1	40644192	Spalax ehrenbergi	16408	Nannospalax ehrenbergi	30637	30636	Nannospalax
 AJ421450.1	21425525	Tamandua tetradactyla	16395	Tamandua tetradactyla	48850	9350	Tamandua
 AJ421451.1	21425353	Lemur catta	17036	Lemur catta	9447	9446	Lemur
 AJ421452.1	21425367	Macroscelides proboscideus	16641	Macroscelides proboscideus	29082	29081	Macroscelides
@@ -134,7 +125,6 @@ AP009194.1	108755522	Podiceps cristatus nearly complete genome	16134	Podiceps cr
 AP010821.1	224471563	Hypotaenidia okinawae	18404	Hypotaenidia okinawae	2861861	2861790	Hypotaenidia
 AP010822.1	224471577	Rallina eurizonoides sepiaria	16942	Rallina eurizonoides sepiaria	547198	547196	Rallina
 AP010823.1	224471591	Coturnicops exquisitus	17136	Coturnicops exquisitus	548806	302534	Coturnicops
-AP011544.1	307777727	Phrynoderma hexadactylum	20280	Phrynoderma hexadactylum	2927596	2920390	Phrynoderma
 AP013032.1	530671830	Chrysomallon squamiferum	15388	Chrysomallon squamiferum	216257	1714428	Chrysomallon
 AP014544.1	1995282497	Plakobranchus ocellatus	14173	Plakobranchus ocellatus	259542	259541	Plakobranchus
 AP014560.1	1043385530	Bathymodiolus japonicus	17510	Bathymodiolus japonicus	220391	12965	Bathymodiolus
@@ -152,17 +142,14 @@ AP018404.1	1767334393	Apis mellifera caucasica	16341	Apis mellifera caucasica	20
 AP018522.1	1352290372	Dryococelus australis	16604	Dryococelus australis	614101	523929	Dryococelus
 AP019520.1	1594414450	Scyliorhinus torazame 	17861	Scyliorhinus torazame	75743	7829	Scyliorhinus
 AY126697.1	37545825	Bos indicus	16341	Bos indicus	9915	9903	Bos
-AY274302.1	46452270	Eriocheir japonica sinensis 	16354	Eriocheir sinensis	95602	95601	Eriocheir
 AY278317.1	37957983	Pachypsylla venusta 	14711	Pachypsylla venusta	38123	38122	Pachypsylla
 AY456186.1	41352316	Armillifer armillatus 	16747	Armillifer armillatus	260804	260803	Armillifer
 AY456189.1	41352358	Hutchinsoniella macracantha 	16491	Hutchinsoniella macracantha	84335	84334	Hutchinsoniella
-AY525783.1	41216606	Raja porosa 	16972	Okamejei kenojei	432798	117864	Okamejei
 AY572538.1	45774897	Aleurochiton aceris 	15388	Aleurochiton aceris	266942	266941	Aleurochiton
 AY572539.1	45685356	Neomaskellia andropogonis 	14496	Neomaskellia andropogonis	266944	266943	Neomaskellia
 AY728222.1	51979883	Plethodon petraeus 	19235	Plethodon petraeus	154587	8335	Plethodon
 AY728232.1	51980023	Plethodon cinereus 	20001	Plethodon cinereus	141976	8335	Plethodon
 AY729880.1	51872055	Canis familiaris 	16756	Canis lupus familiaris	9615	9611	Canis
-AY863426.1	61743821	Cercopithecus aethiops 	16389	Chlorocebus aethiops	9534	392815	Chlorocebus
 AY875213.1	58258030	Homalodisca coagulata 	15304	Homalodisca vitripennis	197043	139475	Homalodisca
 AY899242.1	58220734	Limnonectes bannaensis	16867	Limnonectes bannaensis	613120	109961	Limnonectes
 BK010379.1	1607239482	Pseudomyrmex feralis 	18835	Pseudomyrmex feralis	1929243	56621	Pseudomyrmex
@@ -191,20 +178,13 @@ BK059218.1	2216477981	Euschistus heros 	15499	Euschistus heros	437493	437492	Eus
 BK061227.1	2556363067	Junonia vestina livia	15197	Junonia vestina livia	2691559	39707	Junonia
 BK062819.1	2463630250	Neodiprion lecontei 	16067	Neodiprion lecontei	441921	270857	Neodiprion
 BK062825.1	2484152835	Odocoileus pandora 	16419	Odocoileus pandora	1380314	9871	Odocoileus
-DQ080041.1	67005635	Geochelone pardalis	19403	Stigmochelys pardalis	569598	1358125	Stigmochelys
-DQ238598.1	78057821	Tritia obsoleta	15263	Tritia obsoleta	1934733	34581	Ilyanassa
 DQ241799.1	82541839	Timema californicum	14387	Timema californicum	61474	61471	Timema
 DQ302100.1	82880282	Vanhornia eucnemidarum 	16574	Vanhornia eucnemidarum	32432	32431	Vanhornia
-DQ333813.1	84371561	Pseudohynobius tsinpaensis 	16380	Liua tsinpaensis	245147	156991	Liua
-DQ355300.1	88174274	Pygathrix roxellana 	16549	Rhinopithecus roxellana	61622	542827	Rhinopithecus
-DQ355301.1	88174288	Procolobus badius 	16595	Piliocolobus badius	164648	591932	Piliocolobus
 DQ442914.1	90576651	Ligia oceanica	15289	Ligia oceanica	96856	96855	Ligia
 DQ991932.1	118457506	Hydatina physis	14153	Hydatina physis	259632	259631	Hydatina
 EF058308.1	117649968	Cervus nippon taiouanus 	16430	Cervus nippon taiouanus	37550	9859	Cervus
 EF081250.1	116876177	Oscarella carmela	20327	Oscarella carmela	386100	121493	Oscarella
 EF211991.1	122003918	Nucula nucleus	13671	Nucula nucleus	47129	47128	Nucula
-EF221760.1	125541868	Metaseiulus occidentalis	24961	Galendromus occidentalis	34638	1933192	Galendromus
-EF558665.1	145967288	Naemorhedus swinhoei 	16524	Capricornis swinhoei	34866	9965	Capricornis
 EF597503.1	147712874	Chlorocebus sabaeus 	16230	Chlorocebus sabaeus	60711	392815	Chlorocebus
 EU302588.1	161334783	Abispa ephippium 	16953	Abispa ephippium	485912	485911	Abispa
 EU376027.1	165909355	Paradoxornis heudei 	16928	Paradoxornis heudei	3150879	201370	Paradoxornis
@@ -217,10 +197,8 @@ FJ032363.2	222431907	Canis lupus laniger 	16723	Canis lupus laniger	554455	9611	
 FJ207522.1	207559784	Ammotragus lervia	16540	Ammotragus lervia	9899	9898	Ammotragus
 FJ360694.1	209887388	Sivaloka damnosus 	15287	Sivaloka damnosus	568780	568779	Sivaloka
 FJ456950.1	215789089	Ochterus marginatus 	14609	Ochterus marginatus	280162	280161	Ochterus
-FJ532058.1	217331592	Protohynobius puxiongensis	16398	Pseudohynobius puxiongensis	581055	157106	Pseudohynobius
 FJ555185.1	223047008	Onisimus nanseni 	14734	Onisimus nanseni	583350	399993	Onisimus
 FJ611801.1	223007052	Wallacidia oculata 	18442	Wallacidia oculata	590134	1490509	Wallacidia
-FJ769845.1	224504037	Grus virgo 	16541	Anthropoides virgo	9111	1171716	Anthropoides
 FJ790313.1	224979717	Eophreatoicus karrkkanj	14994	Eophreatoicus karrkkanj	496899	496886	Eophreatoicus
 FJ799728.1	225423178	Tetraophasis szechenyii 	16706	Tetraophasis szechenyii	459760	459759	Tetraophasis
 FN562577.1	288995504	Ophiocomina nigra	17383	Ophiocomina nigra	55617	55616	Ophiocomina
@@ -229,7 +207,6 @@ FN666602.1	358246568	Planigale sp. Partial genome	15434	Planigale sp. AJ-2010	71
 FN908482.1	335334540	Rhabdopleura compacta	15814	Rhabdopleura compacta	638968	36327	Rhabdopleura
 FR872382.1	413958159	Bahadzia jaraguensis	14657	Bahadzia jaraguensis	1041811	1041810	Bahadzia
 GQ222414.1	239764794	Phytoseiulus persimilis	16199	Phytoseiulus persimilis	44414	44413	Phytoseiulus
-GQ225110.1	239736269	Loligo opalescens	17387	Doryteuthis opalescens	1051066	1051063	Doryteuthis
 GQ368657.1	255077701	Dicamptodon aterrimus 	17264	Dicamptodon aterrimus	294758	43476	Dicamptodon
 GU261696.1	283049063	Gallus gallus jabouillei	16786	Gallus gallus jabouillei	405000	9030	Gallus
 GU261707.1	283049217	Gallus gallus murghi	16784	Gallus gallus murghi	400035	9030	Gallus
@@ -243,12 +220,10 @@ HE983623.1	533734218	Pedetes capensis	15370	Pedetes capensis	10023	10022	Pedetes
 HG942363.1	619533352	Pandarus rhincodonicus	14480	Pandarus rhincodonicus	1473543	389325	Pandarus
 HM004123.1	291464770	Paegniodes cupulatus 	15715	Paegniodes cupulatus	747259	747258	Paegniodes
 HM034866.1	296100340	Apodemus agrarius 	16260	Apodemus agrarius	39030	10128	Apodemus
-HM049636.1	294988720	Cervus albirostris 	16478	Cervus albirostris	1088058	9859	Cervus
 HM060334.1	294679529	Globicephala melas 	16391	Globicephala melas	9731	9729	Globicephala
 HM067837.1	295060577	Vietnamella dabieshanensis 	15761	Vietnamella dabieshanensis	756260	756259	Vietnamella
 HM068584.1	295293590	Pan troglodytes troglodytes	16563	Pan troglodytes troglodytes	37011	9596	Pan
 HM068591.1	295293688	Pan troglodytes schweinfurthii	16565	Pan troglodytes schweinfurthii	37010	9596	Pan
-HM138200.1	308277987	Cervus eldi 	16357	Rucervus eldii	1088090	1088089	Rucervus
 HM641837.1	302151279	Crotalus horridus 	17260	Crotalus horridus	35024	8728	Crotalus
 HM856640.1	302702188	Lasmigona subviridis	11969	Lasmigona subviridis	82299	52388	Lasmigona
 HQ172157.1	306977592	Chelodina rugosa 	16582	Chelodina oblonga	44492	44490	Chelodina
@@ -267,14 +242,11 @@ HQ644338.1	316993032	Saimiri sciureus macrodon 	16471	Saimiri sciureus macrodon	
 HQ644340.1	316993060	Saimiri boliviensis peruviensis 	16473	Saimiri boliviensis peruviensis	495297	9520	Saimiri
 HQ696579.1	321401395	Boreus elegans 	16803	Boreus elegans	948611	48911	Boreus
 HQ833839.1	326370448	Bryodema luctuosum luctuosum 	15946	Bryodema luctuosum luctuosum	267467	267465	Bryodema
-HQ872008.1	325126958	Fergusonina sp.	16000	Fergusonina taylori	991131	156411	Fergusonina
 HQ875717.1	322506138	Siphluriscus chinensis 	16616	Siphluriscus chinensis	981053	650634	Siphluriscus
 HQ890328.1	325126972	Anser fabalis 	16688	Anser fabalis	132587	8842	Anser
 HQ897685.1	325127014	Corcyra cephalonica	15273	Corcyra cephalonica	139036	139035	Corcyra
-JAIQCD020003380.1	2284739905	Marmota monax	16439	Marmota monax	9995	9992	Marmota
 JAJHUB010000758.1	2280949745	Gulo gulo luscus	16556	Gulo gulo luscus	2888765	48419	Gulo
 JF293093.1	325652625	Rhinopithecus avunculus 	16552	Rhinopithecus avunculus	66062	542827	Rhinopithecus
-JF293095.1	325652653	Nasalis concolor 	16561	Simias concolor	170207	1203020	Simias
 JF317638.1	325652435	Chamaeleo chamaeleon musae	17499	Chamaeleo chamaeleon musae	994757	51754	Chamaeleo
 JF317641.1	325652477	Chamaeleo chamaeleon recticrista	17500	Chamaeleo chamaeleon recticrista	994758	51754	Chamaeleo
 JF703228.1	330689167	Calyptocephallela gayi	17994	Calyptocephallela gayi	655848	613087	Calyptocephallela
@@ -288,12 +260,10 @@ JN619347.1	353336667	Rhopalocaulis grandidieri	14523	Imerinia grandidieri	324447
 JN632606.1	347801281	Bos javanicus	16519	Bos javanicus	9906	9903	Bos
 JN632652.1	347801925	Kobus leche	16427	Kobus leche	59531	9961	Kobus
 JN632673.1	347802219	Odocoileus virginianus	16483	Odocoileus virginianus	9874	9871	Odocoileus
-JN635562.1	347448877	Bactrocera cucurbitae 	15825	Zeugodacus cucurbitae	28588	47833	Zeugodacus
 JN800721.1	355505093	Galeopterus variegatus	16745	Galeopterus variegatus	482537	482536	Galeopterus
 JN827386.1	356467088	Gondogeneia antarctica 	18424	Gondogeneia antarctica	1109128	1109127	Gondogeneia
 JN869311.1	357197588	Oryx dammah 	16756	Oryx dammah	59534	9957	Oryx
 JQ086345.1	372099983	Eremias argus	18521	Eremias argus	118841	52178	Eremias
-JQ398619.1	378744268	Mengenilla sp.	15363	Mengenilla moldrzyki	1155016	50601	Mengenilla
 JQ686193.1	381342517	Teleogryllus commodus	15870	Teleogryllus commodus	672150	82804	Teleogryllus
 JQ739175.1	384597556	Ceratocombus japonicus 	16597	Ceratocombus japonicus	1172116	237202	Ceratocombus
 JQ739176.1	384597570	Ceratocombus sp.	16646	Ceratocombus sp. HL-2012	1172120	237202	Ceratocombus
@@ -302,11 +272,9 @@ JQ743670.1	385252389	Acanthosoma labiduroides 	16678	Acanthosoma labiduroides	48
 JQ743674.1	385252403	Lamprocoris sp.	16143	Lamprocoris sp. HL-2012	1176173	1176172	Lamprocoris
 JQ743676.1	385252417	Sastragala edessoides 	16358	Sastragala edessoides	1176166	483947	Sastragala
 JQ743679.1	385252459	Urostylis sp.	15582	Urostylis sp. HL-2012	1176169	236719	Urostylis
-JQ782214.1	385252543	Aratinga acuticaudata acuticaudata 	16998	Thectocercus acuticaudatus acuticaudatus	1176404	2823206	Thectocercus
 JQ917403.1	387765891	Frankliniella intonsa 	15215	Frankliniella intonsa	163893	45059	Frankliniella
 JQ975176.1	400178569	Artemia sp.	15945	Artemia sp.	6662	6660	Artemia
 JQ975394.1	388597576	Erianthus versicolor 	15397	Erianthus versicolor	470935	323203	Erianthus
-JX033120.1	390190790	Rana adenopleura	18982	Babina adenopleura	120495	1208378	Babina
 JX101652.1	393191456	Pseudois nayaur nayaur 	16700	Pseudois nayaur nayaur	1204301	59541	Pseudois
 JX101654.1	397788279	Ovis ammon hodgsoni 	16688	Ovis ammon hodgsoni	439458	9935	Ovis
 JX215256.1	398314163	Aratinga mitrata mitrata 	16984	Psittacara mitratus mitratus	1215892	1664462	Psittacara
@@ -316,7 +284,6 @@ JX254914.2	666359823	Hydropotes inermis argyropus	16355	Hydropotes inermis argyr
 JX262672.1	403488686	Brachyteles arachnoides	16491	Brachyteles arachnoides	30594	30593	Brachyteles
 JX312730.1	402244523	Equus hemionus onager	16379	Equus hemionus onager	221981	9789	Equus
 JX524613.1	407971031	Ara militaris mexicanus	16988	Ara militaris mexicanus	1238172	9225	Ara
-JX524614.1	407971045	Aratinga rubritorquis	16979	Psittacara rubritorquis	1238232	1664462	Psittacara
 JX524615.1	407971059	Amazona barbadensis barbadensis	18983	Amazona barbadensis barbadensis	1238238	12929	Amazona
 JX880068.1	440655733	Laodelphax striatella 	16431	Laodelphax striatellus	195883	195882	Laodelphax
 JX893175.1	410992101	Bombina variegata variegata	18557	Bombina variegata variegata	191472	8344	Bombina
@@ -338,7 +305,6 @@ KC812618.1	510937390	Samia cynthia cynthia 	15345	Samia cynthia cynthia	428388	7
 KC887533.1	513798586	Opistoplatys sp.	15615	Opistoplatys sp. HL-2013	1347747	1347746	Opistoplatys
 KC894944.1	514388126	Kamimuria wangi 	16179	Kamimuria wangi	1348646	1348645	Kamimuria
 KC896375.1	509156927	Canis lupus campestris 	16719	Canis lupus campestris	1341016	9611	Canis
-KC936100.1	523253846	Aratinga brevipes 	16972	Psittacara brevipes	867385	1664462	Psittacara
 KF015227.1	523582254	Conostigmus sp.	16315	Conostigmus sp. MM-2013	1357450	44362	Conostigmus
 KF017606.1	527499240	Cistopus chinensis 	15706	Cistopus chinensis	1002736	102879	Cistopus
 KF032860.2	1229646282	Mesoplodon densirostris	16347	Mesoplodon densirostris	48708	9757	Mesoplodon
@@ -377,8 +343,6 @@ KF951092.1	584594774	Aegithalos concinnus talifuensis 	17940	Aegithalos concinnu
 KF953911.1	584458806	Okamejei meerdervoortii 	16929	Okamejei meerdervoortii	491015	117864	Okamejei
 KF962934.1	586598295	Dipturus argentinensis 	16907	Dipturus argentinensis	662069	117858	Dipturus
 KF991391.1	586946496	Bathyraja bergi 	16780	Bathyraja bergi	1213664	117870	Bathyraja
-KJ133583.1	731446596	Navis striatus	14487	Navis striatus	1580118	2945033	Navis
-KJ133589.1	731446680	Reticulinasus faini	14433	Reticulinasus faini	1811739	2945038	Reticulinasus
 KJ133591.1	731446708	Ornithodoros costalis	14442	Ornithodoros costalis	1339068	6937	Ornithodoros
 KJ147475.1	597568904	Pycnonotus sinensis hainanus 	16922	Pycnonotus sinensis hainanus	1414733	125282	Pycnonotus
 KJ173908.1	599087194	Asota plana lacteata 	15416	Asota plana lacteata	1303795	95192	Asota
@@ -396,11 +360,9 @@ KJ551842.1	635376726	Phrynocephalus theobaldi orientalis 	16608	Phrynocephalus t
 KJ570858.1	641386983	Ceraphron sp.	14947	Ceraphron sp. MM-2014	1502696	161186	Ceraphron
 KJ577600.1	641804166	Megalyra sp.	18996	Megalyra sp. MM-2014	1503221	44365	Megalyra
 KJ584365.1	641804346	Kleidocerys resedae resedae 	14688	Kleidocerys resedae resedae	1503485	237378	Kleidocerys
-KJ598623.1	645099915	Pyrrhocorax graculus 2	16905	Pyrrhocorax graculus	56789	56788	Pyrrhocorax
 KJ607907.1	641804304	Argiope amoena	14121	Argiope amoena	216270	94028	Argiope
 KJ619460.1	647737764	Gasteruption sp.	17884	Gasteruption sp. M19	162239	32404	Gasteruption
 KJ630904.2	747023407	Phrynocephalus erythrurus parva 	16379	Phrynocephalus erythrurus parva	516952	52205	Phrynocephalus
-KJ631624.1	648933446	Saundersilarus saundersi 	16739	Chroicocephalus saundersi	1132478	1129741	Chroicocephalus
 KJ700438.1	670800287	Mauremys reevesii	16786	Mauremys reevesii	260615	74925	Mauremys
 KJ700441.1	661346223	Capricornis sp.	16441	Capricornis sp. HD-2014	1515642	9965	Capricornis
 KJ754501.1	670804690	Allopsontus sp.	15538	Allopsontus sp. 2 JZ-2014	1529457	1519117	Allopsontus
@@ -489,13 +451,10 @@ KR092427.1	927935304	Acanthosaura lepidogaster	16899	Acanthosaura lepidogaster	1
 KR108307.1	822093314	Neophocaena asiaeorientalis sunameri 	16386	Neophocaena sunameri	3370372	34891	Neophocaena
 KR108308.1	822093328	Neophocaena asiaeorientalis asiaeorientalis 	16386	Neophocaena asiaeorientalis asiaeorientalis	1706337	34891	Neophocaena
 KR190462.1	937576697	Heterometrus longimanus	14655	Heterometrus longimanus	1719223	118529	Heterometrus
-KR336554.1	940376206	Orisarma sinense 	15905	Orisarma sinense	331404	2884567	Orisarma
 KR478686.1	937501340	Apocheima cinerarius 	15661	Apocheima cinerarius	706528	326964	Apocheima
 KR560064.1	939462056	Crocidura shantungensis quelpartis 	17161	Crocidura shantungensis quelpartis	1737902	36801	Crocidura
-KR703238.1	933504154	Titanodula formosana 	16266	Titanodula formosana	2898271	2898270	Titanodula
 KR736333.1	953768817	Cernuella virgata	14147	Cernuella virgata	145650	145649	Cernuella
 KR818090.1	959392324	Garrulax lanceolatus 	17849	Pterorhinus lanceolatus	3151026	3150799	Pterorhinus
-KR907226.1	1016841318	Ogadenus brumpti	14516	Ogadenus brumpti	1827023	2945034	Ogadenus
 KR919624.1	906394306	Lynx lynx voucher FRC2015-1 	17054	Lynx lynx	13125	13124	Lynx
 KR920101.1	957741836	Aquarius elongatus 	15370	Aquarius elongatus	95690	36162	Aquarius
 KR920102.1	957741850	Asclepios apicalis 	15391	Asclepios apicalis	1762889	95674	Asclepios
@@ -504,20 +463,13 @@ KT153076.1	927030549	Leptoxis ampla	15591	Leptoxis ampla	53516	53515	Leptoxis
 KT159775.1	974993408	Camponotus atrox 	16540	Camponotus atrox	604843	13390	Camponotus
 KT182070.1	918451355	Dynomene pilumnoides 	16475	Dynomene pilumnoides	1702342	652880	Dynomene
 KT182071.1	999812311	Homola orientalis	16084	Homola orientalis	1550542	1129510	Homola
-KT182082.1	983634798	Trochalopteron affine 	17856	Trochalopteron affine	520161	1673679	Trochalopteron
 KT203434.1	959093553	Mobula mobular 	18913	Mobula mobular	1579277	86365	Mobula
 KT223644.1	927276478	Megachile sculpturalis 	16581	Megachile sculpturalis	1004196	132116	Megachile
-KT223827.1	943496784	Strauchbufo raddei 	17602	Strauchbufo raddei	103435	1909268	Strauchbufo
 KT258909.1	995897793	Spilarctia subcarnea 	15441	Spilarctia subcarnea	1078815	695183	Spilarctia
-KT272188.1	929524333	Castanozoster thoracicus	16772	Castanozoster thoracicus	2692228	2692227	Castanozoster
-KT272189.1	929524347	Microspingus cabanisi	16768	Microspingus cabanisi	2692230	2692229	Microspingus
-KT272190.1	929524361	Microspingus lateralis	16773	Microspingus lateralis	2692231	2692229	Microspingus
-KT272404.1	995897821	Trochalopteron elliotii 	17873	Trochalopteron elliotii	520170	1673679	Trochalopteron
 KT272860.1	992320879	Hemilucilia sp.	14898	Hemilucilia sp. ACMJ-2016	1783246	416848	Hemilucilia
 KT290948.1	1005359487	Cervus elaphus hippelaphus	16354	Cervus elaphus hippelaphus	46360	9859	Cervus
 KT321364.1	929524319	Fukomys damarensis 	16868	Fukomys damarensis	885580	423606	Fukomys
 KT340629.1	936227410	Zoothera aurea 	16778	Zoothera aurea	2021823	36287	Zoothera
-KT345702.1	939710435	Spatula clypeata 	16599	Spatula clypeata	75838	2823197	Spatula
 KT345950.1	933504230	Kuwayamaea brachyptera 	16237	Kuwayamaea brachyptera	948356	420878	Kuwayamaea
 KT345951.1	933504248	Orophyllus montanus 	16667	Orophyllus montanus	948394	948393	Orophyllus
 KT425069.1	1015813469	Chasmoptera huttii 	16665	Chasmoptera huttii	1265314	560893	Chasmoptera
@@ -525,14 +477,11 @@ KT425083.1	1015813664	Balmes birmanus 	16192	Balmes birmanus	1708084	1708083	Bal
 KT425090.1	1015813762	Oliarces clara 	16101	Oliarces clara	63945	63913	Oliarces
 KT428893.1	949600311	Rhynchophorus ferrugineus	15924	Rhynchophorus ferrugineus	354439	93127	Rhynchophorus
 KT439327.1	941487551	Cavia aperea	16835	Cavia aperea	37548	10140	Cavia
-KT598467.1	944543531	Suthora nipalensis	16996	Suthora nipalensis	2712989	2712988	Suthora
 KT601061.1	1005351925	Zosterops japonicus	17809	Zosterops japonicus	36299	36298	Zosterops
 KT626001.1	959392032	Colobus angolensis palliatus	16850	Colobus angolensis palliatus	336983	9570	Colobus
 KT633399.1	944544518	Garrulax canorus 	17828	Garrulax canorus	238855	98126	Garrulax
 KT693383.1	1001823936	Mustela putorius furo	16525	Mustela putorius furo	9669	9665	Mustela
 KT696546.1	1026356038	Helicella itala	13967	Helicella itala	76043	76042	Helicella
-KT723012.1	948271079	Potamilus leptodon	16133	Potamilus leptodon	301916	52399	Potamilus
-KT735055.1	1026943012	Reticunassa festiva	15195	Reticunassa festiva	1052094	1885924	Reticunassa
 KT740996.2	2296373179	Dielis plumipes fossulana	18445	Dielis plumipes fossulana	2977626	2928476	Dielis
 KT779432.1	968198381	Rhinolophus ferrumequinum nippon 	16804	Rhinolophus ferrumequinum nippon	608660	49442	Rhinolophus
 KT780370.1	952952351	Homo sapiens subsp. 'Denisova'	16573	Homo sapiens subsp. 'Denisova'	741158	9605	Homo
@@ -591,7 +540,6 @@ KU146454.1	991820522	Neogale vison	16627	Neogale vison	452646	2902005	Neogale
 KU157228.1	1008807164	Polyphaga plancyi 1	15547	Polyphaga plancyi	1804147	30008	Polyphaga
 KU158197.1	1044326775	Turnagra capensis 	16932	Turnagra capensis	46906	46905	Turnagra
 KU167550.1	999812384	Bothrogonia ferruginea 	15262	Bothrogonia ferruginea	1030430	565739	Bothrogonia
-KU168761.1	1001184480	Apostichopus parvimensis	16120	Apostichopus parvimensis	1902835	307971	Apostichopus
 KU180459.1	1041516924	Elaphe carinata 	17154	Elaphe carinata	74364	8579	Elaphe
 KU188325.1	1043645125	Spongicola levigatus	15901	Spongicola levigatus	1873861	1873860	Spongicola
 KU188326.1	1043645139	Globospongicola spinulatus	16333	Globospongicola spinulatus	1873859	1530184	Globospongicola
@@ -602,23 +550,19 @@ KU234271.1	1043523517	Panthera leo persica 	17059	Panthera leo persica	83386	968
 KU237286.1	1090882697	Circus cyaneus 	20173	Circus cyaneus	43466	8963	Circus
 KU237288.1	1090882760	Lethocerus deyrollei 	19295	Lethocerus deyrollei	506670	43338	Lethocerus
 KU237291.1	1102602398	Fruticicola koreana	13979	Fruticicola koreana	1686014	326383	Fruticicola
-KU239995.1	1002623641	Faxonius sanbornii 	15883	Faxonius sanbornii	197200	306272	Faxonius
 KU246047.1	1043645153	Neptunea arthritica	15256	Neptunea arthritica	458030	57632	Neptunea
 KU255458.1	1000883017	Tylototriton pseudoverrucosus	16265	Tylototriton pseudoverrucosus	1357718	129884	Tylototriton
 KU255459.1	1000883061	Tylototriton shanorum	17096	Tylototriton shanorum	1485970	129884	Tylototriton
 KU297946.1	1044635930	Tylototriton yangi	16649	Tylototriton yangi	1357719	129884	Tylototriton
-KU301792.1	1028325962	Antheraea assamensis 	15312	Antheraea assamensis	91021	7118	Antheraea
 KU302104.1	1128619986	Salmacis bicolor rarispina	15767	Salmacis bicolor rarispina	1932358	39213	Salmacis
 KU302777.1	1016841238	Scydosella musawasensis	14719	Scydosella musawasensis	1819563	1819562	Scydosella
 KU308544.1	1043092411	Pan troglodytes verus	16560	Pan troglodytes verus	37012	9596	Pan
 KU342666.1	1050201928	Pleuropoma jana	15851	Pleuropoma jana	1882665	200184	Pleuropoma
 KU355786.1	1015600329	Fruhstorferiola sp.	15622	Fruhstorferiola sp. DLG-2016	1825296	334758	Fruhstorferiola
-KU362930.1	1047608845	Cyanoderma ruficeps 	16885	Cyanoderma ruficeps	181631	2614578	Cyanoderma
 KU365727.1	1067909075	Pleurobranchaea novaezealandiae	14531	Pleurobranchaea novaezealandiae	1883448	252551	Pleurobranchaea
 KU365728.1	1067909085	Pleurobranchaea sp.	14709	Pleurobranchaea sp. TY-2016	1883447	252551	Pleurobranchaea
 KU500641.1	1049306807	Osmoderma caeleste	15341	Osmoderma caeleste	1940696	174903	Osmoderma
 KU507298.1	1104307455	Chaceon sp.	16126	Chaceon sp. BZ-2016	1920239	107257	Chaceon
-KU521508.1	1027253807	Grimothea gregaria 	16326	Grimothea gregaria	306053	1124587	Grimothea
 KU579289.1	1025626193	Petaurista elegans caniceps	16520	Petaurista caniceps	1263754	55155	Petaurista
 KU605775.1	1050769073	Hieromantis kurokoi 	15208	Hieromantis kurokoi	1178289	1178288	Hieromantis
 KU641481.1	1063152538	Crangon hakodatei	16060	Crangon hakodatei	1884866	98082	Crangon
@@ -629,7 +573,6 @@ KU833245.2	2042183448	Pituophis catenifer sayi 	17193	Pituophis catenifer sayi	9
 KU836507.1	1122811652	Trichogramma dendrolimi 	16878	Trichogramma dendrolimi	114056	7490	Trichogramma
 KU869712.1	1027889148	Stygobromus tenuis potomacus	14915	Stygobromus tenuis potomacus	1849149	371416	Stygobromus
 KU871065.1	1041928181	Mnais costalis 	15487	Mnais costalis	101728	62020	Mnais
-KU873081.1	1028326092	Pateobatis jenkinsii 	17670	Pateobatis jenkinsii	334999	2212484	Pateobatis
 KU873119.1	1150311665	Anodontites trapesialis	15117	Anodontites trapesialis	1961152	152237	Anodontites
 KU878647.1	1073523860	Platerodrilus sp.	16394	Platerodrilus sp. MNCN/DNA:86739	1905348	343825	Platerodrilus
 KU884610.1	1028326064	Lanius sphenocercus sphenocercus 	16833	Lanius sphenocercus sphenocercus	721966	28712	Lanius
@@ -688,28 +631,23 @@ KX091860.1	1219402892	Cerapanorpa obtusa 	16318	Cerapanorpa obtusa	2021426	20214
 KX091863.1	1219402920	Phyllothelys shaanxiense 	15586	Phyllothelys shaanxiense	2021297	444755	Phyllothelys
 KX094979.1	1083262590	Salamandra salamandra gallaica	16331	Salamandra salamandra gallaica	126663	57569	Salamandra
 KX118277.1	1034703155	Metopaulias depressus 	15765	Metopaulias depressus	72635	72631	Metopaulias
-KX119150.1	1046754270	Faxonius punctimanus 	15815	Faxonius punctimanus	2176015	306272	Faxonius
 KX150458.1	1090901506	Palpita nigropunctalis 	15226	Palpita nigropunctalis	393329	373116	Palpita
 KX150459.1	1090901524	Pycnarmon pantherata 	15545	Pycnarmon pantherata	1418739	581988	Pycnarmon
 KX151979.1	1033205726	Euphractus sexcinctus flavimanus 	16805	Euphractus sexcinctus flavimanus	1854742	143299	Euphractus
-KX156954.1	1092181916	Orisarma neglectum 	15920	Orisarma neglectum	2773046	2884567	Orisarma
 KX171073.1	1036230157	Liposcelis sculptilimacula 	14334	Liposcelis sculptilimacula	1899352	160150	Liposcelis
 KX181887.1	1098386000	Zosterops senegalensis	17892	Zosterops senegalensis	135989	36298	Zosterops
 KX211940.1	1042266381	Pan troglodytes ellioti	16565	Pan troglodytes ellioti	756884	9596	Pan
 KX241615.1	1039007149	Andrena camellia 	15065	Andrena camellia	1862692	48720	Andrena
-KX249739.1	1037236305	Cecropterus lyciades 	15612	Cecropterus lyciades	2558925	2233715	Cecropterus
 KX267569.1	1177820477	Junonia evarete flirtea 	15121	Junonia evarete flirtea	1653866	39707	Junonia
 KX267571.1	1177820505	Junonia genoveva hilaris 	15238	Junonia genoveva hilaris	1653867	39707	Junonia
 KX267578.1	1177820603	Junonia grisea 	15228	Junonia grisea	2507155	39707	Junonia
 KX267581.1	1177820645	Junonia orithya madagascariensis 	15231	Junonia orithya madagascariensis	1977245	39707	Junonia
-KX268739.1	1127778699	Faxonius luteus	16215	Faxonius luteus	2302677	306272	Faxonius
 KX289581.1	1131390108	Oniscus asellus	13515	Oniscus asellus	96861	96860	Oniscus
 KX289582.1	1131390120	Porcellio dilatatus dilatatus	14103	Porcellio dilatatus dilatatus	96810	64694	Porcellio
 KX289583.1	1131390134	Porcellio dilatatus petiti	13343	Porcellio dilatatus petiti	96811	64694	Porcellio
 KX289584.1	1131390147	Porcellionides pruinosus	14078	Porcellionides pruinosus	96870	96868	Porcellionides
 KX289585.1	1131390161	Armadillidium album	13812	Armadillidium album	96802	13346	Armadillidium
 KX296781.1	1043392556	Yunnanacris wenshanensis 	15550	Yunnanacris wenshanensis	1873328	525571	Yunnanacris
-KX298892.1	1095161119	Tegula argyrostoma	17780	Tegula argyrostoma	1906927	6467	Tegula
 KX343002.1	1197989268	Stereomastis sculpta 	16475	Stereomastis sculpta	1522709	1129394	Stereomastis
 KX343004.1	1197989296	Pentacheles laevis	16015	Pentacheles laevis	1522706	578603	Pentacheles
 KX343005.1	1197989310	Polycheles coccifer	17080	Polycheles coccifer	2004537	288635	Polycheles
@@ -717,8 +655,6 @@ KX356680.1	1074805465	Achatinella sowerbyana	15374	Achatinella sowerbyana	115944
 KX376475.1	1115555310	Alcippe morrisonia hueti 	17788	Alcippe hueti	2896646	181644	Alcippe
 KX378172.1	1194689569	Gibbosula rochechouartii	16100	Gibbosula rochechouartii	2731840	1835352	Gibbosula
 KX385010.1	1125233726	Cheumatopsyche brevilineata 	15302	Cheumatopsyche brevilineata	1437087	177865	Cheumatopsyche
-KX397281.1	1125230428	Xanthonycticebus pygmaeus	16856	Xanthonycticebus pygmaeus	101278	3030685	Xanthonycticebus
-KX397391.1	1126835770	Psittiparus gularis 	17109	Psittiparus gularis	2485345	2485344	Psittiparus
 KX398931.1	1066800239	Hirundo rustica erythrogaster 	18133	Hirundo rustica erythrogaster	334822	43149	Hirundo
 KX423728.1	1192789365	Junonia vestina vestina	15191	Junonia vestina vestina	1987134	39707	Junonia
 KX423731.1	1192789407	Junonia orithya here	15230	Junonia orithya here	1987132	39707	Junonia
@@ -768,7 +704,6 @@ KX434870.1	1240950105	Parymenopus davisoni 	15588	Parymenopus davisoni	2033303	2
 KX434871.1	1240950119	Metallyticus sp.	15491	Metallyticus sp. JZ-2017	2033292	268306	Metallyticus
 KX447638.1	1131047434	Prionodon pardicolor pardicolor 	16689	Prionodon pardicolor pardicolor	1933931	94193	Prionodon
 KX449334.1	1129842165	Cervus elaphus macneilli 	16350	Cervus elaphus macneilli	144738	9859	Cervus
-KX462904.1	1066800960	Penaeus indicus 	16071	Penaeus indicus	29960	133894	Penaeus
 KX527574.1	1114443651	Thitarodes sp.	16280	Thitarodes sp. XK-2016	1871432	869562	Thitarodes
 KX553929.1	1145587908	Stenostomum leucops	15742	Stenostomum leucops	52061	39238	Stenostomum
 KX584356.1	1139416662	Agenioideus sp.	16596	Agenioideus sp. SJW-2017	1940100	1294194	Agenioideus
@@ -776,7 +711,6 @@ KX609626.1	1071034834	Ovis ammon darwini 	16618	Ovis ammon darwini	72760	9935	Ov
 KX619654.1	1169130534	Rhombodera sp.	15910	Rhombodera sp. FY-2017	1972235	267119	Rhombodera
 KX621053.1	1095161175	Lobesia sp.	15224	Lobesia sp. FRA-2014	1912955	209533	Lobesia
 KX644918.1	1139695718	Darevskia unisexualis 	21433	Darevskia unisexualis	254669	122330	Darevskia
-KX646541.1	1141958734	Steromphala umbilicaris	16277	Steromphala umbilicalis	2777158	2072689	Steromphala
 KX650080.1	1050201243	Trinomys moojeni 	16713	Trinomys moojeni	1416335	42826	Trinomys
 KX655539.1	1050201257	Trinomys setosus 	16825	Trinomys setosus	43323	42826	Trinomys
 KX670542.1	1189401211	Rapisma sp.	15958	Rapisma sp. 1 NS-2017	1984795	560872	Rapisma
@@ -784,14 +718,12 @@ KX686108.1	1135511519	Lithobates catesbeianus 	17681	Aquarana catesbeiana	8400	1
 KX711704.1	1179695149	Euplatypus parallelus	16095	Euplatypus parallelus	159894	298259	Euplatypus
 KX753670.1	1154501248	Spilarctia alba 	15447	Spilarctia alba	1473149	695183	Spilarctia
 KX774468.1	1090897517	Indirana semipalmata	17052	Indirana semipalmata	691012	129007	Indirana
-KX809695.1	1108491781	Emberiza siemsseni	16780	Emberiza siemsseni	1651215	30424	Emberiza
 KX819316.1	1111813247	Pteronotus sp.	16605	Pteronotus sp. PV-RO-BRA	1921178	59475	Pteronotus
 KX821680.1	1150565209	Neochauliodes parasparsus 	15995	Neochauliodes parasparsus	1962945	560913	Neochauliodes
 KX822016.1	1180567330	Kunugia undans 	15570	Kunugia undans	1906388	1418796	Kunugia
 KX844713.1	1206375732	Typhlatya sp.	15870	Typhlatya sp. JR2016	2010951	200554	Typhlatya
 KX853083.1	1150563639	Plakobranchus cf. ocellatus	14177	Plakobranchus cf. ocellatus HW-2015	1962732	259541	Plakobranchus
 KX865091.1	1182510799	Tagiades vajuna 	15359	Tagiades vajuna	2053311	76222	Tagiades
-KX881372.1	1197989324	Diploderma flaviceps	17140	Diploderma flaviceps	52218	2546160	Diploderma
 KX891351.1	1182955029	Penaeus penicillatus 	16034	Penaeus penicillatus	161924	133894	Penaeus
 KX902239.1	1095465606	Patagioenas fasciata monilis	16970	Patagioenas fasciata monilis	372326	372310	Patagioenas
 KX925978.1	1182955071	Pionus menstruus menstruus 	18554	Pionus menstruus menstruus	303319	13213	Pionus
@@ -863,7 +795,6 @@ KY224592.1	1145998250	Procapritermes sp.	14950	Procapritermes sp. G TB-2017	1934
 KY224594.1	1145998278	Ruptitermes nr. xanthochiton	14902	Ruptitermes nr. xanthochiton FG-ND2-26	1934600	377688	Ruptitermes
 KY224600.1	1145998360	Cubitermes nr. Fulvus	14950	Cubitermes nr. fulvus BDIT069	1934902	143603	Cubitermes
 KY224605.1	1145998430	Labiotermes sp.	14950	Labiotermes sp. BRA008	1934500	370422	Labiotermes
-KY224606.1	1145998444	Polyspathotermes sulcifrons	14950	Polyspathotermes sulcifrons	1934479	2810355	Polyspathotermes
 KY224609.1	1145998484	Odontotermes nr. pauperans	14950	Odontotermes nr. pauperans RDCT160	1934562	60587	Odontotermes
 KY224610.1	1145998498	Microcerotermes nr. havilandi	14950	Microcerotermes nr. havilandi TBRU3.18a	1934509	139992	Microcerotermes
 KY224651.1	1145999059	Coatitermes sp.	14950	Coatitermes sp. 2 TB-2017	1934474	377717	Coatitermes
@@ -878,7 +809,6 @@ KY224698.1	1145999707	Hospitalitermes sp.	14950	Hospitalitermes sp. PHI3	1934497
 KY224719.1	1145999993	Aderitotermes sp.	14950	Aderitotermes sp. 2 TB-2017	1934434	377659	Aderitotermes
 KY224731.1	1146000159	Mirocapritermes sp.	14950	Mirocapritermes sp. 1 TB-2017	1934540	229706	Mirocapritermes
 KY230382.1	1253213971	Karaftohelix adamsi	15754	Karaftohelix adamsi	2013957	1874334	Karaftohelix
-KY244080.1	1177817824	Petrasma pervernicosa	16554	Petrasma pervernicosa	642806	2856488	Petrasma
 KY249249.1	1189341285	Cerion tridentatum costellata	15409	Cerion tridentatum costellata	1108932	145431	Cerion
 KY270856.1	1242863737	Bathymodiolus manusensis	16801	Bathymodiolus manusensis	857502	12965	Bathymodiolus
 KY274846.1	1207769741	Clavigralla tomentosicollis 	16089	Clavigralla tomentosicollis	1295332	1295331	Clavigralla
@@ -915,7 +845,6 @@ KY559404.1	1229405464	Leptogorgia gaini	19682	Leptogorgia gaini	2025591	37507	Le
 KY559406.1	1229405494	Leptogorgia cf. palma	18731	Leptogorgia cf. palma AP-2017	2025592	37507	Leptogorgia
 KY559412.1	1229405584	Leptogorgia sp.	18849	Leptogorgia sp. USNM 1437444	2025594	37507	Leptogorgia
 KY581660.1	1270554219	Chaerephon plicatus	16216	Mops plicatus	3370289	258862	Mops
-KY593937.1	1270554275	Limenitis sinensium	15192	Limenitis sinensium	2049401	124410	Limenitis
 KY630500.1	1150311771	Megathymus yuccae yuccae 	15477	Megathymus yuccae yuccae	1945768	40098	Megathymus
 KY630501.1	1150311785	Megathymus streckeri streckeri 	15507	Megathymus streckeri streckeri	1945769	40098	Megathymus
 KY630502.1	1150311799	Megathymus violae 	15396	Megathymus violae	2795567	40098	Megathymus
@@ -923,7 +852,6 @@ KY630504.1	1150311827	Agathymus mariae mariae 	15342	Agathymus mariae mariae	194
 KY630505.1	1150311841	Megathymus beulahae beulahae 	15412	Megathymus beulahae beulahae	1945765	40098	Megathymus
 KY644697.1	1274820526	Cricula trifenestrata	15425	Cricula trifenestrata	1017259	475263	Cricula
 KY656892.1	1275873844	Liposcelis bostrychophila chromosome I	8870	Liposcelis bostrychophila	185214	160150	Liposcelis
-KY679832.1	1227542258	Sinotaia aeruginosa	17013	Sinotaia aeruginosa	2653872	200190	Sinotaia
 KY679833.1	1227542272	Sinotaia purificata	17310	Sinotaia quadrata	200191	200190	Sinotaia
 KY689113.1	1344456763	Deroplatys desiccata 	16065	Deroplatys desiccata	627733	444887	Deroplatys
 KY689117.1	1344456817	Parablepharis kuhlii asiatica 	16130	Parablepharis kuhlii asiatica	2073102	2073100	Parablepharis
@@ -988,7 +916,6 @@ LC060942.1	1606529380	Tragulus javanicus	16334	Tragulus javanicus	9849	9847	Trag
 LC073697.1	958114302	Lepus tibetanus pamirensis	17597	Lepus tibetanus pamirensis	1701145	9980	Lepus
 LC073748.1	1025607815	Protobothrops elegans	17230	Protobothrops elegans	88086	103943	Protobothrops
 LC107880.1	972821640	Lepetodrilus nux nearly complete genome	16353	Lepetodrilus nux	505977	47541	Lepetodrilus
-LC127067.1	1096115053	Clithon retropictum	15814	Clithon retropictum	2094009	119399	Clithon
 LC222524.1	1379384441	Pagurus maculosus 	15420	Pagurus maculosus	1929469	6746	Pagurus
 LC222528.1	1379384497	Pagurus filholi 	15674	Pagurus filholi	1927957	6746	Pagurus
 LC222533.1	1379384555	Pagurus minutus 	14939	Pagurus minutus	1238396	6746	Pagurus
@@ -1123,15 +1050,11 @@ MF143489.1	1270114997	Myotis melanorhinus 	17018	Myotis melanorhinus	2980668	943
 MF176157.1	1253213982	Rhinocola aceris	15638	Rhinocola aceris	1889912	1889911	Rhinocola
 MF197377.1	1432007200	Perlodes sp.	16039	Perlodes sp. YZD-2018	2282395	466779	Perlodes
 MF198250.1	2098059486	Leptodius exaratus 	15716	Leptodius exaratus	373433	373432	Leptodius
-MF198253.1	1378744058	Suwallia errata 	16146	Suwallia errata	466823	466822	Suwallia
-MF278960.1	1394332786	Dipturus nasutus	16909	Dipturus nasutus	2605477	496414	Zearaja
 MF278962.1	1394332814	Dipturus chilensis	16909	Dipturus chilensis	2605608	496414	Zearaja
-MF278966.1	1394332870	Dipturus maugeanus	16908	Dipturus maugeanus	496415	496414	Zearaja
 MF346379.1	1297050567	Rinaca jonasii 	15261	Rinaca jonasii	1118044	1107856	Rinaca
 MF347703.1	1321659317	Conocephalus differentus 	16038	Conocephalus differentus	948348	208799	Conocephalus
 MF351622.1	1331385409	Agonita chinensis	16395	Agonita chinensis	2003340	2003339	Agonita
 MF358969.1	1249619675	Zeugodacus scutellatus	15904	Zeugodacus scutellatus	86798	47833	Zeugodacus
-MF373813.1	1568959915	Nagiella inferior 	15348	Nagiella inferior	2714746	581925	Nagiella
 MF374802.1	1564303845	Cephalodiscus hodgsoni 	16875	Cephalodiscus hodgsoni	560606	117498	Cephalodiscus
 MF379619.1	1441458311	Sicyonia parajaponica 	15918	Sicyonia parajaponica	2486369	64464	Sicyonia
 MF381587.1	1380942979	Anopheles aff. oswaldoi	15392	Anopheles aff. oswaldoi A PGF-2018	2171934	7164	Anopheles
@@ -1153,7 +1076,6 @@ MF431746.1	1246431296	Strix occidentalis caurina	19889	Strix occidentalis caurin
 MF434829.1	1297050581	Neoceratitis asiatica 	15481	Neoceratitis asiatica	2004850	194919	Neoceratitis
 MF438265.1	1261347869	Sorex mirabilis 	17315	Sorex mirabilis	62289	9379	Sorex
 MF443235.1	1334687361	Mycopsylla gardenensis	15266	Mycopsylla gardenensis	2008466	1681220	Mycopsylla
-MF457406.1	1324618772	Curtonida isos	17910	Curtonida isos	814923	2989558	Curtonida
 MF459656.1	1240496061	Eubalaena glacialis 	16387	Eubalaena glacialis	27606	27605	Eubalaena
 MF460363.1	1258169834	Dermochelys coriacea	16501	Dermochelys coriacea	27794	27793	Dermochelys
 MF478986.1	1246291301	Bombus breviceps 	16743	Bombus breviceps	395515	28641	Bombus
@@ -1163,7 +1085,6 @@ MF497734.1	1631825747	Urolabida sp.	16341	Urolabida sp. FS-2019	2575687	1603603	
 MF509825.1	1246971602	Phataginus tetradactyla 	16649	Phataginus tetradactyla	73815	2736678	Phataginus
 MF535442.1	1631825453	Geotomus sp.	15571	Geotomus sp. FS-2019	2575688	295706	Geotomus
 MF536683.1	1246971532	Phataginus tricuspis 	16565	Phataginus tricuspis	358128	2736678	Phataginus
-MF536684.1	1246971546	Smutsia gigantea 	16540	Smutsia gigantea	1559511	2736677	Smutsia
 MF536685.1	1246971560	Smutsia temminckii 	16558	Smutsia temminckii	302418	2736677	Smutsia
 MF612067.1	1411195686	Dorcus hopei	16026	Dorcus hopei	618762	41106	Dorcus
 MF621236.1	1276740664	Cosmoscarta sp. 	15651	Cosmoscarta sp. TS-2017	2053067	130642	Cosmoscarta
@@ -1203,7 +1124,6 @@ MG193463.1	1465467726	Cobelura sp.	15912	Cobelura sp. KM-2017	2219490	2219489	Co
 MG193470.1	1465467803	Megacyllene sp.	15832	Megacyllene sp. KM-2017	2219442	58005	Megacyllene
 MG242621.1	1318753698	Ignelater luminosus	16079	Ignelater luminosus	2038154	1985927	Ignelater
 MG242622.1	1318753712	Ellychnia corrusca	16914	Photinus corruscus	3446125	7053	Photinus
-MG253029.1	1411188443	Abroscelis anchoralis	16388	Abroscelis anchoralis	212429	212428	Abroscelis
 MG257764.1	1697051579	Chordodes sp.	14218	Chordodes sp. VVA-2019	2586751	70418	Chordodes
 MG257766.1	1697051607	Gordionus wolterstorffii 	14750	Gordionus wolterstorffii	190562	190561	Gordionus
 MG257767.1	1697051565	Gordius sp.	14310	Gordius sp. VVA-2019	2586752	42814	Gordius
@@ -1219,7 +1139,6 @@ MG552697.1	1337017979	Apis mellifera capensis x Apis mellifera scutellata	16456	
 MG552700.1	1337018021	Apis mellifera scutellata	16462	Apis mellifera scutellata	212527	7459	Apis
 MG571272.1	2099456997	Leptomithrax sp.	16608	Leptomithrax sp. QNL-2021	2878039	632926	Leptomithrax
 MG572766.1	1819717608	Oreta fuscopurpurea 	15564	Oreta fuscopurpurea	2706880	475331	Oreta
-MG582604.1	1440890322	Aristaeomorpha foliacea 	15926	Aristaeomorpha foliacea	2556126	2556102	Aristaeomorpha
 MG583885.1	1540625568	Tetrao urogallus aquitanicus 	16683	Tetrao urogallus aquitanicus	311393	100829	Tetrao
 MG584837.1	1731507174	Eurydema ventralis 	15500	Eurydema ventralis	1511229	286700	Eurydema
 MG586969.1	1387178756	Megaderma lyra	17055	Lyroderma lyra	3371112	3371052	Lyroderma
@@ -1233,12 +1152,10 @@ MG728095.1	1561264850	Curculio sp.	19216	Curculio sp. SZ-2019	2508091	13024	Curc
 MG732929.1	1792264862	Geron pallipilosus 	15588	Geron pallipilosus	2682726	2659668	Geron
 MG737765.1	1406948859	Tettigades auropilosa	14380	Tettigades auropilosa	1498843	1445914	Tettigades
 MG744570.1	1386808902	Reticunassa festiva complex sp. C	15172	Reticunassa festiva complex sp. C	2175872	1885924	Reticunassa
-MG747629.1	1495832019	Limenitis albomaculata	15272	Limenitis albomaculata	1526560	124410	Limenitis
 MG751772.1	1408948488	Hemigrapsus penicillatus 	16486	Hemigrapsus penicillatus	135467	40175	Hemigrapsus
 MG763747.1	1566350253	Endoclita minanus 	15248	Endoclita minanus	2282552	1379387	Endoclita
 MG770893.1	1488054245	Triops sp.	15126	Triops sp. EPP1	2448215	58776	Triops
 MG772558.1	1567427016	Pithecopus megacephalus 	18050	Pithecopus megacephalus	860373	1911155	Pithecopus
-MG786490.1	1441458283	Reishia luteostoma	15301	Reishia luteostoma	578820	55522	Reishia
 MG813482.1	2162641208	Atkinsoniella heiyuana 	16368	Atkinsoniella heiyuana	700739	565723	Atkinsoniella
 MG813487.1	2162641250	Paradorydium reflexanum 	15661	Paradorydium reflexanum	2885788	139551	Paradorydium
 MG813488.1	2162641264	Balala lui 	15558	Balala lui	2901389	2800225	Balala
@@ -1342,7 +1259,6 @@ MG916809.1	1475685114	Callorhinus ursinus	16673	Callorhinus ursinus	34884	34883	
 MG923485.1	1534885900	Aulacus sinensis	16953	Aulacus sinensis	2491146	315839	Aulacus
 MG923515.1	1534886317	Taeniogonalos tricolor	15457	Taeniogonalos tricolor	2491144	162258	Taeniogonalos
 MG925058.1	1537784649	Achatinella fulgens	15346	Achatinella fulgens	115939	115911	Achatinella
-MG948540.1	1352305896	Choristoneura occidentalis biennis 	15533	Choristoneura occidentalis biennis	2911890	7140	Choristoneura
 MG962405.1	1811916890	Dacus ciliatus 	15808	Dacus ciliatus	194918	43391	Dacus
 MG983792.1	1386810791	Sorex isodon 	17007	Sorex isodon	62281	9379	Sorex
 MG989234.1	1402351618	Pseudophacopteron sp.	15169	Pseudophacopteron aewagriini	3075506	376276	Pseudophacopteron
@@ -1395,7 +1311,6 @@ MH396438.1	1417784164	Cymothoa indica	14475	Cymothoa indica	439382	439377	Cymoth
 MH422969.1	1516279536	Xiphydria sp.	16482	Xiphydria sp. ZJUH 2008002	2488325	36761	Xiphydria
 MH424435.1	1695711991	Ophiarachnella infernalis	15751	Ophiarachnella infernalis	2587522	1365871	Ophiarachnella
 MH427658.1	1669283654	Himaloaesalus gaoligongshanus	17013	Himaloaesalus gaoligongshanus	2583518	2583517	Himaloaesalus
-MH433599.1	1572790703	Oceanodroma castro 	17065	Oceanodroma castro	126871	79650	Hydrobates
 MH473231.1	1562529255	Distolasterias nipon	16193	Distolasterias nipon	60573	60572	Distolasterias
 MH473596.1	2032035949	Coleophora therinella	15539	Coleophora therinella	513599	513583	Coleophora
 MH500774.1	1563034350	Protanthea simplex chromosome I	17134	Protanthea simplex	1499606	1499605	Protanthea
@@ -1405,7 +1320,6 @@ MH547032.1	1523715556	Muntiacus vaginalis 	16352	Muntiacus vaginalis	9887	9885	M
 MH574940.1	1780185123	Ostrinia palustralis	15246	Ostrinia palustralis	99579	29056	Ostrinia
 MH588520.1	1655371706	Lactiforis takii	13958	Lactiforis takii	1002745	1002744	Lactiforis
 MH592151.1	1436149830	Pseudoniphargus sp.	15728	Pseudoniphargus sp. 1-Portugal	2212668	1041813	Pseudoniphargus
-MH593563.1	1572789162	Orisarma dehaani 	15917	Orisarma dehaani	559491	2884567	Orisarma
 MH630149.1	1534885649	Parborlasia corrugatus	15499	Parborlasia corrugatus	187802	187801	Parborlasia
 MH643816.2	1914235040	Desmopachria sp.	16616	Desmopachria sp. ITV9392	2778944	107797	Desmopachria
 MH643884.1	1595113439	Appendiseta robiniae 	15049	Appendiseta robiniae	527541	527540	Appendiseta
@@ -1428,7 +1342,6 @@ MH717895.1	1757078625	Munidopsis lauensis 	17483	Munidopsis lauensis	418534	3942
 MH717896.1	1757078639	Munidopsis verrilli 	17636	Munidopsis verrilli	2652437	394269	Munidopsis
 MH719202.1	1540586147	Callogorgia cf. gracilis	18937	Callogorgia cf. gracilis EE-2018	2497966	767299	Callogorgia
 MH727696.1	1540310797	Oreolalax xiangchengensis	17110	Oreolalax xiangchengensis	445782	265043	Oreolalax
-MH729187.1	1517350893	Lupocycloporus gracilimanus 	15990	Lupocycloporus gracilimanus	412131	2848402	Lupocycloporus
 MH751436.1	1681061463	Trigomphus carus 	15281	Trigomphus carus	2588479	638553	Trigomphus
 MH751441.1	1681061533	Deielia phaon 	15135	Deielia phaon	411009	411008	Deielia
 MH791045.1	1540584229	Catomerus polymerus 	15446	Catomerus polymerus	259983	259982	Catomerus
@@ -1455,7 +1368,6 @@ MH974763.1	1819717867	Cercopithecus erythrotis camerunensis	16550	Cercopithecus 
 MH978908.1	1757076791	Otocolobus manul 	16672	Otocolobus manul	61408	61407	Otocolobus
 MH992770.1	2041228217	Monopis longella 	15541	Monopis longella	758491	685409	Monopis
 MK000395.1	1696742242	Forcipomyia sp.	16558	Forcipomyia makanensis	2590746	209700	Forcipomyia
-MK015644.1	1563839339	Yungipicus canicapillus 	16843	Yungipicus canicapillus	367950	2823210	Yungipicus
 MK028672.1	1773362933	Ligia exotica	14978	Ligia exotica	142080	96855	Ligia
 MK043326.1	1706877018	Pandalus japonicus 	15909	Pandalus japonicus	666362	6702	Pandalus
 MK049852.1	1773363238	Chrysomela populi	16588	Chrysomela populi	154003	41127	Chrysomela
@@ -1497,7 +1409,6 @@ MK250437.1	2129082552	Iragoides fasciata 	15645	Iragoides fasciata	571204	571203
 MK250907.1	1777435073	Lucanus maculifemoratus taiwanus	21174	Lucanus maculifemoratus taiwanus	619008	41108	Lucanus
 MK251986.1	1778520731	Turricula nelliae spuria	16453	Turricula nelliae spuria	1133807	1088909	Turricula
 MK251987.1	1790939202	Epitonium scalare	15140	Epitonium scalare	494602	69585	Epitonium
-MK256614.1	1810945077	Koreoleptoxis nodifila	15737	Koreoleptoxis nodifila	874459	364281	Koreoleptoxis
 MK265245.1	1771806670	Pleonexes koreana 	14645	Pleonexes koreana	3350622	134541	Ampithoe
 MK270524.1	1802566997	Coleolaelaps cf. liui	14500	Coleolaelaps cf. liui XFX-2019	2695870	224791	Coleolaelaps
 MK270527.1	1802567039	Macrocheles nataliae	14486	Macrocheles nataliae	2058476	99225	Macrocheles
@@ -1506,7 +1417,6 @@ MK290826.1	1792269245	Nemoura papilla 	15774	Nemoura papilla	2498673	62803	Nemou
 MK292095.1	1732446825	Diaphanes sp.	17055	Diaphanes sp. FM11	2596685	343742	Diaphanes
 MK292104.1	1732446839	Rhagophthalmus giganteus	16220	Rhagophthalmus giganteus	2591746	71224	Rhagophthalmus
 MK292540.1	1806557281	Apoderus jekelii	23803	Apoderus jekelii	1002002	122772	Apoderus
-MK301436.1	1810664647	Ctenolepisma villosum 	15488	Ctenolepisma villosum	257043	27552	Ctenolepisma
 MK301592.1	1786482781	Leptogorgia virgulata	18845	Leptogorgia virgulata	37508	37507	Leptogorgia
 MK327366.1	1591622073	Onustus exutus	16043	Onustus exutus	2546007	2546006	Onustus
 MK330875.1	2127681993	Sistrurus miliarius 	17777	Sistrurus miliarius	8758	8755	Sistrurus
@@ -1610,7 +1520,6 @@ MK747248.1	1786482215	Murina cyclotis	16463	Murina cyclotis	177185	59488	Murina
 MK747249.1	1796201377	Murina shuipuensis 	16585	Murina shuipuensis	1046852	59488	Murina
 MK766411.1	1796388934	Therioaphis trifolii 	16068	Therioaphis trifolii	935269	54178	Therioaphis
 MK775530.1	1792382569	Hydrophis platurus 	18101	Hydrophis platurus	8688	8683	Hydrophis
-MK779708.1	1777434898	Actinodura cyanouroptera 	17862	Actinodura cyanouroptera	201347	181642	Actinodura
 MK780743.1	1784320291	Eryx tataricus 	19330	Eryx miliaris	51871	51863	Eryx
 MK783262.1	1707335392	Anadara antiquata	45454	Anadara antiquata	142560	6554	Anadara
 MK783263.1	1783244652	Cypraea tigris	16177	Cypraea tigris	75124	69558	Cypraea
@@ -1663,7 +1572,6 @@ MK903596.2	1916859271	Omocestus petraeus 	15595	Omocestus petraeus	294350	294349
 MK903597.2	1916859285	Phlaeoba antennata 	15629	Phlaeoba antennata	227576	227575	Phlaeoba
 MK903598.1	1870287385	Sinochlora sinensis 	17033	Sinochlora sinensis	472927	472926	Sinochlora
 MK905888.1	1792269301	Etrocorema hochii 	15854	Etrocorema hochii	2684660	909440	Etrocorema
-MK907783.1	1693002106	Neocaridina davidi koreana 	15558	Neocaridina davidi koreana	2039297	274641	Neocaridina
 MK913844.1	1957927829	Silba sp.	16008	Silba sp. LW-2021	2803644	198646	Silba
 MK919656.1	1708007914	Anthoptilum sp.	18850	Anthoptilum sp. 1 RH-2019	2598111	86570	Anthoptilum
 MK919659.1	1708007959	Halipteris cf. finmarchica	18513	Halipteris cf. finmarchica RH-2019	2598122	361160	Halipteris
@@ -1707,7 +1615,6 @@ MN072397.1	1810665812	Holarthrothrips indicus 	15243	Holarthrothrips indicus	196
 MN072632.2	1826847055	Tubuca rosea 	15643	Tubuca rosea	1647983	1239988	Tubuca
 MN072633.2	1826847069	Tubuca paradussumieri 	15614	Tubuca paradussumieri	1647982	1239988	Tubuca
 MN083169.1	1812385393	Celes akitanus 	16280	Celes akitanus	290719	290718	Celes
-MN083172.1	1811917361	Mecostethus alliaceus 	16252	Mecostethus alliaceus	62745	62744	Mecostethus
 MN083173.1	1812385367	Bolivaritettix lativertex 	15054	Bolivaritettix lativertex	470946	470945	Bolivaritettix
 MN083181.1	1812385354	Yunnantettix bannaensis 	15167	Yunnantettix bannaensis	2708011	1637180	Yunnantettix
 MN083191.1	1811917557	Stenocatantops splendens 	15608	Stenocatantops splendens	227617	227616	Stenocatantops
@@ -1852,11 +1759,9 @@ MN783017.1	1785188471	Glaucostegus granulatus 	16547	Glaucostegus granulatus	128
 MN793975.1	2030578372	Actinopyga echinites	15619	Actinopyga echinites	571810	206674	Actinopyga
 MN793976.1	2030578386	Chicoreus asianus	15361	Chicoreus asianus	693198	622440	Chicoreus
 MN807287.1	1833819307	Choroterpides apiculata (nomen nudum)	15199	Choroterpides apiculata (nomen nudum)	2729127	190765	Ochlerotatus
-MN814842.1	1894823966	Chloebia gouldiae 	16830	Chloebia gouldiae	44316	187421	Chloebia
 MN816306.1	1823525019	Dobsonia sp.	16808	Dobsonia sp. 050810x2F	2719125	42146	Dobsonia
 MN816320.1	1823525215	Epomophorus sp.	16734	Epomophorus sp. MNHN ZM 2011-760	2719127	58066	Epomophorus
 MN816333.1	1823525397	Epomophorus pusillus	16728	Epomophorus pusillus	2853157	58066	Epomophorus
-MN816334.1	1823525411	Lissonycteris angolensis	16566	Myonycteris angolensis	58071	77236	Myonycteris
 MN816349.1	1823525621	Rousettus aegyptiacus	16753	Rousettus aegyptiacus	9407	9406	Rousettus
 MN829437.1	1841709030	Dorysthenes granulosus	15858	Dorysthenes granulosus	690275	583427	Dorysthenes
 MN832848.1	1799629465	Megaselia spiracularis 	16035	Megaselia spiracularis	940223	36165	Megaselia
@@ -1882,13 +1787,11 @@ MN864054.1	1830463257	Tonicia forbesii	14569	Tonicia forbesii	1503220	291887	Ton
 MN864061.1	1830463354	Callochiton steinenii	11923	Callochiton steinenii	2719128	256137	Callochiton
 MN864062.1	1830463368	Acanthopleura echinata	14848	Enoplochiton echinatus	3244015	291890	Enoplochiton
 MN877384.1	1835710562	Marasmia exigua 	15262	Marasmia exigua	1555629	2927320	Marasmia
-MN877385.1	1822247318	Cristarma eulimene 	15894	Cristarma eulimene	285648	2884571	Cristarma
 MN879254.1	1811123410	Penaeus stylirostris	15982	Penaeus stylirostris	29019	133894	Penaeus
 MN883538.1	1823933485	Florometra sp.	15792	Florometra sp. BMK-2020	2719553	73430	Florometra
 MN885884.1	1835711248	Harpago chiragra	16404	Harpago chiragra	387445	2705404	Harpago
 MN894531.1	1859640559	Parathailocyba orla 	15382	Parathailocyba orla	2745910	2509943	Parathailocyba
 MN894890.1	1841708555	Agrilus mali	16204	Agrilus mali	1917227	195164	Agrilus
-MN911170.1	1928005203	Haloa japonica	13797	Haloa japonica	674295	2510874	Haloa
 MN913338.1	1859640662	Epicauta ruficeps	15813	Epicauta ruficeps	1884680	34673	Epicauta
 MN913350.1	1843246790	Arge aurora 	15675	Arge aurora	2728854	95269	Arge
 MN928529.1	1860108492	Trichagalma acutissimae 	16078	Trichagalma acutissimae	2746638	207789	Trichagalma
@@ -1922,12 +1825,10 @@ MT044302.1	2026651154	Vicugna pacos huacaya	16664	Vicugna pacos huacaya	273913	3
 MT075808.1	2074131340	Illiberis ulmivora 	15334	Illiberis ulmivora	2677996	1430796	Illiberis
 MT075809.1	2074131354	Sympetrum striolatum 	15435	Sympetrum striolatum	6969	6968	Sympetrum
 MT079801.1	1851979594	Henricia pachyderma	16192	Henricia pachyderma	60579	60577	Henricia
-MT079957.1	1846420772	Scarturus williamsi	16653	Scarturus williamsi	2926630	2494513	Scarturus
 MT111940.1	1827869937	Phymorhynchus sp.	15631	Phymorhynchus sp. LD-2020	2723149	440554	Phymorhynchus
 MT113339.1	1927812607	Attagenus augustatus augustatus	15538	Attagenus augustatus augustatus	2783534	41095	Attagenus
 MT121251.1	2431473462	Zeugodacus diaphorus	15896	Zeugodacus diaphorus	639385	47833	Zeugodacus
 MT133686.1	2029229407	Scatoglyphus polytrematus	13966	Scatoglyphus polytrematus	2711296	2711295	Scatoglyphus
-MT134039.1	1908261542	Luciola unmunsana	15858	Luciola unmunsana	190477	7050	Luciola
 MT137096.1	1847741541	Vespa velutina auraria 	18613	Vespa velutina auraria	1075780	7443	Vespa
 MT161611.1	2053359268	Nerita chamaeleon	15716	Nerita chamaeleon	335532	52927	Nerita
 MT165687.1	2099452899	Eysarcoris rosaceus 	16043	Eysarcoris rosaceus	2872423	702481	Eysarcoris
@@ -1944,7 +1845,6 @@ MT232643.1	2075388212	Oribatula sakamorii	14494	Oribatula sakamorii	1323719	2298
 MT232762.1	1837921370	Niphades castanea	17494	Niphades castanea	2027381	1738324	Niphades
 MT254530.1	2059418892	Telestula cf. batoni	18763	Telestula cf. batoni AP-2020	2723027	86523	Telestula
 MT263947.1	1835927633	Adelges tsugae	16056	Adelges tsugae	357502	38118	Adelges
-MT263986.1	1880162370	Fulvetta vinipectus 	16961	Fulvetta vinipectus	204796	2029310	Fulvetta
 MT265380.1	1843249014	Lymantria sugii 	15614	Lymantria sugii	1446312	13122	Lymantria
 MT335860.1	1841183626	Chionoecetes opilio	16067	Chionoecetes opilio	41210	41209	Chionoecetes
 MT341533.1	2216213514	Coeligena bonapartei consita	16848	Coeligena bonapartei consita	2461401	56649	Coeligena
@@ -1977,8 +1877,6 @@ MT381943.1	2159368533	Microtus miurus	16294	Microtus miurus	100894	10053	Microtu
 MT381944.1	2159368547	Microtus richardsoni	16286	Microtus richardsoni	111840	10053	Microtus
 MT381994.1	1843251881	Schoutedenia ralumensis	16051	Schoutedenia ralumensis	1064595	925790	Schoutedenia
 MT396991.1	1910825113	Chelipoda sp.	14976	Chelipoda sp. YD3012	2775393	192480	Chelipoda
-MT410917.1	1871283213	Rajella lintea	16720	Rajella lintea	2719090	117865	Rajella
-MT410958.1	1894457248	Bufotes sitibundus	17135	Bufotes sitibundus	2590924	651673	Bufotes
 MT423710.1	2127657213	Panthera uncia	16724	Panthera uncia	29064	9688	Panthera
 MT424762.1	2500398903	Clephydroneura sp. 	15713	Clephydroneura sp.	3043988	468709	Clephydroneura
 MT445764.1	2030163822	Empoascanara wengangensis 	14830	Empoascanara wengangensis	2831038	562279	Empoascanara
@@ -1995,7 +1893,6 @@ MT533446.1	2103623822	Uroleucon sonchi	17271	Uroleucon sonchi	87322	87309	Uroleu
 MT536938.1	1863499532	Leptomias sp.	16801	Leptomias sp. DX-2020	2748276	549019	Leptomias
 MT547779.1	1860673076	Allacma fusca 	15111	Allacma fusca	39272	39132	Allacma
 MT556648.1	1882578812	Eratyrus mucronatus 	15766	Eratyrus mucronatus	162367	162366	Eratyrus
-MT556650.1	1882578839	Paratriatoma lecticularia 	16067	Paratriatoma lecticularia	2994058	633599	Paratriatoma
 MT556654.1	1861679263	Dipetalogaster maximus 	15518	Dipetalogaster maximus	72496	72495	Dipetalogaster
 MT556655.1	1861679277	Triatoma barberi 	16434	Hospesneotomae barberi	133191	3406416	Hospesneotomae
 MT556658.1	1861679319	Triatoma longipennis 	15703	Meccus longipennis	1432681	1432680	Meccus
@@ -2043,12 +1940,9 @@ MT855983.1	1928126462	Austinograea sp.	15584	Austinograea sp. PX-2020	2760526	18
 MT861131.1	2060806514	Pentatoma rufipes 	15887	Pentatoma rufipes	286670	286667	Pentatoma
 MT879756.1	1939457481	Acanthephyra sp.	16205	Acanthephyra sp.	2793955	342631	Acanthephyra
 MT880605.1	1917172240	Chimaera sp.	18839	Chimaera sp. JHL-2020	2779943	7870	Chimaera
-MT898421.1	1911465813	Pochazia shantungensis 	15789	Pochazia shantungensis	2891616	390039	Pochazia
 MT916740.1	2001167274	Bathymodiolus sp.	18376	Bathymodiolus sp. 5 South	1181307	12965	Bathymodiolus
-MT916744.1	2001167341	Gigantidas childressi	17637	Gigantidas childressi	3051952	273758	Gigantidas
 MT917165.1	1941110689	Anopheles sp. NFL-2015 2	15355	Anopheles sp. NFL-2015	1712672	7164	Anopheles
 MT917166.1	1941110703	Anopheles sp. NFL-2015 1	15354	Anopheles sp. NFL-2015	1712672	7164	Anopheles
-MT919641.1	2228679683	Cadlina umiushi	14731	Cadlina umiushi	2714534	71295	Cadlina
 MT922035.1	2065396715	Langia zenzeroides 	15366	Langia zenzeroides	522834	522833	Langia
 MT942687.1	2041245802	Eristalinus sp. 	15883	Eristalinus sp.	2912893	115278	Eristalinus
 MT948061.1	1919136038	Neophocaena phocaenoides	16319	Neophocaena phocaenoides	34892	34891	Neophocaena
@@ -2133,7 +2027,6 @@ MW401673.1	2001163612	Dicrostonyx torquatus ungulatus	16341	Dicrostonyx torquatu
 MW405444.1	2154805421	Oligometra serripinna	15782	Oligometra serripinna	1541919	1320723	Oligometra
 MW411575.1	2129082252	Nidirana yeae 	19003	Nidirana yeae	2705742	2054187	Nidirana
 MW413392.1	2086497487	Lixus subtilis	15223	Lixus subtilis	1619944	122886	Lixus
-MW417350.1	2375336649	Emberiza schoeniclus 	16779	Emberiza schoeniclus	30425	30424	Emberiza
 MW420044.1	2063317280	Ctenocephalides felis felis 	20911	Ctenocephalides felis felis	986163	7514	Ctenocephalides
 MW423579.1	2028717983	Venitus latreillei 	15747	Venitus latreillei	138197	2884579	Venitus
 MW423625.1	2154380516	Dendronephthya alba	18841	Dendronephthya alba	2897312	51109	Dendronephthya
@@ -10349,7 +10242,6 @@ OK054538.1	2305948162	Laemobothrion tinnunculi chromosome 2	12285	Laemobothrion 
 OK078922.1	2125762324	Antheraea formosana	15318	Antheraea formosana	693937	7118	Antheraea
 OK104785.1	2163521424	Syrista parreyssii 	18666	Syrista parreyssii	1090889	1090888	Syrista
 OK104787.1	2163521452	Janus megamaculatus 	17593	Janus megamaculatus	2876199	1385265	Janus
-OK110208.1	2183119488	Fowlea piscator	16999	Fowlea piscator	2879141	2743193	Fowlea
 OK127889.1	2308293498	Bactrocera sp. 'yunnanensis' 	15897	Bactrocera sp. 'yunnanensis'	2980950	27456	Bactrocera
 OK136253.1	2112329039	Graphium confucius	15212	Graphium confucius	2082251	76204	Graphium
 OK143440.1	2278078341	Microrhagus sp.	15843	Microrhagus sp. ZM-2022	2964550	445479	Microrhagus
@@ -10478,13 +10370,11 @@ OM764614.1	2315885186	Lirapex sp.	15821	Lirapex sp. ZZ-2022	2977591	2038755	Lira
 OM802856.1	2326537608	Sclerotia substriata	15964	Sclerotia substriata	1652676	1904490	Sclerotia
 OM910846.1	2473919647	Carrikerella sp. 	16053	Carrikerella sp.	3038127	444858	Carrikerella
 OM925546.1	2327916523	Andricus sp.	16577	Andricus sp. 1 CYS-2022a	2953658	75141	Andricus
-OM963005.1	2327863491	Clethrionomys gapperi	16355	Clethrionomys gapperi	473866	13014	Clethrionomys
 OM983509.1	2524730256	Alviniconcha strummeri	15562	Alviniconcha strummeri	1472349	12927	Alviniconcha
 ON023263.1	2329042541	Acharax sp.	18970	Acharax sp. NY-2022	2994838	231153	Acharax
 ON032721.1	2427646409	Layahima sp.	15438	Layahima sp. 4 YZ-2022a	2929826	2028858	Layahima
 ON080843.1	2243422558	Pieris extensa	15130	Pieris extensa	441326	7115	Pieris
 ON161759.1	2250226562	Pennella sp.	14620	Pennella sp. (in: crustaceans)	2856449	1925253	Pennella
-ON165246.1	2264337324	Neurobasis chinensis	15245	Neurobasis chinensis	62024	62023	Neurobasis
 ON169991.1	2337352454	Xylosandrus sp.	16057	Xylosandrus sp.	2995405	105121	Xylosandrus
 ON204017.1	2515761942	Colpocephalum spinicollis 	15230	Colpocephalum spinicollis	2212717	209286	Colpocephalum
 ON210290.1	2472536231	Morimospasma sp.	16109	Morimospasma sp.	3037789	2874574	Morimospasma
@@ -10496,7 +10386,6 @@ ON367804.1	2413670075	Cirrothauma sp.	15968	Cirrothauma sp. LA-2022	2932269	6170
 ON367810.1	2413670145	Grimpoteuthis sp.	16311	Grimpoteuthis sp.	78443	78442	Grimpoteuthis
 ON401054.1	2271307627	Prosopocoilus astacoides castaneus	17523	Prosopocoilus astacoides castaneus	2963748	231739	Prosopocoilus
 ON417468.1	2543972893	Piagetiella africana	14406	Piagetiella africana	2965260	209374	Piagetiella
-ON457601.1	2288444123	Atkinsoniella zizhongi 	16483	Atkinsoniella zizhongi	2971512	565723	Atkinsoniella
 ON529251.1	2529312413	Amphimallon sp.	17433	Amphimallon sp.	3058216	221091	Amphimallon
 ON553001.1	2429092511	Phestilla sp.	14557	Phestilla sp. CUS-2023	3021309	2305132	Phestilla
 ON584173.1	2412391725	Anaticola crassicornis 	14629	Anaticola crassicornis	160206	160205	Anaticola
@@ -10761,7 +10650,6 @@ OQ957217.1	2523517730	Resomia ornicephala	15345	Resomia ornicephala	557396	55739
 OQ957219.1	2523517939	Nanomia sp.	15414	Nanomia sp.	3052286	168758	Nanomia
 OQ957220.1	2523517606	Physalia sp.	15458	Physalia sp.	3052287	168774	Physalia
 OQ979618.1	2545932177	Crossaster japonicus	16330	Crossaster japonicus	2904669	60566	Crossaster
-OQ991898.2	2542402199	Iassus lateralis 	15153	Iassus lateralis	3054420	565810	Iassus
 OR030350.1	2523515201	Phylloscopus borealis 	16898	Phylloscopus borealis	36273	9181	Phylloscopus
 OR030351.1	2523515215	Phylloscopus proregulus 	16936	Phylloscopus proregulus	56435	9181	Phylloscopus
 OR033159.1	2523518065	Conus virgo	15594	Conus virgo	89427	6490	Conus

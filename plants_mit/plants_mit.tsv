@@ -30,7 +30,6 @@ KR534606.1	939462352	Malus hupehensis var. mengshanensis 	422555	Malus hupehensi
 KR817582.1	910266076	Aneura pinguis	165005	Aneura pinguis	39026	70217	Aneura
 KT022222.1	829581281	Viscum scurruloideum chromosome 1	42186	Viscum scurruloideum	1664545	3971	Viscum
 KT022223.1	829581299	Viscum scurruloideum chromosome 2	23687	Viscum scurruloideum	1664545	3971	Viscum
-KT326816.1	929524724	Chionoloma tenuirostre 	105001	Chionoloma tenuirostre	301336	320155	Chionoloma
 KT988071.2	1020913963	Schrenkiella parvula 	255773	Schrenkiella parvula	98039	1394723	Schrenkiella
 KU140427.1	991820460	Aneura pinguis	164047	Aneura pinguis	39026	70217	Aneura
 KU831325.1	1080112412	Brassica oleracea var. capitata 	219975	Brassica oleracea var. capitata	3716	3705	Brassica
@@ -41,9 +40,7 @@ KX270771.1	1043393982	Cynomorium coccineum chromosome Ccoc3090 	19525	Cynomorium
 KX270773.1	1043393985	Cynomorium coccineum chromosome Ccoc3422 	22477	Cynomorium coccineum	51503	51502	Cynomorium
 KX270781.1	1043394004	Cynomorium coccineum chromosome Ccoc5829 	17735	Cynomorium coccineum	51503	51502	Cynomorium
 KX270788.1	1043394019	Cynomorium coccineum chromosome Ccoc8479 	29529	Cynomorium coccineum	51503	51502	Cynomorium
-KX578030.1	1070067351	Orthotrichum gymnostomum 	104638	Nyholmiella gymnostoma	478072	700989	Nyholmiella
 KX578033.1	1070067474	Plenogemma phyllantha 	104671	Plenogemma phyllantha	67002	3734653	Bryomyces
-KX702279.1	1090893494	Orthotrichum obtusifolium 	104603	Nyholmiella obtusifolia	61564	700989	Nyholmiella
 KY702722.1	1220104925	Aneura pinguis	165857	Aneura pinguis	39026	70217	Aneura
 KY702723.1	1220104966	Aneura pinguis	167033	Aneura pinguis	39026	70217	Aneura
 MF070086.1	1357241114	Gastrodia elata chromosome ge3 	85046	Gastrodia elata	91201	91200	Gastrodia
@@ -130,7 +127,6 @@ MN400603.1	2450609614	Pteridium revolutum chromosome 10 	5679	Pteridium revolutu
 MN432175.1	2198385057	Bougainvillea glabra chromosome 3 	64310	Bougainvillea glabra	3541	3540	Bougainvillea
 MN432177.1	2198385065	Bougainvillea glabra chromosome 1 	160721	Bougainvillea glabra	3541	3540	Bougainvillea
 MN432178.1	2198385083	Bougainvillea glabra chromosome 2 	97632	Bougainvillea glabra	3541	3540	Bougainvillea
-MN481990.1	1775179419	Rhaphiolepis bibas 	434980	Eriobotrya japonica	32224	23166	Eriobotrya
 MN593023.1	1840514224	Taxus cuspidata 	468924	Taxus cuspidata	99806	25628	Taxus
 MN661146.1	1798158189	Paraprenanthes diversifolia 	360751	Paraprenanthes diversifolia	1400673	687674	Paraprenanthes
 MN683736.1	1789854417	Sesuvium portulacastrum 	392221	Sesuvium portulacastrum	221166	115628	Sesuvium
@@ -158,7 +154,6 @@ MT471097.1	1945590669	Coix lacryma-jobi var. ma-yuen	660150	Coix lacryma-jobi va
 MT471098.1	1945590943	Coix lacryma-jobi var. puellarum	673349	Coix lacryma-jobi var. puellarum	2728034	4504	Coix
 MT471099.1	1945591142	Coix lacryma-jobi var. maxima	639298	Coix lacryma-jobi var. maxima	2728036	4504	Coix
 MT471321.1	1863494952	Sporobolus alterniflorus	566328	Sporobolus alterniflorus	29706	38730	Sporobolus
-MT568500.1	1914010783	Hepatica maxima 	1122546	Hepatica maxima	387291	46979	Hepatica
 MT610102.1	1899342683	Torminalis glaberrima 	386758	Torminalis glaberrima	2914000	193502	Torminalis
 MT725722.1	2007828516	Pisum sativum subsp. Sativum	363872	Lathyrus oleraceus subsp. oleraceus	208194	3853	Lathyrus
 MT797187.1	1910322228	Larix sibirica chromosome 1 	4008762	Larix sibirica	62751	3325	Larix
@@ -749,7 +744,6 @@ OP324799.1	2439185580	Fargesia qinlingensis chromosome 2 	160262	Fargesia qinlin
 OP324800.1	2439185598	Fargesia qinlingensis chromosome 3 	73390	Fargesia qinlingensis	862990	111430	Fargesia
 OP429117.1	2441075512	Myricaria elegans chromosome 1 	221573	Myricaria elegans	194560	189782	Myricaria
 OP429118.1	2441075530	Myricaria elegans chromosome 2 	194781	Myricaria elegans	194560	189782	Myricaria
-OP465200.1	2319117301	Paphiopedilum micranthum chromosome 1 	32281	Paphiopedilum micranthum	53103	53064	Paphiopedilum
 OP465201.1	2319117310	Paphiopedilum micranthum chromosome 2 	28701	Paphiopedilum micranthum	53103	53064	Paphiopedilum
 OP465203.1	2319117318	Paphiopedilum micranthum chromosome 4 	22131	Paphiopedilum micranthum	53103	53064	Paphiopedilum
 OP465205.1	2319117326	Paphiopedilum micranthum chromosome 6 	20166	Paphiopedilum micranthum	53103	53064	Paphiopedilum
@@ -759,7 +753,6 @@ OP465209.1	2319117347	Paphiopedilum micranthum chromosome 10 	18957	Paphiopedilu
 OP465211.1	2319117357	Paphiopedilum micranthum chromosome 12 	18871	Paphiopedilum micranthum	53103	53064	Paphiopedilum
 OP526745.1	2441117178	Calypogeia suecica	160433	Calypogeia suecica	373805	41851	Calypogeia
 OP526746.1	2441117221	Calypogeia suecica	161975	Calypogeia suecica	373805	41851	Calypogeia
-OP526747.1	2441117264	Calypogeia suecica	161975	Calypogeia suecica	373805	41851	Calypogeia
 OP526748.1	2441117307	Calypogeia suecica	160440	Calypogeia suecica	373805	41851	Calypogeia
 OP526749.1	2441117350	Calypogeia sphagnicola f. sphagnicola	160890	Calypogeia sphagnicola f. sphagnicola	1262444	41851	Calypogeia
 OP649455.1	2449439100	Aristolochia fimbriata chromosome 2 	89369	Aristolochia fimbriata	158543	12947	Aristolochia

@@ -23,6 +23,15 @@ fungi_mit	NW_026776140.1	Ascochyta rabiei
 fungi_mit	NW_026944021.1	Vanrija pseudolonga
 fungi_mit	NW_027041892.1	Mucor velutinosus
 fungi_mit	NC_049089.1	Ophiocordycipitaceae sp.
+fungi_mit	MK292699.1	Spizellomyces sp. 'palustris'
+fungi_mit	AY376688.1	Moniliophthora perniciosa
+fungi_mit	MT364879.1	Cyclocybe aegerita
+fungi_mit	KU920682.1	Nakaseomyces bracarensis
+fungi_mit	KU920681.1	Nakaseomyces nivariensis
+fungi_mit	JQ236859.1	Magnusiomyces magnusii
+fungi_mit	MT421954.1	Metschnikowia torresii
+fungi_mit	HQ616673.1	Ogataea polymorpha
+fungi_mit	MH319479.1	Lactifluus piperatus
 fungi_mt	NC_018046.1	Candida albicans
 fungi_mt	NC_027264.1	Saccharomyces cerevisiae
 fungi_mt	NC_031515.1	Saccharomyces pastorianus
@@ -30,10 +39,12 @@ green_algae_mit	NW_014013625.1	Monoraphidium neglectum
 green_algae_mit	KT259054.1	Sphaeropleales sp. YC001
 green_algae_mit	MN662311.1	prasinophyte sp. MBIC10622
 green_algae_mit	NC_018568.1	Trebouxiophyceae sp. MX-AZ01
+green_algae_mit	MF197534.1	Prototheca bovis
 green_algae_plt	AP025008.1	Coccomyxa sp.
 green_algae_plt	MN701985.1	Chaetophoropsis cf. attenuata contig 1
 green_algae_plt	NC_037007.1	Haematococcus lacustris
 green_algae_plt	NC_018569.1	Trebouxiophyceae sp. MX-AZ01
+green_algae_plt	KY407656.1	Sarcinofilum mucosum
 metazoans_mit	AB008539.1	Lycodon semicarinatus
 metazoans_mit	AB029616.1	Heterololigo bleekeri
 metazoans_mit	AB080275.1	Varanus komodoensis contig 1
@@ -4706,6 +4717,118 @@ metazoans_mit	NC_054292.1	Pungtungia herzi x Pseudopungtungia nigra
 metazoans_mit	NC_080270.1	Kareius bicoloratus x Platichthys stellatus
 metazoans_mit	NC_080271.1	Platichthys stellatus x (Kareius bicoloratus x Platichthys stellatus)
 metazoans_mit	NC_082846.1	Paralichthys olivaceus x Verasper variegatus
+metazoans_mit	KX397281.1	Xanthonycticebus pygmaeus
+metazoans_mit	KT223827.1	Strauchbufo raddei
+metazoans_mit	GQ225110.1	Doryteuthis opalescens
+metazoans_mit	KT735055.1	Reticunassa festiva
+metazoans_mit	HM049636.1	Cervus albirostris
+metazoans_mit	HM138200.1	Rucervus eldii
+metazoans_mit	AB303949.1	Dryophytes japonicus
+metazoans_mit	KJ631624.1	Chroicocephalus saundersi
+metazoans_mit	JQ398619.1	Mengenilla moldrzyki
+metazoans_mit	JQ782214.1	Thectocercus acuticaudatus acuticaudatus
+metazoans_mit	JX033120.1	Babina adenopleura
+metazoans_mit	JX524614.1	Psittacara rubritorquis
+metazoans_mit	MH433599.1	Oceanodroma castro
+metazoans_mit	MG747629.1	Limenitis albomaculata
+metazoans_mit	MF536684.1	Smutsia gigantea
+metazoans_mit	KJ133583.1	Navis striatus
+metazoans_mit	DQ355301.1	Piliocolobus badius
+metazoans_mit	KX809695.1	Emberiza siemsseni
+metazoans_mit	JF293095.1	Simias concolor
+metazoans_mit	KJ133589.1	Reticulinasus faini
+metazoans_mit	KU362930.1	Cyanoderma ruficeps
+metazoans_mit	KR907226.1	Ogadenus brumpti
+metazoans_mit	KU168761.1	Apostichopus parvimensis
+metazoans_mit	MT134039.1	Luciola unmunsana
+metazoans_mit	KX298892.1	Tegula argyrostoma
+metazoans_mit	KY224606.1	Polyspathotermes sulcifrons
+metazoans_mit	DQ238598.1	Tritia obsoleta
+metazoans_mit	KU239995.1	Faxonius sanbornii
+metazoans_mit	MK779708.1	Actinodura cyanouroptera
+metazoans_mit	MK907783.1	Neocaridina davidi koreana
+metazoans_mit	MT263986.1	Fulvetta vinipectus
+metazoans_mit	KY593937.1	Limenitis sinensium
+metazoans_mit	LC127067.1	Clithon retropictum
+metazoans_mit	MG253029.1	Abroscelis anchoralis
+metazoans_mit	KX119150.1	Faxonius punctimanus
+metazoans_mit	KX268739.1	Faxonius luteus
+metazoans_mit	DQ333813.1	Liua tsinpaensis
+metazoans_mit	KX397391.1	Psittiparus gularis
+metazoans_mit	AB595190.1	Pleurocorallium konojoi
+metazoans_mit	MG582604.1	Aristaeomorpha foliacea
+metazoans_mit	KX249739.1	Cecropterus lyciades
+metazoans_mit	MK301436.1	Ctenolepisma villosum
+metazoans_mit	MT410958.1	Bufotes sitibundus
+metazoans_mit	MF278960.1	Dipturus nasutus
+metazoans_mit	KY679832.1	Sinotaia aeruginosa
+metazoans_mit	KT272188.1	Castanozoster thoracicus
+metazoans_mit	KT272189.1	Microspingus cabanisi
+metazoans_mit	KT272190.1	Microspingus lateralis
+metazoans_mit	KT598467.1	Suthora nipalensis
+metazoans_mit	MT919641.1	Cadlina umiushi
+metazoans_mit	MF373813.1	Nagiella inferior
+metazoans_mit	MT410917.1	Rajella lintea
+metazoans_mit	KX156954.1	Orisarma neglectum
+metazoans_mit	KX646541.1	Steromphala umbilicalis
+metazoans_mit	MN877385.1	Cristarma eulimene
+metazoans_mit	JN635562.1	Zeugodacus cucurbitae
+metazoans_mit	OK110208.1	Fowlea piscator
+metazoans_mit	MT898421.1	Pochazia shantungensis
+metazoans_mit	KR703238.1	Titanodula formosana
+metazoans_mit	MG948540.1	Choristoneura occidentalis biennis
+metazoans_mit	MT079957.1	Scarturus williamsi
+metazoans_mit	AP011544.1	Phrynoderma hexadactylum
+metazoans_mit	ON457601.1	Atkinsoniella zizhongi
+metazoans_mit	MT556650.1	Paratriatoma lecticularia
+metazoans_mit	KX462904.1	Penaeus indicus
+metazoans_mit	KT723012.1	Potamilus leptodon
+metazoans_mit	MW417350.1	Emberiza schoeniclus
+metazoans_mit	MT916744.1	Gigantidas childressi
+metazoans_mit	OQ991898.2	Iassus lateralis
+metazoans_mit	KU521508.1	Grimothea gregaria
+metazoans_mit	AJ416891.1	Nannospalax ehrenbergi
+metazoans_mit	KR336554.1	Orisarma sinense
+metazoans_mit	KU873081.1	Pateobatis jenkinsii
+metazoans_mit	EF221760.1	Galendromus occidentalis
+metazoans_mit	EF558665.1	Capricornis swinhoei
+metazoans_mit	MK015644.1	Yungipicus canicapillus
+metazoans_mit	AB286049.1	Propithecus coquereli
+metazoans_mit	AF106038.1	Amblyraja radiata
+metazoans_mit	MH729187.1	Lupocycloporus gracilimanus
+metazoans_mit	AJ001562.1	Glis glis
+metazoans_mit	AY525783.1	Okamejei kenojei
+metazoans_mit	MN814842.1	Chloebia gouldiae
+metazoans_mit	MF198253.1	Suwallia errata
+metazoans_mit	OM963005.1	Clethrionomys gapperi
+metazoans_mit	MF278966.1	Dipturus maugeanus
+metazoans_mit	KT182082.1	Trochalopteron affine
+metazoans_mit	KT272404.1	Trochalopteron elliotii
+metazoans_mit	KX881372.1	Diploderma flaviceps
+metazoans_mit	AB675080.1	Uroteuthis edulis
+metazoans_mit	MH593563.1	Orisarma dehaani
+metazoans_mit	KJ598623.1	Pyrrhocorax graculus
+metazoans_mit	DQ080041.1	Stigmochelys pardalis
+metazoans_mit	MG786490.1	Reishia luteostoma
+metazoans_mit	MN816334.1	Myonycteris angolensis
+metazoans_mit	FJ532058.1	Pseudohynobius puxiongensis
+metazoans_mit	DQ355300.1	Rhinopithecus roxellana
+metazoans_mit	ON165246.1	Neurobasis chinensis
+metazoans_mit	MN083172.1	Mecostethus alliaceus
+metazoans_mit	KY244080.1	Petrasma pervernicosa
+metazoans_mit	MN911170.1	Haloa japonica
+metazoans_mit	KT345702.1	Spatula clypeata
+metazoans_mit	MF457406.1	Curtonida isos
+metazoans_mit	AB043889.1	Pelophylax nigromaculatus
+metazoans_mit	KC936100.1	Psittacara brevipes
+metazoans_mit	MK256614.1	Koreoleptoxis nodifila
+metazoans_mit	KU301792.1	Antheraea assamensis
+metazoans_mit	FJ769845.1	Anthropoides virgo
+metazoans_mit	AY863426.1	Chlorocebus aethiops
+metazoans_mit	AY274302.1	Eriocheir sinensis
+metazoans_mit	AJ277029.2	Physeter macrocephalus
+metazoans_mit	HQ872008.1	Fergusonina taylori
+metazoans_mit	JAIQCD020003380.1	Marmota monax
 plants_mit	AB073400.1	Brassica napus mitochondrial linear plasmid DNA
 plants_mit	AF522195.2	Cucumis sativus minicircle pC3
 plants_mit	BK059202.1	Cuscuta australis contig6
@@ -5143,6 +5266,13 @@ plants_mit	OP973810.1	Lilium tsingtauense chromosome 28
 plants_mit	OU343227.1	Chrysanthemum makinoi
 plants_mit	KM207678.1	Nicotiana tabacum/Hyoscyamus niger cybrid
 plants_mit	KM207682.1	Nicotiana tabacum/Hyoscyamus niger cybrid
+plants_mit	KT326816.1	Chionoloma tenuirostre
+plants_mit	MN481990.1	Eriobotrya japonica
+plants_mit	OP526747.1	Calypogeia suecica
+plants_mit	MT568500.1	Hepatica maxima
+plants_mit	KX578030.1	Nyholmiella gymnostoma
+plants_mit	OP465200.1	Paphiopedilum micranthum
+plants_mit	KX702279.1	Nyholmiella obtusifolia
 plants_plt	AP017904.1	Callitris sulcata
 plants_plt	AP017908.1	Asarum sakawanum
 plants_plt	AP017910.1	Patrinia triloba var. takeuchiana
@@ -5925,6 +6055,168 @@ plants_plt	OQ581822.1	Geum japonicum
 plants_plt	OQ595235.1	Melastoma malabathricum
 plants_plt	OQ658673.1	Porella gracillima
 plants_plt	NC_060289.1	Tripsacinae sp. MTP
+plants_plt	BK061153.1	Carya aquatica
+plants_plt	MT241431.1	Ottelia emersa
+plants_plt	NC_050204.1	Solanum stenotomum subsp. goniocalyx
+plants_plt	MG524000.1	Neurachne muelleri
+plants_plt	MH181174.1	Andropogon gayanus
+plants_plt	MT395036.1	Euphorbia ampliphylla
+plants_plt	KY427329.1	Ampelopteris prolifera
+plants_plt	KX826833.1	Chaetogastra longifolia
+plants_plt	MH748558.1	Vincetoxicum insigne
+plants_plt	KX029327.1	Glycine soja var. gracilis
+plants_plt	MN873562.1	Epimedium parvifolium
+plants_plt	MN218087.1	Solanum torvum
+plants_plt	NC_068893.1	Allardia glabra
+plants_plt	MW628520.1	Allardia glabra
+plants_plt	MT157218.1	Sonchus marginatus
+plants_plt	MT942688.1	Foonchewia coriacea
+plants_plt	KR296789.1	Astragalus mongholicus var. nakaianus
+plants_plt	MH817943.1	Syringa tomentella subsp. yunnanensis
+plants_plt	MN398392.1	Coelogyne imbricata
+plants_plt	MT948188.1	Thulinella chrysantha
+plants_plt	MT409616.1	Ligusticopsis likiangensis
+plants_plt	MN577880.1	Eriobotrya henryi
+plants_plt	KU949006.1	Murraya caloxylon
+plants_plt	MK371011.1	Sonchus brassicifolius
+plants_plt	MN413197.1	Houttuynia cordata
+plants_plt	MT610368.1	Coelogyne bulleyia
+plants_plt	MH173080.1	Gastoniella chaerophylla
+plants_plt	KX063898.1	Linochilus antioquensis
+plants_plt	KX063943.1	Linochilus apiculatus
+plants_plt	KX063933.1	Linochilus camargoanus
+plants_plt	KX063862.1	Linochilus cinerascens
+plants_plt	KX063937.1	Linochilus coriaceus
+plants_plt	KX063901.1	Linochilus costaricensis
+plants_plt	KX063896.1	Linochilus eriophorus
+plants_plt	KX063927.1	Linochilus frontinensis
+plants_plt	KX063897.1	Linochilus glutinosus
+plants_plt	KX063915.1	Linochilus huertasii
+plants_plt	KX063934.1	Linochilus jenesanus
+plants_plt	KX063913.1	Linochilus juajibioyi
+plants_plt	KX063929.1	Linochilus mutiscuanus
+plants_plt	KX063906.1	Linochilus oblongifolius
+plants_plt	KX063920.1	Linochilus obtusus
+plants_plt	KX063885.1	Linochilus rhododendroides
+plants_plt	KX063922.1	Linochilus tachirensis
+plants_plt	KX063891.1	Linochilus violaceus
+plants_plt	MH926028.1	Sorghum bicolor subsp. drummondii
+plants_plt	KY427355.1	Phegopteris aurita
+plants_plt	MT947804.1	Sicyos edulis
+plants_plt	KT727929.1	Silene wilfordii
+plants_plt	MN061999.1	Chamaemespilus alpina
+plants_plt	MN061989.1	Pourthiaea villosa
+plants_plt	MW238405.1	Puchiumazus lanceifolius
+plants_plt	KX852439.2	Dichrostachys cinerea
+plants_plt	KY596136.1	Sorghum mekongense
+plants_plt	MF035992.1	Triraphis longipes
+plants_plt	KU291476.1	Setaria geminata
+plants_plt	KX342847.1	Sinalliaria limprichtiana var. grandifolia
+plants_plt	MK922354.1	Diphelypaea coccinea
+plants_plt	MW450871.1	Quercus hypargyrea
+plants_plt	KX180083.1	Moquilea tomentosa
+plants_plt	MT954417.1	Kalanchoe daigremontiana
+plants_plt	MG952898.1	Hepatica nobilis var. japonica
+plants_plt	MT941481.1	Trapa natans var. quadrispinosa
+plants_plt	MH189568.1	Trophis scandens
+plants_plt	MH708565.1	Asimitellaria formosana
+plants_plt	MT409612.1	Ligusticopsis capillacea
+plants_plt	MT409614.1	Ligusticopsis hispida
+plants_plt	MG000589.1	Wurfbainia compacta
+plants_plt	MF136512.1	Alnus alnobetula subsp. maximowiczii
+plants_plt	MK033544.1	Diabelia sanguinea
+plants_plt	KX063869.1	Baccharis aliena
+plants_plt	MG799542.1	Ailanthus altissimus
+plants_plt	MT242598.1	Terminalia phillyreifolia
+plants_plt	MT354757.1	Hygroamblystegium humile
+plants_plt	MT555085.1	Cephalotaxus harringtonia var. nana
+plants_plt	KX063882.1	Linochilus rupestris
+plants_plt	NC_061322.1	Schizonepeta tenuifolia
+plants_plt	MN242946.1	Prunus sargentii var. verecunda
+plants_plt	MT241436.1	Ottelia mesenterium
+plants_plt	MF035982.1	Pratochloa walteri
+plants_plt	MT041700.1	Cleome pallida
+plants_plt	MN061998.1	Aria edulis
+plants_plt	MT157217.1	Sonchus sinuatus
+plants_plt	KY457242.1	Torminalis glaberrima
+plants_plt	MG664841.1	Vitis berlandieri
+plants_plt	MN879405.1	Coelogyne kouytcheensis
+plants_plt	MG008316.1	Adenocalymma candolleanum
+plants_plt	MN527333.1	Torreya jiulongshanensis
+plants_plt	MH559274.1	Chrysojasminum fruticans
+plants_plt	KT748629.1	Heptapleurum heptaphyllum
+plants_plt	MT156378.1	Salvia deserta
+plants_plt	MK637712.1	Smelowskia integrifolia
+plants_plt	MT900597.1	Artocarpus integer
+plants_plt	KU311000.1	Eriolarynx australis
+plants_plt	KU310932.1	Trompettia cardenasiana
+plants_plt	MW683229.1	Leuzea uniflora
+plants_plt	MN106248.1	Liquidambar yunnanensis
+plants_plt	OP474144.1	Arabidopsis thaliana
+plants_plt	MK371014.1	Sonchus berteroanus
+plants_plt	MK371008.1	Sonchus micranthus
+plants_plt	MK371005.1	Sonchus pruinatus
+plants_plt	MW167287.1	Arachis hypogaea
+plants_plt	MW167281.1	Arachis hypogaea
+plants_plt	MW167284.1	Arachis hypogaea
+plants_plt	MW167285.1	Arachis hypogaea
+plants_plt	MW167289.1	Arachis hypogaea
+plants_plt	MW167290.1	Arachis hypogaea
+plants_plt	MG952899.1	Hepatica maxima
+plants_plt	KR232566.1	Salvia rosmarinus
+plants_plt	MT157219.1	Sonchus phoeniciformis
+plants_plt	MK726030.1	Pleroma urvilleanum
+plants_plt	MT644141.1	Campeiostachys nutans
+plants_plt	MW538954.1	Coleus scutellarioides
+plants_plt	MH817863.1	Chengiodendron marginatum
+plants_plt	OM001014.1	Thelypteris dentata
+plants_plt	MN599115.1	Solanum betaceum
+plants_plt	MZ353649.1	Solanum betaceum
+plants_plt	MN418901.1	Thinopyrum obtusiflorum
+plants_plt	MT409613.1	Hymenidium delavayi
+plants_plt	MT409615.1	Ligusticopsis involucrata
+plants_plt	MT409618.1	Ligusticopsis scapiformis
+plants_plt	MG867567.1	Grona heterocarpos
+plants_plt	MT385083.1	Heptapleurum actinophyllum
+plants_plt	OM994890.1	Dicranostigma leptopodum
+plants_plt	KX063856.1	Linochilus alveolatus
+plants_plt	KX063912.1	Linochilus cayambensis
+plants_plt	KX063876.1	Linochilus colombianus
+plants_plt	KX063872.1	Linochilus floribundus
+plants_plt	KX063931.1	Linochilus heterophyllus
+plants_plt	KX063930.1	Linochilus inesianus
+plants_plt	KX063928.1	Linochilus jaramilloi
+plants_plt	KX063900.1	Linochilus lacunosus
+plants_plt	KX063945.1	Linochilus ochraceus
+plants_plt	KX063895.1	Linochilus phylicoides
+plants_plt	KX063878.1	Linochilus revolutus
+plants_plt	KX063911.1	Linochilus romeroi
+plants_plt	KX063939.1	Linochilus rosmarinifolius
+plants_plt	KX063926.1	Linochilus schultzii
+plants_plt	KX063875.1	Linochilus tenuifolius
+plants_plt	KX063914.1	Linochilus venezuelensis
+plants_plt	KX790360.1	Aphyllanthes monspeliensis
+plants_plt	MG704135.1	Lilium pardanthinum
+plants_plt	MT700492.1	Pleroma semidecandrum
+plants_plt	KU852492.1	Cornus controversa
+plants_plt	MH118126.1	Trema orientale
+plants_plt	MN106247.1	Liquidambar excelsa
+plants_plt	MH746730.1	Balanocarpus heimii
+plants_plt	MN913536.1	Grona styracifolia
+plants_plt	MT012416.1	Pouzolzia hirta
+plants_plt	MN061990.1	Pourthiaea blinii
+plants_plt	MT473755.1	Dicrastylis parvifolia
+plants_plt	MK704435.1	Neotrinia splendens
+plants_plt	MW255527.1	Eragrostis harpachnoides
+plants_plt	MK622902.1	Paraixeris denticulata
+plants_plt	KT726907.1	Vanda falcata
+plants_plt	KY596143.1	Pseudopogonatherum contortum
+plants_plt	MN823695.1	Cyrtophyllum fragrans
+plants_plt	MT712149.1	Coelogyne articulata
+plants_plt	MT610371.1	Coelogyne uniflora
+plants_plt	MT156367.1	Salvia leucantha
+plants_plt	MT409617.1	Conioselinum pteridophyllum
+plants_plt	MN165812.1	Apinagia fucoides
 protists_mit	AB599931.1	Plasmodium vinckei vinckei
 protists_mit	AP025530.1	Galdieria partita
 protists_mit	BDQF01000743.1	Plasmodium gonderi
@@ -6027,6 +6319,13 @@ protists_mit	MT747832.1	Phaeophyceae sp.
 protists_mit	MZ748312.1	Cyanidioschyzonaceae sp. 1 FvB-2021
 protists_mit	MZ748313.1	Cyanidiaceae sp.
 protists_mit	NC_034794.1	Eukaryota sp. BB2
+protists_mit	JQ736808.1	Pyropia haitanensis
+protists_mit	MZ336096.1	Gracilaria usneoides
+protists_mit	KX427234.1	Pterocladiella media
+protists_mit	MF488959.1	Lympha mucosa
+protists_mit	MG787094.1	Montagnia macrospora
+protists_mit	KX427236.1	Pterocladiella musciformis
+protists_mit	AJ277126.1	Pylaiella littoralis
 protists_plt	CP115539.1	Plasmodium yoelii yoelii
 protists_plt	JAKSYS010000061.1	Fragilaria crotonensis
 protists_plt	LR761315.1	Plasmodium knowlesi
@@ -6079,3 +6378,12 @@ protists_plt	NC_040295.1	Eustigmatophyceae sp. Bat 8/9-7w
 protists_plt	NC_040297.1	Eustigmatophyceae sp. Mont 10/10-1w
 protists_plt	NC_040298.1	Eustigmatophyceae sp. Ndem 8/9T-3m6.8
 protists_plt	NC_066179.1	Eustigmatophyceae sp. WTwin 8/9 T-6m6.8
+protists_plt	MZ336072.1	Gracilaria usneoides
+protists_plt	KX601051.1	Gracilaria firma
+protists_plt	MF591718.1	Hapterophycus canaliculatus
+protists_plt	MG755804.1	Discostella pseudostelligera
+protists_plt	MF101425.1	Leptosiphonia brodiei
+protists_plt	MG755801.1	Pseudictyota dubia
+protists_plt	AJ294725.1	Euglena longa
+protists_plt	KT266789.1	Pyropia pulchra
+protists_plt	MF101454.1	Kapraunia schneideri
