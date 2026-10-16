@@ -8,8 +8,6 @@ BK012089.1	2235892869	Phytophthora cinnamomi var. cinnamomi	39225	Phytophthora c
 BK012094.1	2235893069	Phytophthora parasitica	37749	Phytophthora nicotianae CJ01A1	1317063
 FJ168565.1	220682066	Hepatocystis sp. ex Pteropus hypomelanus	6259	Hepatocystis sp. ex Pteropus hypomelanus	587286
 HQ908424.1	321401323	Pavlova lutheri	34086	Diacronema lutheri	2081491
-JN378734.1	347801008	Endosymbiont of Kryptoperidinium foliaceum	39686	Kryptoperidinium foliaceum endosymbiont	1079369
-JN378735.1	347800972	Endosymbiont of Durinskia baltica	35505	Durinskia baltica diatom endosymbiont	1079368
 JQ071938.1	371572231	Gracilariopsis lemaneiformis	25883	Gracilariopsis lemaneiformis	2782
 JQ736808.1	384034927	Porphyra haitanensis	37023	Pyropia haitanensis	1262161
 KC573038.1	449327007	Capsaspora owczarzaki	196908	Capsaspora owczarzaki	192875
@@ -58,7 +56,6 @@ MF997419.1	1372147530	Entomoneis sp.	36078	Entomoneis sp.	186043
 MF997423.1	1372147678	Surirella sp.	42867	Surirella sp.	1526603
 MF997424.1	1372147719	Halamphora calidilacuna	103605	Halamphora calidilacuna	2133758
 MG202006.1	1280963088	Colponema vietnamica	25333	Colponema vietnamica	1492817
-MG202007.1	1280963112	Picobiliphyte sp.	49008	Picobiliphyte sp. MS584-11	1157699
 MG592728.1	1386810545	Gracilaria tenuistipitata var. liui	25879	Gracilaria tenuistipitata var. liui	285951
 MG787094.1	1353857561	Montagnia macrospora	24875	Montagnia macrospora	2662032
 MG787097.1	1353857632	Paralemanea sp.	29785	Paralemanea sp.	2048601
@@ -75,7 +72,6 @@ MH800316.1	1681061561	Proschkinia sp.	48863	Proschkinia sp. SZCZR1824	2588390
 MH888186.1	1672732520	Pseudourostyla cristata	76660	Pseudourostyla cristata	293816
 MK301177.1	1810665267	Gruberia lanceolata	39988	Gruberia lanceolata	1978530
 MK695879.1	1772544182	Neopyropia yezoensis	41692	Pyropia yezoensis	2788
-MN082145.1	1765884781	Telonemida sp.	42307	Telonemida sp.	2652706
 MN564259.1	1792260850	Pavlova sp.	36202	Pavlova sp. NIVA-4/92	2686093
 MN605892.1	1894457784	Babesia motasi	5946	Babesia motasi	237580
 MN883605.1	1940379313	Phytophthora sp. novaeguinee	37072	Phytophthora novae-guineae	3070859
@@ -87,7 +83,6 @@ MT471315.1	1939457674	Strombidium sp.	51232	Strombidium sp.	181122
 MT588076.1	1863297219	Pyropia pulchra	33190	Pyropia pulchra	60925
 MT665958.1	2025191223	Euplotes aediculatus	32335	Euplotes aediculatus	5940
 MT742552.1	2072316717	Nitzschia anatoliensis	38186	Nitzschia anatoliensis	2862141
-MT747832.1	2048286990	Phaeophyceae sp.	46315	Phaeophyceae sp.	2249243
 MT845205.1	2126938963	Sargassum hemiphyllum var. chinense	34686	Sargassum hemiphyllum var. chinense	425012
 MW357900.2	2444132518	Phymatolithon calcareum	28193	Phymatolithon calcareum	1277942
 MW357901.2	2444132543	Lithothamnion corallioides	25959	Lithothamnion corallioides	1277934
@@ -133,8 +128,6 @@ MZ156067.1	2049955551	Thalassiophyllum clathrus	37643	Thalassiophyllum clathrus	
 MZ336096.1	2090996029	Crassiphycus usneoides	25531	Gracilaria usneoides	172951
 MZ488960.1	2096017707	Alaria sp.	38857	Alaria sp. PI001	2860297
 MZ520767.1	2125739626	Schizostauron trachyderma	41957	Schizostauron trachyderma	2770866
-MZ748312.1	2209411965	Cyanidioschyzonaceae sp.	32663	Cyanidioschyzonaceae sp. 1 FvB-2021	2866378
-MZ748313.1	2209412000	Cyanidiaceae sp.	34774	Cyanidiaceae sp.	2866374
 NC_000862.1	11466252	Tetrahymena pyriformis	47296	Tetrahymena pyriformis	5908
 NC_000946.1	11466298	Cafeteria roenbergensis	43159	Cafeteria roenbergensis	33653
 NC_001677.2	212584017	Chondrus crispus	25836	Chondrus crispus	2769
@@ -288,7 +281,6 @@ NC_034004.1	1150151083	Spongospora subterranea	37699	Spongospora subterranea	701
 NC_034272.1	1181735939	Sargassum spinuligerum	34891	Sargassum spinuligerum	613101
 NC_034672.1	1197709901	Fucus distichus	36400	Fucus distichus	3012
 NC_034681.1	1197510847	Gracilaria changii	25729	Gracilaria firma	2510791
-NC_034794.1	1197513252	Eukaryota sp.	119311	Eukaryota sp. BB2	1949062
 NC_034798.1	1197711284	Pharyngomonas kirbyi	75717	Pharyngomonas kirbyi	63601
 NC_035349.1	1215848256	Sheathia arcuata	25086	Sheathia arcuata	340433
 NC_035351.1	1215848482	Compsopogon caeruleus	26807	Compsopogon caeruleus	31354

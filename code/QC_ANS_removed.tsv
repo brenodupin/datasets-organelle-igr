@@ -22,13 +22,18 @@ fungi_mit	NW_025952838.1	Psilocybe cubensis
 fungi_mit	NW_026776140.1	Ascochyta rabiei
 fungi_mit	NW_026944021.1	Vanrija pseudolonga
 fungi_mit	NW_027041892.1	Mucor velutinosus
+fungi_mit	NC_049089.1	Ophiocordycipitaceae sp.
 fungi_mt	NC_018046.1	Candida albicans
 fungi_mt	NC_027264.1	Saccharomyces cerevisiae
 fungi_mt	NC_031515.1	Saccharomyces pastorianus
 green_algae_mit	NW_014013625.1	Monoraphidium neglectum
+green_algae_mit	KT259054.1	Sphaeropleales sp. YC001
+green_algae_mit	MN662311.1	prasinophyte sp. MBIC10622
+green_algae_mit	NC_018568.1	Trebouxiophyceae sp. MX-AZ01
 green_algae_plt	AP025008.1	Coccomyxa sp.
 green_algae_plt	MN701985.1	Chaetophoropsis cf. attenuata contig 1
 green_algae_plt	NC_037007.1	Haematococcus lacustris
+green_algae_plt	NC_018569.1	Trebouxiophyceae sp. MX-AZ01
 metazoans_mit	AB008539.1	Lycodon semicarinatus
 metazoans_mit	AB029616.1	Heterololigo bleekeri
 metazoans_mit	AB080275.1	Varanus komodoensis contig 1
@@ -4590,6 +4595,117 @@ metazoans_mit	OY540855.1	Mythimna pallens
 metazoans_mit	OY560209.1	Perizoma affinitatum
 metazoans_mit	X84350.2	Penaeus notialis partial genome
 metazoans_mit	Y19184.1	Lama pacos
+metazoans_mit	KM244707.1	Notonectidae sp. MT-2014
+metazoans_mit	KP406515.1	Aenictopecheidae sp. PJ-2015
+metazoans_mit	KT696200.1	Carabidae sp. BMNH 1274270
+metazoans_mit	KT696213.1	Hydrophilidae sp. BMNH 1274306
+metazoans_mit	KT696225.1	Anobiinae sp. BMNH 1274383
+metazoans_mit	KT696227.1	Erotylidae sp. BMNH 1274392
+metazoans_mit	KT696264.1	Histeridae sp. BMNH 1274739
+metazoans_mit	KT780638.1	Coccinellidae sp. 1 EF-2015
+metazoans_mit	KT780651.1	Staphylinidae sp. 2 EF-2015
+metazoans_mit	KT780684.1	Pselaphinae sp. 5 EF-2015
+metazoans_mit	KT780685.1	Aleocharinae sp. 5 EF-2015
+metazoans_mit	KX035154.1	Psephenidae sp. BMNH 842687
+metazoans_mit	KX035157.1	Hydnocerini sp. BMNH-844241
+metazoans_mit	KX035158.1	Disteniidae sp. BMNH 899837
+metazoans_mit	KX035159.1	Derodontidae sp. BMNH 899913
+metazoans_mit	KX035161.1	Cerophytidae sp. BMNH 900085
+metazoans_mit	KX035199.1	Scolytinae sp. BMNH 1043133
+metazoans_mit	KX035220.1	Bostrichoidea sp. KM-2015
+metazoans_mit	KX035223.1	Curculionoidea sp. 2 KM-2015
+metazoans_mit	KX087287.1	Elateroidea sp. AH-2016
+metazoans_mit	KX437735.1	Cicadellidae sp. EMHAU-2015-Zz052706
+metazoans_mit	KX670540.1	Osmylidae sp. EMHAU-20151229-16
+metazoans_mit	KY224540.1	Anoplotermes group sp. Q TB-2017
+metazoans_mit	KY224560.1	Termes group sp. F TB-2017
+metazoans_mit	KY689120.1	Mantidae JZ-2017
+metazoans_mit	LC460472.1	Placozoa sp. H9 HM-2017
+metazoans_mit	MF784429.1	Cicadellidae gen. sp. 1 JCX-2018
+metazoans_mit	MG193324.1	Phalacridae sp. KM-2017
+metazoans_mit	MG193374.1	Staphylinoidea sp. 1 KM-2017
+metazoans_mit	MG193382.1	Cerambycidae sp. 6 KM-2017
+metazoans_mit	MG193408.1	Nitidulidae sp. KM-2017
+metazoans_mit	MG193409.1	Silvanidae sp. KM-2017
+metazoans_mit	MG193413.1	Laemophloeidae sp. KM-2017
+metazoans_mit	MG193433.1	Cucujoidea sp. 23 KM-2017
+metazoans_mit	MG193436.1	Tenebrionoidea sp. 21 KM-2017
+metazoans_mit	MG193445.1	Histeroidea sp. 3 KM-2017
+metazoans_mit	MG193455.1	Scarabaeoidea sp. KM-2017
+metazoans_mit	MG193464.1	Languriidae sp. KM-2017
+metazoans_mit	MG193530.1	Latridiidae sp. 1 KM-2017
+metazoans_mit	MG748599.1	Lepidoptera sp. 1 TS-2018
+metazoans_mit	MG813484.1	Cicadellidae sp. 'Neodcortus squaras'
+metazoans_mit	MG882207.1	Ectobiidae sp. BB
+metazoans_mit	MH324929.1	Achilidae gen. 1 sp. n. 1 SX-2018
+metazoans_mit	MH643815.1	Cydnidae sp. ITV1034
+metazoans_mit	MH789738.1	Staphylininae sp. 1 ACP-2013
+metazoans_mit	MH836599.1	Leiochrinini sp. 2 ACP-2013
+metazoans_mit	MH836603.1	Lampyridae sp. 2 ACP-2013
+metazoans_mit	MH921997.1	Histiostomatidae sp. XFX
+metazoans_mit	MK109856.1	Trogidae sp.
+metazoans_mit	MK645228.1	Aleyrodidae sp. JXCHN01
+metazoans_mit	MN372453.1	Simuliidae sp. Cyprus 2
+metazoans_mit	MN848407.1	Physidae sp. P3S_19
+metazoans_mit	MT511123.1	Tachinidae sp.
+metazoans_mit	MW773497.1	aff. Alyscotermes/Astratotermes sp. CAM112
+metazoans_mit	MW773526.1	Apicotermitinae gen. H sp. CMRT160
+metazoans_mit	MZ014451.1	Dikraneurini sp. SL-2021a
+metazoans_mit	MZ779202.1	Nogodinidae sp.
+metazoans_mit	MZ779203.1	Tettigometridae sp.
+metazoans_mit	NC_004816.1	Lepidopsocidae sp. RS-2001
+metazoans_mit	NC_008833.4	Placozoan sp. BZ49
+metazoans_mit	NC_015309.1	Placozoan sp. 'Shirahama'
+metazoans_mit	NC_037074.1	Pentatomidae sp. GM-2014
+metazoans_mit	NC_062017.1	Keratoisidinae sp. ANT-29
+metazoans_mit	OL616208.1	Anthomastinae sp. n. ANT85
+metazoans_mit	OM764610.1	Neomphalidae sp. Hatoma
+metazoans_mit	ON169992.1	Xyloterini sp.
+metazoans_mit	ON601498.1	Idiocerini gen. 'Neoamritatus' sp.
+metazoans_mit	ON964463.1	Hymenoptera sp. 4 GYN-2021
+metazoans_mit	OP452711.1	Agrypninae sp. GTI-132
+metazoans_mit	OP580615.2	Diprioninae sp. GYN-2022c
+metazoans_mit	OQ957211.1	Physonectae sp.
+metazoans_mit	OR074472.1	Syrphidae sp. 335 TLW-2023a
+metazoans_mit	NC_006136.1	Carassius auratus x Cyprinus carpio
+metazoans_mit	NC_006387.1	Carassius auratus x Cyprinus carpio x Carassius cuvieri
+metazoans_mit	NC_008832.4	Placozoan sp. BZ10101
+metazoans_mit	NC_008834.4	Placozoan sp. BZ2423
+metazoans_mit	NC_013430.1	Carassius auratus x Megalobrama amblycephala tetraploid hybrid
+metazoans_mit	NC_013431.1	Carassius auratus x Megalobrama amblycephala triploid hybrid
+metazoans_mit	NC_013433.1	Carassius auratus x Megalobrama amblycephala pentaploid hybrid
+metazoans_mit	NC_013994.1	diploid Megalobrama amblycephala x Xenocypris davidi
+metazoans_mit	NC_013995.1	triploid Megalobrama amblycephala x Xenocypris davidi
+metazoans_mit	NC_015838.1	diploid Xenocypris davidi x Megalobrama amblycephala
+metazoans_mit	NC_018038.1	Cyprinus carpio wuyuanensis x Carassius auratus
+metazoans_mit	NC_018134.1	Ctenopharyngodon idella x Megalobrama amblycephala
+metazoans_mit	NC_020466.1	Ctenopharyngodon idella x Squaliobarbus curriculus
+metazoans_mit	NC_020467.1	Squaliobarbus curriculus x Ctenopharyngodon idella
+metazoans_mit	NC_023534.1	Megalobrama amblycephala x Parabramis pekinensis
+metazoans_mit	NC_024623.1	Megalobrama amblycephala x Ancherythroculter nigrocauda
+metazoans_mit	NC_024645.1	Culter alburnus x Ancherythroculter nigrocauda
+metazoans_mit	NC_024737.1	Paraneetroplus synspilus x Amphilophus citrinellus
+metazoans_mit	NC_025590.1	Ctenopharyngodon idellus x Elopichthys bambusa
+metazoans_mit	NC_025930.1	Cirrhinus mrigala x Labeo rohita
+metazoans_mit	NC_026870.1	Cyprinus carpio specularis x Carassius cuvieri
+metazoans_mit	NC_027448.1	Misgurnus anguillicaudatus x Paramisgurnus dabryanus
+metazoans_mit	NC_027522.1	Acipenser schrenckii x Huso dauricus
+metazoans_mit	NC_028197.1	Serranidae sp. JL-2015
+metazoans_mit	NC_030318.1	Epinephelus moara x Hyporthodus septemfasciatus
+metazoans_mit	NC_030628.1	Leiocassis longirostris x Tachysurus fulvidraco
+metazoans_mit	NC_031807.1	(Cyprinus carpio 'mirror' x Cyprinus carpio 'singuonensis') x Carassius auratus red var.
+metazoans_mit	NC_031808.1	Cyprinus carpio 'mirror' x Cyprinus carpio 'singuonensis'
+metazoans_mit	NC_034675.1	Cromileptes altivelis x Epinephelus lanceolatus
+metazoans_mit	NC_034784.1	Huso dauricus x Acipenser schrenckii
+metazoans_mit	NC_036665.1	Tachysurus fulvidraco x Leiocassis longirostris
+metazoans_mit	NC_042402.1	Cyprinus carpio x Megalobrama amblycephala
+metazoans_mit	NC_047207.1	Megalobrama terminalis x Culter alburnus
+metazoans_mit	NC_050397.1	Megalobrama amblycephala x Elopichthys bambusa
+metazoans_mit	NC_052699.1	Culter alburnus x Megalobrama terminalis
+metazoans_mit	NC_054292.1	Pungtungia herzi x Pseudopungtungia nigra
+metazoans_mit	NC_080270.1	Kareius bicoloratus x Platichthys stellatus
+metazoans_mit	NC_080271.1	Platichthys stellatus x (Kareius bicoloratus x Platichthys stellatus)
+metazoans_mit	NC_082846.1	Paralichthys olivaceus x Verasper variegatus
 plants_mit	AB073400.1	Brassica napus mitochondrial linear plasmid DNA
 plants_mit	AF522195.2	Cucumis sativus minicircle pC3
 plants_mit	BK059202.1	Cuscuta australis contig6
@@ -5025,6 +5141,8 @@ plants_mit	OP973807.1	Lilium tsingtauense chromosome 25
 plants_mit	OP973808.1	Lilium tsingtauense chromosome 26
 plants_mit	OP973810.1	Lilium tsingtauense chromosome 28
 plants_mit	OU343227.1	Chrysanthemum makinoi
+plants_mit	KM207678.1	Nicotiana tabacum/Hyoscyamus niger cybrid
+plants_mit	KM207682.1	Nicotiana tabacum/Hyoscyamus niger cybrid
 plants_plt	AP017904.1	Callitris sulcata
 plants_plt	AP017908.1	Asarum sakawanum
 plants_plt	AP017910.1	Patrinia triloba var. takeuchiana
@@ -5085,6 +5203,7 @@ plants_plt	MK262735.1	Globba schomburgkii
 plants_plt	MK281335.1	Selaginella tamariscina
 plants_plt	MK287776.1	Lepisorus waltonii
 plants_plt	MK293943.1	Sanicula orthacantha
+plants_plt	MK318534.1	Bazzania tridens
 plants_plt	MK370035.1	Pleione forrestii
 plants_plt	MK460598.1	Selaginella stauntoniana
 plants_plt	MK460599.1	Selaginella involvens
@@ -5805,6 +5924,7 @@ plants_plt	OQ053275.1	Helianthus niveus subsp. tephrodes
 plants_plt	OQ581822.1	Geum japonicum
 plants_plt	OQ595235.1	Melastoma malabathricum
 plants_plt	OQ658673.1	Porella gracillima
+plants_plt	NC_060289.1	Tripsacinae sp. MTP
 protists_mit	AB599931.1	Plasmodium vinckei vinckei
 protists_mit	AP025530.1	Galdieria partita
 protists_mit	BDQF01000743.1	Plasmodium gonderi
@@ -5899,6 +6019,14 @@ protists_mit	OP800506.1	Eimeria maxima
 protists_mit	OP800512.1	Eimeria praecox
 protists_mit	OP800522.1	Eimeria brunetti
 protists_mit	OP800523.1	Eimeria acervulina
+protists_mit	JN378734.1	Kryptoperidinium foliaceum endosymbiont
+protists_mit	JN378735.1	Durinskia baltica diatom endosymbiont
+protists_mit	MG202007.1	Picobiliphyte sp. MS584-11
+protists_mit	MN082145.1	Telonemida sp.
+protists_mit	MT747832.1	Phaeophyceae sp.
+protists_mit	MZ748312.1	Cyanidioschyzonaceae sp. 1 FvB-2021
+protists_mit	MZ748313.1	Cyanidiaceae sp.
+protists_mit	NC_034794.1	Eukaryota sp. BB2
 protists_plt	CP115539.1	Plasmodium yoelii yoelii
 protists_plt	JAKSYS010000061.1	Fragilaria crotonensis
 protists_plt	LR761315.1	Plasmodium knowlesi
@@ -5939,3 +6067,15 @@ protists_plt	NW_019223693.1	Plasmodium yoelii
 protists_plt	NW_023618544.1	Plasmodium vinckei vinckei
 protists_plt	OK136183.1	Eutreptia sp.
 protists_plt	OK136185.1	Eutreptiella sp.
+protists_plt	LC564893.1	Haptophyceae sp. NIES-3900
+protists_plt	LC716140.1	Dinophyceae sp. MGD
+protists_plt	MF101412.1	Laurencieae sp.
+protists_plt	MZ681958.1	Cyanidiaceae sp.
+protists_plt	MZ681960.1	Cyanidioschyzonaceae sp. 3
+protists_plt	MZ681962.1	Boldiaceae sp.
+protists_plt	NC_014345.1	Chromerida sp. RM11
+protists_plt	NC_040296.1	Eustigmatophyceae sp. Chic 10/23 P-6w
+protists_plt	NC_040295.1	Eustigmatophyceae sp. Bat 8/9-7w
+protists_plt	NC_040297.1	Eustigmatophyceae sp. Mont 10/10-1w
+protists_plt	NC_040298.1	Eustigmatophyceae sp. Ndem 8/9T-3m6.8
+protists_plt	NC_066179.1	Eustigmatophyceae sp. WTwin 8/9 T-6m6.8

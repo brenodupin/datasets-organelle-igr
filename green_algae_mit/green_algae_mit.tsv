@@ -1,6 +1,5 @@
 AN	GI	Species	Genome_length	ncbi_name	ncbi_taxid
 KR026340.1	827520897	Pediastrum duplex	53560	Pediastrum duplex	3105
-KT259054.1	930616964	Sphaeropleales sp.	52490	Sphaeropleales sp. YC001	1715688
 KX232644.1	1042780665	Tetrabaena socialis 	27751	Tetrabaena socialis	47790
 KX306822.1	1052423749	Rhexinema sarcinoideum 	85108	Rhexinema sarcinoideum	43261
 KX306823.1	1052423788	Gloeotilopsis planctonica 	105236	Gloeotilopsis planctonica	34157
@@ -16,7 +15,6 @@ MN528476.1	2058350243	Chlamydomonas incerta	17613	Chlamydomonas incerta	51695
 MN528477.1	2058350302	Chlamydomonas schloesseri	21866	Chlamydomonas schloesseri	2026947
 MN642622.1	1825511251	Trebouxia sp.	99907	Trebouxia sp. A1-2	2608996
 MN649871.1	1782128354	Micractinium pusillum	70061	Micractinium pusillum	126839
-MN662311.1	1778215521	Prasinophyte sp.	37590	prasinophyte sp. MBIC10622	156113
 MN810331.1	1841182877	Bulbochaete rectangularis var. hiloensis 	70171	Bulbochaete rectangularis var. hiloensis	55990
 MN810332.1	1841182902	Stigeoclonium helveticum 	46765	Stigeoclonium helveticum	55999
 MN894286.1	1834420504	Micractinium singularis	75931	Micractinium singularis	2607981
@@ -33,7 +31,6 @@ NC_013472.1	267857462	Polytomella sp. chromosome 1	13004	Polytomella piriformis	
 NC_015316.1	327195223	Coccomyxa sp.	65497	Coccomyxa subellipsoidea C-169	574566
 NC_016916.1	377810561	Polytomella parva chromosome 1	13135	Polytomella parva	51329
 NC_017841.1	386800430	Helicosporidium sp. ex Simulium jonesi 	49343	Helicosporidium sp. ex Simulium jonesi	145475
-NC_018568.1	409052422	Trebouxiophyceae sp.	74423	Trebouxiophyceae sp. MX-AZ01	1208065
 NC_021108.1	484759758	Pleodorina starrii 	20375	Pleodorina starrii	330485
 NC_022797.1	563940183	Monomastix sp.	60883	Monomastix sp. OKE-1	141716
 NC_022862.1	563940464	Microspora stagnorum	87405	Microspora stagnorum	163317

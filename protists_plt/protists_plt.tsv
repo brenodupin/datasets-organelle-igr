@@ -32,7 +32,6 @@ KY709211.1	1190065049	Flintiella sanguinaria	370672	Flintiella sanguinaria	10192
 KY856940.1	1226042244	Storeatula sp.	140953	Storeatula sp. CCMP1868	195070
 KY860574.1	1236762800	Chroomonas mesostigmatica	139403	Chroomonas mesostigmatica CCMP1168	1195612
 LC521919.1	1815645073	Pyropia dentata	192266	Pyropia dentata	76160
-LC564893.1	1941608488	Haptophyceae sp.	109550	Haptophyceae sp. NIES-3900	2748608
 LC580440.1	1900240487	Pteridomonas sp.	54809	Pteridomonas sp. YPF1301	2766739
 LC648950.1	2176617007	Cryptomonas borealis	161036	Cryptomonas borealis	233190
 LC648953.1	2176617577	Cryptomonas tetrapyrenoidosa	132527	Cryptomonas tetrapyrenoidosa	233185
@@ -42,10 +41,8 @@ LC648961.1	2176618976	Rhodomonas sp.	136151	Rhodomonas sp. NIES-1730	2867506
 LC648962.1	2176619164	Chroomonas debatzensis	146033	Chroomonas debatzensis	2058882
 LC648964.1	2176619571	Hemiselmis andersenii	136088	Hemiselmis andersenii	464988
 LC648965.1	2176619773	Cryptomonas sp.	129092	Cryptomonas sp. NIES-3952	2867508
-LC716140.1	2264236672	Dinophyceae sp.	100773	Dinophyceae sp. MGD	2608282
 LC761954.1	2527267979	Pyropia sp.	193090	Pyropia sp. Myanmar_B	3034858
 LT622871.1	1079693376	Nemalion sp.	182930	Nemalion sp. H.1444	1907586
-MF101412.1	1201281947	Laurencieae sp.	171106	Laurencieae sp.	2007162
 MF101414.1	1201282355	Polysiphonia sp.	172973	Polysiphonia sp.	1967842
 MF101425.1	1201284659	Leptosiphonia brodiei	169795	Leptosiphonia brodiei	2608611
 MF101451.1	1201290080	Chondria sp.	175716	Chondria sp. (in: red algae)	1982705
@@ -137,10 +134,7 @@ MZ365053.1	2073948861	Climaconeis sp.	140389	Climaconeis sp.	2846830
 MZ365054.1	2073949001	Climaconeis cf. scalaris	216580	Climaconeis cf. scalaris	2846828
 MZ504657.1	2096020273	Alaria sp.	130577	Alaria sp. TTB000023	2860299
 MZ520768.1	2125740378	Schizostauron trachyderma	187029	Schizostauron trachyderma	2770866
-MZ681958.1	2209408586	Cyanidiaceae sp.	165057	Cyanidiaceae sp.	2866374
-MZ681960.1	2209408981	Cyanidioschyzonaceae sp.	147983	Cyanidioschyzonaceae sp. 3	2927042
 MZ681961.1	2209409178	Galdieria sp.	167118	Galdieria sp.	2530459
-MZ681962.1	2209409369	Boldiaceae sp.	231003	Boldiaceae sp.	2927043
 NC_000925.1	11465652	Porphyra purpurea	191028	Porphyra purpurea	2787
 NC_000926.1	11467607	Guillardia theta	121524	Guillardia theta	55529
 NC_001675.1	11467282	Cyanophora paradoxa	135599	Cyanophora paradoxa	2762
@@ -165,7 +159,6 @@ NC_013703.1	283794864	Cryptomonas paramecium	77717	Cryptomonas paramaecium	2898
 NC_014267.1	299830295	Kryptoperidinium foliaceum	140426	Kryptoperidinium foliaceum	160619
 NC_014287.1	299830503	Durinskia baltica	116470	Durinskia baltica	59809
 NC_014340.2	482578347	Chromera velia	120426	Chromera velia	505693
-NC_014345.1	301500923	Alveolata sp.	85535	Chromerida sp. RM11	348535
 NC_014808.1	315320467	Thalassiosira oceanica	141790	Thalassiosira oceanica CCMP1005	637379
 NC_015403.1	330850815	Fistulifera solaris 	134918	Fistulifera solaris	1519565
 NC_016703.2	523420608	Phaeocystis antarctica	105512	Phaeocystis antarctica	33657
@@ -374,7 +367,6 @@ NC_040156.1	1535791495	Gelidium gabrielsonii	175499	Gelidium gabrielsonii	248389
 NC_040158.1	1535791721	Gelidium kathyanniae	176549	Gelidium kathyanniae	2483893
 NC_040291.1	1567481354	Tisochrysis lutea	105837	Tisochrysis lutea	1321669
 NC_040294.1	1567481492	Characiopsis acuta	121124	Characiopsis acuta	2040456
-NC_040296.1	1567481799	Eustigmatophyceae sp.	125946	Eustigmatophyceae sp. Chic 10/23 P-6w	1446905
 NC_040299.1	1567482280	Pseudellipsoidion edaphicum	123658	Pseudellipsoidion edaphicum	1431838
 NC_040300.1	1567482445	Vischeria sp.	126352	Vischeria sp. ACOI 3415	2506143
 NC_041173.1	1593553332	Gelidium coulteri	177099	Gelidium coulteri	28849
@@ -625,13 +617,9 @@ NC_031401.1	1079495358	Plasmodium malariae	34324	Plasmodium malariae	5858
 NC_031963.1	1104175071	Plasmodium gallinaceum	29456	Plasmodium gallinaceum	5849
 NC_031964.1	1104175103	Plasmodium relictum	29365	Plasmodium relictum	85471
 NC_033387.1	1133409852	Palmophyllum crassum	79397	Palmophyllum crassum	1615899
-NC_040295.1	1567481637	Eustigmatophyceae sp. Bat 8/9-7w	120042	Eustigmatophyceae sp. Bat 8/9-7w	2506144
-NC_040297.1	1567481963	Eustigmatophyceae sp. Mont 10/10-1w	117466	Eustigmatophyceae sp. Mont 10/10-1w	2506145
-NC_040298.1	1567482115	Eustigmatophyceae sp. Ndem 8/9T-3m6.8	120715	Eustigmatophyceae sp. Ndem 8/9T-3m6.8	2506146
 NC_051845.1	1939514227	Plasmodium knowlesi strain H	30638	Plasmodium knowlesi strain H	5851
 NC_063633.1	2248504700	Cosmarium blyttii	177876	Cosmarium blyttii	328281
 NC_063634.1	2248504772	Cosmarium ochthodes	184257	Cosmarium ochthodes	485946
-NC_066179.1	2301276014	Eustigmatophyceae sp. WTwin 8/9 T-6m6.8	119531	Eustigmatophyceae sp. WTwin 8/9 T-6m6.8	2974615
 NC_081592.1	2571511609	Hypnea nidifica	173169	Hypnea nidifica	673448
 NC_081593.1	2571511810	Hypnea nidulans	173835	Hypnea nidulans	673449
 NC_081594.1	2571512011	Hypnea flava	174543	Hypnea flava	1524266
