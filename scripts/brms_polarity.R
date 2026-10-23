@@ -66,28 +66,6 @@ igr <- read.csv(igs_path, sep = "\t", stringsAsFactors = FALSE)
 igr$ncbi_taxid <- factor(igr$ncbi_taxid)
 igr$polarity_3bin <- factor(igr$polarity_3bin, levels = factor_levels)
 
-# subsample
-max_rows <- 150000
-if (nrow(igr) > max_rows) {
-  total_n <- nrow(igr)
-  log_time(sprintf(
-    "Subsampling %d -> %d rows (stratified by polarity_3bin)",
-    total_n,
-    max_rows
-  ))
-  igr <- do.call(
-    rbind,
-    lapply(
-      split(igr, igr$polarity_3bin),
-      function(grp) {
-        n <- max(1, round(max_rows * nrow(grp) / total_n))
-        grp[sample(nrow(grp), min(n, nrow(grp))), ]
-      }
-    )
-  )
-  igr$ncbi_taxid <- droplevels(igr$ncbi_taxid)
-}
-
 tree <- keep.tip(tree, levels(igr$ncbi_taxid))
 tree <- multi2di(tree)
 A <- log_duration(

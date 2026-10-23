@@ -97,27 +97,6 @@ ft_observed <- sort(unique(igr$flanking_types))
 ft_levels <- c("gene-gene", setdiff(ft_observed, "gene-gene"))
 igr$flanking_types <- factor(igr$flanking_types, levels = ft_levels)
 
-max_rows <- 150000
-if (nrow(igr) > max_rows) {
-  total_n <- nrow(igr)
-  log_time(sprintf(
-    "Subsampling %d -> %d rows (stratified by polarity_3bin)",
-    total_n,
-    max_rows
-  ))
-  igr <- do.call(
-    rbind,
-    lapply(
-      split(igr, igr$polarity_3bin),
-      function(grp) {
-        n <- max(1, round(max_rows * nrow(grp) / total_n))
-        grp[sample(nrow(grp), min(n, nrow(grp))), ]
-      }
-    )
-  )
-  igr$ncbi_taxid <- droplevels(igr$ncbi_taxid)
-  igr$flanking_types <- droplevels(igr$flanking_types)
-}
 
 mu_flank <- mean(igr[[flank_col]])
 igr$flank <- igr[[flank_col]] - mu_flank

@@ -76,29 +76,6 @@ igr$flanking_types <- factor(igr$flanking_types, levels = ft_levels)
 message("\nflanking_types distribution (pre-downsampling):")
 print(table(igr$flanking_types))
 
-# subsample
-max_rows <- 150000
-if (nrow(igr) > max_rows) {
-  total_n <- nrow(igr)
-  log_time(sprintf(
-    "Subsampling %d -> %d rows (stratified by polarity_3bin)",
-    total_n,
-    max_rows
-  ))
-  igr <- do.call(
-    rbind,
-    lapply(
-      split(igr, igr$polarity_3bin),
-      function(grp) {
-        n <- max(1, round(max_rows * nrow(grp) / total_n))
-        grp[sample(nrow(grp), min(n, nrow(grp))), ]
-      }
-    )
-  )
-  igr$ncbi_taxid <- droplevels(igr$ncbi_taxid)
-  igr$flanking_types <- droplevels(igr$flanking_types)
-}
-
 # Guard the k-fold row alignment: every model must keep all 150k rows,
 # otherwise the three elpd values are not computed on the same data.
 model_vars <- c(
