@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Compile Summaries of intergenic runs."""
+
 import os
 
 os.environ["POLARS_MAX_THREADS"] = "1"
@@ -13,7 +14,7 @@ import traceback
 from pathlib import Path
 import tigre
 
-_RS_strand = r"\|([+-])\|"
+_RS_strand = r"\|([+\-?])\|"
 
 MAX_CPU = os.cpu_count() or 1
 
@@ -24,6 +25,8 @@ output_cols = [
     "DOWN",
     "Pair",
     "Polarity",
+    "Start",
+    "End",
     "Length",
     "Merged",
     "source_up",
@@ -46,17 +49,13 @@ def summary_igs(
 
     df = df.with_columns(
         pl.col("attributes").str.extract(tigre.gff3_utils._RS_ID, 1).alias("ID"),
+        pl.col("start").alias("Start"),
+        pl.col("end").alias("End"),
         (pl.col("end") - pl.col("start") + 1).alias("Length"),
         pl.lit(an).alias("AN"),
-        (pl.col("type") != "intergenic_region").cast(pl.Int8).alias("Merged"),
-        pl.col("attributes")
-        .str.extract(tigre.clean._RS_name_up, 1)
-        .alias("UP")
-        .fill_null("RS"),
-        pl.col("attributes")
-        .str.extract(tigre.clean._RS_name_dw, 1)
-        .alias("DOWN")
-        .fill_null("RE"),
+        pl.col("type").str.ends_with("_merged").cast(pl.Int8).alias("Merged"),
+        pl.col("attributes").str.extract(tigre.clean._RS_name_up, 1).alias("UP"),
+        pl.col("attributes").str.extract(tigre.clean._RS_name_dw, 1).alias("DOWN"),
         pl.col("attributes")
         .str.extract(tigre.clean._RS_source_up, 1)
         .alias("source_up"),
@@ -67,15 +66,30 @@ def summary_igs(
 
     df = df.with_columns(
         (pl.col("UP") + "-" + pl.col("DOWN")).alias("Pair"),
-        pl.col("source_up")
-        .str.extract(_RS_strand, 1)
-        .fill_null("+")
+        pl.col("source_up").str.extract(_RS_strand, 1).alias("up-strand"),
+        pl.col("source_dw").str.extract(_RS_strand, 1).alias("dw-strand"),
+    )
+
+    # when source_up is region_start, up-strand should be T
+    df = df.with_columns(
+        pl.when(pl.col("source_up") == "region_start")
+        .then(pl.lit("T"))
+        .otherwise(pl.col("up-strand"))
         .alias("up-strand"),
-        pl.col("source_dw")
-        .str.extract(_RS_strand, 1)
-        .fill_null("+")
+        pl.when(pl.col("source_dw") == "region_end")
+        .then(pl.lit("T"))
+        .otherwise(pl.col("dw-strand"))
         .alias("dw-strand"),
     )
+
+    # check for null in up-strand and dw-strand
+    for col in ("up-strand", "dw-strand", "UP", "DOWN", "ID"):
+        if df[col].is_null().any():
+            bad = df.filter(pl.col(col).is_null())
+            raise ValueError(
+                f"{col} is null for AN {an} ({bad.height} rows), e.g. "
+                f"{bad['source_up'][0]!r} / {bad['source_dw'][0]!r}"
+            )
 
     df = df.with_columns((pl.col("up-strand") + pl.col("dw-strand")).alias("Polarity"))
     df = df.select(output_cols)
