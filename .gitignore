@@ -9,6 +9,10 @@ all_groups_brms_results.txt
 .DS_Store
 .env
 
+taxonomy/*
+brms_draws/
+brms_draws_*.tar.zst
+
 fungi_mit/*
 !fungi_mit/fungi_mit.tsv
 !fungi_mit/tree.nwk
