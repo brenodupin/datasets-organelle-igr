@@ -40,9 +40,9 @@ process_group() {
 
     echo "[$(tnow)] Starting IGR extraction for $GROUP..."
 
-    tigre clean multiple -v --log "${base_path}/clean_brms.log" --gdict "$gdict_file" --tsv "$tsv_file" --overwrite
-    tigre extract multiple -v --log "${base_path}/extract_brms.log" --tsv "$tsv_file" --overwrite
-    tigre getfasta multiple -v --log "${base_path}/getfasta_brms.log" --tsv "$tsv_file" --overwrite
+    tigre clean multiple -v --log "${base_path}/tigre_clean.log" --gdict "$gdict_file" --tsv "$tsv_file" --no-banner --overwrite
+    tigre extract multiple -v --log "${base_path}/tigre_extract.log" --tsv "$tsv_file" --include-zero-length --no-banner --overwrite
+    tigre getfasta multiple -v --log "${base_path}/tigre_getfasta.log" --tsv "$tsv_file" --no-banner --overwrite
 
     python3 "$igs_path" --tsv "$tsv_file" --output "$igs_file" --overwrite
 
