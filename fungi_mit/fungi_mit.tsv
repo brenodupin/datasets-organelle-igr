@@ -65,14 +65,12 @@ NC_003920.1	21263111	Saccharomyces castellii 	25753	Naumovozyma castellii	27288	
 NC_004332.1	23752280	Schizosaccharomyces japonicus	80059	Schizosaccharomyces japonicus	4897	4895	Schizosaccharomyces
 NC_004336.1	24080109	Cryptococcus neoformans var. grubii	24874	Cryptococcus neoformans	5207	5206	Cryptococcus
 NC_004918.1	32441693	Saccharomyces servazzii 	30782	Monosporozyma servazzii	27293	3162981	Monosporozyma
-NC_005253.2	90995396	Candida parapsilosis 	32745	Candida parapsilosis	5480	36913	Lodderomyces
 NC_005927.1	49147007	Moniliophthora perniciosa	109103	Moniliophthora perniciosa	153609	221102	Moniliophthora
 NC_005972.1	50234080	Candida zemplinina 	23114	Starmerella bacillaris	1247836	75735	Starmerella
 NC_006077.1	50812093	Kluyveromyces lactis 	40291	Kluyveromyces lactis	28985	4910	Kluyveromyces
 NC_006836.1	58578599	Rhizopus oryzae	54178	Rhizopus arrhizus	64495	4842	Rhizopus
 NC_006837.1	58578567	Smittium culisetae	58654	Zancudomyces culisetae	1213189	1213188	Zancudomyces
 NC_006838.1	58578624	Mortierella verticillata	58745	Podila verticillata	78898	2779937	Podila
-NC_006971.1	62736223	Candida metapsilosis 	24152	Candida metapsilosis	273372	36913	Lodderomyces
 NC_006972.1	62736207	Candida orthopsilosis 	22528	Candida orthopsilosis	273371	36913	Lodderomyces
 NC_007780.1	86990310	Hanseniaspora uvarum 	18844	Hanseniaspora uvarum	29833	29832	Hanseniaspora
 NC_008368.1	115304384	Ustilago maydis mitochondrion, complete genome	56814	Mycosarcoma maydis	5270	2689624	Mycosarcoma
@@ -85,14 +83,12 @@ NC_012620.1	228015413	Candida castellii 	50294	Oligophagozyma castellii	51914	31
 NC_012621.1	228015422	Nakaseomyces bacillisporus 	107123	Cylindricascospora bacillispora	51660	3163252	Cylindricascospora
 NC_013147.1	256427299	Dekkera bruxellensis 	76453	Brettanomyces bruxellensis	5007	13366	Brettanomyces
 NC_013933.1	290967659	Trametes cingulata	91500	Trametes cingulata	575983	5324	Trametes
-NC_014337.1	301353187	Candida subhashii 	29795	[Candida] subhashii	561895	3712552	Hemisphaericaspora
 NC_014805.1	315248821	Ogataea angusta 	41719	Ogataea polymorpha	460523	461281	Ogataea
 NC_016756.1	374264089	Ashbya gossypii	23497	Eremothecium gossypii FDAG1	1034331	33170	Eremothecium
 NC_018044.1	391224004	Saccharomyces paradoxus 	71355	Saccharomyces paradoxus	27291	4930	Saccharomyces
 NC_018365.1	400201826	Lentinula edodes	121394	Lentinula edodes	5353	5352	Lentinula
 NC_020043.1	435857090	Magnusiomyces magnusii 	42757	Magnusiomyces magnusii	43963	1095182	Magnusiomyces
 NC_020148.1	442769786	Phlebia radiata	156348	Phlebia radiata	5308	5307	Phlebia
-NC_020332.1	452849333	Pneumocystis murina	24608	Pneumocystis murina	263815	4753	Pneumocystis
 NC_021750.1	526003413	Ganoderma lucidum	60635	Ganoderma lucidum	5315	5314	Ganoderma
 NC_022144.1	533206351	Glomus cerebriforme	59633	Glomus cerebriforme	658196	4875	Glomus
 NC_022933.1	560877746	Ganoderma sinense	86451	Ganoderma sinense	36075	5314	Ganoderma
@@ -285,14 +281,11 @@ NC_022153.1	533206501	Candida buenavistaensis	46389	Candida buenavistaensis	4340
 NC_022155.1	533206537	Diddensiella santjacobensis	64525	Diddensiella santjacobensis	2704139	1484022	Diddensiella
 NC_022157.1	533206572	Candida tetrigidarum	52426	Candida tetrigidarum	434046	5475	Candida
 NC_022160.1	533206641	Candida tropicalis	54610	Candida tropicalis	5482	5475	Candida
-NC_022162.1	533206679	Candida oxycetoniae	62593	Candida oxycetoniae	497107	36913	Lodderomyces
 NC_022163.1	533206705	Cyberlindnera jadinii	41644	Cyberlindnera jadinii	4903	4962	Williopsis
 NC_022164.1	533206729	[Candida] vartiovaarae	33201	[Candida] vartiovaarae	51918	4962	Williopsis
-NC_022165.1	533206748	Ogataea philodendri	27063	Ogataea philodendri	1378263	461281	Ogataea
 NC_022166.1	533206763	Wickerhamomyces pijperi	23268	Wickerhamomyces pijperi	599730	3713752	Waltiozyma
 NC_022167.1	533206773	Cyberlindnera suaveolens	51521	Cyberlindnera suaveolens	907738	4962	Williopsis
 NC_022168.1	533206803	[Candida] sake	26205	[Candida] sake	39397	3712548	Fermentozyma
-NC_022169.1	533206821	Candida theae	26234	Candida theae	1198502	36913	Lodderomyces
 NC_022170.1	533206839	Candida labiduridarum	39443	Candida labiduridarum	434042	5475	Candida
 NC_022171.1	533206861	Wickerhamomyces mucosus	46416	Wickerhamomyces mucosus	1378264	3713752	Waltiozyma
 NC_022173.1	533206914	Candida blackwelliae	32053	Candida blackwelliae	497110	3712567	Zhuliangozyma
@@ -336,7 +329,6 @@ NC_059951.1	2172621860	Coprinus comatus	70059	Coprinus comatus	56187	5345	Coprin
 NC_061177.1	2206965207	Pleurotus pulmonarius	70671	Pleurotus pulmonarius	28995	5320	Pleurotus
 NC_061293.1	2206971136	Ganoderma multipileum	67340	Ganoderma multipileum	1173714	5314	Ganoderma
 NC_063592.1	2248503230	Russula rosea	54177	Russula rosea	176822	5402	Russula
-NC_063596.1	2248503524	Candida margitis	28273	Candida margitis	1775924	36913	Lodderomyces
 NC_063703.1	2248508915	[Candida] railenensis	34762	[Candida] railenensis	45579	3712547	Dujonia
 NC_065786.1	2289434161	Hericium erinaceus	83518	Hericium erinaceus	91752	40459	Hericium
 NC_066041.1	2301267132	Inonotus hispidus	171046	Inonotus hispidus	40469	40468	Inonotus

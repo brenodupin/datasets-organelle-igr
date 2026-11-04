@@ -5,10 +5,7 @@ AP018919.1	1448321391	Goniomonas avonlea	41136	Goniomonas avonlea	1255295	31324	
 AP019310.1	1601521829	Marophrys sp.	113062	Marophrys sp. SRT127	2488311	2488300	Marophrys
 BK012089.1	2235892869	Phytophthora cinnamomi var. cinnamomi	39225	Phytophthora cinnamomi var. cinnamomi	622258	4783	Phytophthora
 BK012094.1	2235893069	Phytophthora parasitica	37749	Phytophthora nicotianae CJ01A1	1317063	4783	Phytophthora
-FJ168565.1	220682066	Hepatocystis sp. ex Pteropus hypomelanus	6259	Hepatocystis sp. ex Pteropus hypomelanus	587286	77566	Hepatocystis
-HQ908424.1	321401323	Pavlova lutheri	34086	Diacronema lutheri	2081491	70451	Diacronema
 JQ071938.1	371572231	Gracilariopsis lemaneiformis	25883	Gracilariopsis lemaneiformis	2782	2781	Gracilariopsis
-KC573038.1	449327007	Capsaspora owczarzaki	196908	Capsaspora owczarzaki	192875	192874	Capsaspora
 KF419217.1	546355158	Eimeria magna	6249	Eimeria magna	471282	5800	Eimeria
 KF515974.1	562816683	Pyropia perforata	40042	Pyropia perforata	182771	1094566	Pyropia
 KF651061.1	557879697	Acavomonas peruviana	51109	Acavomonas peruviana	1542312	1542311	Acavomonas
@@ -63,8 +60,6 @@ MH281622.1	1510251550	Renouxia sp.	30019	Renouxia sp.	2485823	31493	Renouxia
 MH281625.1	1510251624	Rhodogorgon sp.	30547	Rhodogorgon sp.	2485824	31495	Rhodogorgon
 MH297491.1	1540310873	Nitzschia palea	37754	Nitzschia palea	303400	2857	Nitzschia
 MH800316.1	1681061561	Proschkinia sp.	48863	Proschkinia sp. SZCZR1824	2588390	2562729	Proschkinia
-MH888186.1	1672732520	Pseudourostyla cristata	76660	Pseudourostyla cristata	293816	293815	Pseudourostyla
-MK301177.1	1810665267	Gruberia lanceolata	39988	Gruberia lanceolata	1978530	37351	Gruberia
 MK695879.1	1772544182	Neopyropia yezoensis	41692	Pyropia yezoensis	2788	1094566	Pyropia
 MN564259.1	1792260850	Pavlova sp.	36202	Pavlova sp. NIVA-4/92	2686093	2831	Pavlova
 MN605892.1	1894457784	Babesia motasi	5946	Babesia motasi	237580	5864	Babesia
@@ -75,7 +70,6 @@ MT117917.1	1836274652	Pterocladia lucida	25257	Pterocladia lucida	31408	28859	Pt
 MT117919.1	1836274677	Pterocladiophila hemisphaerica	25486	Pterocladiophila hemisphaerica	2712948	2712947	Pterocladiophila
 MT471315.1	1939457674	Strombidium sp.	51232	Strombidium sp.	181122	60005	Strombidium
 MT588076.1	1863297219	Pyropia pulchra	33190	Pyropia pulchra	60925	1094566	Pyropia
-MT665958.1	2025191223	Euplotes aediculatus	32335	Euplotes aediculatus	5940	5935	Euplotes
 MT742552.1	2072316717	Nitzschia anatoliensis	38186	Nitzschia anatoliensis	2862141	2857	Nitzschia
 MT845205.1	2126938963	Sargassum hemiphyllum var. chinense	34686	Sargassum hemiphyllum var. chinense	425012	3015	Sargassum
 MW357900.2	2444132518	Phymatolithon calcareum	28193	Phymatolithon calcareum	1277942	48601	Phymatolithon
@@ -140,7 +134,6 @@ NC_007683.1	84508551	Fucus vesiculosus	36392	Fucus vesiculosus	49266	3011	Fucus
 NC_007684.1	84508590	Desmarestia viridis	39049	Desmarestia viridis	62313	31339	Desmarestia
 NC_007685.1	84508512	Dictyota dichotoma	31617	Dictyota dichotoma	2876	2875	Dictyota
 NC_008337.1	114329811	Tetrahymena malaccensis	47691	Tetrahymena malaccensis	5901	5890	Tetrahymena
-NC_008338.1	114329857	Tetrahymena paravorax	47496	Tetrahymena paravorax	5905	5890	Tetrahymena
 NC_008339.1	114329902	Tetrahymena pigmentosa	46990	Tetrahymena pigmentosa	5907	5890	Tetrahymena
 NC_009384.1	145932422	Phytophthora ramorum	39314	Phytophthora ramorum	164328	4783	Phytophthora
 NC_009385.1	145932329	Phytophthora sojae	42977	Phytophthora sojae	67593	4783	Phytophthora
@@ -182,7 +175,6 @@ NC_017837.1	386800397	Pyropia yezoensis	41688	Pyropia yezoensis	2788	1094566	Pyr
 NC_018544.1	404474476	Porphyra umbilicalis	29123	Porphyra umbilicalis	2786	2784	Porphyra
 NC_020015.1	435856261	Nannochloropsis gaditana	42213	Nannochloropsis gaditana	72520	5748	Nannochloropsis
 NC_020369.1	452849919	Nuclearia simplex	74129	Nuclearia simplex	154970	154967	Nuclearia
-NC_020370.1	452849960	Ministeria vibrans	55918	Ministeria vibrans	134558	134557	Ministeria
 NC_021104.1	484759711	Naegleria fowleri	49531	Naegleria fowleri	5763	5761	Naegleria
 NC_021124.1	484759855	Andalucia godoyi	67656	Andalucia godoyi	505711	444704	Andalucia
 NC_021125.1	510948998	Histiona aroides	70177	Histiona aroides	392300	392299	Histiona
@@ -543,7 +535,6 @@ OQ735416.1	2500404807	Phytophthora sp.	39675	Phytophthora sp. ML-2023a	3044284	4
 OQ972988.1	2515761540	Grateloupia turuturu	28265	Grateloupia turuturu	118375	31454	Grateloupia
 OR045827.1	2523515460	Fushitsunagia catenata	25889	Fushitsunagia catenata	1827018	2705747	Fushitsunagia
 NC_000894.1	11467604	Leishmania tarentolae	20992	Leishmania tarentolae	5689	5658	Leishmania
-NC_002235.1	11466248	Plasmodium reichenowi	5966	Plasmodium reichenowi	5854	5820	Plasmodium
 NC_004118.1	22550330	Chaetosphaeridium globosum	56574	Chaetosphaeridium globosum	96477	96476	Chaetosphaeridium
 NC_005255.1	38638270	Chara vulgaris	67737	Chara vulgaris	55564	13778	Chara
 NC_007233.1	71733141	Plasmodium simium	5990	Plasmodium simium	5859	5820	Plasmodium
@@ -553,8 +544,6 @@ NC_008279.1	112001841	Plasmodium juxtanucleare	6014	Plasmodium juxtanucleare	111
 NC_008288.1	113135109	Plasmodium gallinaceum	6003	Plasmodium gallinaceum	5849	5820	Plasmodium
 NC_009336.1	141386022	Leucocytozoon sabrazesi	5935	Leucocytozoon sabrazesi	434249	195944	Leucocytozoon
 NC_009630.1	150406455	Chlorokybus atmophyticus	201763	Chlorokybus atmophyticus	3144	3143	Chlorokybus
-NC_009960.2	172034818	Plasmodium mexicanum	5991	Plasmodium mexicanum	27989	5820	Plasmodium
-NC_009961.2	172034819	Plasmodium floridense	6002	Plasmodium floridense	31275	5820	Plasmodium
 NC_011212.1	200004018	Blastocystis sp. DMP/02-328	27719	Blastocystis sp. DMP/02-328	463136	12967	Blastocystis
 NC_012369.1	226433047	Plasmodium fragile	5977	Plasmodium fragile	5857	5820	Plasmodium
 NC_015303.1	327185716	Plasmodium berghei	5957	Plasmodium berghei	5821	5820	Plasmodium
@@ -567,7 +556,6 @@ NC_027962.1	937424136	Blastocystis sp. subtype 4	27717	Blastocystis sp. subtype 
 NC_028192.1	944542291	Saccharina sp. ye-B	37657	Saccharina sp. ye-B	1735275	309357	Saccharina
 NC_028211.1	944542653	Saccharina sp. ye-C12	37654	Saccharina sp. ye-C12	1736704	309357	Saccharina
 NC_034637.1	1198297773	Babesia microti strain RI	10547	Babesia microti strain RI	1133968	5864	Babesia
-NC_037526.1	1381394812	Plasmodium falciparum	5967	Plasmodium falciparum	5833	5820	Plasmodium
 NC_045180.1	1776701859	Coleochaete scutata	242024	Coleochaete scutata	3125	3123	Coleochaete
 NC_046950.1	1829777436	Roya anglica	69371	Roya anglica	43943	43942	Roya
 NC_046951.1	1829777479	Gonatozygon brebissonii	131939	Gonatozygon brebissonii	184482	45762	Gonatozygon

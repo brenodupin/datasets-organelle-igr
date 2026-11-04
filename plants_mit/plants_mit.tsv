@@ -29,12 +29,10 @@ KM873610.1	745748929	Orthotrichum rogeri 	104634	Orthotrichum rogeri	1592803	529
 KR534606.1	939462352	Malus hupehensis var. mengshanensis 	422555	Malus hupehensis var. mengshanensis	550789	3749	Malus
 KR817582.1	910266076	Aneura pinguis	165005	Aneura pinguis	39026	70217	Aneura
 KT022222.1	829581281	Viscum scurruloideum chromosome 1	42186	Viscum scurruloideum	1664545	3971	Viscum
-KT022223.1	829581299	Viscum scurruloideum chromosome 2	23687	Viscum scurruloideum	1664545	3971	Viscum
 KT988071.2	1020913963	Schrenkiella parvula 	255773	Schrenkiella parvula	98039	1394723	Schrenkiella
 KU140427.1	991820460	Aneura pinguis	164047	Aneura pinguis	39026	70217	Aneura
 KU831325.1	1080112412	Brassica oleracea var. capitata 	219975	Brassica oleracea var. capitata	3716	3705	Brassica
 KU992323.1	1142819667	Lophophytum mirabile subsp. bolivianum chromosome LmContig2 	30072	Lophophytum mirabile subsp. bolivianum	1813629	1003260	Lophophytum
-KU992329.1	1142819677	Lophophytum mirabile subsp. bolivianum chromosome LmContig8 	16418	Lophophytum mirabile subsp. bolivianum	1813629	1003260	Lophophytum
 KX270756.1	1043393954	Cynomorium coccineum chromosome Ccoc839 	25654	Cynomorium coccineum	51503	51502	Cynomorium
 KX270771.1	1043393982	Cynomorium coccineum chromosome Ccoc3090 	19525	Cynomorium coccineum	51503	51502	Cynomorium
 KX270773.1	1043393985	Cynomorium coccineum chromosome Ccoc3422 	22477	Cynomorium coccineum	51503	51502	Cynomorium
@@ -90,7 +88,6 @@ MK431824.1	2160498003	Nitraria tangutorum 	355820	Nitraria tangutorum	357929	438
 MK431825.1	2160498034	Tribulus terrestris 	415781	Tribulus terrestris	210369	66647	Tribulus
 MK431826.1	1783582703	Peganum harmala 	447055	Peganum harmala	43879	43877	Peganum
 MK431827.1	2160498067	Zygophyllum fabago 	831513	Zygophyllum fabago	66652	66651	Zygophyllum
-MK697707.1	1803030987	Picea sitchensis chromosome 12 	27173	Picea sitchensis	3332	3328	Picea
 MK728874.1	2159137299	Pogostemon heyneanus 	380655	Pogostemon heyneanus	58709	21861	Pogostemon
 MK990822.1	1681062850	Monotropa hypopitys chromosome 1	704088	Monotropa hypopitys	176248	50147	Monotropa
 MK990823.1	1681062891	Monotropa hypopitys chromosome 2 	106028	Monotropa hypopitys	176248	50147	Monotropa
@@ -102,18 +99,10 @@ MN196478.1	1771301930	Capsicum annuum var. glabriusculum 	497487	Capsicum annuum
 MN199236.1	1826687845	Quercus variabilis	412886	Quercus variabilis	103481	3511	Quercus
 MN400566.1	2450609345	Azolla filiculoides chromosome 1 	46341	Azolla filiculoides	84609	39630	Azolla
 MN400567.1	2450609346	Azolla filiculoides chromosome 2 	30053	Azolla filiculoides	84609	39630	Azolla
-MN400569.1	2450609348	Azolla filiculoides chromosome 4 	16651	Azolla filiculoides	84609	39630	Azolla
-MN400570.1	2450609349	Azolla filiculoides chromosome 5 	13652	Azolla filiculoides	84609	39630	Azolla
-MN400573.1	2450609352	Azolla filiculoides chromosome 8 	6499	Azolla filiculoides	84609	39630	Azolla
-MN400574.1	2450609353	Azolla filiculoides chromosome 9 	2384	Azolla filiculoides	84609	39630	Azolla
 MN400575.1	2450609404	Cuscuta australis chromosome 1 	55651	Cuscuta australis	267555	4128	Cuscuta
-MN400576.1	2450609410	Cuscuta australis chromosome 2 	37211	Cuscuta australis	267555	4128	Cuscuta
 MN400577.1	2450609416	Cuscuta australis chromosome 3 	34919	Cuscuta australis	267555	4128	Cuscuta
 MN400578.1	2450609423	Cuscuta australis chromosome 4 	33963	Cuscuta australis	267555	4128	Cuscuta
-MN400579.1	2450609427	Cuscuta australis chromosome 5 	29826	Cuscuta australis	267555	4128	Cuscuta
-MN400580.1	2450609431	Cuscuta australis chromosome 6 	14891	Cuscuta australis	267555	4128	Cuscuta
 MN400581.1	2450609436	Cuscuta australis chromosome 7 	12648	Cuscuta australis	267555	4128	Cuscuta
-MN400584.1	2450609444	Cuscuta australis chromosome 10 	7836	Cuscuta australis	267555	4128	Cuscuta
 MN400588.1	2450609513	Cuscuta campestris chromosome 1 	110917	Cuscuta campestris	132261	4128	Cuscuta
 MN400589.1	2450609530	Cuscuta campestris chromosome 2 	54285	Cuscuta campestris	132261	4128	Cuscuta
 MN400590.1	2450609540	Cuscuta campestris chromosome 3 	50641	Cuscuta campestris	132261	4128	Cuscuta
@@ -122,8 +111,6 @@ MN400593.1	2450609552	Cuscuta campestris chromosome 6 	9168	Cuscuta campestris	1
 MN400594.1	2450609605	Pteridium revolutum chromosome 1 	46403	Pteridium revolutum	104585	32100	Pteridium
 MN400595.1	2450609606	Pteridium revolutum chromosome 2 	26954	Pteridium revolutum	104585	32100	Pteridium
 MN400596.1	2450609607	Pteridium revolutum chromosome 3 	14118	Pteridium revolutum	104585	32100	Pteridium
-MN400598.1	2450609609	Pteridium revolutum chromosome 5 	9744	Pteridium revolutum	104585	32100	Pteridium
-MN400603.1	2450609614	Pteridium revolutum chromosome 10 	5679	Pteridium revolutum	104585	32100	Pteridium
 MN432175.1	2198385057	Bougainvillea glabra chromosome 3 	64310	Bougainvillea glabra	3541	3540	Bougainvillea
 MN432177.1	2198385065	Bougainvillea glabra chromosome 1 	160721	Bougainvillea glabra	3541	3540	Bougainvillea
 MN432178.1	2198385083	Bougainvillea glabra chromosome 2 	97632	Bougainvillea glabra	3541	3540	Bougainvillea
@@ -645,8 +632,6 @@ OK077160.1	2310810901	Kadsura japonica chromosome 2 	897204	Kadsura japonica	105
 OK077161.1	2310810931	Kadsura japonica chromosome 3 	848837	Kadsura japonica	105750	105749	Kadsura
 OK077162.1	2310810958	Kadsura japonica chromosome 4 	261590	Kadsura japonica	105750	105749	Kadsura
 OK077163.1	2310810964	Kadsura japonica chromosome 5 	211474	Kadsura japonica	105750	105749	Kadsura
-OK077164.1	2310810970	Kadsura japonica chromosome 6 	72712	Kadsura japonica	105750	105749	Kadsura
-OK077165.1	2310810972	Kadsura japonica chromosome 7 	68176	Kadsura japonica	105750	105749	Kadsura
 OK120846.1	2128381035	Thinopyrum obtusiflorum 	390725	Thinopyrum obtusiflorum	4589	4587	Thinopyrum
 OK166971.1	2180638198	Bupleurum chinense	435023	Bupleurum chinense	52451	46366	Bupleurum
 OK274069.1	2202739255	Genlisea tuberosa	729765	Genlisea tuberosa	1504635	192258	Genlisea
@@ -673,10 +658,8 @@ OL804177.1	2173806640	Crocus sativus 	525348	Crocus sativus	82528	58949	Crocus
 OL857277.1	2198162216	Schisandra chinensis chromosome 1 	398323	Schisandra chinensis	50507	13673	Schisandra
 OL857278.1	2198162226	Schisandra chinensis chromosome 2 	372190	Schisandra chinensis	50507	13673	Schisandra
 OL857279.1	2198162234	Schisandra chinensis chromosome 3 	228253	Schisandra chinensis	50507	13673	Schisandra
-OL857281.1	2198162244	Schisandra chinensis chromosome 5 	194487	Schisandra chinensis	50507	13673	Schisandra
 OL857282.1	2198162247	Schisandra chinensis chromosome 6 	126075	Schisandra chinensis	50507	13673	Schisandra
 OL857284.1	2198162255	Schisandra chinensis chromosome 8 	83338	Schisandra chinensis	50507	13673	Schisandra
-OL857285.1	2198162261	Schisandra chinensis chromosome 9 	21808	Schisandra chinensis	50507	13673	Schisandra
 OL979137.1	2317666067	Pulsatilla chinensis var. kissii 	684203	Pulsatilla chinensis var. kissii	2029856	46977	Pulsatilla
 OL989850.1	2237264323	Camellia sinensis var. assamica	1081966	Camellia sinensis var. assamica	261999	4441	Camellia
 OM066870.1	2305950822	Amorphophallus albus chromosome 2 	48380	Amorphophallus albus	152299	74663	Amorphophallus
