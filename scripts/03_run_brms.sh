@@ -31,7 +31,7 @@ run_brms() {
     local RESULTS_APPEND="$5"
 
     local tree="${base}/${GROUP}/${BRMS_FOLDER}/tree.nwk"
-    local igr="${base}/${GROUP}/${BRMS_FOLDER}/filtered_3bin.tsv"
+    local igr="${base}/${GROUP}/${BRMS_FOLDER}/brms_input.tsv"
     local models="${base}/${GROUP}/${BRMS_FOLDER}/brms_model.rds"
     local results_txt="${base}/${GROUP}/${BRMS_FOLDER}/brms_${RESULTS_APPEND}.txt"
     local results_tsv="${base}/${GROUP}/${BRMS_FOLDER}/brms_${RESULTS_APPEND}_row.tsv"
