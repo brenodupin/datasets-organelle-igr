@@ -42,11 +42,11 @@ seed <- 42
 set.seed(seed)
 args <- commandArgs(trailingOnly = TRUE)
 
-if (length(args) != 5) {
+if (!length(args) %in% c(5, 6)) {
   stop(
-    "Exactly 5 arguments required\n",
+    "5 or 6 arguments required\n",
     "Usage: Rscript brms_type_length.R <tree.nwk> <igs_summary.tsv> ",
-    "<summary.txt> <models.rds> <results.tsv>"
+    "<summary.txt> <models.rds> <results.tsv> [stop_at_brms]"
   )
 }
 
@@ -55,6 +55,11 @@ igs_path <- args[2]
 results_txt <- args[3]
 out_name <- args[4]
 results_tsv <- args[5]
+# Optional 6th argument: TRUE/1/stop ends the script after the three brm()
+# fits are cached, before k-fold. Rerun without it to load the caches and
+# run k-fold onwards (used to split long runs across job time limits).
+stop_at_brms <- length(args) >= 6 &&
+  tolower(args[6]) %in% c("true", "1", "stop")
 
 factor_levels <- c("same", "conv", "div")
 flank_col <- "log10_max_flanking_gene_len"
@@ -207,6 +212,19 @@ m_both <- log_duration(
     control = list(adapt_delta = 0.95, max_treedepth = 12)
   )
 )
+
+if (stop_at_brms) {
+  log_time(sprintf(
+    "Stopping after brm fits (stop_at_brms = %s); caches: %s, %s, %s",
+    args[6], basename(cache_flank), basename(cache_type), basename(cache_both)
+  ))
+  log_time("Rerun without the 6th argument to load the caches and run k-fold")
+  message(sprintf(
+    "Total runtime: %.1f min",
+    as.numeric(difftime(Sys.time(), script_start, units = "mins"))
+  ))
+  quit(save = "no", status = 0)
+}
 
 kf_iter <- iter_n
 kf_warmup <- warmup_n
