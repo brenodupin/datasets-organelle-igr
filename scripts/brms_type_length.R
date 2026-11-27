@@ -61,6 +61,10 @@ results_tsv <- args[5]
 stop_at_brms <- length(args) >= 6 &&
   tolower(args[6]) %in% c("true", "1", "stop")
 
+kf_vsize_mb <- as.numeric(Sys.getenv("KF_VSIZE_GB", "24")) * 1024
+if (is.na(kf_vsize_mb) || kf_vsize_mb <= 0) stop("KF_VSIZE_GB must be a positive number")
+log_time(sprintf("K-fold memory cap: %.0f GB", kf_vsize_mb / 1024))
+
 factor_levels <- c("same", "conv", "div")
 flank_col <- "log10_max_flanking_gene_len"
 
@@ -229,7 +233,6 @@ if (stop_at_brms) {
 kf_iter <- iter_n
 kf_warmup <- warmup_n
 kf_chunk <- 2000L
-kf_vsize_mb <- as.numeric(Sys.getenv("KF_VSIZE_GB", "24")) * 1024
 
 make_folds <- function(taxon, K, seed) {
   set.seed(seed)
