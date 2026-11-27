@@ -384,6 +384,8 @@ kf_both <- log_duration(
   "kfold (both)",
   run_kfold_isolated(cache_both, folds_all, K = k_folds, seed = seed)
 )
+saveRDS(list(flank = kf_len, type = kf_type, both = kf_both),
+        sub("\\.rds$", "_kfold_results.rds", out_name))
 
 # Reload the models for the results table + summary, attaching the CV criteria.
 m_len <- readRDS(cache_flank)
