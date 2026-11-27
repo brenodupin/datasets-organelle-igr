@@ -229,7 +229,7 @@ if (stop_at_brms) {
 kf_iter <- iter_n
 kf_warmup <- warmup_n
 kf_chunk <- 2000L
-kf_vsize_mb <- 24 * 1024 # NOTE: units are Mb, so this is 24 GB
+kf_vsize_mb <- 80 * 1024 # NOTE: units are Mb, so this is 24 GB
 
 make_folds <- function(taxon, K, seed) {
   set.seed(seed)
